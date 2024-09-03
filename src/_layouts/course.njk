@@ -1,0 +1,38 @@
+---
+layout: base.njk
+---
+
+<h1>{{ name }}</h1>
+
+<p>{{ description }}</p>
+
+<h3>Learning Outcomes</h3>
+
+<ul>
+    {%- for item in learningOutcomes -%}
+    <li>{{ item }}</li>
+    {%- endfor -%}
+</ul>
+
+<h3>Development Team</h3>
+
+<ul>
+    {% for member in team %}
+    <li>{{ member.name }} | {{ member.role }} | {{ member.involvement | capitalize }}</li>
+    {% endfor %}
+</ul>
+
+<h3>Assessments</h3>
+
+<ol>
+    {% for assignment in assessments -%}
+    <li>{{ assignment.name}} | {{ assignment.weighting }}%</li>
+    {% endfor %}
+</ol>
+
+<h3>Topics</h3>
+<ul>
+    {% for topic in topics %}
+    <li>{{ topic | capitalize }} </li>
+    {% endfor %}
+</ul>

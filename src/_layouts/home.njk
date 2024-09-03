@@ -1,0 +1,11 @@
+---
+layout: base.njk
+---
+
+{{ content | safe }}
+
+<ul>
+    {% for item in collections.courses | sort(false, false, 'data.devCycle') |  sort(attribute="data.name") %}
+    <li><a href="{{ item.url |url }}">{{ item.data.name }}</a></li>
+    {% endfor %}
+</ul>

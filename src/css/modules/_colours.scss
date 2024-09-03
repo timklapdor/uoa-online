@@ -1,0 +1,29 @@
+:root {
+//Add in Light/DarkScheme
+    // color-scheme: light dark;
+
+    --page-light: #E9E9E9;
+    --page-dark: #140F50;
+
+// Brand Palette    
+    --primary-default: #102535;
+    --secondary-default: #005a9c;
+    --tertiary-default: #b38808;
+    --accent-default: #d40000;
+
+// LD Palette
+    --ld1-base: #4cc9f0;
+    --ld2-base: #fa6769;
+    --ld3-base: #f8961e;
+    --ld4-base: #f9c74f; 
+    --ld5-base: #90be6d; 
+    --ld6-base: #43aa8b;
+    --ld7-base: #a279b5;
+
+// UI Palette
+    --neutral-base: #B9C0C6; 
+    --positive-base: #22964f;
+    --negative-base: #d4322c;
+    --warning-base: #ffa423;
+    --information-base: #052A8A;
+} 

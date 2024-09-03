@@ -1,0 +1,17 @@
+
+@import "modules/reset";
+@import "modules/colours";
+@import "modules/grid";
+
+body {
+  font-family: system-ui;
+}
+
+h1 {
+  color: lightdark(var(--primary-default), cornflower);
+  background-color: lightdark(color-mix(in srgb, var(--primary-default), white 60%), var(--primary-default));
+}
+
+p {
+  color: var(--accent-default);
+}
