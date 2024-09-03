@@ -9,15 +9,15 @@ layout: base.njk
 <h3>Learning Outcomes</h3>
 
 <ul>
-    {%- for item in learningOutcomes -%}
+    {% for item in learningOutcomes -%}
     <li>{{ item }}</li>
-    {%- endfor -%}
+    {% endfor %}
 </ul>
 
 <h3>Development Team</h3>
 
 <ul>
-    {% for member in team %}
+    {% for member in team -%}
     <li>{{ member.name }} | {{ member.role }} | {{ member.involvement | capitalize }}</li>
     {% endfor %}
 </ul>
@@ -32,7 +32,7 @@ layout: base.njk
 
 <h3>Topics</h3>
 <ul>
-    {% for topic in topics %}
+    {% for topic in topics -%}
     <li>{{ topic | capitalize }} </li>
     {% endfor %}
 </ul>
