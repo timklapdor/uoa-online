@@ -2,14 +2,17 @@
 layout: base.njk
 ---
 
-<h1>{{ name }}</h1>
+<h1>{{ CourseName }} </h1>
+<small>{{Programs}}</small>
+<p>{{ Description }}</p>
 
-<p>{{ description }}</p>
+<p><strong>Development Cycle: {{ DevCycle }} </strong></p>
+<p><em><a href="{{Blueprint}}">Course Blueprint</a></em></p>
 
 <h3>Learning Outcomes</h3>
 
 <ul>
-    {% for item in learningOutcomes -%}
+    {% for item in CLOs -%}
     <li>{{ item }}</li>
     {% endfor %}
 </ul>
@@ -17,22 +20,22 @@ layout: base.njk
 <h3>Development Team</h3>
 
 <ul>
-    {% for member in team -%}
-    <li>{{ member.name }} | {{ member.role }} | {{ member.involvement | capitalize }}</li>
+    {% for member in Team -%}
+    <li>{{ member.Name }} | {{ member.Role }} | {{ member.Involvement | capitalize }}</li>
     {% endfor %}
 </ul>
 
 <h3>Assessments</h3>
 
 <ol>
-    {% for assignment in assessments -%}
-    <li>{{ assignment.name}} | {{ assignment.weighting }}%</li>
+    {% for assignment in Assessments -%}
+    <li>{{ assignment.Name}} | {{ assignment.Weighting }}%</li>
     {% endfor %}
 </ol>
 
 <h3>Topics</h3>
 <ul>
-    {% for topic in topics -%}
-    <li>{{ topic | capitalize }} </li>
+    {% for topic in Topics -%}
+    <li>{{ topic }} </li>
     {% endfor %}
 </ul>
