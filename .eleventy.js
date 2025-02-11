@@ -9,6 +9,7 @@ module.exports = function (eleventyConfig) {
 
 
   return {
+    pathPrefix: "/uoa-online/", 
     dir: {
       input: "src",
       output: "docs",
