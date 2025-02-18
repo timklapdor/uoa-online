@@ -4,7 +4,7 @@ layout: base.njk
 
 <h1>{{ CourseName }} </h1>
 <small>{{Programs}}</small>
-<p>{{ Description }}</p>
+<p>{{ Description | nl2br |safe }}</p>
 
 <p><strong>Development Cycle: {{ DevCycle }} </strong></p>
 <p><em><a href="{{Blueprint}}">Course Blueprint</a></em></p>
