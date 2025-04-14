@@ -41,15 +41,15 @@ Assessments:
   - Name: "Individual Research Project on Sustainable Development Goals"
     Weighting: "30"
     Type: 
-    Category: 
+    Description: 
   - Name: "Case Analysis"
     Weighting: "30"
     Type: 
-    Category: 
+    Description: 
   - Name: "Business Advisory Report"
     Weighting: "40"
     Type: 
-    Category: 
+    Description: 
 LearningExperience:
   -
 Screenshots:

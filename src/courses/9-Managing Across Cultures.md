@@ -38,19 +38,19 @@ Assessments:
   - Name: "Graded discussion"
     Weighting: "10"
     Type: "Discussion"
-    Category: 
+    Description: 
   - Name: "Cross-cultural advisory video"
     Weighting: "40"
     Type: "Video"
-    Category: 
+    Description: 
   - Name: "Policy analysis"
     Weighting: "25"
     Type: "Report"
-    Category: 
+    Description: 
   - Name: "Policy recommendations"
     Weighting: "25"
     Type: "Report"
-    Category: 
+    Description: 
 LearningExperience:
   -
 Screenshots:

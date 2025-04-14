@@ -39,17 +39,17 @@ Assessments:
   - Name: "Case study"
     Weighting: "20" 
     Type: 
-    Category: 
+    Description: 
   - Name: "Essay"
     Weighting: "20"
     Type: 
-    Category: 
+    Description: 
   - Name: "Business proporsal (Business plan & policy analysis)"
     Weighting: "30"
     Type: 
-    Category: 
+    Description: 
   - Name:  "Quizzes"
     Weighting: "30"
     Type: 
-    Category: 
+    Description: 
 ---

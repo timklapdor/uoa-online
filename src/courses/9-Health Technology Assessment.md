@@ -54,19 +54,19 @@ Assessments:
   - Name: "Quiz: Introduction to HTA"
     Weighting: "15"
     Type: "Quiz"
-    Category: 
+    Description: 
   - Name: "Practical: Literature Search"
     Weighting: "20"
     Type: 
-    Category: 
+    Description: 
   - Name: "Critical Appraisal"
     Weighting: "25"
     Type: 
-    Category: 
+    Description: 
   - Name: "Integrated Hospital-Based HTA"
     Weighting: "40"
     Type: 
-    Category: 
+    Description: 
 LearningExperience:
   -
 Screenshots:

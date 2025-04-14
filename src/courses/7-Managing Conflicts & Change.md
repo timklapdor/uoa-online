@@ -36,19 +36,19 @@ Assessments:
   - Name: "Reflective journal"
     Weighting: "15"
     Type: "Reflection"
-    Category: 
+    Description: 
   - Name: "Conflict management and negotiation observation"
     Weighting: "20"
     Type: "Observation"
-    Category: 
+    Description: 
   - Name: "Change management proposal presentation"
     Weighting: "35"
     Type: "Presentation"
-    Category: 
+    Description: 
   - Name:  "Change implementation executive report"
     Weighting: "30"
     Type: "Report"
-    Category: 
+    Description: 
 LearningExperience:
   -
 Screenshots:

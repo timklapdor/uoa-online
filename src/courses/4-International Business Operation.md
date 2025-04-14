@@ -33,19 +33,19 @@ Assessments:
   - Name: "Course journal"
     Weighting: "20"
     Type: 
-    Category: 
+    Description: 
   - Name: "Global sourcing research case study"
     Weighting: "30"
     Type: 
-    Category: 
+    Description: 
   - Name: "International business plan"
     Weighting: "30"
     Type: 
-    Category: 
+    Description: 
   - Name: "Reflection"
     Weighting: "20"
     Type: 
-    Category: 
+    Description: 
 Screenshots:
   - Link: "https://myuni.adelaide.edu.au/courses/80194/pages/lesson-2-dot-6-which-organisational-structures-are-common-for-global-firms?module_item_id=2892967"
     Description: "Guest interviews with a local small business, discussing how the structure has adjusted over time according to their changes in strategy at different points in their internalisation journey, as well as a practice activity for students to test their understanding of structure and strategy relationships."

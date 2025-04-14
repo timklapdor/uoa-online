@@ -49,19 +49,19 @@ Assessments:
   - Name: "Assessment 1: Research Report"
     Weighting: "25"
     Type: "Report"
-    Category: 
+    Description: 
   - Name: "Assessment 2: Evaluative Report"
     Weighting: "25"
     Type: "Report"
-    Category: 
+    Description: 
   - Name: "Assessment 3: Case Study Discussions"
     Weighting: "25%"
     Type: "Discussions"
-    Category: 
+    Description: 
   - Name: "Assessment 4: Reflective Journal"
     Weighting: "25"
     Type: "Journals & quizzes"
-    Category: 
+    Description: 
 LearningExperience:
   -
 Screenshots:

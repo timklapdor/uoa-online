@@ -18,20 +18,17 @@ Topics:
 Assessments:
   - Name: 
     Weighting: 
-    Type: 
-    Category: 
-LearningExperience:
-  -
-Screenshots:
-  - Link: 
+    Type:
     Description: 
-MiroBoards: 
-  - Description: 
-    Link: 
-VideosToArchive: 
+Media: 
   - Name: 
+    Type: 
     Link: 
-InteractivesToArchive: 
+    Description:
+Snapshot:
   - Name: 
-    Link:
+    Link:  
+Jobs: 
+  - Media
+  - Learning Experience
 ---

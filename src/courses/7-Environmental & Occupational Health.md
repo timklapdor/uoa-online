@@ -41,19 +41,19 @@ Assessments:
   - Name: "Knowledge checks"
     Weighting: "10"
     Type: "Quiz"
-    Category: 
+    Description: 
   - Name: "Occupational health scenario"
     Weighting: "25"
     Type: "Reflection"
-    Category: 
+    Description: 
   - Name: "Environmental health scenario"
     Weighting: "25"
     Type: "Report"
-    Category: 
+    Description: 
   - Name: "Major written report"
     Weighting: "20"
     Type: "Report"
-    Category: 
+    Description: 
 Screenshots:
   - Link: "https://myuni.adelaide.edu.au/courses/89525/pages/lesson-1-dot-2-what-causes-disease?module_item_id=3200257"
     Description: "Good example of a standard lesson page - but particularly, well-written, referenced, engaging page of standard old course content. This is very meat and potatoes - but well-cooked, delicious meat and potatoes. Also has my favorite of course graphs."

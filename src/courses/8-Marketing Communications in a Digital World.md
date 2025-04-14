@@ -36,15 +36,15 @@ Assessments:
   - Name: "Audit of information sources and marketing audit"
     Weighting: "30"
     Type: "Report"
-    Category: 
+    Description: 
   - Name: "Marketing communications brief"
     Weighting: "30"
     Type: "Report"
-    Category: 
+    Description: 
   - Name: "Marketing communications plan"
     Weighting: "40"
     Type: "Report"
-    Category: 
+    Description: 
 LearningExperience:
   -
 Screenshots:

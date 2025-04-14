@@ -38,15 +38,15 @@ Assessments:
   - Name: "Learning log"
     Weighting: "30"
     Type: 
-    Category:
+    Description:
   - Name: "Group cultural analysis"
     Weighting: "30"
     Type: 
-    Category:
+    Description:
   - Name: "1-to-1 tutor and student interview"
     Weighting: "40"
     Type: 
-    Category:
+    Description:
 Screenshots:
   - Description: "This lesson unpacks Tuckman’s stages of group development through visual elements like diagrams and figures, paired with storytelling and real-world examples, such as Ashwini Asokan’s team, to contextualise theory. Tools like Belbin’s 9 team roles and Hofstede’s cultural dimensions engage students in applying concepts, while the weekly learning log fosters reflection and critical thinking, connecting theory to personal experience and supporting diverse learning styles."
     Link: "https://myuni.adelaide.edu.au/courses/69868/pages/lesson-6-dot-2-how-can-you-understand-the-stages-of-group-development?module_item_id=2485054"

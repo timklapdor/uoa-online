@@ -40,19 +40,19 @@ Assessments:
   - Name: "Policy review"
     Weighting: "15"
     Type: "Review"
-    Category: 
+    Description: 
   - Name: "Critical incident review"
     Weighting: "30"
     Type: "Review"
-    Category: 
+    Description: 
   - Name: "Essay plan"
     Weighting: "15"
     Type: "Essay"
-    Category: 
+    Description: 
   - Name: "Essay"
     Weighting: "40"
     Type: "Essay"
-    Category: 
+    Description: 
 LearningExperience:
   -
 Screenshots:

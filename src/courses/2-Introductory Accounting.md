@@ -37,19 +37,19 @@ Assessments:
   - Name: "Quizzes"
     Weighting: "5"
     Type: "Quiz"
-    Category: 
+    Description: 
   - Name: "Financial Statement presentation and application"
     Weighting: "30"
     Type: "Calculations"
-    Category: 
+    Description: 
   - Name:  "Financial statement analysis & presentation"
     Weighting: "30"
     Type: "Calculations"
-    Category: 
+    Description: 
   - Name: "Budgeting and breakeven analysis"
     Weighting: "35"
     Type: "Calculations"
-    Category: 
+    Description: 
 Screenshots:
   - Description: Broke up a complex module into several worked example activities, simplified pages, included helpful graphics to further illustrate the relationshiph between the theories equations and steps, included plenty of activities for students to practice each calculation at each point."
     Link: "https://myuni.adelaide.edu.au/courses/76550/pages/lesson-5-dot-2-how-can-income-statement-and-balance-sheet-transactions-be-captured-using-accounting-equation-techniques?module_item_id=2818995"

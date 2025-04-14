@@ -22,7 +22,7 @@ Assessments:
   - Name: 
     Weighting: 
     Type: 
-    Category: 
+    Description: 
 LearningExperience:
   -
 Screenshots:

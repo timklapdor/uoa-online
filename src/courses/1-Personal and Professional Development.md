@@ -39,19 +39,19 @@ Assessments:
   - Name: "Professional ethical behaviour statement"
     Weighting: "20"
     Type: "Case Study and Ethical statement"
-    Category:
+    Description:
   - Name: "Personal professional development plan"
     Weighting: "25"
     Type: "Radar graph and reflecton, action plan"
-    Category:
+    Description:
   - Name: "Personal and professional development learning portfolio"
     Weighting: "30"
     Type: "Learning journey and Portfolio"
-    Category:
+    Description:
   - Name: "Cooperative learning - Problem solution"
     Weighting: "25"
     Type: "Problem solving and reflection"
-    Category:
+    Description:
 Screenshots:
   - Description: "This lesson uses relatable and a non binary persona and storytelling to illustrate personal and professional development (PPD) concepts. Sarah and Alex's distinct journeys make abstract ideas tangible and relatable, helping learners connect the principles to their own experiences. Storytelling provides context, while visual aids and MBTI insights offer clear, structured examples of development paths, making the content engaging and actionable."
     Link: "https://myuni.adelaide.edu.au/courses/76549/pages/lesson-1-dot-1-2-the-ppd-journey?module_item_id=2679141"
@@ -84,4 +84,7 @@ InteractivesToArchive:
     Link: "https://myuni.adelaide.edu.au/courses/76549/pages/lesson-3-dot-3-how-do-i-respond-to-a-request-to-implement-an-unethical-decision?module_item_id=2678544"
   - Name: "The Work-life Balance Wheel"
     Link: "https://myuni.adelaide.edu.au/courses/76549/pages/lesson-9-dot-3-why-is-a-work-life-balance-essential?module_item_id=2680812"
+jobs: 
+  - media
+  - flags
 ---

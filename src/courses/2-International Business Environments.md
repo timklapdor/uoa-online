@@ -32,19 +32,19 @@ Assessments:
   - Name: "Discussion"
     Weighting: "10"
     Type: 
-    Category: 
+    Description: 
   - Name: "Written response to prompts"
     Weighting: "10"
     Type: 
-    Category: 
+    Description: 
   - Name: "Presentation and market analysis"
     Weighting: "45"
     Type: 
-    Category: 
+    Description: 
   - Name: "Report"
     Weighting: "35"
     Type: 
-    Category: 
+    Description: 
 Screenshots:
   - Link: 
     Description: 

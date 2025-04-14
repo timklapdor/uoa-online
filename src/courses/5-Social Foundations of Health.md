@@ -46,19 +46,19 @@ Assessments:
   - Name: "Reflections"
     Weighting: "10"
     Type: 
-    Category: 
+    Description: 
   - Name: "sociological imagination essay"
     Weighting: "30"
     Type: 
-    Category: 
+    Description: 
   - Name: "Health campaign analysis"
     Weighting: "30" 
     Type: 
-    Category: 
+    Description: 
   - Name: "Indigenous health initiative case study"
     Weighting: "30"
     Type: 
-    Category: 
+    Description: 
 LearningExperience:
   -
 Screenshots:

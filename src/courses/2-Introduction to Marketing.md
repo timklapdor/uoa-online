@@ -33,19 +33,19 @@ Assessments:
   - Name: "Marketing critique"
     Weighting: "10"
     Type: "Critique"
-    Category: 
+    Description: 
   - Name: "Graded discussion"
     Weighting: "10"
     Type: "Discussion"
-    Category: 
+    Description: 
   - Name: "Marketing plan (research, presentation & presentation"
     Weighting: "80"
     Type: "Research plan, presentation, report"
-    Category: 
+    Description: 
   - Name: 
     Weighting: 
     Type: 
-    Category: 
+    Description: 
 Screenshots:
   - Description: "This lesson uses clear explanations, visual examples, and comparison tables to illustrate marketing management philosophies. Images like a futuristic car and Nike's customisation page help students connect concepts to real-world examples. Interactive discussion prompts encourage engagement, making the lesson relatable and memorable."
     Link: "https://myuni.adelaide.edu.au/courses/76552/pages/lesson-1-dot-2-what-are-marketing-management-philosophies?module_item_id=2755207"

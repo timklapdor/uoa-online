@@ -29,7 +29,7 @@ layout: base.njk
 
 <ol>
     {% for assignment in Assessments -%}
-    <li>{{ assignment.Name}} | {{ assignment.Weighting }}%</li>
+    <li>{{ assignment.Name}} | {{ assignment.Weighting }}% | {{ assignment.Type }} | {{ assignment.Description}}</li>
     {% endfor %}
 </ol>
 
@@ -39,3 +39,40 @@ layout: base.njk
     <li>{{ topic }} </li>
     {% endfor %}
 </ul>
+
+<h3>Learning Experience</h3>
+{{ content | safe }}
+
+<h3>Learning Resources</h3>
+
+{% for media in Media %}
+<div class="media {{ media.Type }}">
+
+    <h4>{{ media.Name }} </h4>
+    
+        {% if media.Type=="IMG"%}
+            <figure>
+                <img src="{{ '/images/BL_M4_05.png' | url }}" alt="{{ media.Name }}" title="{{ media.Name }}">
+                <figcaption>{{ media.Description }}</figcaption>
+            </figure>
+        {% endif %}
+    
+        {% if media.Type=="H5P"%}
+            <p>{{ media.Description }} </p>
+            <iframe style="width: 779px; height: 600px;" title="{{ media.Name }}" src="{{ media.Link }}" width="800" height="600" loading="lazy" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *; autoplay *; clipboard-write *; display-capture *"></iframe>
+        {% endif %}
+
+        {% if media.Type=="YOUTUBE" %}
+            <iframe title="YouTube video player" src="https://www.youtube-nocookie.com/embed/{{ media.Link }}" width="560" height="315" loading="lazy" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        {% endif %}
+        
+</div>
+{% endfor %}
+
+<h3>Course Snapshot</h3>
+
+    <ul>
+        {% for item in Snapshot %}
+                <li>{{ item.Name }} </li>
+        {% endfor %}
+    </ul>

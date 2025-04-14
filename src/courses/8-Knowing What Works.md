@@ -49,19 +49,19 @@ Assessments:
   - Name: "Quiz"
     Weighting: "10"
     Type: "Quiz"
-    Category: 
+    Description: 
   - Name: "Graded discussion"
     Weighting: "10"
     Type: "Discussion"
-    Category: 
+    Description: 
   - Name: "Economic evaluation review"
     Weighting: "35"
     Type: "Review"
-    Category: 
+    Description: 
   - Name: "Health program evaluation plan"
     Weighting: "45"
     Type: "Report"
-    Category: 
+    Description: 
 LearningExperience:
   -
 Screenshots:

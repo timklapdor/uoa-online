@@ -1,9 +1,9 @@
 ---
 layout: home.njk
-title: Hello!
+title: Course List
 ---
 
 # Hello there!
 
-Welcome to this site. Testing. 
+Welcome to this site. Check out the [Assessment Types]({{ '/assessments/' | url }}). 
 

@@ -34,19 +34,19 @@ Assessments:
   - Name: "Quizzes"
     Weighting: "10"
     Type: "Quiz "
-    Category: 
+    Description: 
   - Name: "Reflective portfolio"
     Weighting: "10"
     Type: "Reflection / Discussion"
-    Category: 
+    Description: 
   - Name: "Executive briefing"
     Weighting: "10"
     Type: "Report"
-    Category: 
+    Description: 
   - Name: "Technical presentation"
     Weighting: "30"
     Type: "Presentation"
-    Category: 
+    Description: 
 LearningExperience:
   -
 Screenshots:

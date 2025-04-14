@@ -43,19 +43,19 @@ Assessments:
   - Name: "Case study"
     Weighting: "30"
     Type: 
-    Category: 
+    Description: 
   - Name: "Comparing health systems report"
     Weighting: "15"
     Type: 
-    Category: 
+    Description: 
   - Name: "Stakeholder analysis"
     Weighting: "10"
     Type: 
-    Category: 
+    Description: 
   - Name: "Policy brief"
     Weighting: "30"
     Type: 
-    Category: 
+    Description: 
 LearningExperience:
   -
 Screenshots:

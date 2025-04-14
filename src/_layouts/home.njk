@@ -6,6 +6,6 @@ layout: base.njk
 
     <ol>
         {% for item in collections.courses | sort(false, false, 'data.DevCycle') |  sort(attribute="data.name") -%}
-        <li><a href="{{ item.url |url }}">{{ item.data.CourseName }}</a></li>
+        <li><a href="{{ item.url |url }}">{{ item.data.CourseName }}</a> {{item.data.DevCycle}} {% if item.data.Jobs | length %}{%for item in item.data.Jobs %}| {{item}} {% endfor %} {% endif %} </li>
         {% endfor %}
     </ol>

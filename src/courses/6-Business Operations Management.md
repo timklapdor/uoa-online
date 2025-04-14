@@ -43,19 +43,19 @@ Assessments:
   - Name: "Weekly practicals"
     Weighting: "24" 
     Type: 
-    Category: 
+    Description: 
   - Name: "Reflections"
     Weighting: "35"
     Type: 
-    Category: 
+    Description: 
   - Name: "Critical analysis"
     Weighting: "16"
     Type: 
-    Category: 
+    Description: 
   - Name: "Case study"
     Weighting: "25"
     Type: 
-    Category: 
+    Description: 
 LearningExperience:
   -
 Screenshots:

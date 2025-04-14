@@ -42,21 +42,37 @@ Topics:
 Assessments:
   - Name: "Content and skills evaluations"
     Weighting: "30"
-    Type: 
-    Category:
-  - Name: "Simulation Individual Reflections"
+    Type: "Multiple Choice Questions"
+    Description: "Learner complete quizzes throughtout the course to test their understanding and skills development."
+  - Name: "Individual Reflections on the Simulation"
     Weighting: "40"
-    Type: 
-    Category:
+    Type: "Learning Journal"
+    Description: "Each of the reflective journal entries focus on personal experiences when working in teams to complete the MikesBikes simulation to capture decision points, predictions and communication between the team."
   - Name: "Simulation Group Work"
     Weighting: "30"
     Type: 
-    Category:
+     - "Professional Simulation"
+     - "Oral Defence"
+    Description: "Learners work as a team to set up a virtual bike business in the MikesBikes simulation and make weekly decisions to try and increase the shareholder wealth of your virtual bike business. The team then present to the class and summarise the underlying reasons for their performance and what they collectively learnt about working effectively."
 Screenshots:
   - Link: 
     Description: 
-MiroBoard: null
-MiroDescription: null
-VideosToArchive: null
-InteractivesToArchive: null
+Media: 
+ - Name: "Team Expectations Agreement"
+   Type: "H5P"
+   Link: "https://adelaide.h5p.com/content/1291534980679882069"
+   Description: "This H5P helps to create an agreement for the team to work together, stepping through the key decisions they need to make to form a team, establish communication, responsibility and accountability for the team."
+ - Name:  "AIDA Model"
+   Type: "IMG"
+   Link: "BL_M4_05.png"
+   Description: "The AIDA concept (Awareness, Interest, Desire and Action) is a model that outlines the stages of the consumer decision-making process. The concept helps businesses understand their consumers in relation to what promotional tactics will be most effective depending on where the consumer is at with their decision-making process of “to buy the product, or not?”."
+Snapshot:
+  - Name: 
+    Link:  
+Jobs: 
+ - Media
+ - Learning Experience
+ - Andrew Review
 ---
+
+The course has been purposefully designed to balance learning theoretical concepts and practical application, enabling learners to regularly put into practice what they've learnt to gain a deeper understanding. Teams are established and use an online business simulation game called "Mike's Bikes". They compete with other teams to make key decisions to grow a virtual business while learning about the role of disciplines such as entrepreneurship, strategy, marketing, accounting, finance and management.

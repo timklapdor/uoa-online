@@ -37,19 +37,19 @@ Assessments:
   - Name: "Weekly discussions"
     Weighting: "10"
     Type: 
-    Category: 
+    Description: 
   - Name: "Case study analysis"
     Weighting: "20"
     Type: 
-    Category: 
+    Description: 
   - Name: "Strategic report & PESTLE analysis"
     Weighting: "30"
     Type: 
-    Category: 
+    Description: 
   - Name: "Strategic report: core benefit, promotion and protection"
     Weighting: "30"
     Type: 
-    Category: 
+    Description: 
 LearningExperience:
   -
 Screenshots:

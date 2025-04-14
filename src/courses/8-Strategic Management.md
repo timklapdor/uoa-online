@@ -50,15 +50,15 @@ Assessments:
   - Name: "Strategic analysis"
     Weighting: "35"
     Type: "Presentation/Report"
-    Category: 
+    Description: 
   - Name: "Strategic concept poster and report"
     Weighting: "30"
     Type: 
-    Category: 
+    Description: 
   - Name: "Executive strategy proposal"
     Weighting: "35"
     Type: 
-    Category: 
+    Description: 
 LearningExperience:
   -
 Screenshots:

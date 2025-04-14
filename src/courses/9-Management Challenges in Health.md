@@ -42,19 +42,19 @@ Assessments:
   - Name: "Case analysis"
     Weighting: "25"
     Type: "Report"
-    Category: 
+    Description: 
   - Name: "Case analysis and recommendations"
     Weighting: "20"
     Type: "Report"
-    Category: 
+    Description: 
   - Name: "Case analysis and recommendations"
     Weighting: "20"
     Type: "Presentation"
-    Category: 
+    Description: 
   - Name: "Responses to selection criteria, role play job interview"
     Weighting: "30"
     Type: "short answer questions, job interview role play"
-    Category: 
+    Description: 
 LearningExperience:
   -
 Screenshots:

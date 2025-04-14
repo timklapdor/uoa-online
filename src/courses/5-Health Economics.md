@@ -43,15 +43,15 @@ Assessments:
   - Name: "Quizzes"
     Weighting: "50"
     Type: 
-    Category: 
+    Description: 
   - Name: "Discussion Paper"
     Weighting: "30"
     Type: 
-    Category: 
+    Description: 
   - Name: "Economic evaluation"
     Weighting: "20"
     Type: 
-    Category: 
+    Description: 
 LearningExperience:
   -
 Screenshots:

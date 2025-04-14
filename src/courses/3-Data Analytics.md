@@ -38,19 +38,19 @@ Assessments:
   - Name: "Quizzes"
     Weighting: "20"
     Type: 
-    Category: 
+    Description: 
   - Name: "Descriptive stats case study"
     Weighting: "25"
     Type: 
-    Category: 
+    Description: 
   - Name: "Probability & hypothesis testing case study"
     Weighting: "25"
     Type: 
-    Category: 
+    Description: 
   - Name: "Assocation and regression case study"
     Weighting: "25"
     Type: 
-    Category: 
+    Description: 
 LearningExperience:
   -
 Screenshots:

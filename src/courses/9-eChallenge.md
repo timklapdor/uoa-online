@@ -48,19 +48,19 @@ Assessments:
   - Name: "Needs Assessment Report"
     Weighting: "30"
     Type: "Report"
-    Category: 
+    Description: 
   - Name: "Empathy Interviews"
     Weighting: "30"
     Type: "Interview"
-    Category: 
+    Description: 
   - Name: "Pitching Your Idea"
     Weighting: "30"
     Type: "Online presentation"
-    Category: 
+    Description: 
   - Name: "Reflective Development Portfolio"
     Weighting: "10"
     Type: "Portfolio"
-    Category: 
+    Description: 
 LearningExperience:
   -
 Screenshots:

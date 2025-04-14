@@ -55,19 +55,19 @@ Assessments:
   - Name: "Quizzes"
     Weighting: "30"
     Type: 
-    Category:
+    Description:
   - Name: "Epidemiology of a health priority report"
     Weighting: "30"
     Type: 
-    Category:
+    Description:
   - Name: "Intervening to improve a healthy priority presentation"
     Weighting: "40"
     Type: 
-    Category:
+    Description:
   - Name: 
     Weighting: 
     Type: 
-    Category:
+    Description:
 Screenshots:
   - Link: 
     Description: 

@@ -37,15 +37,15 @@ Assessments:
   - Name: "Quiz and reflection "
     Weighting: "30"
     Type: "Quiz "
-    Category: 
+    Description: 
   - Name: "Scenario-based questions"
     Weighting: "30"
     Type: "Report"
-    Category: 
+    Description: 
   - Name: "Industry based report"
     Weighting:  "40"
     Type: "Report"
-    Category: 
+    Description: 
 LearningExperience:
   -
 Screenshots:

@@ -37,19 +37,19 @@ Assessments:
   - Name: "Case study analysis report"
     Weighting: "25"
     Type: 
-    Category: 
+    Description: 
   - Name: "Data visualisations report"
     Weighting: "15"
     Type: 
-    Category: 
+    Description: 
   - Name: "Business requirement analysis report"
     Weighting: "30"
     Type: 
-    Category: 
+    Description: 
   - Name: "Business case pitch presentation"
     Weighting: "30"
     Type: 
-    Category: 
+    Description: 
 LearningExperience:
   -
 Screenshots:

@@ -42,19 +42,19 @@ Assessments:
   - Name: "Quiz"
     Weighting: "15"
     Type: 
-    Category: 
+    Description: 
   - Name: "Essay"
     Weighting: 
     Type: "35"
-    Category:
+    Description:
   - Name: "Report"
     Weighting: "35"
     Type: 
-    Category:
+    Description:
   - Name: "Presentation"
     Weighting: "15"
     Type: 
-    Category:
+    Description:
 LearningExperience:
   -
 Screenshots:

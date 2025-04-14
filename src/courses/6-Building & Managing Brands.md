@@ -37,15 +37,15 @@ Assessments:
   - Name: "Graded discussions"
     Weighting: "10"
     Type: 
-    Category: 
+    Description: 
   - Name: "Brand analysis short answer questions"
     Weighting: "30"
     Type: 
-    Category: 
+    Description: 
   - Name: "Written reports (brand analysis & brand development)"
     Weighting: "60"
     Type: 
-    Category: 
+    Description: 
 Screenshots:
   - Link: 
     Description: 
