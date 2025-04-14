@@ -58,17 +58,29 @@ Screenshots:
   - Link: 
     Description: 
 Media: 
- - Name: "Team Expectations Agreement"
-   Type: "H5P"
-   Link: "https://adelaide.h5p.com/content/1291534980679882069"
-   Description: "This H5P helps to create an agreement for the team to work together, stepping through the key decisions they need to make to form a team, establish communication, responsibility and accountability for the team."
- - Name:  "AIDA Model"
-   Type: "IMG"
-   Link: "BL_M4_05.png"
-   Description: "The AIDA concept (Awareness, Interest, Desire and Action) is a model that outlines the stages of the consumer decision-making process. The concept helps businesses understand their consumers in relation to what promotional tactics will be most effective depending on where the consumer is at with their decision-making process of “to buy the product, or not?”."
+  - Name: "Team Expectations Agreement"
+    Type: "H5P"
+    Link: "https://adelaide.h5p.com/content/1291534980679882069"
+    Description: "This H5P helps to create an agreement for the team to work together, stepping through the key decisions they need to make to form a team, establish communication, responsibility and accountability for the team."
+  - Name:  "AIDA Model"
+    Type: "IMG"
+    Link: "BL_M4_05.png"
+    Description: "The AIDA concept (Awareness, Interest, Desire and Action) is a model that outlines the stages of the consumer decision-making process. The concept helps businesses understand their consumers in relation to what promotional tactics will be most effective depending on where the consumer is at with their decision-making process of “to buy the product, or not?”."
+  - Name: "Leadership and management approaches across the stages of business growth"
+    Type: "IMG"
+    Link: "BL_M8_05.png"
+    Description: "This graphic illustrates the different leadership and management approaches required for diffferent stages of business growth and highlights the different aspects of leadership and management that change."
 Snapshot:
-  - Name: 
-    Link:  
+  - Name: "5.1.4: The balance sheet"
+    Link: https://myuni.adelaide.edu.au/courses/69866/pages/5-dot-1-4-the-balance-sheet?module_item_id=2533932
+  - Name: "5.2.6: Basic format of the cash flow statement"
+    Link: https://myuni.adelaide.edu.au/courses/69866/pages/5-dot-2-6-basic-format-of-the-cash-flow-statement?module_item_id=2534319
+  - Name: "5.3.1: The four key financial ratios"
+    Link: https://myuni.adelaide.edu.au/courses/69866/pages/5-dot-3-1-the-four-key-financial-ratios?module_item_id=2534494
+  - Name: "6.1.3: Debt and equity financing"
+    Link: https://myuni.adelaide.edu.au/courses/69866/pages/6-dot-1-3-debt-and-equity-financing?module_item_id=2533713 
+  - Name: "7.2.3: Strategy options for global businesses"
+    Link: https://myuni.adelaide.edu.au/courses/69866/pages/7-dot-2-3-strategy-options-for-global-businesses?module_item_id=2536747 
 Jobs: 
  - Media
  - Learning Experience

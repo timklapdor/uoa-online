@@ -52,7 +52,7 @@ layout: base.njk
     
         {% if media.Type=="IMG"%}
             <figure>
-                <img src="{{ '/images/BL_M4_05.png' | url }}" alt="{{ media.Name }}" title="{{ media.Name }}">
+                <img src="/uoa-online/images/{{ media.Link }}" alt="{{ media.Name }}" title="{{ media.Name }}">
                 <figcaption>{{ media.Description }}</figcaption>
             </figure>
         {% endif %}
@@ -73,6 +73,6 @@ layout: base.njk
 
     <ul>
         {% for item in Snapshot %}
-                <li>{{ item.Name }} </li>
+                <li><a href="{{ item.Link }}">{{ item.Name }} </a></li>
         {% endfor %}
     </ul>
