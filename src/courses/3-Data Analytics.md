@@ -51,18 +51,18 @@ Assessments:
     Weighting: "25"
     Type: 
     Description: 
-LearningExperience:
-  -
-Screenshots:
-  - Link: 
-    Description: 
-MiroBoards: 
-  - Description: 
-    Link: 
-VideosToArchive: 
+Media: 
   - Name: 
+    Type: 
     Link: 
-InteractivesToArchive: 
+    Description:
+Snapshot:
   - Name: 
     Link:
+    Description: 
+Jobs: 
+  - Media Missing
+  - Learning Experience
+  - Assessment Details
+  - Snapshots Missing
 ---

@@ -32,46 +32,78 @@ Topics:
 Assessments:
   - Name: "Marketing critique"
     Weighting: "10"
-    Type: "Critique"
-    Description: 
-  - Name: "Graded discussion"
-    Weighting: "10"
-    Type: "Discussion"
-    Description: 
-  - Name: "Marketing plan (research, presentation & presentation"
-    Weighting: "80"
-    Type: "Research plan, presentation, report"
-    Description: 
-  - Name: 
-    Weighting: 
     Type: 
+      - Critical Analysis
+      - Discussion
+    Description: Learners are asked to select a business and critique its most recent marketing activity using their understanding of basic marketing concepts. They are then asked to share their critique with their peers and discuss each others analysis. 
+  - Name: "Graded discussions"
+    Weighting: "10"
+    Type: 
+      - Discussion
+    Description: Learners are asked to add to a discussion prompt each week and share their experiences and perspecives with the class.  
+  - Name: "Marketing plan research and presentation"
+    Weighting: "80"
+    Type:
+      - Assessment Plan
+      - Media Task
+    Description: "Learners are asked to perform preliminary research on an organisation and to focus on identifying key information that influences torganisation and its marketing activities/strategy."
+  - Name: "Marketing plan proposal"
+    Weighting: "80"
+    Type: 
+      - Report
+    Description: The report provides an authentic task for learners to show their ability to develop a proposal for an organisations marketing activities are aimed at achieving its desired objectives.
+Media: 
+  - Name: "Levels of Strategy"
+    Type: YOUTUBE
+    Link: VAUlg8u5vyQ
+    Description:
+  - Name: "How the Wiggles use Ansoff's Matrix"
+    Type: YOUTUBE
+    Link: NtCOTo_T8zw
+    Description:
+  - Name: "BCG Matrix"
+    Type: YOUTUBE
+    Link: ankADrn9s9g
+    Description:
+  - Name: "Keller’s Brand Equity Model"
+    Type: YOUTUBE
+    Link: SYmNG5e1XaU
+    Description:
+  - Name: "Adoption categories"
+    Type: YOUTUBE
+    Link: royklEy6i_I
+    Description:
+  - Name: "Marketing management philosophies drag and drop H5P"
+    Type: H5P
+    Link: https://adelaide.h5p.com/lti/401078/content/1291660264527716869
+    Description: "Learners can quickly check their knowledge of marketing management philosophies by dragging and dropping the words under the Focus section to correctly match up with the Orientation."
+    Location: https://myuni.adelaide.edu.au/courses/76552/pages/lesson-1-dot-4-how-do-businesses-do-marketing?module_item_id=2755209
+  - Name: "Product Lifecycle H5P drag and drop"
+    Type: H5P
+    Link: https://adelaide.h5p.com/lti/401078/content/1291666243689325949
+    Description:
+    Location: https://myuni.adelaide.edu.au/courses/76552/pages/lesson-7-dot-3-what-is-the-importance-of-a-product-life-cycle-plc?module_item_id=2755353
+  - Name: "The communications process (Interactive Presentation)"
+    Type: IFRAME
+    Link: https://www.canva.com/design/DAFENET4PxU/view?embed
     Description: 
-Screenshots:
-  - Description: "This lesson uses clear explanations, visual examples, and comparison tables to illustrate marketing management philosophies. Images like a futuristic car and Nike's customisation page help students connect concepts to real-world examples. Interactive discussion prompts encourage engagement, making the lesson relatable and memorable."
+    Location: https://myuni.adelaide.edu.au/courses/76552/pages/lesson-9-dot-1-how-do-businesses-make-promotion-decisions?module_item_id=2755361
+Snapshot:
+  - Name: "Lesson 1.2: What are Marketing Management Philosophies?"
     Link: "https://myuni.adelaide.edu.au/courses/76552/pages/lesson-1-dot-2-what-are-marketing-management-philosophies?module_item_id=2755207"
-  - Description: "This lesson uses clear visuals, practical examples like The Wiggles, and concise explanations to teach Ansoff's and BCG matrices. Videos and readings enhance understanding, while real-world applications connect theory to practice, helping students grasp strategic growth and portfolio management effectively."
-    Link: "https://myuni.adelaide.edu.au/courses/76552/pages/lesson-2-dot-5-how-do-businesses-identify-strategic-options?module_item_id=2755325"
-  - Description: "In this lesson, Rich and Tim collaborated to create the activity Conducting Market Research for a Pop-Up Business. This activity provides students with practical experience in using real-world tools such as the Australian Bureau of Statistics (ABS), Google Maps, and Google Trends to gather and analyse data for informed marketing decisions. By engaging with these tools, students not only enhance their technical proficiency but also develop critical thinking skills as they assess market viability and competition for a pop-up business. The inclusion of real-world platforms and step-by-step guidance ensures students gain hands-on insights, making the learning experience practical, engaging, and highly applicable to real-life marketing scenarios."
-    Link: "https://myuni.adelaide.edu.au/courses/76552/pages/lesson-3-dot-3-how-is-technology-used-in-market-research?module_item_id=2755332"
+    Description: "This lesson uses clear explanations, visual examples, and comparison tables to illustrate marketing management philosophies. Images like a futuristic car and Nike's customisation page help students connect concepts to real-world examples. Interactive discussion prompts encourage engagement, making the lesson relatable and memorable."
+  - Name: "Lesson 2.5: How do Businesses Identify Strategic Options?"
+    Link: https://myuni.adelaide.edu.au/courses/76552/pages/lesson-2-dot-5-how-do-businesses-identify-strategic-options?module_item_id=2755325
+    Description: "This lesson uses clear visuals, practical examples like The Wiggles, and concise explanations to teach Ansoff's and BCG matrices. Videos and readings enhance understanding, while real-world applications connect theory to practice, helping students grasp strategic growth and portfolio management effectively."
+  - Name: "Lesson 3.3: How is Technology used in Market Research?"
+    Link: https://myuni.adelaide.edu.au/courses/76552/pages/lesson-3-dot-3-how-is-technology-used-in-market-research?module_item_id=2755332
+    Description: "In this lesson, Rich and Tim collaborated to create the activity Conducting Market Research for a Pop-Up Business. This activity provides students with practical experience in using real-world tools such as the Australian Bureau of Statistics (ABS), Google Maps, and Google Trends to gather and analyse data for informed marketing decisions. By engaging with these tools, students not only enhance their technical proficiency but also develop critical thinking skills as they assess market viability and competition for a pop-up business. The inclusion of real-world platforms and step-by-step guidance ensures students gain hands-on insights, making the learning experience practical, engaging, and highly applicable to real-life marketing scenarios."
+Jobs: 
+  - Media Descriptions
+  - Learning Experience
+
+---
+
 MiroBoards: 
   - Description: "Sinead's impeccable Miro board layout"
     Link: "https://miro.com/app/board/uXjVOGQleuE=/"
-VideosToArchive: 
-  - Name: "Levels of Strategy"
-    Link: "https://www.youtube.com/watch?time_continue=28&v=VAUlg8u5vyQ&embeds_referring_euri=https%3A%2F%2Fmyuni.adelaide.edu.au%2Fcourses%2F76552%2Fpages%2Flesson-2-dot-1-what-is-marketing-strategy%3Fmodule_item_id%3D2755319"
-  - Name: "How the Wiggles use Ansoff's Matrix"
-    Link: "https://www.youtube.com/watch?v=NtCOTo_T8zw"
-  - Name: "BCG Matrix"
-    Link: "https://www.youtube.com/watch?v=ankADrn9s9g&t=94s"
-  - Name: "Keller’s Brand Equity Model"
-    Link: "https://www.youtube.com/watch?v=SYmNG5e1XaU&t=139s"
-  - Name: "Adoption categories"
-    Link: "https://www.youtube.com/watch?v=royklEy6i_I&t=115s"
-InteractivesToArchive: 
-  - Name: "Marketing management philosophies drag and drop H5P"
-    Link: "https://myuni.adelaide.edu.au/courses/76552/pages/lesson-1-dot-4-how-do-businesses-do-marketing?module_item_id=2755209"
-  - Name: "Product Lifecycle H5P drag and drop"
-    Link: "https://myuni.adelaide.edu.au/courses/76552/pages/lesson-7-dot-3-what-is-the-importance-of-a-product-life-cycle-plc?module_item_id=2755353"
-  - Name: "The communications process (Interactive Presentation)"
-    Link: "https://myuni.adelaide.edu.au/courses/76552/pages/lesson-9-dot-1-how-do-businesses-make-promotion-decisions?module_item_id=2755361"
----

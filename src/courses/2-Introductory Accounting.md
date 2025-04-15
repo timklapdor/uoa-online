@@ -36,34 +36,60 @@ Topics:
 Assessments:
   - Name: "Quizzes"
     Weighting: "5"
-    Type: "Quiz"
-    Description: 
+    Type: 
+      - Multiple Choice Questions
+    Description: These quizzes were aimed at providing learners with formative feedback by testing foundational knowledge at key points in the course. These points allowed learners to go back through the key concepts and identify areas where they need further revision. 
   - Name: "Financial Statement presentation and application"
     Weighting: "30"
-    Type: "Calculations"
-    Description: 
+    Type: 
+      - Report
+    Description: "This practical task requires learners to present an income statement and a balance sheet and use themto analyse how a series of transactions might impact the owner’s equity in a business."
   - Name:  "Financial statement analysis & presentation"
     Weighting: "30"
-    Type: "Calculations"
-    Description: 
+    Type: 
+      - Case Study
+    Description: "Learners are asked to select two publicly listed companies and review their annual financial statements to determine the financial health of the companies. They use financial tools and techniques to analyse, assess, and interpret financial data to make a final investment recommendation."
   - Name: "Budgeting and breakeven analysis"
     Weighting: "35"
-    Type: "Calculations"
-    Description: 
-Screenshots:
-  - Description: Broke up a complex module into several worked example activities, simplified pages, included helpful graphics to further illustrate the relationshiph between the theories equations and steps, included plenty of activities for students to practice each calculation at each point."
-    Link: "https://myuni.adelaide.edu.au/courses/76550/pages/lesson-5-dot-2-how-can-income-statement-and-balance-sheet-transactions-be-captured-using-accounting-equation-techniques?module_item_id=2818995"
-  - Description: "overhauled lesson by including demonstration videos, including accessible versions of the process outlined in the video, "
-    Link: "https://myuni.adelaide.edu.au/courses/76550/pages/lesson-2-dot-5-how-is-the-accounting-equation-applied-to-the-accounting-elements?module_item_id=2818863"
-  - Description: "overhauled lesson by including demonstration videos, including accessible versions of the process outlined in the video, "
-    Link: "https://myuni.adelaide.edu.au/courses/76550/pages/lesson-9-dot-2-how-is-a-cash-budget-prepared?module_item_id=2816655"
-MiroBoards: 
-  - Description: 
-    Link: 
-VideosToArchive: 
+    Type: 
+      - Model 
+      - Media Task
+    Description: "Learners are asked to apply management accounting techniques to develop a Cash Budget that assists managers in decision-making. They are then asked to prepare short video where they talk through their calculations and suggestions they've made to make recommendations regarding appropriate funding options."
+Media: 
+  - Name: Worked Example
+    Type: YOUTUBE
+    Link: lAvUTQapi2w
+    Description: "A worked example of the application of the accounting equation and the impact of different types of transactions on the balance sheet and income statement."
   - Name: 
+    Type: 
     Link: 
-InteractivesToArchive: 
+    Description:
+  - Name: 
+    Type: 
+    Link: 
+    Description:
+  - Name: 
+    Type: 
+    Link: 
+    Description:
+  - Name: 
+    Type: 
+    Link: 
+    Description:
+Snapshot:
+  - Name: "Lesson 5.2: How can income statement and balance sheet transactions be captured using accounting equation techniques?"
+    Link: https://myuni.adelaide.edu.au/courses/76550/pages/lesson-5-dot-2-how-can-income-statement-and-balance-sheet-transactions-be-captured-using-accounting-equation-techniques?module_item_id=2818995
+    Description: "Broke up a complex module into several worked example activities, simplified pages, included helpful graphics to further illustrate the relationshiph between the theories equations and steps, included plenty of activities for students to practice each calculation at each point."
+  - Name: "Lesson 2.5: How is the accounting equation applied to the accounting elements?"
+    Link: https://myuni.adelaide.edu.au/courses/76550/pages/lesson-2-dot-5-how-is-the-accounting-equation-applied-to-the-accounting-elements?module_item_id=2818863
+    Description: "Overhauled lesson by including demonstration videos, including accessible versions of the process outlined in the video."
+  - Name: "Lesson 9.2: How is a cash budget prepared?"
+    Link: https://myuni.adelaide.edu.au/courses/76550/pages/lesson-9-dot-2-how-is-a-cash-budget-prepared?module_item_id=2816655
+    Description: "overhauled lesson by including demonstration videos, including accessible versions of the process outlined in the video"
   - Name: 
     Link:
+    Description: 
+Jobs: 
+  - Media Required
+  - Learning Experience
 ---

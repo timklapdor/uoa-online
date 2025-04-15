@@ -8,11 +8,11 @@ Team:
   - Name: "Diana Shah"
     Role: "Course Author"
     Involvement: 
-  - Name: "Rosemarie"
+  - Name: "Rosemarie Fonseka"
     Role: "Learning Designer"
-    Involvement: 
+    Involvement: Lead
   - Name: "Jack Eames"
-    Role: "Digital Developer"
+    Role: "Digital Education Developer"
     Involvement: 
 CLOs: 
   - "Source, validate, use, and manage relevant and appropriate information for ethical and effective decision-making and problem-solving, applying systems thinking skills and techniques."
@@ -50,18 +50,18 @@ Assessments:
     Weighting: "30"
     Type: 
     Description: 
-LearningExperience:
-  -
-Screenshots:
-  - Link: 
-    Description: 
-MiroBoards: 
-  - Description: 
-    Link: 
-VideosToArchive: 
+Media: 
   - Name: 
+    Type: 
     Link: 
-InteractivesToArchive: 
+    Description:
+Snapshot:
   - Name: 
     Link:
+    Description: 
+Jobs: 
+  - Media
+  - Learning Experience
+  - Assessment information
+  - Snap shots
 ---

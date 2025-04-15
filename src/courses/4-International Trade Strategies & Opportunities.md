@@ -10,7 +10,7 @@ Team:
     Involvement: 
   - Name: "Jonno"
     Role: "Learning Designer"
-    Involvement: 
+    Involvement: Lead
 CLOs: 
   - "Analyse new opportunities in international trade, such as global supply and value chains, investment agreements, trade in services, competition policy and regional economic integration."
   - "Critically examine the operation and application of regional economic integration tools such as international trade agreements in a practical context and from a sectoral aspect."
@@ -47,18 +47,18 @@ Assessments:
     Weighting: "30"
     Type: "Presentation"
     Description: 
-LearningExperience:
-  -
-Screenshots:
-  - Link: 
-    Description: 
-MiroBoards: 
-  - Description: 
-    Link: 
-VideosToArchive: 
+Media: 
   - Name: 
+    Type: 
     Link: 
-InteractivesToArchive: 
+    Description:
+Snapshot:
   - Name: 
     Link:
+    Description: 
+Jobs: 
+  - Media
+  - Learning Experience
+  - Snapshots
+  - Assessment info
 ---

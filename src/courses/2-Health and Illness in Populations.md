@@ -55,29 +55,42 @@ Assessments:
   - Name: "Quizzes"
     Weighting: "30"
     Type: 
-    Description:
+      - Short Response Questions
+    Description: "These quizze have been designed to assess learners understanding of determinants, health promotion & policy."
   - Name: "Epidemiology of a health priority report"
     Weighting: "30"
     Type: 
-    Description:
+      - Report
+    Description: "This written report assesses learners understanding of priority health issues that affect the population and focusses on key epidemiological measures to describe the issue. Learners use information from journal articles, published reports, and internet sources, and reference these appropriately. The assessment reflects real-world reporting styles expected in public health-related organisations." 
   - Name: "Intervening to improve a healthy priority presentation"
     Weighting: "40"
-    Type: 
-    Description:
-  - Name: 
-    Weighting: 
-    Type: 
-    Description:
-Screenshots:
-  - Link: 
-    Description: 
-MiroBoards: 
-  - Description: 
-    Link: 
-VideosToArchive: 
-  - Name: 
-    Link: 
-InteractivesToArchive: 
-  - Name: 
-    Link:
+    Type:
+      - Media Task
+    Description: "Learners are asked to create a presentation of 5 to 8 minute that provides summaryof how a health condition or issue can be prevented. It assess the learners understanding of how to respond to public health issues with disease prevention, health promotion, and protection interventions."
+Media: 
+  - Name: "The five stages of the demographic transition"
+    Type: "IMG"
+    Link: HIP_M1_0019_five_stages.png
+    Description: "The demographic transition is a model that describes population change over time from high mortality, including high infant mortality, and high fertility to low mortality and fertility and higher life expectancy. The demographic transition occurs as part of the economic development of a country."
+  - Name: Three levels of prevention mapped across a 'stages of disease' continuum.
+    Type: IMG
+    Link: HIP_M2_0074_levels_disease_prevention_A.png
+    Description: "The three levels of prevention - preventing the occurrence of disease, detecting it early, arresting its progress, and reducing its consequences - are mapped onto the stages of the disease continuum."
+  - Name: What outcomes are you interested in measuring?
+    Type: YOUTUBE
+    Link: 4H0Ax0OqzJI 
+    Description: "Andrew Gardner introduces the different types of outcomes you can measure and what's required for evaluating long-term outcomes, impacts, and processes of interventions."
+Snapshot:
+  - Name: Module 1 Review Summary
+    Link: https://myuni.adelaide.edu.au/courses/76553/pages/module-1-review-summary?module_item_id=2803165
+    Description: "An end of module review allows students to check their understanding of the concepts and ideas covered thoughout the course content. It provide a formative learning opportunity for learners to check their own progress and revise areas they are struggling with."
+  - Name: Lesson 8.1 What are ethical values and how do they shape public health issues?
+    Link: https://myuni.adelaide.edu.au/courses/76553/pages/lesson-8-dot-1-what-are-ethical-values-and-how-do-they-shape-public-health-issues?module_item_id=2800843
+  - Name: Module 9 interactive session overview
+    Link: https://myuni.adelaide.edu.au/courses/76553/pages/module-9-interactive-session-overview?module_item_id=2804203
+  - Name: Lesson 10.1 How can you calculate measures of association between exposures and health outcomes?
+    Link: https://myuni.adelaide.edu.au/courses/76553/pages/lesson-10-dot-1-how-can-you-calculate-measures-of-association-between-exposures-and-health-outcomes?module_item_id=2816424
+Jobs: 
+  - Check videos with Cathy
+  - Learning Experience
 ---

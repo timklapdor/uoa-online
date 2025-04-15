@@ -16,7 +16,7 @@ Team:
     Involvement: 
   - Name: "Danielle LeMieux"
     Role: "Learning Designer"
-    Involvement: 
+    Involvement: Lead
 CLOs: 
   - "Analyse ethical problems in health care practice and policy."
   - "Explain relevant ethical theories and concepts."
@@ -53,18 +53,9 @@ Assessments:
     Weighting: "40"
     Type: "Essay"
     Description: 
-LearningExperience:
-  -
-Screenshots:
-  - Link: 
-    Description: 
-MiroBoards: 
-  - Description: 
-    Link: 
-VideosToArchive: 
-  - Name: 
-    Link: 
-InteractivesToArchive: 
-  - Name: 
-    Link:
+Jobs: 
+  - Media Missing
+  - Learning Experience
+  - Assessment Details
+  - Snapshots Missing
 ---

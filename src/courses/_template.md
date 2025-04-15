@@ -27,7 +27,8 @@ Media:
     Description:
 Snapshot:
   - Name: 
-    Link:  
+    Link:
+    Description: 
 Jobs: 
   - Media
   - Learning Experience

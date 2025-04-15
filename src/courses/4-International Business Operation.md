@@ -10,7 +10,7 @@ Team:
     Involvement: 
   - Name: "Kat Alchin"
     Role: Learning Designer
-    Involvement: 
+    Involvement: Lead
 CLOs: 
   - "Apply theoretical concepts and analytical tools to analyse cross-border business scenarios."
   - "Identify opportunities and risks entailed in various internationalisation decisions."
@@ -46,33 +46,64 @@ Assessments:
     Weighting: "20"
     Type: 
     Description: 
-Screenshots:
-  - Link: "https://myuni.adelaide.edu.au/courses/80194/pages/lesson-2-dot-6-which-organisational-structures-are-common-for-global-firms?module_item_id=2892967"
-    Description: "Guest interviews with a local small business, discussing how the structure has adjusted over time according to their changes in strategy at different points in their internalisation journey, as well as a practice activity for students to test their understanding of structure and strategy relationships."
-  - Link: "https://myuni.adelaide.edu.au/courses/80194/pages/lesson-3-dot-4-how-do-you-screen-countries-to-identify-target-markets?module_item_id=2893000"
-    Description: "Linked the academics' simplified method of market screening  using 4 simplified questions, to a theoretical method knwon as graudal elmination.  Included several research and case study learning activities into the lesson to link the methods with real world examples, a skill to be used in the assessments for the course. "
-  - Link: "https://myuni.adelaide.edu.au/courses/80194/pages/lesson-4-dot-2-what-are-incoterms?module_item_id=2894634"
-    Description: "Guest interview on Incoterms, and research activity for students to understand where to find the latest terms and how they apply in the overall export process context"
-  - Link: "https://myuni.adelaide.edu.au/courses/80194/pages/lesson-6-dot-6-2-what-factors-do-you-need-consider-when-choosing-fdi-locations?module_item_id=2943432  ;  https://myuni.adelaide.edu.au/courses/80194/discussion_topics/778944?module_item_id=2895040"
-    Description: "Practice activity for students to step through a complex stepped process, with an opportunity to practice doing these steps before their assessment. Also allows students to link earlier learning with current theory, and research into a sample market. Students then share and compare their answers and working."
-  - Link: "https://myuni.adelaide.edu.au/courses/80194/pages/lesson-4-dot-4-what-are-the-different-types-of-foreign-intermediaries?module_item_id=2894636"
-    Description: "Concerted effort throughout the course to get students to research markets outside of Australia, inclduing emerging markets such as China and South Africa. Examples and case studies were also included from a variety of regions and markets throughout the course, as it was noticied that the textbook and earlier course materials tended to focus on the US and Western Europe. In this lesson, students were asked to find details on both the South African and Chinese markets, as well as understand the Japanese, Australian and US markets."
-VideosToArchive: 
-  - Name: 
-    Link: IBO_M0016_International business strategies.mp4
-  - Name: 
-    Link: IBO_M0054_Grey Market Activity.mp4
-  - Name: 
-    Link: IBO_M0129_Export Strategy.mp4
-  - Name: 
-    Link: IBO_M0130_International strategy inteview.mp4
-  - Name: 
-    Link: IBO_M0136_INCOTERMS.mp4
-InteractivesToArchive: 
+Media: 
+  - Name: "International Business Strategy"
+    Type: YOUTUBE
+    Link: U00PsMcrZno
+    Description:
+  - Name: "Grey Market Activity"
+    Type: YOUTUBE
+    Link: ivA2Vn3NjmY
+    Description:
+  - Name: "Export Strategy"
+    Type: YOUTUBE
+    Link: 0P6OaWNIkaQ
+    Description:
+  - Name: International strategy interview
+    Type: YOUTUBE
+    Link: P20VoLgyyng
+    Description: "An interview with the General Manager of International Sales from REDARC, Craig Herriot, where he shares his experiences directly with learners and some of the internationalisation decisions the firm made, and how they came to formulate their strategies for international opertaions."
+  - Name: Incoterms
+    Type: YOUTUBE
+    Link: RWj9HE8T_oI
+    Description:
   - Name: Slider Scale H5P
-    Link: https://myuni.adelaide.edu.au/courses/80194/pages/lesson-2-dot-6-which-organisational-structures-are-common-for-global-firms?module_item_id=2892967
+    Type: 
+    Link: 
+    Description:
+    Location: https://myuni.adelaide.edu.au/courses/80194/pages/lesson-2-dot-6-which-organisational-structures-are-common-for-global-firms?module_item_id=2892967
   - Name: Drag and drop on FDI
-    Link: https://myuni.adelaide.edu.au/courses/80194/pages/lesson-6-dot-3-what-is-nature-of-ownership-in-fdi?module_item_id=2895035
+    Type: H5P 
+    Link: https://adelaide.h5p.com/lti/503065/content/1291807757246163029
+    Description:
+    Location: https://myuni.adelaide.edu.au/courses/80194/pages/lesson-6-dot-3-what-is-nature-of-ownership-in-fdi?module_item_id=2895035
   - Name: Case study drag and drop local business
-    Link: https://myuni.adelaide.edu.au/courses/80194/pages/lesson-6-dot-4-what-are-vertical-and-horizontal-integration-in-fdi?module_item_id=2895036
+    Type: H5P
+    Link: https://adelaide.h5p.com/lti/503065/content/1291819195523883689
+    Description:
+    Location: https://myuni.adelaide.edu.au/courses/80194/pages/lesson-6-dot-4-what-are-vertical-and-horizontal-integration-in-fdi?module_item_id=2895036
+Snapshot:
+  - Name: "Lesson 2.6 Which organisational structures are common for global firms?"
+    Link: "https://myuni.adelaide.edu.au/courses/80194/pages/lesson-2-dot-6-which-organisational-structures-are-common-for-global-firms?module_item_id=2892967"
+    Description: "Guest interviews with a local small business, discussing how the structure has adjusted over time according to their changes in strategy at different points in their internalisation journey, as well as a practice activity for students to test their understanding of structure and strategy relationships."
+  - Name: "Lesson 3.4: How do you screen countries to identify target markets?"
+    Link: https://myuni.adelaide.edu.au/courses/80194/pages/lesson-3-dot-4-how-do-you-screen-countries-to-identify-target-markets?module_item_id=2893000
+    Description: "Linked the academics' simplified method of market screening  using 4 simplified questions, to a theoretical method knwon as graudal elmination.  Included several research and case study learning activities into the lesson to link the methods with real world examples, a skill to be used in the assessments for the course."
+  - Name: "Lesson 4.2: What are Incoterms?"
+    Link: https://myuni.adelaide.edu.au/courses/80194/pages/lesson-4-dot-2-what-are-incoterms?module_item_id=2894634
+    Description: "Guest interview on Incoterms, and research activity for students to understand where to find the latest terms and how they apply in the overall export process context"
+  - Name: "Lesson 6.6.2: What factors do you need consider when choosing FDI locations?"
+    Link: https://myuni.adelaide.edu.au/courses/80194/pages/lesson-6-dot-6-2-what-factors-do-you-need-consider-when-choosing-fdi-locations?module_item_id=2943432
+    Description: "Practice activity for students to step through a complex stepped process, with an opportunity to practice doing these steps before their assessment. Also allows students to link earlier learning with current theory, and research into a sample market. Students then share and compare their answers and working."
+  - Name: "Discussion 6.6: Choosing FDI locations - factors you need consider."
+    Link: https://myuni.adelaide.edu.au/courses/80194/discussion_topics/778944?module_item_id=2895040
+    Description: "Students then share and compare their answers and working."
+  - Name: "Lesson 4.4: What are the different types of foreign intermediaries?"
+    Link: https://myuni.adelaide.edu.au/courses/80194/pages/lesson-4-dot-4-what-are-the-different-types-of-foreign-intermediaries?module_item_id=2894636
+    Description: "Concerted effort throughout the course to get students to research markets outside of Australia, inclduing emerging markets such as China and South Africa. Examples and case studies were also included from a variety of regions and markets throughout the course, as it was noticied that the textbook and earlier course materials tended to focus on the US and Western Europe. In this lesson, students were asked to find details on both the South African and Chinese markets, as well as understand the Japanese, Australian and US markets."
+Jobs: 
+  - Media Descriptions
+  - Learning Experience
+  - Assessment info
+  - Learning Experience
 ---

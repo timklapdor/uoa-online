@@ -65,7 +65,16 @@ layout: base.njk
         {% if media.Type=="YOUTUBE" %}
             <iframe title="YouTube video player" src="https://www.youtube-nocookie.com/embed/{{ media.Link }}" width="560" height="315" loading="lazy" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
         {% endif %}
-        
+
+        {% if media.Type=="ECHO" %}
+            <p><a href="media.Location">{{ media.Name }}</a></p>
+        {% endif %}
+
+        {% if media.Type=="IFRAME"%}
+            <p>{{ media.Description }} </p>
+            <iframe class="lti-embed" width="100%" height="800" title="{{ media.Name }}" src="{{ media.Link }}" frameborder="0"></iframe>
+        {% endif %}
+
 </div>
 {% endfor %}
 
@@ -73,6 +82,6 @@ layout: base.njk
 
     <ul>
         {% for item in Snapshot %}
-                <li><a href="{{ item.Link }}">{{ item.Name }} </a></li>
+                <li><a href="{{ item.Link }}">{{ item.Name }}</a> {{ item.Description }}</li>
         {% endfor %}
     </ul>
