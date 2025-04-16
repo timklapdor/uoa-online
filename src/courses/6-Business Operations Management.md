@@ -1,7 +1,7 @@
 ---
 CourseName: "Business Operations Management "
 Programs: "IB, HSM"
-DevCycle: "6"
+DevCycle: 5
 Blueprint: "https://myuni.adelaide.edu.au/courses/80195"
 Description: "Operations management is at the heart of every organisation. It's the activity of managing the resources devoted to creating and delivering services and products - the core functions of any business. This course provides a broad introduction to operations management and the associated tools and techniques that support the design, planning, control and improvement of systems and processes. The course will help you develop an awareness of the different aspects of operations, including; process flow, performance objectives, scheduling, supply chains and inventory, layout, uncertainty and risk. You will explore the ways in which these can be analysed and represented to improve business decision-making. You will develop the systematic and critical thinking skills essential to understanding, managing and improving operations in a broad range of industries and business contexts that you may find yourself in."
 Team:
@@ -45,7 +45,7 @@ Assessments:
     Type: 
     Description: 
   - Name: "Reflections"
-    Weighting: "35"
+    Weighting: 35
     Type: 
     Description: 
   - Name: "Critical analysis"
@@ -53,7 +53,7 @@ Assessments:
     Type: 
     Description: 
   - Name: "Case study"
-    Weighting: "25"
+    Weighting: 25
     Type: 
     Description: 
 LearningExperience:

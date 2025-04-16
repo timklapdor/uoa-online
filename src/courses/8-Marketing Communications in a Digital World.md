@@ -1,7 +1,7 @@
 ---
 CourseName: "Marketing Communications in a Digital World"
 Programs: "IB"
-DevCycle: "8"
+DevCycle: 8
 Blueprint: "https://myuni.adelaide.edu.au/courses/90064"
 Description: "The course aims to provide you with an understanding of the communication aspects of marketing. In this course, you will learn about the range of tools available to marketers for the purpose of promotion - such as advertising, sales promotion, personal selling, sponsorship, publicity and public relations - as well as the process by which these are integrated and planned. You'll also explore the evolution of marketing activities in an increasingly digital environment, including activities undertaken via online platforms, social media, email and other digital formats."
 Team:
@@ -34,15 +34,15 @@ Topics:
   - "Evaluating IMC"
 Assessments:
   - Name: "Audit of information sources and marketing audit"
-    Weighting: "30"
+    Weighting: 30
     Type: "Report"
     Description: 
   - Name: "Marketing communications brief"
-    Weighting: "30"
+    Weighting: 30
     Type: "Report"
     Description: 
   - Name: "Marketing communications plan"
-    Weighting: "40"
+    Weighting: 40
     Type: "Report"
     Description: 
 LearningExperience:

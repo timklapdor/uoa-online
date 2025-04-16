@@ -1,7 +1,7 @@
 ---
 CourseName: "International Trade: Negotiations & Agreements"
 Programs: "IB"
-DevCycle: "6"
+DevCycle: 5
 Blueprint: "https://myuni.adelaide.edu.au/courses/86391"
 Description: "International Trade: Negotiation and Agreement will build your knowledge and understanding of the core principles of international trade. You will need to demonstrate well-rounded critical and creative thinking skills, the ability to apply relevant theory, contrast historical and contemporary examples of trade agreements, and evaluate policy documentation and actions by state actors. In this course, you will have the opportunity to analyse and integrate key concepts in International Relations and International Political Economy. Through examination of contemporary and historic case studies, readings, and reflection on current events, you will be equipped with the skills to identify and evaluate the factors that shape global trade, conduct policy analysis, and connect key theory to current world events."
 Team:
@@ -37,19 +37,19 @@ Topics:
   - "Trade and Strategic Alliances"
 Assessments:
   - Name: "Case study"
-    Weighting: "20" 
+    Weighting: 20 
     Type: 
     Description: 
   - Name: "Essay"
-    Weighting: "20"
+    Weighting: 20
     Type: 
     Description: 
   - Name: "Business proporsal (Business plan & policy analysis)"
-    Weighting: "30"
+    Weighting: 30
     Type: 
     Description: 
   - Name:  "Quizzes"
-    Weighting: "30"
+    Weighting: 30
     Type: 
     Description: 
 ---

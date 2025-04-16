@@ -1,7 +1,7 @@
 ---
 CourseName: "Health and Illness in Populations"
 Programs: "HSM"
-DevCycle: "2"
+DevCycle: 2
 Blueprint: "https://myuni.adelaide.edu.au/courses/76553"
 Description: "Health and Illness in Populations aims to introduce you to careers such as public health practice, health-related research, or clinical practice, to a population view of health. It draws on a range of disciplines that contribute to a focus on the health of populations, including epidemiology, health promotion and disease prevention, history, politics, and ethics. The subject invites you to develop a critical view about what constitutes public health issues, how they are measured, and potential responses to improve population health."
 Team:
@@ -53,17 +53,17 @@ Topics:
   - "Evaluating the Australian health system and its role in public health"
 Assessments:
   - Name: "Quizzes"
-    Weighting: "30"
+    Weighting: 30
     Type: 
       - Short Response Questions
     Description: "These quizze have been designed to assess learners understanding of determinants, health promotion & policy."
   - Name: "Epidemiology of a health priority report"
-    Weighting: "30"
+    Weighting: 30
     Type: 
       - Report
     Description: "This written report assesses learners understanding of priority health issues that affect the population and focusses on key epidemiological measures to describe the issue. Learners use information from journal articles, published reports, and internet sources, and reference these appropriately. The assessment reflects real-world reporting styles expected in public health-related organisations." 
   - Name: "Intervening to improve a healthy priority presentation"
-    Weighting: "40"
+    Weighting: 40
     Type:
       - Media Task
     Description: "Learners are asked to create a presentation of 5 to 8 minute that provides summaryof how a health condition or issue can be prevented. It assess the learners understanding of how to respond to public health issues with disease prevention, health promotion, and protection interventions."

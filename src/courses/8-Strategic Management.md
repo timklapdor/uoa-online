@@ -1,7 +1,7 @@
 ---
 CourseName: "Strategic Management"
 Programs: "IB, HSM"
-DevCycle: "8"
+DevCycle: 8
 Blueprint: "https://myuni.adelaide.edu.au/courses/89959"
 Description: "Managing strategy is concerned with the long-term direction and performance of an organisation. This course draws on prior business and management studies to examine contemporary thinking in the field of strategy. Using case studies, the course aims to equip you with a practical understanding of the relevant concepts and frameworks needed to make better strategic decisions in the context of the dynamic and fast-changing business and management environment. Students can expect to critically explore how the continuous and accurate analysis of essential strategic tasks and how internal and external environments interact are components of a successful strategy."
 Team:
@@ -48,15 +48,15 @@ Topics:
   - "Internal innovation and innovation strategies"
 Assessments:
   - Name: "Strategic analysis"
-    Weighting: "35"
+    Weighting: 35
     Type: "Presentation/Report"
     Description: 
   - Name: "Strategic concept poster and report"
-    Weighting: "30"
+    Weighting: 30
     Type: 
     Description: 
   - Name: "Executive strategy proposal"
-    Weighting: "35"
+    Weighting: 35
     Type: 
     Description: 
 LearningExperience:

@@ -1,7 +1,7 @@
 ---
 CourseName: "eChallenge"
 Programs: "IB, HSM"
-DevCycle: "9"
+DevCycle: 9
 Blueprint: null
 Description: | 
   Systematically assessing the viability of your ideas is an integral requirement for any career path - not only for those embarking an entrepreneurial career. Evidence suggests that your time at University is one of the best times to gain this experience.
@@ -46,19 +46,19 @@ Topics:
   - "Semi-Finals"
 Assessments:
   - Name: "Needs Assessment Report"
-    Weighting: "30"
+    Weighting: 30
     Type: "Report"
     Description: 
   - Name: "Empathy Interviews"
-    Weighting: "30"
+    Weighting: 30
     Type: "Interview"
     Description: 
   - Name: "Pitching Your Idea"
-    Weighting: "30"
+    Weighting: 30
     Type: "Online presentation"
     Description: 
   - Name: "Reflective Development Portfolio"
-    Weighting: "10"
+    Weighting: 10
     Type: "Portfolio"
     Description: 
 LearningExperience:

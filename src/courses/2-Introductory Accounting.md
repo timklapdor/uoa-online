@@ -1,7 +1,7 @@
 ---
 CourseName: "Introductory Accounting"
 Programs: "IB, HSM"
-DevCycle: "2"
+DevCycle: 2
 Blueprint: "https://myuni.adelaide.edu.au/courses/76550"
 Description: "The objective of the course is to provide an introductory knowledge of accounting to students of all disciplines such as business, professions, arts, engineering, health, medicine and sciences. A general overview of accounting principles relating to the preparation of financial and managerial reports will be presented. The primary focus is to illuminate how accounting information is utilised by a variety of stakeholders in planning, controlling and investing decisions."
 Team:
@@ -35,22 +35,22 @@ Topics:
   - "Introduction to Performance Management"
 Assessments:
   - Name: "Quizzes"
-    Weighting: "5"
+    Weighting: 5
     Type: 
       - Multiple Choice Questions
     Description: These quizzes were aimed at providing learners with formative feedback by testing foundational knowledge at key points in the course. These points allowed learners to go back through the key concepts and identify areas where they need further revision. 
   - Name: "Financial Statement presentation and application"
-    Weighting: "30"
+    Weighting: 30
     Type: 
       - Report
     Description: "This practical task requires learners to present an income statement and a balance sheet and use themto analyse how a series of transactions might impact the owner’s equity in a business."
   - Name:  "Financial statement analysis & presentation"
-    Weighting: "30"
+    Weighting: 30
     Type: 
       - Case Study
     Description: "Learners are asked to select two publicly listed companies and review their annual financial statements to determine the financial health of the companies. They use financial tools and techniques to analyse, assess, and interpret financial data to make a final investment recommendation."
   - Name: "Budgeting and breakeven analysis"
-    Weighting: "35"
+    Weighting: 35
     Type: 
       - Model 
       - Media Task

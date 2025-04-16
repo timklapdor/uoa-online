@@ -1,7 +1,7 @@
 ---
 CourseName: "Human Resource Management "
 Programs: "IB, HSM"
-DevCycle: "6"
+DevCycle: 5
 Blueprint: "https://myuni.adelaide.edu.au/courses/86261"
 Description: "The past few years have seen rapid changes both at personal and professional levels on how we want to work, study and play. The pandemic has brought about questions, options, alternatives, and actions that individuals have considered and, in many cases, implemented towards the ‘new-normal’ whether it has been in our personal or professional lives. Organisational success is depended on the efficient and effective utilisation of its tangible assets, intangible assets and human resources. The Human Resource Management course has been designed to provide you with the capability and capacity to identify, understand, analyse and determine human resource-related decisions, whether proactively or in response to the dynamic times we live in, through the use of HRM strategy and practice."
 Team:
@@ -35,15 +35,15 @@ Topics:
   - "Managing Human Resources"
 Assessments:
   - Name: "Quiz and reflection "
-    Weighting: "30"
+    Weighting: 30
     Type: "Quiz "
     Description: 
   - Name: "Scenario-based questions"
-    Weighting: "30"
+    Weighting: 30
     Type: "Report"
     Description: 
   - Name: "Industry based report"
-    Weighting:  "40"
+    Weighting:  40
     Type: "Report"
     Description: 
 LearningExperience:

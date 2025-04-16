@@ -1,7 +1,7 @@
 ---
 CourseName: "Personal and Professional Development"
 Programs: "IB, HSM"
-DevCycle: "1"
+DevCycle: 1
 Blueprint: "https://myuni.adelaide.edu.au/courses/76549"
 Description: "This course aims to provide students with the skills necessary to begin their development as a business professional. As students develop their skills and knowledge in their chosen profession it is important that they also develop a broader set of skills and identity as a professional."
 Team:
@@ -37,24 +37,24 @@ Topics:
   - "Collaboration and teamwork"
 Assessments:
   - Name: "Professional ethical behaviour statement"
-    Weighting: "20"
+    Weighting: 20
     Type:
       - Case Study
       - Proposal
     Description: This assessment aims to help learners develop an understanding of ethical behaviour in an entrepreneurial business context.
   - Name: "Personal professional development plan"
-    Weighting: "25"
+    Weighting: 25
     Type: 
       - Learning Journal
       - Proposal
     Description: "These three tasks aim to provide learners with a self-assessment to determine their potential areas of development as a professional person. The Personal Professional Development Action Plan that aims to help them set career goals, create strategies to improving your knowledge and skills, and uncover resources to help reach their goals."
   - Name: "Personal and professional development learning portfolio"
-    Weighting: "30"
+    Weighting: 30
     Type: 
       - "Portfolio"
     Description: "Developing a personal and professional portfolio learners make connections between people, networks, professional communities, skills, and further professional development."
   - Name: "Cooperative learning - Problem solution"
-    Weighting: "25"
+    Weighting: 25
     Type:
       - Problem Solving
     Description: "This assessment challenges learners to work cooperatively to develop possible solutions to challenges. Using the discussion tool, learners are asked to develop sustainable pratcices and learn to cooperate effectively in the process."

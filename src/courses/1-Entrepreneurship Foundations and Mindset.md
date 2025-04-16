@@ -1,7 +1,7 @@
 ---
 CourseName: "Entrepreneurship Foundations and Mindset "
 Programs: "IB, HSM"
-DevCycle: "1"
+DevCycle: 1
 Blueprint: "https://myuni.adelaide.edu.au/courses/69867 "
 Description: "This course focuses on the development of new skills and the cultivation of an entrepreneurial mindset. Skills learnt in this course prepare students for creating their own entrepreneurial career path, becoming a valued corporate team member (intrapreneur), or using their own enterprising skills within government or the not-for-profit sector. Students will understand the theoretical concepts behind the nature and importance of entrepreneurship, use a number of tools/frameworks/models to identify and assess opportunities, and engage in experiential learning activities to develop their entrepreneurial mindset."
 Team:
@@ -36,19 +36,19 @@ Topics:
   - "The Final Preparation"
 Assessments:
   - Name: "Entrepreneurial charachterisitics and behaviours"
-    Weighting: "15"
+    Weighting: 15
     Type: "Short Response Questions"
     Description: "Learners complete a short report that identifies common characteristics and behaviours of entrepreneurs. They use this information to discuss the characteristics and behaviours theuy need to develop for their own entrepreneurial mindset."
   - Name: "Concept statement"
-    Weighting: "20"
+    Weighting: 20
     Type: "Problem Solving"
     Description: "Learners will conduct research to confirm they have identified a problem and to come up with a concept statement that clearly articulates how you would solve the problem with a hypothetical business opportunity."
   - Name: "Risk Assessment"
-    Weighting: "30"
+    Weighting: 30
     Type: "Problem Solving"
     Description: "Learners identify potential internal and external risks to their hypothetical business opportunity and determine an appropriate response to the risks."
   - Name: "Feasibility Report"
-    Weighting: "35"
+    Weighting: 35
     Type: "Report"
     Description: "By conducting a thorough Feasibility Report learners can identify whether their hypothetical business opportunity is a viable business venture. This report focusses on their ability to analyse the business in context and success is based on this rather than the viability of their venture."
 Media: 

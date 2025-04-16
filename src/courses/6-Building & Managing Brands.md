@@ -1,7 +1,7 @@
 ---
 CourseName: "Building & Managing Brands"
 Programs: "IB"
-DevCycle: "6"
+DevCycle: 5
 Blueprint: "https://myuni.adelaide.edu.au/courses/86262"
 Description: "A company's most valuable assets often include its brand. Even startups and individuals must be aware of their brand's essence. In larger corporations, a 'Brand Manager' is responsible for maintaining and developing the company's brand value. This course equips students for this role, covering products, whether tangible goods or intangible services. It introduces the practical measurement and management of brand equity, industry-standard brand metrics, and the theory of brand equity, points of parity, and points of difference. Brand co-creation is explored, especially in social media marketing involving Facebook, Twitter, and blogs. The course also evaluates brand equity's leverage into extensions, as in the case of Virgin, as a growth strategy."
 Team:
@@ -35,11 +35,11 @@ Topics:
   - "Managing brands internationally"
 Assessments:
   - Name: "Graded discussions"
-    Weighting: "10"
+    Weighting: 10
     Type: 
     Description: 
   - Name: "Brand analysis short answer questions"
-    Weighting: "30"
+    Weighting: 30
     Type: 
     Description: 
   - Name: "Written reports (brand analysis & brand development)"

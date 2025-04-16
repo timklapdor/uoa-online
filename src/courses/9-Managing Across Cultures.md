@@ -1,7 +1,7 @@
 ---
 CourseName: "Managing Across Cultures"
 Programs: "IB"
-DevCycle: "9"
+DevCycle: 9
 Blueprint: "https://myuni.adelaide.edu.au/courses/88423"
 Description: "The objective of this course is to provide students with a basic understanding of the fundamental principles and practices of International Management. The course focuses on the foundations of international management, the role of culture, cross-cultural communication and negotiations, MNC strategies and structures, and international human resource management. There will be a focus on appropriate theory and the course will aim to provide opportunities for the practical implementation of the main concepts covered."
 Team:
@@ -36,19 +36,19 @@ Topics:
   - "The future of cross-cultural management"
 Assessments:
   - Name: "Graded discussion"
-    Weighting: "10"
+    Weighting: 10
     Type: "Discussion"
     Description: 
   - Name: "Cross-cultural advisory video"
-    Weighting: "40"
+    Weighting: 40
     Type: "Video"
     Description: 
   - Name: "Policy analysis"
-    Weighting: "25"
+    Weighting: 25
     Type: "Report"
     Description: 
   - Name: "Policy recommendations"
-    Weighting: "25"
+    Weighting: 25
     Type: "Report"
     Description: 
 LearningExperience:

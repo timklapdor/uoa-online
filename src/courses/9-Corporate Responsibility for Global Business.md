@@ -1,7 +1,7 @@
 ---
 CourseName: "Corporate Responsibility for Global Business"
 Programs: "IB"
-DevCycle: "9"
+DevCycle: 9
 Blueprint: 
 Description: 
 Team:
@@ -39,15 +39,15 @@ Topics:
   - "Responsibility for your future"
 Assessments:
   - Name: "Individual Research Project on Sustainable Development Goals"
-    Weighting: "30"
+    Weighting: 30
     Type: 
     Description: 
   - Name: "Case Analysis"
-    Weighting: "30"
+    Weighting: 30
     Type: 
     Description: 
   - Name: "Business Advisory Report"
-    Weighting: "40"
+    Weighting: 40
     Type: 
     Description: 
 LearningExperience:

@@ -1,7 +1,7 @@
 ---
 CourseName: "Introduction to Marketing"
 Programs: "IB, HSM"
-DevCycle: "2"
+DevCycle: 2
 Blueprint: "https://myuni.adelaide.edu.au/courses/76552"
 Description: "This course is designed to provide students with an understanding of the principles of Marketing. There will be a focus on the management of the marketing activities and how marketing relates to overall organisational functioning, including the management of exchange processes between business units and consumers and between firms. It will include environmental analysis, industry and competitor analysis, objective setting, marketing strategies, and marketing mix components such as pricing, distribution, product and service development and promotion, including traditional and digital marketing communication. Additionally, the course will provide opportunities for the practical implementation of the concepts covered and the development of problem-solving skills by means of interactive assessments, weekly tutorials and online learning."
 Team:
@@ -31,13 +31,13 @@ Topics:
   - "Ethical marketing"
 Assessments:
   - Name: "Marketing critique"
-    Weighting: "10"
+    Weighting: 10
     Type: 
       - Critical Analysis
       - Discussion
     Description: Learners are asked to select a business and critique its most recent marketing activity using their understanding of basic marketing concepts. They are then asked to share their critique with their peers and discuss each others analysis. 
   - Name: "Graded discussions"
-    Weighting: "10"
+    Weighting: 10
     Type: 
       - Discussion
     Description: Learners are asked to add to a discussion prompt each week and share their experiences and perspecives with the class.  

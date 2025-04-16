@@ -1,7 +1,7 @@
 ---
 CourseName: "Managing Organisations and People"
 Programs: "IB, HSM"
-DevCycle: "1"
+DevCycle: 1
 Blueprint: "https://myuni.adelaide.edu.au/courses/69868"
 Description: "This course introduces students to the roles and functions of managers. The content includes an introduction to organisations and the need for and nature of management. It examines the evolution of management theory, organisational environments, and corporate social responsibility and ethics. The course also includes a detailed investigation of the four functions of management: planning and decision making, organising, leading and motivating, and controlling."
 Team:
@@ -36,18 +36,18 @@ Topics:
   - Managing Organisational and Interpersonal Communication
 Assessments:
   - Name: "Learning log"
-    Weighting: "30"
+    Weighting: 30
     Type: Learning Journal
     Description: "The learning log is and ongoing task asking learners to record their journey and experience throughout the course. They are asked to explore the ideas and content, skills, communication, understanding through reflective practices."
   - Name: "Group cultural analysis"
-    Weighting: "30"
+    Weighting: 30
     Type: 
       - "Assessment Plan"
       - "Media Task"
       - Peer Review
     Description: "Working in a team learners plan an approach for reviewing a scandal, present their findings, and then provide peer feedback."
   - Name: "1-to-1 tutor and student interview"
-    Weighting: "40"
+    Weighting: 40
     Type: "Interview"
     Description: "The final assessment is a one-to-one interview with a tutor to explore their learning journey and reflections. Tutors will facilitate asking questions about the concepts in the course and how they would apply them in the real world."
 Media: 

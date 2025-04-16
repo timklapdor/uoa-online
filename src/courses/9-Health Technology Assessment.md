@@ -1,7 +1,7 @@
 ---
 CourseName: "Health Technology Assessment"
 Programs: "HSM"
-DevCycle: "9"
+DevCycle: 9
 Blueprint: "https://myuni.adelaide.edu.au/courses/96766"
 Description: |
   Why is it important to assess health technologies? Health technologies include medicines, vaccines, medical and surgical procedures, medical devices, diagnostic and imaging tests, and public health programs. Health technologies are key elements in the delivery of health services. In this course, created by experts in the field of health technology assessment (HTA), you will learn key frameworks, methods, and tools for assessing the value of these technologies and communicating their benefits and possible harms.
@@ -52,19 +52,19 @@ Topics:
   - "Involving Patients and the Public in HTA Decision Making"
 Assessments:
   - Name: "Quiz: Introduction to HTA"
-    Weighting: "15"
+    Weighting: 15
     Type: "Quiz"
     Description: 
   - Name: "Practical: Literature Search"
-    Weighting: "20"
+    Weighting: 20
     Type: 
     Description: 
   - Name: "Critical Appraisal"
-    Weighting: "25"
+    Weighting: 25
     Type: 
     Description: 
   - Name: "Integrated Hospital-Based HTA"
-    Weighting: "40"
+    Weighting: 40
     Type: 
     Description: 
 LearningExperience:

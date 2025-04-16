@@ -1,7 +1,7 @@
 ---
 CourseName: "International Business Environments"
 Programs: "IB"
-DevCycle: "2"
+DevCycle: 2
 Blueprint: "https://myuni.adelaide.edu.au/courses/76551"
 Description: "This course explores the international business environment in which organisations operate. The course examines the structure and features of the international markets, how organisations engage with these markets, and how they respond to its complexities. Students are introduced to useful theoretical and analytical frameworks that are crucial to understanding the opportunities and risks derived from the political, economic, social, technological and institutional environment of countries. The course also reviews aspects of global institutions, such as the World Trade Organization (WTO) and International Monetary Fund (IMF), which set global rules that profoundly affect business strategy and human welfare. Through this course, students are introduced to fundamental skills and competencies for further development towards an international business profession."
 Team:
@@ -30,23 +30,23 @@ Topics:
   - "Sustainability in Global Business"
 Assessments:
   - Name: "Discussion"
-    Weighting: "10"
+    Weighting: 10
     Type: 
       - Discussion 
     Description: Learner are prompted each week to discuss some of the key issues and concepts raised in the content from the week, to share their perspectives and connect contemporary events to those raised in the course. 
   - Name: "Written response to prompts"
-    Weighting: "10"
+    Weighting: 10
     Type: 
       - Short Response Questions
     Description: "These short responses assess learners understanding of basic international business concepts, their ability to apply and integrate these concepts into real-life scenarios and critically evaluate the impact of these concepts on various parties in international business."
   - Name: "Presentation and market analysis"
-    Weighting: "45"
+    Weighting: 45
     Type: 
       - Media Task
       - Critical Analysis
     Description: "This assessment asks learners to use international business theories to provide the basis for deciding whether to internationalise a firm."
   - Name: "Report"
-    Weighting: "35"
+    Weighting: 35
     Type: 
       - Report
     Description: "Learners are required to develop a report for an investor stakeholder group providing an analysis of three alternative markets, make a recommendation and develop an action plan."

@@ -1,7 +1,7 @@
 ---
 CourseName: "Environmental & Occupational Health "
 Programs: "HSM"
-DevCycle: "7"
+DevCycle: 7
 Blueprint: "https://myuni.adelaide.edu.au/courses/89525"
 Description: "This course aims to introduce you to a range of environmental factors which may pose a risk to the health of human populations. It also addresses risk assessment and management methods for evaluating and controlling such risks. A variety of diseases associated with exposure to common occupational and environmental factors will be discussed. In addition, there will be an overview of the historical, legislative and administrative aspects of occupational health."
 Team:
@@ -39,19 +39,19 @@ Topics:
   - "Contemporary Issues"
 Assessments:
   - Name: "Knowledge checks"
-    Weighting: "10"
+    Weighting: 10
     Type: "Quiz"
     Description: 
   - Name: "Occupational health scenario"
-    Weighting: "25"
+    Weighting: 25
     Type: "Reflection"
     Description: 
   - Name: "Environmental health scenario"
-    Weighting: "25"
+    Weighting: 25
     Type: "Report"
     Description: 
   - Name: "Major written report"
-    Weighting: "20"
+    Weighting: 20
     Type: "Report"
     Description: 
 Screenshots:

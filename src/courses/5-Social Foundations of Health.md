@@ -44,19 +44,19 @@ Topics:
   - "Communication"
 Assessments:
   - Name: "Reflections"
-    Weighting: "10"
+    Weighting: 10
     Type: 
     Description: 
   - Name: "sociological imagination essay"
-    Weighting: "30"
+    Weighting: 30
     Type: 
     Description: 
   - Name: "Health campaign analysis"
-    Weighting: "30" 
+    Weighting: 30 
     Type: 
     Description: 
   - Name: "Indigenous health initiative case study"
-    Weighting: "30"
+    Weighting: 30
     Type: 
     Description: 
 LearningExperience:
