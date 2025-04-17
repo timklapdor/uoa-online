@@ -9,8 +9,8 @@ const branch =
 
 export default defineConfig({
   branch: "main", 
-  clientId: "bb7c606a-333d-46ca-9ab3-b0af3e7a8583",
-  token: "da8dbeceaa5b8d41dde204471ac9ef5746c2e5b0",
+  clientId: process.env.TINA_CLIENT_ID || "",
+  token: process.env.TINA_TOKEN || "",
 
   build: {
     outputFolder: "admin",

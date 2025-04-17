@@ -4,7 +4,8 @@
   "main": "index.html",
   "scripts": {
     "start": "eleventy --serve",
-    "build": "eleventy"
+    "build": "eleventy",
+    "tinadev": "npx tinacms dev -c '@11ty/eleventy --serve'"
   },
   "keywords": [],
   "author": "",
