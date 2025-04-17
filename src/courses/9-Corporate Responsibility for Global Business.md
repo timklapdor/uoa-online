@@ -2,8 +2,8 @@
 CourseName: "Corporate Responsibility for Global Business"
 Programs: "IB"
 DevCycle: 9
-Blueprint: 
-Description: 
+Blueprint: https://myuni.adelaide.edu.au/courses/96762
+Description: "The content of this course covers corporate social responsibility (CSR) and performance (CSP), the shareholder-stakeholder debate, corporate governance in global business, ethical foundations of CSR, strategic CSR, implementation of CSR as part of corporate strategy, challenges at the base of the pyramid (BoP), social entrepreneurship and social business around the world. Components of this course can include a group or individual discovery learning project, of which primary goals are (1) to train students in applying their knowledge, analytical and critical thinking skills to a practical problem in the field of CSR/corporate responsibility for global business; (2) to assist students in developing their own project in the form of a CSR strategy, social entrepreneurship or social business implementation plan; 3) to train students in developing skills in effective and efficient team and self-management in a real business environment."
 Team:
   - Name: Hussain Rammal
     Role: Course Author
@@ -41,13 +41,18 @@ Assessments:
   - Name: "Individual Research Project on Sustainable Development Goals"
     Weighting: 30
     Type: 
-    Description: 
+      - Report
+    Description: "Learners conduct an individual research project focusing on how specific projects contribute to the UN's Sustainable Development Goals (SDGs)."
   - Name: "Case Analysis"
     Weighting: 30
     Type: 
-    Description: 
+    Description: "This assessment involves a detailed analysis of a case study that highlights the complexities of international business expansion. Learners focus on cultural differences, human resource management, and ethical considerations within global market settings. Learners have a chance to develop their analytical and communication skills by engaging with real-world business scenarios and applying theoretical concepts to identify strategic solutions."
   - Name: "Business Advisory Report"
     Weighting: 40
+    Type: 
+    Description: 
+  - Name: "Group Discussion"
+    Weighting: 10
     Type: 
     Description: 
 LearningExperience:

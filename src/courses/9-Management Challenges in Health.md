@@ -55,30 +55,22 @@ Assessments:
     Weighting: 30
     Type: "short answer questions, job interview role play"
     Description: 
-LearningExperience:
-  -
-Screenshots:
-  - Link: "https://myuni.adelaide.edu.au/courses/96767/pages/lesson-1-dot-1-what-are-the-fundamental-building-blocks-of-healthcare-systems?module_item_id=3433851 ; https://myuni.adelaide.edu.au/courses/76550/pages/lesson-5-dot-3-how-can-accounting-equation-principles-be-applied-to-adjust-financial-statements?module_item_id=2819003"
-    Description: "1.1 has a good mix of OUA styling, a self-check H5P and a custom 'Building Blocks of Healthcare Delivery' graphic that was used multiple times in the course."
-  - Link: "https://myuni.adelaide.edu.au/courses/96767/pages/lesson-2-dot-2-how-can-systems-thinking-principles-help-us-to-manage-healthcare-systems?module_item_id=3437264"
-    Description: "2.2 has multiple videos and custom graphics to help students learn about applying systems thinking to healthcare"
-  - Link: "https://myuni.adelaide.edu.au/courses/96767/pages/lesson-4-dot-3-how-can-healthcare-leaders-manage-resistance-to-change-2?module_item_id=3434307"
-    Description: "Included for case study and showcase of OUA table design"
-  - Link:  "https://myuni.adelaide.edu.au/courses/76550/pages/lesson-6-dot-1-what-is-the-purpose-of-the-statement-of-cash-flows"
-    Description: "overhauled the explanation so that graphic illustrations could be co-designed, further additions were made for user experinece including embedding the use of a case study into the learning activity with optional external link"
-  - Link: "https://myuni.adelaide.edu.au/courses/76550/pages/lesson-8-dot-3-what-is-the-cash-conversion-period-and-how-is-it-calculated?module_item_id=2816482"
-    Description: "complex demonstration of cash flow budgeting concept, including several worked examples, as well as opportunity for student to attempt to calculate on their own and then compare their answer."
-MiroBoards: 
-  - Description: 
+Media: 
+  - Name: 
+    Type: 
     Link: 
-VideosToArchive: 
-  - Name: 
-    Link: "IA_Worked Example 9.2.mp4"
-  - Name: 
-    Link: "IA_Worked Example 2.5.mp4"
-  - Name: 
-    Link: "IA_Worked Example 5.2.mp4"
-InteractivesToArchive: 
-  - Name: 
-    Link:
+    Description:
+Snapshot:
+  - Name: "Lesson 1.1: What are the fundamental building blocks of healthcare systems?"
+    Link: https://myuni.adelaide.edu.au/courses/96767/pages/lesson-1-dot-1-what-are-the-fundamental-building-blocks-of-healthcare-systems?module_item_id=3433851
+    Description: "1.1 has a good mix of OUA styling, a self-check H5P and a custom 'Building Blocks of Healthcare Delivery' graphic that was used multiple times in the course."
+  - Name: "Lesson 2.2: How can systems thinking principles help us to manage healthcare systems?"
+    Link: https://myuni.adelaide.edu.au/courses/96767/pages/lesson-2-dot-2-how-can-systems-thinking-principles-help-us-to-manage-healthcare-systems?module_item_id=3437264
+    Description: "2.2 has multiple videos and custom graphics to help students learn about applying systems thinking to healthcare"
+  - Name: "Lesson 4.3: How can healthcare leaders manage resistance to change?"
+    Link: https://myuni.adelaide.edu.au/courses/96767/pages/lesson-4-dot-3-how-can-healthcare-leaders-manage-resistance-to-change-2?module_item_id=3434307
+    Description: "Included for case study and showcase of OUA table design"
+Jobs: 
+  - Media
+  - Learning Experience
 ---

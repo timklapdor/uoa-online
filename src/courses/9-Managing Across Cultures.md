@@ -37,32 +37,34 @@ Topics:
 Assessments:
   - Name: "Graded discussion"
     Weighting: 10
-    Type: "Discussion"
-    Description: 
+    Type:
+      - Critical Analysis
+    Description: Learners are asked to analyse a text, share their views and respond to other learners' perspectives.
   - Name: "Cross-cultural advisory video"
     Weighting: 40
-    Type: "Video"
-    Description: 
+    Type: 
+      - Media Task
+    Description: "Learners develop an 8-minute recorded video presentation, that includes slides providing advice on cultural differences to an Australian national who is about to take up an expatriate country manager role in another country."
   - Name: "Policy analysis"
     Weighting: 25
-    Type: "Report"
-    Description: 
+    Type: 
+      - Case Study
+    Description: "Throught the development of a report, learners review and identify ethical conflicts and challenges that may emerge because of differences in cultures and values when taking such policies to another country. This assessment focuses on comparing two cultures to identify ethical conflicts and challenges that may emerge as a result of differences in cultural values."
   - Name: "Policy recommendations"
     Weighting: 25
-    Type: "Report"
-    Description: 
-LearningExperience:
-  -
-Screenshots:
-  - Link: 
-    Description: 
-MiroBoards: 
-  - Description: 
-    Link: 
-VideosToArchive: 
+    Type: 
+      - "Report"
+    Description: "Learners are asked to develop a report which evaluates the extent to which the company could adopt a universal versus a localised approach for diversity, inclusion and bribery policies."
+Media: 
   - Name: 
+    Type: 
     Link: 
-InteractivesToArchive: 
+    Description:
+Snapshot:
   - Name: 
     Link:
+    Description: 
+Jobs: 
+  - Media
+  - Learning Experience
 ---

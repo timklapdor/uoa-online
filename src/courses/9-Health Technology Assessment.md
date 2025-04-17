@@ -51,34 +51,37 @@ Topics:
   - "Producing HTA Outputs and Communicating HTA Findings to Policymakers"
   - "Involving Patients and the Public in HTA Decision Making"
 Assessments:
-  - Name: "Quiz: Introduction to HTA"
+  - Name: "Introduction to HTA"
     Weighting: 15
-    Type: "Quiz"
-    Description: 
-  - Name: "Practical: Literature Search"
+    Type: 
+      - Short Answer Questions
+      - Multiple Choice Questions
+    Description: "Learners complete a short online quiz to assess their understanding of the basic principles of health technology assessment."
+  - Name: "Literature Search"
     Weighting: 20
     Type: 
-    Description: 
+      - Critical Analysis
+    Description: "Learners conduct a literature search using the PubMed database. They  base their search on appropriate PICO criteria and submit the evidence of the search strategy, process and findings."
   - Name: "Critical Appraisal"
     Weighting: 25
     Type: 
-    Description: 
+      - Critical Analysis
+    Description: "Learners conduct a critical appraisal of a published paper to demonstrate their ability to identify and apply relevant tools to appraise the quality of peer-reviewed literature for use in an HTA report."
   - Name: "Integrated Hospital-Based HTA"
     Weighting: 40
     Type: 
-    Description: 
-LearningExperience:
-  -
-Screenshots:
-  - Link: 
-    Description: 
-MiroBoards: 
-  - Description: 
-    Link: 
-VideosToArchive: 
+      - Report
+    Description: "In this task learners conduct an evaluation of a new health technology for use in a hospital or clinical setting. They demonstrate their skills and understanding of health technology assessment (HTA) to produce a clear policy brief, summary of the relevant information to inform a purchasing decision and an evidence-based recommendation for the new health technology."
+Media: 
   - Name: 
+    Type: 
     Link: 
-InteractivesToArchive: 
+    Description:
+Snapshot:
   - Name: 
     Link:
+    Description: 
+Jobs: 
+  - Media
+  - Learning Experience
 ---
