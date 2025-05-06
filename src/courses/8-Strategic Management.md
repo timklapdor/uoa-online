@@ -1,6 +1,8 @@
 ---
 CourseName: Strategic Management
-Programs: 'IB, HSM'
+Programs: 
+  - IB
+  - HSM
 DevCycle: 8
 Blueprint: 'https://myuni.adelaide.edu.au/courses/89959'
 Description: >

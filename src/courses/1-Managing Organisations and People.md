@@ -1,6 +1,8 @@
 ---
 CourseName: "Managing Organisations and People"
-Programs: "IB, HSM"
+Programs: 
+  - IB
+  - HSM
 DevCycle: 1
 Blueprint: "https://myuni.adelaide.edu.au/courses/69868"
 Description: "This course introduces students to the roles and functions of managers. The content includes an introduction to organisations and the need for and nature of management. It examines the evolution of management theory, organisational environments, and corporate social responsibility and ethics. The course also includes a detailed investigation of the four functions of management: planning and decision making, organising, leading and motivating, and controlling."

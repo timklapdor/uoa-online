@@ -1,6 +1,7 @@
 ---
 CourseName: Business Lifecycles
-Programs: IB
+Programs: 
+  - IB
 DevCycle: 1
 Blueprint: 'https://myuni.adelaide.edu.au/courses/69866'
 Description: >

@@ -1,6 +1,7 @@
 ---
 CourseName: "Corporate Responsibility for Global Business"
-Programs: "IB"
+Programs:
+  - IB
 DevCycle: 9
 Blueprint: https://myuni.adelaide.edu.au/courses/96762
 Description: "The content of this course covers corporate social responsibility (CSR) and performance (CSP), the shareholder-stakeholder debate, corporate governance in global business, ethical foundations of CSR, strategic CSR, implementation of CSR as part of corporate strategy, challenges at the base of the pyramid (BoP), social entrepreneurship and social business around the world. Components of this course can include a group or individual discovery learning project, of which primary goals are (1) to train students in applying their knowledge, analytical and critical thinking skills to a practical problem in the field of CSR/corporate responsibility for global business; (2) to assist students in developing their own project in the form of a CSR strategy, social entrepreneurship or social business implementation plan; 3) to train students in developing skills in effective and efficient team and self-management in a real business environment."

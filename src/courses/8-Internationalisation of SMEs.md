@@ -1,6 +1,7 @@
 ---
 CourseName: "Internationalisation of SMEs"
-Programs: "IB"
+Programs: 
+  - IB
 DevCycle: 8
 Blueprint: https://myuni.adelaide.edu.au/courses/90186
 Description: "This course explores how increasing globalisation, rapid technological change and pressures on sustainability have all opened expansive international opportunities, while also fuelling significant threats for today's small and medium-sized enterprises (SMEs). The course highlights the role of international markets for sustainability of small and medium sized organisations which build their competitive edge on creative problem-solving. While this is key to growth and winning against competition, it is resource-intensive and therefore often only profitable by reaching critical mass internationally. Students explore how in today's highly dynamic and interconnected world, enterprises are well-served to use the principles of effectuation to take an iterative path forward using resources at hand as contingencies are identified. Students learn about assessing affordable losses and potential gain, as well as how to co-create with diverse stakeholders to have wide-reaching impact. Further attention is paid to how the internationalisation process has effects on enterprise operations regarding intellectual property, risk management, governance and financing."

@@ -1,6 +1,8 @@
 ---
 CourseName: "Introductory Accounting"
-Programs: "IB, HSM"
+Programs: 
+  - IB
+  - HSM
 DevCycle: 2
 Blueprint: "https://myuni.adelaide.edu.au/courses/76550"
 Description: "The objective of the course is to provide an introductory knowledge of accounting to students of all disciplines such as business, professions, arts, engineering, health, medicine and sciences. A general overview of accounting principles relating to the preparation of financial and managerial reports will be presented. The primary focus is to illuminate how accounting information is utilised by a variety of stakeholders in planning, controlling and investing decisions."

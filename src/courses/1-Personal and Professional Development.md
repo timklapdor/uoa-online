@@ -1,6 +1,8 @@
 ---
 CourseName: "Personal and Professional Development"
-Programs: "IB, HSM"
+Programs: 
+  - IB
+  - HSM
 DevCycle: 1
 Blueprint: "https://myuni.adelaide.edu.au/courses/76549"
 Description: "This course aims to provide students with the skills necessary to begin their development as a business professional. As students develop their skills and knowledge in their chosen profession it is important that they also develop a broader set of skills and identity as a professional."

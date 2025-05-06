@@ -1,6 +1,7 @@
 ---
 CourseName: "Health Technology Assessment"
-Programs: "HSM"
+Programs:
+  - HSM
 DevCycle: 9
 Blueprint: "https://myuni.adelaide.edu.au/courses/96766"
 Description: |

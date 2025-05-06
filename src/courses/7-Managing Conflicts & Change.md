@@ -1,6 +1,8 @@
 ---
 CourseName: "Managing Conflicts & Change"
-Programs: "IB, HSM"
+Programs: 
+  - IB
+  - HSM
 DevCycle: 7
 Blueprint: "https://myuni.adelaide.edu.au/courses/88425"
 Description: "This course explores approaches to managing conflict and change in the workplace. Students will reflect upon and develop their own conflict management skills, and practice analysing the conflict management and negotiation skills of others. The course will consider theory and research as well as practical management tools and techniques for dealing with conflict and change. Students will apply these skills and techniques to case studies and real-world scenarios, in order to critically assess successful change proposals and change implementation practices."

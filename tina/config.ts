@@ -4,8 +4,7 @@ import { defineConfig } from "tinacms";
 const branch =
   process.env.GITHUB_BRANCH ||
   process.env.VERCEL_GIT_COMMIT_REF ||
-  process.env.HEAD ||
-  "main";
+  process.env.HEAD || "main";
 
 export default defineConfig({
   branch: "main", 
@@ -18,8 +17,8 @@ export default defineConfig({
   },
   media: {
     tina: {
-      mediaRoot: "src/images",
-      publicFolder: "docs",
+      mediaRoot: "images",
+      publicFolder: "src",
     },
   },
   // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
@@ -41,6 +40,7 @@ export default defineConfig({
             type: "string",
             name: "Programs",
             label: "Programs",
+            list: true,
           },
           {
             type: "number",
@@ -77,11 +77,13 @@ export default defineConfig({
                     type: "string",
                     name: 'Role',
                     label: "Role",
+                    options: ["Course Author", "Learning Designer", "Digital Education Developer"]
                   }, 
                   {
                     type: "string",
                     name: 'Involvement',
                     label: "Involvement",
+                    options: ['Lead', 'Collaborator', 'Contributer']
                   }
                 ]
           },
@@ -122,12 +124,46 @@ export default defineConfig({
             type: "string", 
             label: "Type",
             name: "Type",
-            list: true 
+            list: true,
+            options: [
+              "Annotated Bibliography",
+              "Assessment Plan",
+              "Case Study",
+              "Concept Design",
+              "Creative Work",
+              "Critical Analysis",
+              "Data Collection and/or Analysis",
+              "Design Project",
+              "Discussion",
+              "Essay",
+              "Interactive Questions",
+              "Interview",
+              "Learning Journal",
+              "Linguistics Exercise",
+              "Literature Review",
+              "Media Task",
+              "Model",
+              "Multiple Choice Questions",
+              "Oral Defence",
+              "Peer Review",
+              "Performance",
+              "Persuasive Piece",
+              "Placement or Workplace-based Assessment",
+              "Portfolio",
+              "Problem Solving",
+              "Professional Simulation",
+              "Proposal",
+              "Report",
+              "Short Response Questions",
+              "Skills Demonstration",
+              "Thesis"
+            ]
             }, 
             {
             type: "string", 
             label: "Description",
             name: "Description", 
+            ui: {component: "textarea"},
             }, 
             ]
           }, 
@@ -149,7 +185,7 @@ export default defineConfig({
               }, 
               {
               type: "string", 
-              component: "select",      
+              ui: {component: "select"},      
               label: "Type",
               name: "Type", 
               options: ['H5P', 'IMG', 'ECHO', 'YOUTUBE', 'IFRAME',]
@@ -197,7 +233,7 @@ export default defineConfig({
               }, 
               {
               type: "string", 
-              component: "textarea",
+              ui:{component: "textarea"},
               label: "Description",
               name: "Description", 
               }, 

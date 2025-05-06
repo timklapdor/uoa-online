@@ -1,6 +1,7 @@
 ---
 CourseName: "Health and Illness in Populations"
-Programs: "HSM"
+Programs: 
+  - HSM
 DevCycle: 2
 Blueprint: "https://myuni.adelaide.edu.au/courses/76553"
 Description: "Health and Illness in Populations aims to introduce you to careers such as public health practice, health-related research, or clinical practice, to a population view of health. It draws on a range of disciplines that contribute to a focus on the health of populations, including epidemiology, health promotion and disease prevention, history, politics, and ethics. The subject invites you to develop a critical view about what constitutes public health issues, how they are measured, and potential responses to improve population health."

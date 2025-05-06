@@ -1,6 +1,8 @@
 ---
 CourseName: "Entrepreneurship Foundations and Mindset "
-Programs: "IB, HSM"
+Programs: 
+  - IB
+  - HSM
 DevCycle: 1
 Blueprint: "https://myuni.adelaide.edu.au/courses/69867 "
 Description: "This course focuses on the development of new skills and the cultivation of an entrepreneurial mindset. Skills learnt in this course prepare students for creating their own entrepreneurial career path, becoming a valued corporate team member (intrapreneur), or using their own enterprising skills within government or the not-for-profit sector. Students will understand the theoretical concepts behind the nature and importance of entrepreneurship, use a number of tools/frameworks/models to identify and assess opportunities, and engage in experiential learning activities to develop their entrepreneurial mindset."

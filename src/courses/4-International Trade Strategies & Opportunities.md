@@ -1,6 +1,7 @@
 ---
 CourseName: "International Trade Strategies & Opportunities "
-Programs: "IB"
+Programs:
+  - IB
 DevCycle: 4
 Blueprint: "https://myuni.adelaide.edu.au/courses/80193"
 Description: "This course prepares students to understand, assess and consider global trade opportunities, and strategies for realising these opportunities. This course prepares students to build competitive knowledge and understanding in international trade, by challenging them to engage in cognitive and critical thinking skills, independent learning and analysis, and requiring them to demonstrate the ability to analyse and integrate information across the broad disciplines of economics, law and politics in both a domestic and international context."

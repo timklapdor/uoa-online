@@ -80,8 +80,8 @@ layout: base.njk
 
 <h3>Course Snapshot</h3>
 
-    <ul>
-        {% for item in Snapshot %}
-                <li><a href="{{ item.Link }}">{{ item.Name }}</a> {{ item.Description }}</li>
-        {% endfor %}
-    </ul>
+<ul>
+    {% for item in Snapshot %}
+            <li><a href="{{ item.Link }}">{{ item.Name }}</a> {{ item.Description }}</li>
+    {% endfor %}
+</ul>

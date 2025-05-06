@@ -1,6 +1,8 @@
 ---
 CourseName: eChallenge
-Programs: 'IB, HSM'
+Programs: 
+  - IB
+  - HSM
 DevCycle: 9
 Blueprint: 'https://myuni.adelaide.edu.au/courses/96761'
 Description: >

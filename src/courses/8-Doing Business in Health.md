@@ -1,6 +1,7 @@
 ---
 CourseName: "Doing Business in Health"
-Programs: "HSM"
+Programs:
+  - HSM
 DevCycle: 8
 Blueprint: "https://myuni.adelaide.edu.au/courses/90115"
 Description: "This course gives an overview of the Australian health system and describes how different providers intersect to deliver primary, secondary and tertiary health care to the community. You will explore the different approaches to 'doing business' by public and private healthcare providers and the funding models that affect the health sector. You will examine service quality—including patient safety and accreditation—along with aspects of human resource management, risk management and governance unique to the health sector. You will explore various approaches—including value-based funding, use of technology, workforce development and training, early intervention models and strengthening regional infrastructure—as potential solutions to address developing challenges in the health business. In addition, you will learn about the main drivers of the health 'business'. You will come away with an understanding of key stakeholders in the health sector and will be equipped to address the problems facing sustainable and quality healthcare delivery in Australia."

@@ -1,6 +1,8 @@
 ---
 CourseName: "Systems Thinking for a Complex World "
-Programs: "IB, HSM"
+Programs: 
+  - IB
+  - HSM
 DevCycle: 7
 Blueprint: "https://myuni.adelaide.edu.au/courses/88449"
 Description: "Many of today's complex challenges cannot be tackled with the narrowly focused, unconnected thinking of the past. Managers must make decisions and take action in complex environments in which finance, economics, markets, people and nature are interconnected and interdependent. This ‘messy’ interconnectedness blurs the boundaries between organisations, communities and fields of expertise—nothing is neat and tidy. Systems thinking focuses on the relationships among system elements and the interactions of the system with its environment, as opposed to focusing on the elements themselves. It is holistic (integrative) thinking instead of analytic (dissective) thinking. This course will introduce you to the world of systems and systems thinking. You will consider the merits of looking at wholes, rather than unconnected parts, and explore ways in which managers can make use of the nature of systems—even in complex, unpredictable environments—to influence outcomes in a more profound way than can be achieved with linear or mechanistic thinking."

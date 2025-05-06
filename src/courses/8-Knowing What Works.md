@@ -1,6 +1,7 @@
 ---
 CourseName: "Knowing What Works"
-Programs: "HSM"
+Programs: 
+  - HSM
 DevCycle: 8
 Blueprint: "https://myuni.adelaide.edu.au/courses/97643"
 Description: "In the era of evidence-based practice and policy in health care, evidence is required to determine how well an intervention works and whether it provides value for money. Evaluation is a tool to provide such information: measuring the success of the intervention in achieving its intended outcomes, determining its value, and providing information on how to improve interventions and service delivery to attain even greater success. Evaluation is an increasingly sought after skill in today’s health workforce. In this course, you will learn the basics of evaluation for health, including what it is, why we do it, and how to design and carry out an effective evaluation that answers real-world questions. The course builds from principles to practical application, providing you with the knowledge and skills to design and apply an integrated framework to evaluate a health intervention. You will learn about evaluation planning, different data sources, key processes for data collection and analysis, and economic evaluation. You will build your evaluation toolkit and develop an evaluation mindset, which will provide you with a strong foundation for knowing what works in your career."
