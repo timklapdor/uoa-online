@@ -39,7 +39,7 @@ jobs:
         env:
           TINA_PUBLIC_CLIENT_ID: ${{ secrets.TINA_CLIENT_ID }}
           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
-        run: npm tinacms build
+        run: npm run tinacms build
 
       - run: npm run build-ghpages
 
