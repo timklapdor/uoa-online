@@ -6,7 +6,8 @@
     "start": "eleventy --serve",
     "build": "eleventy",
     "tinadev": "npx tinacms dev -c '@11ty/eleventy --serve'",
-    "build-ghpages": "npx @11ty/eleventy --pathprefix=/oua-online/"
+    "build-ghpages": "npx @11ty/eleventy --pathprefix=/oua-online/",
+    "tinacms": "tinacms"
   },
   "keywords": [],
   "author": "",
