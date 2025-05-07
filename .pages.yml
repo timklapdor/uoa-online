@@ -44,4 +44,10 @@ content:
         type: text
         list: true
         options: 
+          rows: 10
+      - name: Topics
+        label: Topics
+        type: text
+        list: true
+        options: 
           autoresize: true
