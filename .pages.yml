@@ -21,7 +21,7 @@ content:
       - { name: DevCycle, label: Development Cycle, type: number }
       - { name: Blueprint, label: Blueprint, type: string }
       - { name: Description, label: Course Description, type: rich-text }
-      - name: team
+      - name: Team
         label: Team
         type: object
         list: true
@@ -44,10 +44,15 @@ content:
         type: text
         list: true
         options: 
-          rows: 10
+          rows: 3
       - name: Topics
         label: Topics
         type: text
         list: true
         options: 
           autoresize: true
+      - name: Assessments
+        label: Assessments
+        type: object
+        list: true
+        fields: 
