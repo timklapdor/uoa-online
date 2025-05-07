@@ -35,4 +35,9 @@ content:
             type: select
             options: 
               values: [Lead, Collaborator, Contributer]
-      - { name: CLOs, label: Course Learning Outcomes, type: text, list: true }
+      - name: CLOs
+        label: Course Learning Outcomes
+        type: text
+        list: true
+        options: 
+          autoresize: true
