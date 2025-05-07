@@ -61,7 +61,6 @@ content:
           - name: Type
             label: Type
             type: select 
-            list: true
             options:
               multiple: true
               values: ["Annotated Bibliography","Assessment Plan","Case Study","Concept Design","Creative Work","Critical Analysis","Data Collection and/or Analysis","Design Project","Discussion","Essay","Interactive Questions","Interview","Learning Journal","Linguistics Exercise","Literature Review","Media Task","Model","Multiple Choice Questions","Oral Defence","Peer Review","Performance","Persuasive Piece","Placement or Workplace-based Assessment","Portfolio","Problem Solving","Professional Simulation","Proposal","Report","Short Response Questions","Skills Demonstration","Thesis"]
