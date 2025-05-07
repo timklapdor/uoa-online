@@ -60,7 +60,7 @@ content:
           - { name: Weighting, label: Weighting, type: number }
           - name: Type
             label: Type
-            type: string 
+            type: select 
             list: true
             options:
               multiple: true
