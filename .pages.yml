@@ -1,4 +1,6 @@
-media: src/images
+media: 
+  input: src/images
+  output: docs/images
 content:
   - name: courses
     label: Courses 
