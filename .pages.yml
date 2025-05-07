@@ -44,13 +44,14 @@ content:
         type: text
         list: true
         options: 
-          rows: 3
+          rows: 1
+          autoresize: true
       - name: Topics
         label: Topics
         type: text
         list: true
         options: 
-          rows: 3
+          rows: 2
           autoresize: true
       - name: Assessments
         label: Assessments
