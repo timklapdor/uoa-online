@@ -7,9 +7,11 @@ content:
     type: collection
     path: src/courses
     view: 
+      primary: CourseName
       fields: ["CourseName","DevCycle"]
-      sort: DevCycle
-      order: desc
+      sort: ["DevCycle","CourseName"]
+      default: 
+        order: desc
     fields: 
       - { name: CourseName, label: Course Name, type: string }
       - name: Programs
