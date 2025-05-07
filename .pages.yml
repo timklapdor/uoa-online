@@ -12,6 +12,6 @@ content:
         label: programs
         type: select
         options:
-        multiple: true
+          multiple: true
           values: [IB, HSM]
   
