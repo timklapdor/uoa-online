@@ -8,4 +8,10 @@ content:
     path: src/courses
     fields: 
       - { name: CourseName, label: Course Name, type: string }
+      - name: Programs
+        label: programs
+        type: select
+        options:
+        multiple: true
+          values: [IB, HSM]
   
