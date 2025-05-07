@@ -3,7 +3,7 @@ layout: base.njk
 title: Assessment Types
 ---
 
-Annotated Bibliography -- TESTING??
+Annotated Bibliography -- ***Working??***
 :  A list of citations to books, articles, and other resources, each accompanied by a brief descriptive and evaluative paragraph, known as the annotation. 
 
 Assessment Plan	
