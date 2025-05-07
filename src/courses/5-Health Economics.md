@@ -106,11 +106,8 @@ Snapshot:
     Description: "This lesson introduces the PICOC framework—Population, Intervention, Comparator, Outcomes, and Costs—using a creative peacock graphic to enhance engagement with the acronym. Developed collaboratively with subject matter experts and the media team, the design combines storytelling and visual appeal to simplify complex healthcare evaluations. Real-world examples, such as treatment-resistant depression studies, and interactive activities provide practical context, encouraging active learning and application of the framework."
   - Name: "Lesson 12.1: Is your health service efficient?"
     Link: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-12-dot-1-is-your-health-service-efficient?module_item_id=3056818
-    Description: "This lesson uses the Hard Times for Hospital Administrators case study to examine health service efficiency and resource allocation within an ethical framework, focusing on utilitarianism. It integrates:
-    - Case study analysis for real-world application.
-    - Ethical discussion contrasting utilitarianism with other frameworks.
-    - Video learning with visual tools to interpret resource allocation challenges.
-    - This approach bridges theory and practice, enhancing critical thinking and decision-making skills."
+    Description: "This lesson uses the Hard Times for Hospital Administrators case study to examine health service efficiency and resource allocation within an ethical framework, focusing on utilitarianism. It integrates:- Case study analysis for real-world application.- Ethical discussion contrasting utilitarianism with other frameworks.
+    - Video learning with visual tools to interpret resource allocation challenges.- This approach bridges theory and practice, enhancing critical thinking and decision-making skills."
 Jobs: 
   - Media descriptions
   - Learning Experience
