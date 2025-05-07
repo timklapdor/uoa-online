@@ -6,6 +6,8 @@ content:
     label: Courses 
     type: collection
     path: src/courses
+    view: 
+      fields: [ CourseName, DevCycle ]
     fields: 
       - { name: CourseName, label: Course Name, type: string }
       - name: Programs
@@ -17,4 +19,11 @@ content:
       - { name: DevCycle, label: Development Cycle, type: number }
       - { name: Blueprint, label: Blueprint, type: string }
       - { name: Description, label: Course Description, type: rich-text }
+      - name: team
+        label: Team
+        type: object
+        list: true
+          fields: 
+            - {name: Name, label: Name, type: string}
+            
   
