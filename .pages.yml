@@ -8,6 +8,8 @@ content:
     path: src/courses
     view: 
       fields: [ CourseName, DevCycle ]
+      sort: DevCycle
+      order: desc
     fields: 
       - { name: CourseName, label: Course Name, type: string }
       - name: Programs
@@ -24,7 +26,9 @@ content:
         type: object
         list: true
         fields: 
-          - { name: Name, label: Name, type: string }
+          - name: Name
+            label: Name
+            type: string
           - name: Role
             label: Role
             type: select
