@@ -39,7 +39,7 @@ jobs:
         env:
           TINA_CLIENT_ID: ${{ secrets.TINA_CLIENT_ID }}
           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
-        run: npx tinacms build && build
+        run: npx tinacms && build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
