@@ -23,14 +23,16 @@ content:
         label: Team
         type: object
         list: true
-          fields: 
-            - { name: Name, label: Name, type: string }
-            - name: Role
-              label: Role
-              type: select
-              options: [Course Author, Learning Designer, Digital Education Developer]
-            - name: Involvement
-              label: Involvement
-              type: select
-              options: [Lead, Collaborator, Contributer]
-        - { name: CLOs, label: Course Learning Outcomes, type: string, list: true }
+        fields: 
+          - { name: Name, label: Name, type: string }
+          - name: Role
+            label: Role
+            type: select
+            options: 
+              values: [Course Author, Learning Designer, Digital Education Developer]
+          - name: Involvement
+            label: Involvement
+            type: select
+            options: 
+              values: [Lead, Collaborator, Contributer]
+      - { name: CLOs, label: Course Learning Outcomes, type: string, list: true }
