@@ -50,6 +50,7 @@ content:
         type: text
         list: true
         options: 
+          rows: 3
           autoresize: true
       - name: Assessments
         label: Assessments
