@@ -7,7 +7,7 @@ content:
     type: collection
     path: src/courses
     view: 
-      fields: [ CourseName, DevCycle ]
+      fields: ["CourseName","DevCycle"]
       sort: DevCycle
       order: desc
     fields: 
@@ -33,12 +33,12 @@ content:
             label: Role
             type: select
             options: 
-              values: [Course Author, Learning Designer, Digital Education Developer]
+              values: ["Course Author","Learning Designer","Digital Education Developer"]
           - name: Involvement
             label: Involvement
             type: select
             options: 
-              values: [Lead, Collaborator, Contributer]
+              values: ["Lead", "Collaborator", "Contributer"]
       - name: CLOs
         label: Course Learning Outcomes
         type: text
