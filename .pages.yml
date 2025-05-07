@@ -1,1 +1,9 @@
 media: src/images
+content:
+  - name: courses
+    label: Courses 
+    type: collection
+    path: src/courses
+    fields: 
+      - { name: CourseName, label: Course Name, type: string }
+  
