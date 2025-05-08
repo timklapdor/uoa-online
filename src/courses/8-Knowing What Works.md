@@ -160,4 +160,8 @@ Snapshot:
     Link: https://myuni.adelaide.edu.au/courses/97643/pages/lesson-5-dot-1-what-is-the-role-of-economic-evaluations-in-health?module_item_id=3402166
   - Name: "Lesson 7.4: How do we generate results for an SRoI?"
     Link: https://myuni.adelaide.edu.au/courses/97643/pages/lesson-7-dot-4-how-do-we-generate-results-for-an-sroi?module_item_id=3402187
+Jobs:
+  - Snapshots of the course
+  - Media
+  - Learning Experience
 ---
