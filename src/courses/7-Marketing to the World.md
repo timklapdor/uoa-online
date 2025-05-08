@@ -61,10 +61,38 @@ Topics:
 Assessments:
   - Name: Weekly discussions
     Weighting: 10
+    Type:
+      - Short Response Questions
+    Description: Learners are required to engage in discussions to help them develop
+      the analytical, critical thinking, and communication skills necessary to
+      successfully pass this course.
   - Name: Case study analysis
     Weighting: 20
+    Description: Learners conduct a PESTLE analysis to determine what opportunities
+      and threats exist for Australian wine businesses attempting to reenter the
+      Chinese market. This task allows them to practise applying the theories,
+      concepts, and frameworks taught in the course.
   - Name: Strategic report & PESTLE analysis
     Weighting: 30
+    Type:
+      - Report
+      - Critical Analysis
+    Description: This task requires learners to conduct an analysis, prepare a
+      strategic plan and develop a report that provides recommendations for an
+      SME wishing to expand into a new overseas market.
   - Name: "Strategic report: core benefit, promotion and protection"
     Weighting: 30
+    Type:
+      - Report
+    Description: "In this task learners draw on the core theories, concepts, and
+      frameworks to analyse an Agtech product and prepare a strategic report
+      outlining the product attributes and service attributes, and proposing
+      promotion and protection strategies. "
+Media:
+  - Name: The Wheel of International Marketing.\
+    Type: IMG
+    Link: MTHW_M1_0003_The Wheel of International Marketing.png
+  - Name: SWOT analysis
+    Type: IMG
+    Link: MTHW_M1_0011_SWOT_Analysis_v2.png
 ---
