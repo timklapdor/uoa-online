@@ -90,4 +90,8 @@ Snapshot:
     Link: https://myuni.adelaide.edu.au/courses/90064/pages/lesson-1-dot-2-what-is-the-marketing-communication-process?module_item_id=3222163
   - Name: "Lesson 4.1: What are creative marketing communications?"
     Link: https://myuni.adelaide.edu.au/courses/90064/pages/lesson-4-dot-1-what-are-creative-marketing-communications?module_item_id=3222281
+Jobs:
+  - Snapshots of the course
+  - Media
+  - Snapshots
 ---
