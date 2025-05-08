@@ -124,4 +124,7 @@ Media:
 Snapshot:
   - Name: "Lesson 1.3: How can you see systems in the world around you?"
     Link: https://myuni.adelaide.edu.au/courses/88449/pages/lesson-1-dot-3-how-can-you-see-systems-in-the-world-around-you?module_item_id=3186449
+Jobs:
+  - Learning Experience
+  - Media
 ---
