@@ -125,4 +125,5 @@ Snapshot:
     Link: https://myuni.adelaide.edu.au/courses/88422/pages/lesson-6-dot-1-how-does-the-ethical-environment-affect-international-marketing?module_item_id=3201326
 Jobs:
   - Val to check through course
+  - Write up Learning Experience
 ---
