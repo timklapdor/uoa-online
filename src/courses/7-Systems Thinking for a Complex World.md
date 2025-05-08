@@ -25,7 +25,7 @@ Team:
     Involvement: Lead
   - Name: Rich Bartlett
     Role: Learning Designer
-    Involvement: Collaborator
+    Involvement: Lead
   - Name: Jack Eames
     Role: Digital Education Developer
     Involvement: Lead
