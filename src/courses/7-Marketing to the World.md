@@ -107,9 +107,20 @@ Media:
     Type: H5P
     Link: https://adelaide.h5p.com/lti/657581/content/1292052343637244699
     Location: https://myuni.adelaide.edu.au/courses/88422/pages/lesson-5-dot-1-how-does-technology-evolve-and-become-adopted?module_item_id=3201320
+  - Name: INCOTERMs
+    Type: IMG
+    Link: MTHW_M7_0002_INCOTERMS.png
+    Location: https://myuni.adelaide.edu.au/courses/88422/pages/lesson-7-dot-2-what-are-the-potential-modes-of-entry-to-international-markets?module_item_id=3202192
+  - Name: Advantages of services over physical products
+    Type: H5P
+    Link: https://adelaide.h5p.com/lti/657581/content/1292055115136246179
+    Location: https://myuni.adelaide.edu.au/courses/88422/pages/lesson-9-dot-1-how-do-services-differ-from-products?module_item_id=3202202
 Snapshot:
   - Name: "Lesson 1.3: How do frameworks aid the investigation of markets?"
     Link: https://myuni.adelaide.edu.au/courses/88422/pages/lesson-1-dot-3-how-do-frameworks-aid-the-investigation-of-markets?module_item_id=3146363
   - Name: "Lesson 3.1: How can we understand economic indicators?"
     Link: https://myuni.adelaide.edu.au/courses/88422/pages/lesson-3-dot-1-how-can-we-understand-economic-indicators?module_item_id=3201508
+  - Name: "Lesson 6.1: How does the ethical environment affect international
+      marketing?"
+    Link: https://myuni.adelaide.edu.au/courses/88422/pages/lesson-6-dot-1-how-does-the-ethical-environment-affect-international-marketing?module_item_id=3201326
 ---
