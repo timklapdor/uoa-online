@@ -30,7 +30,7 @@ Team:
     Role: Digital Education Developer
     Involvement: Lead
 CLOs:
-  - combine the elements of complexity and systems with the role of
+  - Combine the elements of complexity and systems with the role of
     connectedness to gain a better insight into local and global issues.
   - Discriminate between the structural components of systems and how they shape
     system behaviour.
