@@ -92,9 +92,21 @@ Media:
       understand some of these personal characteristics and why it is important
       to avoid them.
     Location: https://myuni.adelaide.edu.au/courses/90186/pages/lesson-1-dot-4-who-is-an-entrepreneur?module_item_id=3289168
+  - Name: Motivations to Internationalise
+    Type: ECHO
+    Link: https://echo360.net.au/ui/player/c5a2ab98-a719-4ca0-ba83-c88143fe2750?secureLinkAccessDataId=a752a978-8362-4023-8397-59321e934103&autoplay=false&automute=false
+    Description: "In this video, you're introduced to two SMEs: Goolwa Pipi Co. and
+      Woods Bagot. Each guest gives a brief introduction to their firms, before
+      discussing some of the motivations for each of the firms to move into new
+      markets."
+    Location: https://myuni.adelaide.edu.au/courses/90186/pages/lesson-2-dot-3-what-are-the-common-motivations-for-smes-that-drive-internationalisation?module_item_id=3288768
 Snapshot:
   - Name: Introduction and team agreement activity
     Link: https://myuni.adelaide.edu.au/courses/90186/pages/introduction-and-team-agreement-activity-publish-if-required?module_item_id=3333022
   - Name: "Lesson 1.1: What is an SME and why are they important?"
     Link: https://myuni.adelaide.edu.au/courses/90186/pages/lesson-1-dot-1-what-is-an-sme-and-why-are-they-important?module_item_id=3289165
+Jobs:
+  - Media
+  - Snapshots of the course
+  - Learning Experience
 ---
