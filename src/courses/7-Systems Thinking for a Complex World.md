@@ -127,4 +127,5 @@ Snapshot:
 Jobs:
   - Learning Experience
   - Media
+  - Snapshots
 ---
