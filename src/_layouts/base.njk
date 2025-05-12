@@ -8,8 +8,20 @@
     </head>
 
     <body>
+                <nav>
+          <h1><a href="{{ '/' | url }}"> Home</a></h1> 
+          <ul>
+            <li><a href="{{ '/about/' | url }}">About</a></li>
+            <li><a href="{{ '/courses/' | url }}">Courses</a></li>
+            <li><a href="{{ '/programs/' | url }}">Programs</a></li>
+            <li><a href="{{ '/process/' | url }}">Process</a></li>
+            <li><a href="{{ '/people/' | url }}">People</a></li>
+          </ul>
+        </nav>  
         <main>
+            <article>
             {{ content | safe }}
+            </article>
         </main>
     </body>
 </html>

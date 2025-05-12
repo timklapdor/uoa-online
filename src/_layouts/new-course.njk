@@ -13,13 +13,13 @@
           <h1><a href="{{ '/' | url }}"> Home</a></h1> 
           <ul>
             <li><a href="{{ '/about/' | url }}">About</a></li>
-            <li><a href="{{ '/courses/' | url }}">Courses</li>
-            <li><a href="{{ '/programs/' | url }}">Programs</li>
-            <li><a href="{{ '/process/' | url }}">Process</li>
-            <li><a href="{{ '/people/' | url }}">People</li>
+            <li><a href="{{ '/courses/' | url }}">Courses</a></li>
+            <li><a href="{{ '/programs/' | url }}">Programs</a></li>
+            <li><a href="{{ '/process/' | url }}">Process</a></li>
+            <li><a href="{{ '/people/' | url }}">People</a></li>
           </ul>
         </nav>      
-        <main>
+        
 
           <header>
             <h2 class="p-name course-name">{{ CourseName }}</h2>
@@ -33,6 +33,8 @@
             </div>
           </header>
           
+          <main>
+
           <div class="course-description">
             <p>{{ Description | nl2br |safe }}</p>
           </div>

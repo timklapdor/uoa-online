@@ -6,7 +6,9 @@
         <title>{{ title }}</title>
         <link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
     </head>
-        <nav>
+
+    <body>
+      <nav>
           <h1><a href="{{ '/' | url }}"> Home</a></h1> 
           <ul>
             <li><a href="{{ '/about/' | url }}">About</a></li>
@@ -16,11 +18,11 @@
             <li><a href="{{ '/people/' | url }}">People</a></li>
           </ul>
       </nav>   
-
-    <body>
         <main>
+          <article>
           <h1>{{ title}} </h1>
             {{ content | safe }}
+          </article>
         </main>
     </body>
 </html>

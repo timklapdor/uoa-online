@@ -1,8 +1,12 @@
 
-@import "modules/reset";
-@import "modules/colours";
-@import "modules/grid";
-@import "modules/element-highlights";
+@use "modules/reset";
+@forward "modules/colours";
+@use "modules/grid";
+@use "modules/element-highlights";
+
+:root {
+  --heading-font: Oswald;
+}
 
 body {
   font-family: system-ui;
