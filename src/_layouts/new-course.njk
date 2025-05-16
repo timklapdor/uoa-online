@@ -62,7 +62,9 @@
             <ul>
                 {% for member in Team -%}
                 <li>
-                    <img src=""> 
+                    <div class="profile-picture">
+                      <img src="" /> 
+                    </div>
                     <h4 class="team-name">{{ member.Name }}</h4>
                     <h5 class="team-role">{{ member.Role }}</h5>
                     <p class="team-involvement">{{ member.Involvement | capitalize }}</p>
