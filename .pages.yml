@@ -27,9 +27,6 @@ content:
         label: Team
         type: object
         list: true
-        collapsible:
-          - collapsed: true
-          - summary: "Team Member: {name}"
         fields: 
           - name: Name
             label: Name
