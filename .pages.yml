@@ -59,9 +59,6 @@ content:
         label: Assessments
         type: object
         list: true
-         collapsible:
-            collapsed: true
-            summary: "Assessment Task: {name}"
         fields: 
           - { name: Name, label: Name, type: string }
           - { name: Weighting, label: Weighting, type: number }
