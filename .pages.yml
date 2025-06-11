@@ -29,7 +29,7 @@ content:
         list:
           collapsible: 
             collapsed: true
-            label: {name}
+            label: "{name}"
         fields: 
           - name: Name
             label: Name
