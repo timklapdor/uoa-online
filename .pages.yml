@@ -29,7 +29,7 @@ content:
         list:
           collapsible: 
             collapsed: true
-            summary: "{fields.Name} ({index})"
+            summary: "{index}. {fields.Name}"
         fields: 
           - name: Name
             label: Name
