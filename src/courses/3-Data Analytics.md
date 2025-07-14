@@ -1,5 +1,5 @@
 ---
-CourseName: "Data Analytics I "
+CourseName: "Data Analytics 1"
 Programs: 
   - IB
   - HSM
