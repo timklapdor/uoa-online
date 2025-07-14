@@ -26,7 +26,10 @@ content:
       - name: Team
         label: Team
         type: object
-        list: true
+        list:
+          collapsible: 
+            collapsed: true
+            summary: "{index}. {fields.Name}"
         fields: 
           - name: Name
             label: Name
@@ -58,7 +61,10 @@ content:
       - name: Assessments
         label: Assessments
         type: object
-        list: true
+        list:
+          collapsible: 
+            collapsed: true
+            summary: "{index}. {fields.Name}"
         fields: 
           - { name: Name, label: Name, type: string }
           - { name: Weighting, label: Weighting, type: number }
@@ -72,7 +78,10 @@ content:
       - name: Media
         label: Media
         type: object
-        list: true
+        list:
+          collapsible: 
+            collapsed: true
+            summary: "{index}. {fields.Name}"
         fields:
           - { name: Name, label: Name, type: string }
           - name: Type
@@ -86,7 +95,10 @@ content:
       - name: Snapshot
         label: Snapshot
         type: object
-        list: true
+        list:
+          collapsible: 
+            collapsed: true
+            summary: "{index}. {fields.Name}"
         fields:
           - { name: Name, label: Name, type: string }
           - { name: Link, label: Link, type: string }
