@@ -2,7 +2,11 @@
 layout: base.njk
 ---
 
-{{ content | safe }}
+
+<main>
+    <article>
+
+    {{ content | safe }}
 
     <ol>
         {% for item in collections.courses | sort(false, false, 'data.DevCycle') |  sort(attribute="data.name") -%}
@@ -13,3 +17,5 @@ layout: base.njk
         {% if item.data.Jobs | length %}<ul>{%for item in item.data.Jobs %}<li class="job">{{item}}</li> {% endfor %}</ul> {% endif %} </li>
         {% endfor %}
     </ol>
+    </article>
+</main>

@@ -1,6 +1,6 @@
 {
     "tags": "courses", 
-    "layout": "new-course.njk", 
+    "layout": "course.njk", 
     "permalink": "courses/{{ CourseName |slugify }}/"
 
 }

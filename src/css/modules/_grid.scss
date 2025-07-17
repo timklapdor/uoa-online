@@ -174,7 +174,39 @@ main {
          }
       }
    }
- .learning-resources{grid-column: 3/5;padding:2ch; border: 0; border-top: 4px solid}
+ .learning-resources {
+   grid-column: 3/5;
+   padding:2ch; 
+   border: 0;
+   border-top: 4px solid;
+
+   & ul {
+      display: flex;
+      gap: 5vw;
+      padding: 1em;
+      height: 70vh;
+      list-style: none;
+      overflow-x: scroll;
+      scroll-snap-type: x mandatory;
+
+         & li {
+            flex-shrink: 0;
+            min-width: 90vw;
+            scroll-snap-align: center;
+
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: start;
+            height: 100%;
+
+            img {
+               max-width: 80vw;
+            }
+         }
+      }
+   }
+
  .assessments {
       grid-column: 3/5;
       padding:2ch;
