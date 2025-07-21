@@ -14,6 +14,16 @@ Description: This course focuses on the development of new skills and the
   entrepreneurship, use a number of tools/frameworks/models to identify and
   assess opportunities, and engage in experiential learning activities to
   develop their entrepreneurial mindset.
+Team:
+  - Name: "Mercy Oloo"
+    Role: "Course Author "
+    Involvement: "Collaborator"
+  - Name: "Stella Bachtis"
+    Role: "Course Author"
+    Involvement: Lead
+  - Name: "Rich Bartlett"
+    Role: "Learning Designer"
+    Involvement: "Lead"
 CLOs:
   - Identify the difference between an idea and an opportunity.
   - Assess the potential of an opportunity and determine its viability for
