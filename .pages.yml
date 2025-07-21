@@ -9,9 +9,9 @@ content:
     view: 
       fields: ["CourseName","DevCycle"]
       primary: CourseName
-      sort: ["DevCycle","CourseName"]
       default: 
         order: desc
+        sort: ["DevCycle","CourseName"]
     fields: 
       - { name: CourseName, label: Course Name, type: string }
       - name: Programs
