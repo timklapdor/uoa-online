@@ -34,4 +34,11 @@ content:
         options: 
           rows: 1
           autoresize: true
+      - name: Topics
+        label: Topics
+        type: text
+        list: true
+        options: 
+          rows: 2
+          autoresize: true
  
