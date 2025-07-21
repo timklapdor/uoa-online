@@ -16,4 +16,6 @@ content:
       sort: ["DevCycle","CourseName"]
       default: 
         order: desc
+    fields: 
+      - { name: CourseName, label: Course Name, type: string }
  
