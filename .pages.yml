@@ -23,6 +23,27 @@ content:
       - { name: DevCycle, label: Development Cycle, type: number }
       - { name: Blueprint, label: Blueprint, type: string }
       - { name: Description, label: Course Description, type: text }
+      - name: Team
+        label: Team
+        type: object
+        list:
+          collapsible: 
+            collapsed: true
+            summary: "{index}. {fields.Name}"
+        fields: 
+          - name: Name
+            label: Name
+            type: string
+          - name: Role
+            label: Role
+            type: select
+            options: 
+              values: ["Course Author","Learning Designer","Digital Education Developer"]
+          - name: Involvement
+            label: Involvement
+            type: select
+            options: 
+              values: ["Lead", "Collaborator", "Contributer"]
       - name: CLOs
         label: Course Learning Outcomes
         type: text
