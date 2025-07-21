@@ -6,4 +6,8 @@ content:
     label: New Courses
     type: collection
     path: src/courses
+  - name: Test
+    label: Tests
+    type: collection
+    path: src/tests
  
