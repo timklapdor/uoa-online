@@ -2,10 +2,10 @@ media:
   input: src/images
   output: docs/images
 content:
-  - name: newCourse
-    label: New Courses
-    path: src/courses
-  
+  - name: tests
+    label: Tests
+    type: collection
+    path: src/tests
   - name: courses
     label: Courses 
     type: collection
