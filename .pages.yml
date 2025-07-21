@@ -39,6 +39,23 @@ content:
         type: text
         list: true
         options: 
-          rows: 2
+          rows: 1
           autoresize: true
+      - name: Assessments
+        label: Assessments
+        type: object
+        list:
+          collapsible: 
+            collapsed: true
+            summary: "{index}. {fields.Name}"
+        fields: 
+          - { name: Name, label: Name, type: string }
+          - { name: Weighting, label: Weighting, type: number }
+          - name: Type
+            label: Type
+            type: select 
+            options:
+              multiple: true
+              values: ["Annotated Bibliography","Assessment Plan","Case Study","Concept Design","Creative Work","Critical Analysis","Data Collection and/or Analysis","Design Project","Discussion","Essay","Interactive Questions","Interview","Learning Journal","Linguistics Exercise","Literature Review","Media Task","Model","Multiple Choice Questions","Oral Defence","Peer Review","Performance","Persuasive Piece","Placement or Workplace-based Assessment","Portfolio","Problem Solving","Professional Simulation","Proposal","Report","Short Response Questions","Skills Demonstration","Thesis"]
+          - { name: Description, label: Description, type: text }
  
