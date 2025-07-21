@@ -2,10 +2,10 @@ media:
   input: src/images
   output: docs/images
 content:
-  - name: courses
+  - name: tests
     label: New Courses
     type: collection
-    path: src/courses
+    path: src/tests
     view: 
       fields: ["CourseName","DevCycle"]
       primary: CourseName
