@@ -3,7 +3,7 @@ media:
   output: docs/images
 content:
   - name: tests
-    label: New Courses
+    label: Courses
     type: collection
     path: src/tests
     view: 
