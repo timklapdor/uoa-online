@@ -23,3 +23,91 @@ content:
       - { name: DevCycle, label: Development Cycle, type: number }
       - { name: Blueprint, label: Blueprint, type: string }
       - { name: Description, label: Course Description, type: rich-text }
+      - name: Team
+        label: Team
+        type: object
+        list:
+          collapsible: 
+            collapsed: true
+            summary: "{index}. {fields.Name}"
+        fields: 
+          - name: Name
+            label: Name
+            type: string
+          - name: Role
+            label: Role
+            type: select
+            options: 
+              values: ["Course Author","Learning Designer","Digital Education Developer"]
+          - name: Involvement
+            label: Involvement
+            type: select
+            options: 
+              values: ["Lead", "Collaborator", "Contributer"]
+      - name: CLOs
+        label: Course Learning Outcomes
+        type: text
+        list: true
+        options: 
+          rows: 1
+          autoresize: true
+      - name: Topics
+        label: Topics
+        type: text
+        list: true
+        options: 
+          rows: 2
+          autoresize: true
+      - name: Assessments
+        label: Assessments
+        type: object
+        list:
+          collapsible: 
+            collapsed: true
+            summary: "{index}. {fields.Name}"
+        fields: 
+          - { name: Name, label: Name, type: string }
+          - { name: Weighting, label: Weighting, type: number }
+          - name: Type
+            label: Type
+            type: select 
+            options:
+              multiple: true
+              values: ["Annotated Bibliography","Assessment Plan","Case Study","Concept Design","Creative Work","Critical Analysis","Data Collection and/or Analysis","Design Project","Discussion","Essay","Interactive Questions","Interview","Learning Journal","Linguistics Exercise","Literature Review","Media Task","Model","Multiple Choice Questions","Oral Defence","Peer Review","Performance","Persuasive Piece","Placement or Workplace-based Assessment","Portfolio","Problem Solving","Professional Simulation","Proposal","Report","Short Response Questions","Skills Demonstration","Thesis"]
+          - { name: Description, label: Description, type: text }
+      - name: Media
+        label: Media
+        type: object
+        list:
+          collapsible: 
+            collapsed: true
+            summary: "{index}. {fields.Name}"
+        fields:
+          - { name: Name, label: Name, type: string }
+          - name: Type
+            label: Type
+            type: select
+            options: 
+              values: ['H5P','IMG','ECHO','YOUTUBE','IFRAME',]
+          - { name: Link, label: Link, type: string }
+          - { name: Description, Description: Link, type: rich-text }
+          - { name: Location, label: Location, type: string }
+      - name: Snapshot
+        label: Snapshot
+        type: object
+        list:
+          collapsible: 
+            collapsed: true
+            summary: "{index}. {fields.Name}"
+        fields:
+          - { name: Name, label: Name, type: string }
+          - { name: Link, label: Link, type: string }
+          - { name: Description, Description: Link, type: rich-text }
+          - { name: Location, label: Location, type: string }
+      - name: Jobs
+        label: Jobs
+        type: string
+        list: true
+      - name: body
+        label: Learning Experience
+        type: rich-text
