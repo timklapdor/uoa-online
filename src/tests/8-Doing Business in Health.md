@@ -62,12 +62,16 @@ Topics:
 Assessments:
   - Name: Comparative Analysis
     Weighting: 25
+    Type:
+      - Report
     Description: Learners develop a report identifying the range of healthcare
       services provided in the Australian healthcare system, and how service
       availability is organised and impacted by demographics and healthcare
       needs.
   - Name: Executive Briefing Paper
     Weighting: 25
+    Type:
+      - Report
     Description: Learners identify and analyse the main concerns regarding
       delivering safe and sustainable health care for regional and rural
       Australians. They examine how hospital services can change over time to
@@ -75,11 +79,16 @@ Assessments:
       for such a change.
   - Name: "Report and Pitch: Business Case"
     Weighting: 35
+    Type:
+      - Report
+      - Media Task
     Description: Learners develop a business case and present a recorded,
       three-minute elevator pitch seeking a specific amount of funding from the
       Department of Health.
   - Name: Briefing Paper and Reflection
     Weighting: 15
+    Type:
+      - Learning Journal
     Description: Through weekly journal entries  learners evaluate what they have
       learned and prepare a 500-word critical business reflection as a briefing
       paper proposing how a health organisation can adapt to changing
