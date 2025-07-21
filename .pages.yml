@@ -25,4 +25,6 @@ content:
           multiple: true
           values: [IB, HSM]
       - { name: DevCycle, label: Development Cycle, type: number }
+      - { name: Blueprint, label: Blueprint, type: string }
+      - { name: Description, label: Course Description, type: rich-text }
  
