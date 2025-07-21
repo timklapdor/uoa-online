@@ -10,4 +10,10 @@ content:
     label: Tests
     type: collection
     path: src/tests
+    view: 
+      fields: ["CourseName","DevCycle"]
+      primary: CourseName
+      sort: ["DevCycle","CourseName"]
+      default: 
+        order: desc
  
