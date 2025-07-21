@@ -27,4 +27,11 @@ content:
       - { name: DevCycle, label: Development Cycle, type: number }
       - { name: Blueprint, label: Blueprint, type: string }
       - { name: Description, label: Course Description, type: text }
+      - name: CLOs
+        label: Course Learning Outcomes
+        type: text
+        list: true
+        options: 
+          rows: 1
+          autoresize: true
  
