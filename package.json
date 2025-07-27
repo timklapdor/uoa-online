@@ -5,8 +5,7 @@
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy",
-    "build-ghpages": "npx @11ty/eleventy",
-    "tinacms": "tinacms"
+    "build-ghpages": "npx @11ty/eleventy"
   },
   "keywords": [],
   "author": "",

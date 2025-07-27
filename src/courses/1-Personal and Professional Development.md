@@ -53,7 +53,7 @@ Assessments:
   - Name: "Personal and professional development learning portfolio"
     Weighting: 30
     Type: 
-      - "Portfolio"
+      - Portfolio
     Description: "Developing a personal and professional portfolio learners make connections between people, networks, professional communities, skills, and further professional development."
   - Name: "Cooperative learning - Problem solution"
     Weighting: 25

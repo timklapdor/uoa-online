@@ -42,19 +42,24 @@ Topics:
 Assessments:
   - Name: "Case analysis"
     Weighting: 25
-    Type: "Report"
+    Type: 
+      - Report
     Description: 
   - Name: "Case analysis and recommendations"
     Weighting: 20
-    Type: "Report"
+    Type: 
+      - Report
     Description: 
   - Name: "Case analysis and recommendations"
     Weighting: 20
-    Type: "Presentation"
+    Type: 
+      - Presentation
     Description: 
   - Name: "Responses to selection criteria, role play job interview"
     Weighting: 30
-    Type: "short answer questions, job interview role play"
+    Type: 
+      - Short Response Questions
+      - Interview
     Description: 
 Media: 
   - Name: 

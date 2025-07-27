@@ -39,18 +39,20 @@ Topics:
 Assessments:
   - Name: "Learning log"
     Weighting: 30
-    Type: Learning Journal
+    Type: 
+      - Learning Journal
     Description: "The learning log is and ongoing task asking learners to record their journey and experience throughout the course. They are asked to explore the ideas and content, skills, communication, understanding through reflective practices."
   - Name: "Group cultural analysis"
     Weighting: 30
     Type: 
-      - "Assessment Plan"
-      - "Media Task"
+      - Assessment Plan
+      - Media Task
       - Peer Review
     Description: "Working in a team learners plan an approach for reviewing a scandal, present their findings, and then provide peer feedback."
   - Name: "1-to-1 tutor and student interview"
     Weighting: 40
-    Type: "Interview"
+    Type: 
+      - Interview
     Description: "The final assessment is a one-to-one interview with a tutor to explore their learning journey and reflections. Tutors will facilitate asking questions about the concepts in the course and how they would apply them in the real world."
 Media: 
   - Name: "Explaining Expectancy Theory"

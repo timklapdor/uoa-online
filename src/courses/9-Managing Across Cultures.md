@@ -54,7 +54,7 @@ Assessments:
   - Name: "Policy recommendations"
     Weighting: 25
     Type: 
-      - "Report"
+      - Report
     Description: "Learners are asked to develop a report which evaluates the extent to which the company could adopt a universal versus a localised approach for diversity, inclusion and bribery policies."
 Media: 
   - Name: 

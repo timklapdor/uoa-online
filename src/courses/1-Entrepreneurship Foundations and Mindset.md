@@ -39,19 +39,23 @@ Topics:
 Assessments:
   - Name: "Entrepreneurial charachterisitics and behaviours"
     Weighting: 15
-    Type: "Short Response Questions"
+    Type: 
+      - Short Response Questions
     Description: "Learners complete a short report that identifies common characteristics and behaviours of entrepreneurs. They use this information to discuss the characteristics and behaviours theuy need to develop for their own entrepreneurial mindset."
   - Name: "Concept statement"
     Weighting: 20
-    Type: "Problem Solving"
+    Type: 
+      - Problem Solving
     Description: "Learners will conduct research to confirm they have identified a problem and to come up with a concept statement that clearly articulates how you would solve the problem with a hypothetical business opportunity."
   - Name: "Risk Assessment"
     Weighting: 30
-    Type: "Problem Solving"
+    Type: 
+      - Problem Solving
     Description: "Learners identify potential internal and external risks to their hypothetical business opportunity and determine an appropriate response to the risks."
   - Name: "Feasibility Report"
     Weighting: 35
-    Type: "Report"
+    Type: 
+      - Report
     Description: "By conducting a thorough Feasibility Report learners can identify whether their hypothetical business opportunity is a viable business venture. This report focusses on their ability to analyse the business in context and success is based on this rather than the viability of their venture."
 Media: 
   - Name: What is an entrepreneurial mindset?
