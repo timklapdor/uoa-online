@@ -120,9 +120,5 @@ Snapshot:
     Link: https://myuni.adelaide.edu.au/courses/69866/pages/6-dot-1-3-debt-and-equity-financing?module_item_id=2533713
   - Name: "7.2.3: Strategy options for global businesses"
     Link: https://myuni.adelaide.edu.au/courses/69866/pages/7-dot-2-3-strategy-options-for-global-businesses?module_item_id=2536747
-Jobs:
-  - Media
-  - Learning Experience
-  - Andrew Review
 ---
 The course has been purposefully designed to balance learning theoretical concepts and practical application, enabling learners to regularly put into practice what they've learnt to gain a deeper understanding. Teams are established and use an online business simulation game called "Mike's Bikes". They compete with other teams to make key decisions to grow a virtual business while learning about the role of disciplines such as entrepreneurship, strategy, marketing, accounting, finance and management.
