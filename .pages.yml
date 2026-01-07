@@ -23,6 +23,12 @@ content:
       - { name: DevCycle, label: Development Cycle, type: number }
       - { name: Blueprint, label: Blueprint, type: string }
       - { name: Description, label: Course Description, type: text }
+      - name: ToDo
+        label: To Be Done
+        type: select
+        options:
+          multiple: true
+          values: [ Learning Experience, Snapshot Links, Snapshot Images, Resource Links, Media Downloads, ]
       - name: Team
         label: Team
         type: object
