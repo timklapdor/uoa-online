@@ -14,9 +14,12 @@ nav {
    width: 100vw;
 
    h1 {
-      display: flex;
-      align-items: center;
+      display: none;
    }
+
+   img {
+            height: 6em;
+      }
 
    ul {
       list-style: none;
@@ -98,9 +101,19 @@ main {
    grid-template-columns: 1vw 1fr minmax(200px, 70em) minmax(100px, 35em) 1fr 1vw;
    gap: 0;
 
-   > :nth-child(odd) {
-      border-right: 4px solid #000;
-   }
+ .course-details {
+   grid-column:3;
+   padding:2ch;
+   border-bottom: 4px solid;
+   border-right: 4px solid #000;
+}
+
+ .course-information {
+   grid-column: 4;
+   padding:2ch;
+   border-bottom: 4px solid;
+   
+ }
 
  .course-description {
    grid-column:3;
@@ -109,28 +122,18 @@ main {
    border-bottom: 4px solid;
 }
 
- .topics {
-   grid-column: 4;
-   padding:2ch;
-   border-bottom: 4px solid;
    
-   ul {
+   ul.topics {
       margin: 2ch 0;
       padding: 0;
 
       li {
          list-style: none;
-         margin: 1ch 0;
+         margin: .5ch 0;
       }
    }  
-   }
- .clos {grid-column: 3;padding:2ch; border-bottom: 4px solid;}
- .development-team {
-   grid-column: 4;
-   padding:2ch;
-   border-bottom: 4px solid;
 
-   ul {
+   ul.development-team {
       margin: 2ch 0;
       padding: 0;
 
@@ -138,27 +141,28 @@ main {
          list-style: none;
          display: grid;
          margin: 2ch 0;
-         grid-template-columns: 5em auto;
+         grid-template-columns: auto 5em ;
+         padding-bottom: 1em;
+         border-bottom: 1px solid;
 
          h4, h5, p {margin: 0;}
 
 
          .profile-picture {
+            grid-column: 2;
             grid-row: 1/4;
             width: 4em;
             height: 4em;
             background: var(--ld6-base);
             border-radius: 50%;
          }
-         .team-role {grid-column: 2;}
-         .team-involvement {grid-column: 2;}
+         .team-role {grid-column: 1;}
+         .team-involvement {grid-column: 1;}
       }
    }
 
-   }
- .learning-experience {grid-column:3;padding:2ch}
  .snapshots{
-      grid-column: 4;
+      grid-column: 3/5;
       padding:2ch;
       
       ul{
@@ -191,7 +195,8 @@ main {
 
          & li {
             flex-shrink: 0;
-            min-width: 90vw;
+            min-width: 300px;
+            max-width: 100em;
             scroll-snap-align: center;
 
             display: flex;
@@ -201,7 +206,7 @@ main {
             height: 100%;
 
             img {
-               max-width: 80vw;
+               max-width: 90em;
             }
          }
       }
@@ -251,6 +256,10 @@ main {
    text-transform: uppercase;
    letter-spacing: -0.5;
    margin: 1em 0;
+
+   &:not(:first-of-type) {
+      margin-block-start: 2em;
+   }
    }
 
  article {grid-column: 3/5;padding:2ch; background: var(--rev);}

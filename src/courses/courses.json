@@ -3,4 +3,4 @@
     "layout": "course.njk", 
     "permalink": "courses/{{ CourseName |slugify }}/"
 
-}
+}       

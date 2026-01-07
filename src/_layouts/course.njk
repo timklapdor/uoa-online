@@ -16,32 +16,32 @@ layout: base.njk
 </header>
 
 <main>
-
-  <div class="course-description">
+  <div class="course-details">
+    <h3 class="label">Course Description</h3>
     <p>{{ Description | nl2br |safe }}</p>
-  </div>
 
-  <div class="topics">
-    <h3 class="label">Topics</h3>
-    <ul>
-        {% for topic in Topics -%}
-        <li>{{ topic }} </li>
-        {% endfor %}
-    </ul>
-  </div> 
-
-  <div class="clos">
     <h3 class="label">Learning Outcomes</h3>
     <ul>
       {% for item in CLOs -%}
       <li>{{ item }}</li>
       {% endfor %}
     </ul>
+
+    <h3 class="label">Learning Experience</h3>
+    {{ content | safe }}
+
   </div>
 
-  <div class="development-team">
+  <div class="course-information">
+    <h3 class="label">Topics</h3>
+    <ul class="topics">
+        {% for topic in Topics -%}
+        <li>{{ topic }} </li>
+        {% endfor %}
+    </ul>
+
     <h3 class="label">Development Team</h3>
-    <ul>
+    <ul  class="development-team">
         {% for member in Team -%}
         <li>
             <div class="profile-picture">
@@ -53,14 +53,11 @@ layout: base.njk
         </li>
         {% endfor %}
     </ul>
+
+
   </div>
 
-  <div class="learning-experience">
-    <h3 class="label">Learning Experience</h3>
-    {{ content | safe }}
-  </div>
-
-  <div class="snapshots">
+<div class="snapshots">
     <h3 class="label">Snapshots</h3>
     <ul>
         {% for item in Snapshot %}
