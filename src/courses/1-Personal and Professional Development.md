@@ -159,10 +159,6 @@ Snapshot:
       Council Australia's Inclusion@Work Index. Together, they effectively
       translated statistics into accessible visuals that deepen understanding,
       creating an engaging and informative learning experience for students.
-Jobs:
-  - Video Description
-  - Learning Experience
-  - Miro Board Links?
 ---
 Not sure what we want to do with these?
 
