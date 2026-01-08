@@ -26,6 +26,7 @@ ToDo:
   - Media Downloads
   - Review of Content
   - Editorial Review
+  - Resource Links
 Team:
   - Name: Andrew Gardner
     Role: Course Author
