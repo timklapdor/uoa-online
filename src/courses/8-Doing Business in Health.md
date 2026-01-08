@@ -19,6 +19,13 @@ Description: This course gives an overview of the Australian health system and
   understanding of key stakeholders in the health sector and will be equipped to
   address the problems facing sustainable and quality healthcare delivery in
   Australia.
+ToDo:
+  - Learning Experience Written
+  - Learning Experience Reviewed
+  - Snapshot Images
+  - Media Downloads
+  - Review of Content
+  - Editorial Review
 Team:
   - Name: Andrew Gardner
     Role: Course Author
@@ -112,8 +119,4 @@ Snapshot:
     Link: https://myuni.adelaide.edu.au/courses/90115/pages/lesson-4-dot-1-how-do-indigenous-health-services-work?module_item_id=3228992
   - Name: "Lesson 8.3: What does healthcare leadership look like?"
     Link: https://myuni.adelaide.edu.au/courses/90115/pages/lesson-8-dot-3-what-does-healthcare-leadership-look-like?module_item_id=3261696
-Jobs:
-  - Learning Experience
-  - Media
-  - Snapshots
 ---
