@@ -84,7 +84,8 @@ Media:
     Type: ECHO
     Link: https://myuni.adelaide.edu.au/courses/69868/pages/lesson-10-dot-8-why-do-we-make-efforts-to-perform?module_item_id=2485215
 Snapshot:
-  - Link: https://myuni.adelaide.edu.au/courses/69868/pages/lesson-6-dot-2-how-can-you-understand-the-stages-of-group-development?module_item_id=2485054
+  - Name: How can you understand the stages of group development?
+    Link: https://myuni.adelaide.edu.au/courses/69868/pages/lesson-6-dot-2-how-can-you-understand-the-stages-of-group-development?module_item_id=2485054
     Description: This lesson unpacks Tuckman’s stages of group development through
       visual elements like diagrams and figures, paired with storytelling and
       real-world examples, such as Ashwini Asokan’s team, to contextualise
@@ -92,14 +93,17 @@ Snapshot:
       dimensions engage students in applying concepts, while the weekly learning
       log fosters reflection and critical thinking, connecting theory to
       personal experience and supporting diverse learning styles.
-  - Link: https://myuni.adelaide.edu.au/courses/69868/pages/lesson-9-dot-1-what-are-the-focus-and-goals-of-organisational-behaviour-why-are-they-so-important-to-managers?module_item_id=2485094
+  - Name: What are the focus and goals of organisational behaviour? Why are they so
+      important to managers?
+    Link: https://myuni.adelaide.edu.au/courses/69868/pages/lesson-9-dot-1-what-are-the-focus-and-goals-of-organisational-behaviour-why-are-they-so-important-to-managers?module_item_id=2485094
     Description: "This lesson, one of the first in the OUA series, uses an iceberg
       infographic to visually contrast visible aspects of organisational
       behaviour, like strategies, with hidden ones, such as attitudes and group
       norms. It effectively links these layers to managerial goals: explaining,
       predicting, and influencing behaviours, offering students a clear,
       engaging introduction to OB."
-  - Link: https://myuni.adelaide.edu.au/courses/69868/pages/lesson-9-dot-6-what-is-perception-what-influences-it?module_item_id=2485115
+  - Name: What is perception? What influences it?
+    Link: https://myuni.adelaide.edu.au/courses/69868/pages/lesson-9-dot-6-what-is-perception-what-influences-it?module_item_id=2485115
     Description: This lesson uses interactive activities like a jumbled text
       exercise and optical illusions to demonstrate how perception shapes
       understanding. It introduces attribution theory with practical workplace
