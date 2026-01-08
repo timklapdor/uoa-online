@@ -84,29 +84,30 @@ Media:
     Type: ECHO
     Link: https://myuni.adelaide.edu.au/courses/69868/pages/lesson-10-dot-8-why-do-we-make-efforts-to-perform?module_item_id=2485215
 Snapshot:
-  - Name: This lesson unpacks Tuckman’s stages of group development through visual
-      elements like diagrams and figures, paired with storytelling and
+  - Link: https://myuni.adelaide.edu.au/courses/69868/pages/lesson-6-dot-2-how-can-you-understand-the-stages-of-group-development?module_item_id=2485054
+    Description: This lesson unpacks Tuckman’s stages of group development through
+      visual elements like diagrams and figures, paired with storytelling and
       real-world examples, such as Ashwini Asokan’s team, to contextualise
       theory. Tools like Belbin’s 9 team roles and Hofstede’s cultural
       dimensions engage students in applying concepts, while the weekly learning
       log fosters reflection and critical thinking, connecting theory to
       personal experience and supporting diverse learning styles.
-    Link: https://myuni.adelaide.edu.au/courses/69868/pages/lesson-6-dot-2-how-can-you-understand-the-stages-of-group-development?module_item_id=2485054
-  - Name: "This lesson, one of the first in the OUA series, uses an iceberg
+  - Link: https://myuni.adelaide.edu.au/courses/69868/pages/lesson-9-dot-1-what-are-the-focus-and-goals-of-organisational-behaviour-why-are-they-so-important-to-managers?module_item_id=2485094
+    Description: "This lesson, one of the first in the OUA series, uses an iceberg
       infographic to visually contrast visible aspects of organisational
       behaviour, like strategies, with hidden ones, such as attitudes and group
       norms. It effectively links these layers to managerial goals: explaining,
       predicting, and influencing behaviours, offering students a clear,
       engaging introduction to OB."
-    Link: https://myuni.adelaide.edu.au/courses/69868/pages/lesson-9-dot-1-what-are-the-focus-and-goals-of-organisational-behaviour-why-are-they-so-important-to-managers?module_item_id=2485094
-  - Name: This lesson uses interactive activities like a jumbled text exercise and
-      optical illusions to demonstrate how perception shapes understanding. It
-      introduces attribution theory with practical workplace examples and visual
-      summaries, making complex concepts accessible. Reflective tasks, such as
-      analysing group perceptions and mirror exercises, encourage critical
-      thinking and self-awareness, helping students connect theory to real-world
-      applications in teamwork and assessments.
-    Link: https://myuni.adelaide.edu.au/courses/69868/pages/lesson-9-dot-6-what-is-perception-what-influences-it?module_item_id=2485115
+  - Link: https://myuni.adelaide.edu.au/courses/69868/pages/lesson-9-dot-6-what-is-perception-what-influences-it?module_item_id=2485115
+    Description: This lesson uses interactive activities like a jumbled text
+      exercise and optical illusions to demonstrate how perception shapes
+      understanding. It introduces attribution theory with practical workplace
+      examples and visual summaries, making complex concepts accessible.
+      Reflective tasks, such as analysing group perceptions and mirror
+      exercises, encourage critical thinking and self-awareness, helping
+      students connect theory to real-world applications in teamwork and
+      assessments.
 Jobs:
   - Media
   - Learning Experience
