@@ -1,0 +1,195 @@
+{
+  "teamMembers": [{
+      "name": "Alexis Milligan",
+      "image": ""
+    },{
+      "name": "Andrew Beatton",
+      "image": ""
+    },{
+      "name": "Andrew Gardner",
+      "image": "andrew-gardner.jpg"
+    },{
+      "name": "Ankit Agarwal",
+      "image": "ankit-agarwal.jpeg"
+    },{
+      "name": "Anton Jordaan",
+      "image": "anton-jordaan.jpg"
+    },{
+      "name": "Athar Qureshi",
+      "image": "athar-qureshi.png"
+    },{
+      "name": "Brianna Morello",
+      "image": "brianna-morello.jpg"
+    },{
+      "name": "Camille Schubert",
+      "image": "camille-schubert.jpg"
+    },{
+      "name": "Carmel Williams",
+      "image": "carmel-williams.jpg"
+    },{
+      "name": "Caroline Laurence",
+      "image": "caroline-laurence.jpg"
+    },{
+      "name": "Catherine Chittleborough",
+      "image": "catherine-chittleborough.jpeg"
+    },{
+      "name": "Chanaka Wijewardena",
+      "image": "chanaka-wijewardena.jpg"
+    },{
+      "name": "Chris Graves",
+      "image": "chris-graves.jpg"
+    },{
+      "name": "Dalestair",
+      "image": ""
+    },{
+      "name": "Danielle LeMieux",
+      "image": ""
+    },{
+      "name": "David Pender",
+      "image": "david-pender.jpg"
+    },{
+      "name": "David Tamblyn",
+      "image": "david-tamblyn.jpg"
+    },{
+      "name": "Devendra Kumaria",
+      "image": "devendra-kumaria.jpeg"
+    },{
+      "name": "Diana Shah",
+      "image": "diana-shah.png"
+    },{
+      "name": "Drew Carter",
+      "image": "drew-carter.jpg"
+    },{
+      "name": "Dylan Coleman",
+      "image": "dylan-coleman.jpg"
+    },{
+      "name": "Emma Muhlack",
+      "image": "emma-muhlack.jpeg"
+    },{
+      "name": "Florian Ploeckl",
+      "image": "florian-ploeckl.jpeg"
+    },{
+      "name": "Hussain Rammal",
+      "image": "hussain-rammal.jpeg"
+    },{
+      "name": "Jack Eames",
+      "image": ""
+    },{
+      "name": "Janin Hentzen",
+      "image": "janin-hentzen.jpeg"
+    },{
+      "name": "Jonno Klynsmith",
+      "image": ""
+    },{
+      "name": "Kat Alchin",
+      "image": ""
+    },{
+      "name": "Kym Chappell",
+      "image": "kym-chappell.jpg"
+    },{
+      "name": "Leonid Turczynowicz",
+      "image": "leonid-turczynowicz.jpeg"
+    },{
+      "name": "Manjula Dissanayake",
+      "image": "manjula-dissanayake.jpg"
+    },{
+      "name": "Margaret Scrimgeour",
+      "image": ""
+    },{
+      "name": "Mark Giancaspro",
+      "image": "mark-giancaspro.png"
+    },{
+      "name": "Max Smith",
+      "image": "max-smith.jpg"
+    },{
+      "name": "Mercy Oloo",
+      "image": "mercy-oloo.jpeg"
+    },{
+      "name": "Nadezhda V. Baryshnikova",
+      "image": "nadezhda-v-baryshnikova.jpeg"
+    },{
+      "name": "Nathan Gray",
+      "image": "nathan-gray.png"
+    },{
+      "name": "Nigel Barker",
+      "image": "nigel-barker.jpg"
+    },{
+      "name": "Rea Bachtis",
+      "image": ""
+    },{
+      "name": "Rebecca Dolan",
+      "image": "rebecca-dolan.png"
+    },{
+      "name": "Rich Bartlett",
+      "image": ""
+    },{
+      "name": "Rosemarie Fonseka",
+      "image": ""
+    },{
+      "name": "Sabina Zeynalova",
+      "image": "sabina-zeynalova.jpg"
+    },{
+      "name": "Sanjeev Abeynayake",
+      "image": "sanjeev-abeynayake.webp"
+    },{
+      "name": "Sash Kertes",
+      "image": ""
+    },{
+      "name": "Scott Hanson-Easey",
+      "image": "scott-hanson-easey.jpg"
+    },{
+      "name": "Sharyn Gaskin",
+      "image": "sharyn-gaskin.jpg"
+    },{
+      "name": "Shona Crabb",
+      "image": "shona-crabb.jpeg"
+    },{
+      "name": "Simon Nagy",
+      "image": ""
+    },{
+      "name": "Sinead Coulter",
+      "image": ""
+    },{
+      "name": "Stella Bachtis",
+      "image": "stella-bachtis.jpeg"
+    },{
+      "name": "Suman Laudari",
+      "image": ""
+    },{
+      "name": "Sylvia Villios",
+      "image": "sylvia-villios.png"
+    },{
+      "name": "Tiffany de Sousa Machado",
+      "image": "tiffany-de-sousa-machado.jpg"
+    },{
+      "name": "Tim Klapdor",
+      "image": ""
+    },{
+      "name": "Tracy Merlin",
+      "image": "tracy-merlin.jpg"
+    },{
+      "name": "Valerie Hughes",
+      "image": ""
+    },{
+      "name": "Virginie Masson",
+      "image": "virginie-masson.jpeg"
+    },{
+      "name": "Viviana",
+      "image": ""
+    },{
+      "name": "Vutha Hing",
+      "image": "vutha-hing.png"
+    },{
+      "name": "Wayne Hobbs",
+      "image": "wayne-hobbs.jpg"
+    },{
+      "name": "Wei Li",
+      "image": "wei-li.jpg"
+    },{
+      "name": "Wenjie Li",
+      "image": "wenjie-li.jpg"
+    },{
+      "name": "Zac Vandersman",
+      "image": ""
+    }]
+}

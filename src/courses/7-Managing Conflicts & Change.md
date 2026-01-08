@@ -67,13 +67,13 @@ Description: >
 Team:
   - Name: Devendra Kumaria
     Role: Course Author
-    Involvement: null
-  - Name: Kat
+    Involvement: Lead
+  - Name: Kat Alchin
     Role: Learning Designer
-    Involvement: null
+    Involvement: Lead
   - Name: Alexis Milligan
-    Role: null
-    Involvement: null
+    Role: Digital Education Developer
+    Involvement: Lead
 CLOs:
   - >-
     Explain the causes of conflict in organisations, and different mechanisms

@@ -9,7 +9,7 @@ Team:
   - Name: "Sanjeev Abeynayake"
     Role: "Course Author"
     Involvement: "Lead"
-  - Name: "Rosemarie"
+  - Name: "Rosemarie Fonseka"
     Role: "Learning Designer"
     Involvement: "Lead"
   - Name: "Alexis Milligan"

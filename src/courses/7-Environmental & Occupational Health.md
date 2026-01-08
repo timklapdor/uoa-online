@@ -57,8 +57,8 @@ Team:
     Role: Learning Designer
     Involvement: Lead
   - Name: Jack Eames
-    Role: null
-    Involvement: null
+    Role: Digital Education Developer
+    Involvement: Lead
 CLOs:
   - >-
     Describe the nature of environmental health hazards and the ways in which

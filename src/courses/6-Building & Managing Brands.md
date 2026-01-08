@@ -23,7 +23,7 @@ Team:
     Role: Learning Designer
     Involvement: Lead
   - Name: Jack Eames
-    Role: Digital Educational Developer
+    Role: Digital Education Developer
     Involvement: Lead
 CLOs:
   - Discuss the role of branding in creating strong brands

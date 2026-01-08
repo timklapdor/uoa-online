@@ -3,7 +3,11 @@ layout: base.njk
 ---    
         
 
-<header style="background: url('../../images/banners/{{CourseName |slugify}}.png') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;">
+{%- set courseSlug = CourseName | slugify -%}
+{%- set bannerFile = courseSlug + '.png' -%}
+
+<header style="background: url('{% bgImageUrl bannerFile, 800 %}') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;">
+  
   <h2 class="p-name course-name">{{ CourseName }}</h2>
   <div id="program-details">
     <ul class"programs">
@@ -42,16 +46,20 @@ layout: base.njk
 
     <h3 class="label">Development Team</h3>
     <ul  class="development-team">
-        {% for member in Team -%}
-        <li>
-            <div class="profile-picture">
-              <img src="" /> 
-            </div>
-            <h4 class="team-name">{{ member.Name }}</h4>
-            <h5 class="team-role label">{{ member.Role }}</h5>
-            <p class="team-involvement">{{ member.Involvement | capitalize }}</p>
-        </li>
-        {% endfor %}
+      {% for member in Team -%}
+<li>
+    {%- set personData = people.teamMembers | find("name", member.Name) -%}
+      {% if personData and personData.image != "" %}
+    <div class="profile-picture">
+        <img src="../../images/people/{{ personData.image }}" alt="{{ member.Name }}" /> 
+    </div>
+      {% endif %}
+
+    <h4 class="team-name">{{ member.Name }}</h4>
+    <h5 class="team-role label">{{ member.Role }}</h5>
+    <p class="team-involvement">{{ member.Involvement | capitalize }}</p>
+</li>
+{% endfor %}
     </ul>
 
 

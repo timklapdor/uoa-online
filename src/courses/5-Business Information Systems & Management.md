@@ -15,7 +15,7 @@ Team:
     Involvement: Lead
   - Name: "Jack Eames"
     Role: "Digital Education Developer"
-    Involvement: 
+    Involvement: Lead
 CLOs: 
   - "Source, validate, use, and manage relevant and appropriate information for ethical and effective decision-making and problem-solving, applying systems thinking skills and techniques."
   - "Analyse the technology needs required to support a business and liaise effectively with technology personnel for acquisition, maintenance, and business support."

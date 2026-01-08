@@ -16,7 +16,7 @@ Description: >
   analysis of essential strategic tasks and how internal and external
   environments interact are components of a successful strategy.
 Team:
-  - Name: Dev Kumaria
+  - Name: Devendra Kumaria
     Role: Course Author
     Involvement: Lead
   - Name: Rich Bartlett

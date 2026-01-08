@@ -155,6 +155,10 @@ main {
             height: 4em;
             background: var(--ld6-base);
             border-radius: 50%;
+
+            img {
+               border-radius: 50%;
+            }
          }
          .team-role {grid-column: 1;}
          .team-involvement {grid-column: 1;}

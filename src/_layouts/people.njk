@@ -1,0 +1,52 @@
+---
+layout: base.njk
+---
+<main>
+  <article>
+  <h1>{{ title}} </h1>
+    {{ content | safe }}
+
+
+<h2>People Without Images</h2>
+<h3>Summary</h3>
+{%- set missingCount = 0 -%}
+{%- for person in people.teamMembers -%}
+  {%- if person.image == "" -%}
+    {%- set missingCount = missingCount + 1 -%}
+  {%- endif -%}
+{%- endfor -%}
+<p><strong>{{ missingCount }}</strong> out of <strong>{{ people.teamMembers | length }}</strong> people are missing images.</p>
+
+<ul>
+{% for person in people.teamMembers %}
+  {% if person.image == "" %}
+  <li>{{ person.name | slugify }}</li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+
+
+  <h2>Team Members</h2>
+    <ul>
+    {% for member in collections.teamMembers %}
+      <li>
+        <strong>{{ member.name }}</strong> - {{ member.role }}
+        <br>Worked on {{ member.courseCount }} course(s)
+      </li>
+    {% endfor %}
+    </ul>
+
+  <!-- Or group by role -->
+  <h2>Team by Role</h2>
+  {% for role in collections.teamMembers | uniqueRoles %}
+    <h3>{{ role }}</h3>
+    <ul>
+    {% for member in collections.teamMembers | teamByRole(role) %}
+      <li>{{ member.name }} ({{ member.courseCount }} courses)</li>
+    {% endfor %}
+    </ul>
+  {% endfor %}
+  
+  </article>
+</main>

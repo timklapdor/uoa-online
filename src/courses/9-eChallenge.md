@@ -33,7 +33,7 @@ Team:
   - Name: Andrew Gardner
     Role: Course Author
     Involvement: Collaborator
-  - Name: Jonno
+  - Name: Jonno Klynsmith
     Role: Learning Designer
     Involvement: Lead
   - Name: Jack Eames

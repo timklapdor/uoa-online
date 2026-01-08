@@ -14,7 +14,7 @@ layout: base.njk
         {% for member in item.data.Team %}
             <span class="lead">{{ member.Name if member.Role=="Learning Designer" and member.Involvement=="Lead"}}</span>
         {% endfor %}
-        {% if item.data.Jobs | length %}<ul>{%for item in item.data.Jobs %}<li class="job">{{item}}</li> {% endfor %}</ul> {% endif %} </li>
+        {% if item.data.ToDo | length %}<ul>{%for item in item.data.ToDo %}<li class="job">{{item}}</li> {% endfor %}</ul> {% endif %} </li>
         {% endfor %}
     </ol>
     </article>

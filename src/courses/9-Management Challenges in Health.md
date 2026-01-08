@@ -15,7 +15,7 @@ Team:
   - Name: "Athar Qureshi"
     Role: "Course Author"
     Involvement: "Collaborator"
-  - Name: "Rosemarie"
+  - Name: "Rosemarie Fonseka"
     Role: "Learning Designer"
     Involvement: "Lead"
   - Name: "Jack Eames"

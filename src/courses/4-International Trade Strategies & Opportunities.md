@@ -9,7 +9,7 @@ Team:
   - Name: "Nathan Gray"
     Role: "Course Author"
     Involvement: 
-  - Name: "Jonno"
+  - Name: "Jonno Klynsmith"
     Role: "Learning Designer"
     Involvement: Lead
 CLOs: 

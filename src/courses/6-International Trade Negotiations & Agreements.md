@@ -18,14 +18,14 @@ Description: >
   connect key theory to current world events.
 Team:
   - Name: Vutha Hing
-    Role: Course Authors
+    Role: Course Author
     Involvement: null
   - Name: Simon Nagy
     Role: Learning Designer
     Involvement: Lead
   - Name: Zac Vandersman
-    Role: null
-    Involvement: null
+    Role: Digital Education Developer
+    Involvement: Lead
 CLOs:
   - >-
     Evaluate the impacts of trade in the contemporary world by examining the
