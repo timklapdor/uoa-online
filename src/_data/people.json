@@ -1,13 +1,27 @@
 {
-  "teamMembers": [{
+  "teamMembers": [
+    {
+      "name": "Aaron Honson",
+      "image": "",
+      "position": "Creative Coordinator",
+      "team": "media", 
+      "role" : "lead"
+    },{
       "name": "Alexis Milligan",
-      "image": ""
+      "image": "",
+      "position": "Digital Education Developer",
+      "team": "ded"
     },{
       "name": "Andrew Beatton",
-      "image": ""
+      "image": "",
+      "position": "Learning Designer",
+      "team": "ld"
     },{
       "name": "Andrew Gardner",
-      "image": "andrew-gardner.jpg"
+      "image": "andrew-gardner.jpg",
+      "position": "Program Coordinator", 
+      "team" : "program",
+      "role" : "lead"
     },{
       "name": "Ankit Agarwal",
       "image": "ankit-agarwal.jpeg"
@@ -17,6 +31,11 @@
     },{
       "name": "Athar Qureshi",
       "image": "athar-qureshi.png"
+    },{
+      "name": "Ben Munro",
+      "image": "",
+      "position": "Video Production Technician", 
+      "team": "media"
     },{
       "name": "Brianna Morello",
       "image": "brianna-morello.jpg"
@@ -39,11 +58,25 @@
       "name": "Chris Graves",
       "image": "chris-graves.jpg"
     },{
-      "name": "Dalestair",
-      "image": ""
+      "name": "Claire Paterson",
+      "image": "",
+      "position": "Project Officer",
+      "team": "project"
+    },{
+      "name": "Dalestair Kidd",
+      "image": "",
+      "position": "Digital Education Developer", 
+      "team": "ded"
     },{
       "name": "Danielle LeMieux",
-      "image": ""
+      "image": "",
+      "position": "Learning Designer",
+      "team": "ld"
+    },{
+      "name": "Dave Johnston",
+      "image": "",
+      "position": "Video Production Coordinator",
+      "team": "media"
     },{
       "name": "David Pender",
       "image": "david-pender.jpg"
@@ -63,32 +96,84 @@
       "name": "Dylan Coleman",
       "image": "dylan-coleman.jpg"
     },{
+      "name": "Eleanor Kukla",
+      "image": "",
+      "position": "Project Officer",
+      "team": "project"
+    },{
       "name": "Emma Muhlack",
       "image": "emma-muhlack.jpeg"
     },{
       "name": "Florian Ploeckl",
       "image": "florian-ploeckl.jpeg"
     },{
+      "name": "Georgia Forrest",
+      "image": "",
+      "position": "Senior Learning Resource Developer", 
+      "team" : "media"
+    },{
+      "name": "Henry Shi",
+      "image": "",
+      "position": "Program Coordinator",
+      "team" : "program", 
+      "role" : "lead"
+    },{
+      "name": "Hugh Leadbeter",
+      "image": "",
+      "position": "Project Officer",
+      "team": "project"
+    },{
+      "name": "Hui Mu",
+      "image": "",
+      "position": "Learning Resource Developer",
+      "team": "media"
+    },{
       "name": "Hussain Rammal",
       "image": "hussain-rammal.jpeg"
     },{
       "name": "Jack Eames",
-      "image": ""
+      "image": "", 
+      "position": "Digital Education Developer",
+      "team": "ded"
+    },{
+      "name": "James Donovan",
+      "image": "",
+      "position": "Video Production Specialist",
+      "team": "media"
     },{
       "name": "Janin Hentzen",
       "image": "janin-hentzen.jpeg"
     },{
+      "name": "Jill Brooking",
+      "image": "",
+      "position": "Senior Strategic Partnerships Officer", 
+      "team": "futures"
+    },{
+      "name": "Jola Raptis",
+      "image": "",
+      "position": "Project Officer",
+      "team": "project"
+    },{
       "name": "Jonno Klynsmith",
-      "image": ""
+      "image": "",
+      "position": "Learning Designer",
+      "team": "ld"
     },{
       "name": "Kat Alchin",
-      "image": ""
+      "image": "",
+      "position": "Learning Designer", 
+      "team": "ld"
     },{
       "name": "Kym Chappell",
       "image": "kym-chappell.jpg"
     },{
       "name": "Leonid Turczynowicz",
       "image": "leonid-turczynowicz.jpeg"
+    },{
+      "name": "Lisa Japp",
+      "image": "",
+      "position": "Learning Resource Developer", 
+      "team": "media"
     },{
       "name": "Manjula Dissanayake",
       "image": "manjula-dissanayake.jpg"
@@ -102,6 +187,17 @@
       "name": "Max Smith",
       "image": "max-smith.jpg"
     },{
+      "name": "Michael Brockhouse",
+      "image": "",
+      "position": "Learning Resource Developer",
+      "team": "media"
+    },{
+      "name": "Michelle Campbell",
+      "image": "",
+      "position": "Associate Director, Strategic Partnerships ", 
+      "team": "futures",
+      "role" : "lead"
+    },{
       "name": "Mercy Oloo",
       "image": "mercy-oloo.jpeg"
     },{
@@ -114,17 +210,31 @@
       "name": "Nigel Barker",
       "image": "nigel-barker.jpg"
     },{
+      "name": "Rachel Applebee",
+      "image": "",
+      "position": "Project Officer",
+      "team": "project"
+    },{
       "name": "Rea Bachtis",
       "image": ""
     },{
       "name": "Rebecca Dolan",
       "image": "rebecca-dolan.png"
     },{
+      "name": "Rebecca Scrivens",
+      "image": "",
+      "position": "Strategic Partnerships Officer", 
+      "team": "futures"
+    },{
       "name": "Rich Bartlett",
-      "image": ""
+      "image": "",
+      "position": "Learning Designer",
+      "team": "ld"
     },{
       "name": "Rosemarie Fonseka",
-      "image": ""
+      "image": "",
+      "position": "Learning Designer",
+      "team": "ld"
     },{
       "name": "Sabina Zeynalova",
       "image": "sabina-zeynalova.jpg"
@@ -133,7 +243,9 @@
       "image": "sanjeev-abeynayake.webp"
     },{
       "name": "Sash Kertes",
-      "image": ""
+      "image": "sash-kertes.jpg",
+      "position": "Learning Designer",
+      "team": "ld"
     },{
       "name": "Scott Hanson-Easey",
       "image": "scott-hanson-easey.jpg"
@@ -145,16 +257,22 @@
       "image": "shona-crabb.jpeg"
     },{
       "name": "Simon Nagy",
-      "image": ""
+      "image": "",
+      "position": "Learning Designer",
+      "team": "ld"
     },{
       "name": "Sinead Coulter",
-      "image": ""
+      "image": "sinead-coulter.jpg",
+      "position": "Learning Designer",
+      "team": "ld"
     },{
       "name": "Stella Bachtis",
       "image": "stella-bachtis.jpeg"
     },{
       "name": "Suman Laudari",
-      "image": ""
+      "image": "",
+      "position": "Learning Designer",
+      "team": "ld"
     },{
       "name": "Sylvia Villios",
       "image": "sylvia-villios.png"
@@ -163,19 +281,26 @@
       "image": "tiffany-de-sousa-machado.jpg"
     },{
       "name": "Tim Klapdor",
-      "image": ""
+      "image": "",
+      "position": "Manager, Educational Design",
+      "team": "ld", 
+      "role" : "lead"
     },{
       "name": "Tracy Merlin",
       "image": "tracy-merlin.jpg"
     },{
       "name": "Valerie Hughes",
-      "image": ""
+      "image": "",
+      "position": "Learning Designer",
+      "team": "ld"
     },{
       "name": "Virginie Masson",
       "image": "virginie-masson.jpeg"
     },{
-      "name": "Viviana",
-      "image": ""
+      "name": "Viviana Zuluaga",
+      "image": "",
+      "position": "Digital Education Developer",
+      "team": "ded"
     },{
       "name": "Vutha Hing",
       "image": "vutha-hing.png"
@@ -190,6 +315,13 @@
       "image": "wenjie-li.jpg"
     },{
       "name": "Zac Vandersman",
-      "image": ""
+      "image": "",
+      "position": "Digital Education Developer",
+      "team": "ded"
+    },{
+      "name": "Zane Roach",
+      "image": "",
+      "position": "Video Production Technician",
+      "team": "media" 
     }]
 }

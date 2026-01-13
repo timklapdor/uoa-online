@@ -34,10 +34,10 @@ Team:
   - Name: Simon Nagy
     Role: Learning Designer
     Involvement: Lead
-  - Name: Dalestair
+  - Name: Dalestair Kidd
     Role: Digital Education Developer
     Involvement: Lead
-  - Name: Viviana
+  - Name: Viviana Zuluaga
     Role: Digital Education Developer
     Involvement: Collaborator
 CLOs:

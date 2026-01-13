@@ -7,6 +7,59 @@ layout: base.njk
     {{ content | safe }}
 
 
+{%- set teamOrder = ["ld", "ded", "futures", "program", "media",  "project"] -%}
+{%- set teamNames = {
+  "ld": "Learning Design",
+  "ded": "Digital Education Development",
+  "media": "Media Production",
+  "program": "Program Coordinators",
+  "project": "Project Management",
+  "futures": "Learning Futures"
+} -%}
+
+{%- for teamKey in teamOrder -%}
+  {%- set teamMembers = [] -%}
+  {%- for person in people.teamMembers -%}
+    {%- if person.team == teamKey -%}
+      {%- set temp = teamMembers.push(person) -%}
+    {%- endif -%}
+  {%- endfor -%}
+  
+  {%- if teamMembers | length > 0 -%}
+    {%- set leads = [] -%}
+    {%- set members = [] -%}
+    
+    {%- for person in teamMembers -%}
+      {%- if person.role == "lead" -%}
+        {%- set temp = leads.push(person) -%}
+      {%- else -%}
+        {%- set temp = members.push(person) -%}
+      {%- endif -%}
+    {%- endfor -%}
+    
+    {%- set sortedLeads = leads | sort(attribute='name') -%}
+    {%- set sortedMembers = members | sort(attribute='name') -%}
+    
+    <section class="team-group">
+      <h2>{{ teamNames[teamKey] }}</h2>
+      <ul class="team-list">
+      {%- for person in sortedLeads -%}
+        <li>
+          <strong>{{ person.name }}</strong> – {{ person.position }}
+          <span class="badge">Lead</span>
+        </li>
+      {%- endfor -%}
+      {%- for person in sortedMembers -%}
+        <li>
+          <strong>{{ person.name }}</strong> – {{ person.position }}
+        </li>
+      {%- endfor -%}
+      </ul>
+    </section>
+  {%- endif -%}
+{%- endfor -%}
+
+
 <h2>People Without Images</h2>
 <h3>Summary</h3>
 {%- set missingCount = 0 -%}

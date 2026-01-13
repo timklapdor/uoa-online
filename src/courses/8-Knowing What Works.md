@@ -38,8 +38,8 @@ Team:
     Involvement: Contributer
   - Name: Danielle LeMieux
     Role: Learning Designer
-    Involvement: Lead
-  - Name: Viviana
+    Involvement: Lead 
+  - Name: Viviana Zuluaga
     Role: Digital Education Developer
     Involvement: Lead
 CLOs:

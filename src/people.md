@@ -3,7 +3,5 @@ layout: people.njk
 title: People
 ---
 
-Have a list of all the people involved in the project from the Course Development side. 
-
-Might need to think about how we want to represent Media, Project (Claire), Faculty and Learning Transformation (Michelle, Jill and Rebecca). 
+The OUA project involved a large number of teams and staff. The development work was lead by the Learning Design team working alongside the Digital Educational Developers. Faculty engagement was led by the Learning Futures team, working directly with the Program Coordinators. Media Production assisted with the design and development of graphics, animations, videos and custom interactives. The Project Management team brought things all together and ensured we met deadlines and kept things on track. S
 

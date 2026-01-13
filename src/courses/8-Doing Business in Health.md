@@ -40,7 +40,7 @@ Team:
   - Name: Rosemarie Fonseka
     Role: Learning Designer
     Involvement: Lead
-  - Name: Dalestair
+  - Name: Dalestair Kidd
     Role: Digital Education Developer
     Involvement: Lead
 CLOs:

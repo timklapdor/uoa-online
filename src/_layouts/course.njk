@@ -84,15 +84,16 @@ layout: base.njk
         
             {% if media.Type=="IMG"%}
                 <figure>
-                    <img src="/uoa-online/images/{{ media.Link }}" alt="{{ media.Name }}" title="{{ media.Name }}">
+                    <img src="/uoa-online/images/resources/{{ media.Link }}" alt="{{ media.Name }}" title="{{ media.Name }}">
                     <figcaption>{{ media.Description }}</figcaption>
                 </figure>
             {% endif %}
         
             {% if media.Type=="H5P"%}
-                <p>{{ media.Description }} </p>
+                {# <p>{{ media.Description }} </p> #}
                 <div class="responsive-iframe-container">
-                <iframe title="{{ media.Name }}" src="{{ media.Link }}" width="800" height="600" loading="lazy" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *; autoplay *; clipboard-write *; display-capture *"></iframe>
+                  <iframe class="lti-embed" width="100%" height="800" title="{{ media.Name }}" src="{{ media.Link }}" frameborder="0"></iframe>
+                <figcaption>{{ media.Description }}</figcaption>
                 </div>
             {% endif %}
 

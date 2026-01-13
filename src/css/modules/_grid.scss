@@ -199,6 +199,7 @@ main {
 
          & li {
             flex-shrink: 0;
+            max-height: 60vh;
             min-width: 300px;
             max-width: 100em;
             scroll-snap-align: center;
@@ -207,10 +208,9 @@ main {
             flex-direction: column;
             align-items: start;
             justify-content: start;
-            height: 100%;
 
             img {
-               max-width: 90em;
+               max-height: 60vh;
             }
          }
       }
