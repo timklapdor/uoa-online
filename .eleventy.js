@@ -17,6 +17,13 @@ module.exports = function (eleventyConfig) {
   return array.find(item => item[key] === value);
   });
 
+  // To identify any image type:
+  eleventyConfig.addFilter("isImage", function(value) {
+  if (!value) return false;
+  const imageExtensions = ['.png', '.jpg', '.jpeg', '.gif', '.webp', '.svg'];
+  return imageExtensions.some(ext => value.toLowerCase().endsWith(ext));
+  });
+
    // Create a collection that aggregates all team members
   eleventyConfig.addCollection("teamMembers", function(collectionApi) {
     const courses = collectionApi.getFilteredByTag("courses"); // Adjust tag as needed

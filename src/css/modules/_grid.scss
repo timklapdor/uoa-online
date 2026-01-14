@@ -179,6 +179,12 @@ main {
             list-style: none;
             background: var(--ld7-base);
             border: 2px solid var(--rev);
+            height: 20vh;
+            overflow-y: hidden;
+            img {
+               position: relative;
+               top: -35px; 
+            }
          }
       }
    }

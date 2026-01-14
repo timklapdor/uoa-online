@@ -10,12 +10,12 @@
       "name": "Alexis Milligan",
       "image": "",
       "position": "Digital Education Developer",
-      "team": "ded"
+      "team": "devel"
     },{
       "name": "Andrew Beatton",
       "image": "",
       "position": "Learning Designer",
-      "team": "ld"
+      "team": "devel"
     },{
       "name": "Andrew Gardner",
       "image": "andrew-gardner.jpg",
@@ -69,12 +69,12 @@
       "name": "Dalestair Kidd",
       "image": "",
       "position": "Digital Education Developer", 
-      "team": "ded"
+      "team": "devel"
     },{
       "name": "Danielle LeMieux",
       "image": "",
       "position": "Learning Designer",
-      "team": "ld"
+      "team": "devel"
     },{
       "name": "Dave Johnston",
       "image": "",
@@ -137,7 +137,7 @@
       "name": "Jack Eames",
       "image": "", 
       "position": "Digital Education Developer",
-      "team": "ded"
+      "team": "devel"
     },{
       "name": "James Donovan",
       "image": "",
@@ -160,12 +160,12 @@
       "name": "Jonno Klynsmith",
       "image": "",
       "position": "Learning Designer",
-      "team": "ld"
+      "team": "devel"
     },{
       "name": "Kat Alchin",
       "image": "",
       "position": "Learning Designer", 
-      "team": "ld"
+      "team": "devel"
     },{
       "name": "Kym Chappell",
       "image": "kym-chappell.jpg"
@@ -196,7 +196,7 @@
       "team": "media"
     },{
       "name": "Michelle Campbell",
-      "image": "",
+      "image": "michelle-campbell.jpg",
       "position": "Associate Director, Strategic Partnerships ", 
       "team": "futures",
       "role" : "lead"
@@ -232,12 +232,12 @@
       "name": "Rich Bartlett",
       "image": "",
       "position": "Learning Designer",
-      "team": "ld"
+      "team": "devel"
     },{
       "name": "Rosemarie Fonseka",
       "image": "",
       "position": "Learning Designer",
-      "team": "ld"
+      "team": "devel"
     },{
       "name": "Sabina Zeynalova",
       "image": "sabina-zeynalova.jpg"
@@ -248,7 +248,7 @@
       "name": "Sash Kertes",
       "image": "sash-kertes.jpg",
       "position": "Learning Designer",
-      "team": "ld"
+      "team": "devel"
     },{
       "name": "Scott Hanson-Easey",
       "image": "scott-hanson-easey.jpg"
@@ -262,12 +262,12 @@
       "name": "Simon Nagy",
       "image": "",
       "position": "Learning Designer",
-      "team": "ld"
+      "team": "devel"
     },{
       "name": "Sinead Coulter",
       "image": "sinead-coulter.jpg",
       "position": "Learning Designer",
-      "team": "ld"
+      "team": "devel"
     },{
       "name": "Stella Bachtis",
       "image": "stella-bachtis.jpeg"
@@ -275,7 +275,7 @@
       "name": "Suman Laudari",
       "image": "",
       "position": "Learning Designer",
-      "team": "ld"
+      "team": "devel"
     },{
       "name": "Sylvia Villios",
       "image": "sylvia-villios.png"
@@ -286,7 +286,7 @@
       "name": "Tim Klapdor",
       "image": "",
       "position": "Manager, Educational Design",
-      "team": "ld", 
+      "team": "devel", 
       "role" : "lead"
     },{
       "name": "Tracy Merlin",
@@ -295,7 +295,7 @@
       "name": "Valerie Hughes",
       "image": "",
       "position": "Learning Designer",
-      "team": "ld"
+      "team": "devel"
     },{
       "name": "Virginie Masson",
       "image": "virginie-masson.jpeg"
@@ -303,7 +303,7 @@
       "name": "Viviana Zuluaga",
       "image": "",
       "position": "Digital Education Developer",
-      "team": "ded"
+      "team": "devel"
     },{
       "name": "Vutha Hing",
       "image": "vutha-hing.png"
@@ -320,7 +320,7 @@
       "name": "Zac Vandersman",
       "image": "",
       "position": "Digital Education Developer",
-      "team": "ded"
+      "team": "devel"
     },{
       "name": "Zane Roach",
       "image": "",

@@ -65,14 +65,34 @@ layout: base.njk
 
   </div>
 
+  <div class="assessments">
+    <h3 class="label">Assessments</h3>
+    <ol>
+      {% for assignment in Assessments -%}
+      <li>
+        <h4 class="assessment-name">{{ assignment.Name}}</h4>
+        <h5 class="assessment-type">{{ assignment.Type }}</h5>
+        <p class="assessment-description">{{ assignment.Description}}</p>
+        <h4 class="assessment-weight">{{ assignment.Weighting }}%</h4>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+
 <div class="snapshots">
     <h3 class="label">Snapshots</h3>
     <ul>
         {% for item in Snapshot %}
-        <li><a href="{{ item.Link }}">{{ item.Name }}</a> {{ item.Description }}</li>
+        <li>
+          {% if item.Link | isImage %}
+            <img src="../../images/archive/{{courseSlug}}/{{ item.Link }}" alt="Image">
+          {% else %}
+            <a href="{{ item.Link }}">{{ item.Name }}</a> 
+          {% endif %}
+        </li>
         {% endfor %}
     </ul>
-  </div>
+</div>
 
   <div class="learning-resources">
     <h3 class="label">Learning Resources</h3>
@@ -119,18 +139,6 @@ layout: base.njk
     </ul>
   </div>
 
-  <div class="assessments">
-    <h3 class="label">Assessments</h3>
-    <ol>
-      {% for assignment in Assessments -%}
-      <li>
-        <h4 class="assessment-name">{{ assignment.Name}}</h4>
-        <h5 class="assessment-type">{{ assignment.Type }}</h5>
-        <p class="assessment-description">{{ assignment.Description}}</p>
-        <h4 class="assessment-weight">{{ assignment.Weighting }}%</h4>
-      </li>
-      {% endfor %}
-    </ol>
-  </div>
+
 
 </main>

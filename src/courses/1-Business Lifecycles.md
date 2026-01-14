@@ -110,15 +110,17 @@ Media:
       approaches required for diffferent stages of business growth and
       highlights the different aspects of leadership and management that change.
 Snapshot:
+  - Name: "4.1.3: The basic marketing mix (product and place)"
+    Link: 076_Page_module_4_developing_a_marketing_plan_4_1_3_the_basic_marketing_mix_product_and_place_.png
   - Name: "5.1.4: The balance sheet"
-    Link: https://myuni.adelaide.edu.au/courses/69866/pages/5-dot-1-4-the-balance-sheet?module_item_id=2533932
-  - Name: "5.2.6: Basic format of the cash flow statement"
-    Link: https://myuni.adelaide.edu.au/courses/69866/pages/5-dot-2-6-basic-format-of-the-cash-flow-statement?module_item_id=2534319
+    Link: 092_Page_module_5_using_accounting_information_to_assess_financial_performance_and_position_5_1_4_the_balance.png
   - Name: "5.3.1: The four key financial ratios"
-    Link: https://myuni.adelaide.edu.au/courses/69866/pages/5-dot-3-1-the-four-key-financial-ratios?module_item_id=2534494
+    Link: 103_Page_module_5_using_accounting_information_to_assess_financial_performance_and_position_5_3_1_the_four_ke.png
   - Name: "6.1.3: Debt and equity financing"
-    Link: https://myuni.adelaide.edu.au/courses/69866/pages/6-dot-1-3-debt-and-equity-financing?module_item_id=2533713
+    Link: 116_Page_module_6_financing_a_business_6_1_3_debt_and_equity_financing.png
   - Name: "7.2.3: Strategy options for global businesses"
-    Link: https://myuni.adelaide.edu.au/courses/69866/pages/7-dot-2-3-strategy-options-for-global-businesses?module_item_id=2536747
+    Link: 139_Page_module_7_strategies_for_growth_products_distribution_channels_and_international_markets_7_2_3_strate.png
+  - Name: "11.1.5: Enacting a successful turnaround to renew the business"
+    Link: 206_Page_module_11_maturity_and_exit_renewal_versus_failure_sale_versus_succession_11_1_5_enacting_a_successf.png
 ---
 The course has been purposefully designed to balance learning theoretical concepts and practical application, enabling learners to regularly put into practice what they've learnt to gain a deeper understanding. Teams are established and use an online business simulation game called "Mike's Bikes". They compete with other teams to make key decisions to grow a virtual business while learning about the role of disciplines such as entrepreneurship, strategy, marketing, accounting, finance and management.
