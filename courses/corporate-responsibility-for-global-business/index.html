@@ -144,11 +144,28 @@
     </ol>
   </div>
 
+
+
 <div class="snapshots">
     <h3 class="label">Snapshots</h3>
     <ul>
         
     </ul>
+</div>
+
+<div id="snapshotPopover" class="snapshot-popover" onclick="closeSnapshot(event)">
+  <button class="snapshot-popover-close" onclick="closeSnapshot(event)">&times;</button>
+  <button class="snapshot-popover-nav snapshot-popover-prev" onclick="navigateSnapshot(-1)">&larr;</button>
+  <button class="snapshot-popover-nav snapshot-popover-next" onclick="navigateSnapshot(1)">&rarr;</button>
+  <div class="snapshot-popover-content" onclick="event.stopPropagation()">
+    <div class="snapshot-popover-image" id="popoverImageContainer">
+      <img id="popoverImage" src="" alt="">
+    </div>
+    <div class="snapshot-popover-description">
+      <h3 id="popoverTitle"></h3>
+      <p id="popoverDescription"></p>
+    </div>
+  </div>
 </div>
 
   <div class="learning-resources">
@@ -162,6 +179,70 @@
 
 </main>
 
+<script>
+let currentSnapshotIndex = 0;
+let snapshotElements = [];
+
+function openSnapshot(element) {
+  // Store all snapshot images for navigation
+  snapshotElements = Array.from(document.querySelectorAll('.snapshot-thumbnail'));
+  currentSnapshotIndex = snapshotElements.indexOf(element);
+  
+  displaySnapshot(element);
+  document.getElementById('snapshotPopover').classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function displaySnapshot(element) {
+  const imageSrc = element.getAttribute('data-image');
+  const title = element.getAttribute('data-title');
+  const description = element.getAttribute('data-description');
+  
+  document.getElementById('popoverImage').src = imageSrc;
+  document.getElementById('popoverImage').alt = title;
+  document.getElementById('popoverTitle').textContent = title;
+  document.getElementById('popoverDescription').textContent = description;
+  
+  // Reset scroll to top
+  document.getElementById('popoverImageContainer').scrollTop = 0;
+}
+
+function navigateSnapshot(direction) {
+  currentSnapshotIndex += direction;
+  
+  // Loop around
+  if (currentSnapshotIndex < 0) {
+    currentSnapshotIndex = snapshotElements.length - 1;
+  } else if (currentSnapshotIndex >= snapshotElements.length) {
+    currentSnapshotIndex = 0;
+  }
+  
+  displaySnapshot(snapshotElements[currentSnapshotIndex]);
+}
+
+function closeSnapshot(event) {
+  if (event.target.id === 'snapshotPopover' || event.target.classList.contains('snapshot-popover-close')) {
+    document.getElementById('snapshotPopover').classList.remove('active');
+    document.body.style.overflow = '';
+  }
+}
+
+// Close on Escape key
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') {
+    document.getElementById('snapshotPopover').classList.remove('active');
+    document.body.style.overflow = '';
+  }
+  // Navigate with arrow keys
+  if (document.getElementById('snapshotPopover').classList.contains('active')) {
+    if (e.key === 'ArrowLeft') {
+      navigateSnapshot(-1);
+    } else if (e.key === 'ArrowRight') {
+      navigateSnapshot(1);
+    }
+  }
+});
+</script>
 
     </body>
 </html>
