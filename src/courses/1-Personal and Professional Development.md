@@ -116,49 +116,20 @@ Media:
     Location: https://myuni.adelaide.edu.au/courses/76549/pages/lesson-9-dot-3-why-is-a-work-life-balance-essential?module_item_id=2680812
 Snapshot:
   - Name: "Lesson 1.1.2: The PPD journey"
-    Link: https://myuni.adelaide.edu.au/courses/76549/pages/lesson-1-dot-1-2-the-ppd-journey?module_item_id=2679141
-    Description: This lesson uses relatable and a non binary persona and
-      storytelling to illustrate personal and professional development (PPD)
-      concepts. Sarah and Alex's distinct journeys make abstract ideas tangible
-      and relatable, helping learners connect the principles to their own
-      experiences. Storytelling provides context, while visual aids and MBTI
-      insights offer clear, structured examples of development paths, making the
-      content engaging and actionable.
+    Link: "018_Page_module_1_what_is_personal_professional_development_lesson_1_1_2_the_ppd_journey.png"
+    Description: "This lesson uses relatable and a non binary persona and storytelling to illustrate personal and professional development (PPD) concepts. Sarah and Alex's distinct journeys make abstract ideas tangible and relatable, helping learners connect the principles to their own experiences. Storytelling provides context, while visual aids and MBTI insights offer clear, structured examples of development paths, making the content engaging and actionable."
   - Name: "Lesson 1.6: What does it mean to be professional?"
-    Link: https://myuni.adelaide.edu.au/courses/76549/pages/lesson-1-dot-6-what-does-it-mean-to-be-professional?module_item_id=2678538
-    Description: The interactive slideshow, combined with a downloadable PDF,
-      balances engagement and accessibility while adhering to the university's
-      style guide for colours and fonts. This alignment reinforces brand
-      consistency and professional standards, offering a cohesive visual
-      identity. The slideshow encourages active, self-paced learning, while the
-      PDF ensures inclusivity for those preferring static or offline materials.
-      By catering to diverse learning styles and incorporating real-world
-      professional tools, this dual format provides a clear, accessible, and
-      brand-aligned learning experience.
+    Link: "030_Page_module_1_what_is_personal_professional_development_lesson_1_6_what_does_it_mean_to_be_professional_.png"
+    Description: "The interactive slideshow, combined with a downloadable PDF, balances engagement and accessibility while adhering to the university's style guide for colours and fonts. This alignment reinforces brand consistency and professional standards, offering a cohesive visual identity. The slideshow encourages active, self-paced learning, while the PDF ensures inclusivity for those preferring static or offline materials. By catering to diverse learning styles and incorporating real-world professional tools, this dual format provides a clear, accessible, and brand-aligned learning experience."
   - Name: "Lesson 5.2.1: How to develop your portfolio using MS Sway"
-    Link: https://myuni.adelaide.edu.au/courses/76549/pages/lesson-5-dot-2-1-how-to-develop-your-ppd-portfolio-using-ms-sway?module_item_id=2682244
-    Description: This page guides students in creating professional portfolios with
-      Microsoft Sway, offering clear instructions, a tutorial video, and a
-      ready-to-use template. It highlights Sway’s intuitive design, multimedia
-      integration, and export options, ensuring students can effectively
-      showcase their development while addressing accessibility needs.
+    Link: "064_Page_module_5_how_metacognition_contributes_to_your_learning_as_well_as_your_ppd_lesson_5_2_1_how_to_deve.png"
+    Description: "This page guides students in creating professional portfolios with Microsoft Sway, offering clear instructions, a tutorial video, and a ready-to-use template. It highlights Sway’s intuitive design, multimedia integration, and export options, ensuring students can effectively showcase their development while addressing accessibility needs."
   - Name: "Lesson 8.3.1: What is the value of a powerful value proposition?"
-    Link: https://myuni.adelaide.edu.au/courses/76549/pages/lesson-8-dot-3-1-what-is-the-value-of-a-powerful-value-proposition?module_item_id=2680806
-    Description: This lesson effectively guides students in crafting a Unique Value
-      Proposition (UVP) and Unique Selling Proposition (USP) by clearly
-      distinguishing between the two, providing relatable examples like Sarah’s
-      UVP, offering practical frameworks and activities for refinement, and
-      linking external resources for further inspiration, ensuring students can
-      confidently articulate their professional brand.
+    Link: "092_Page_module_8_personal_branding_as_a_professional_lesson_8_3_1_what_is_the_value_of_a_powerful_value_prop.png"
+    Description: "This lesson effectively guides students in crafting a Unique Value Proposition (UVP) and Unique Selling Proposition (USP) by clearly distinguishing between the two, providing relatable examples like Sarah’s UVP, offering practical frameworks and activities for refinement, and linking external resources for further inspiration, ensuring students can confidently articulate their professional brand."
   - Name: "Lesson 10.2.1: Importance of diversity and inclusion in the workplace"
-    Link: https://myuni.adelaide.edu.au/courses/76549/pages/lesson-10-dot-2-1-importance-of-diversity-and-inclusion-in-the-workplace?module_item_id=2680819
-    Description: This lesson demonstrates a collaborative team effort where learning
-      designers crafted the core content on diversity and inclusion, including
-      its legal, ethical, and societal significance, while the media team
-      visualised complex data using figures and charts based on the Diversity
-      Council Australia's Inclusion@Work Index. Together, they effectively
-      translated statistics into accessible visuals that deepen understanding,
-      creating an engaging and informative learning experience for students.
+    Link: "109_Page_module_10_the_importance_of_diversity_and_innovation_in_the_workplace_lesson_10_2_1_importance_of_di.png"
+    Description: "This lesson demonstrates a collaborative team effort where learning designers crafted the core content on diversity and inclusion, including its legal, ethical, and societal significance, while the media team visualised complex data using figures and charts based on the Diversity Council Australia's Inclusion@Work Index. Together, they effectively translated statistics into accessible visuals that deepen understanding, creating an engaging and informative learning experience for students."
 ---
 Not sure what we want to do with these?
 

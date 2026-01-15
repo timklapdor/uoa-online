@@ -24,6 +24,12 @@ module.exports = function (eleventyConfig) {
   return imageExtensions.some(ext => value.toLowerCase().endsWith(ext));
   });
 
+  // Create a filter to limit number of characters
+  eleventyConfig.addFilter("limit", function(value, length) {
+  if (!value) return '';
+  return value.substring(0, length);
+  });
+
    // Create a collection that aggregates all team members
   eleventyConfig.addCollection("teamMembers", function(collectionApi) {
     const courses = collectionApi.getFilteredByTag("courses"); // Adjust tag as needed

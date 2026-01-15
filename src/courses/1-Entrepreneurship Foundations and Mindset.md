@@ -93,18 +93,18 @@ Media:
     Link: n8t5llT0BEg
 Snapshot:
   - Name: "Lesson 4.1: What drives people to become entrepreneurs?"
-    Link: https://myuni.adelaide.edu.au/courses/69867/pages/lesson-4-dot-1-what-drives-people-to-become-entrepreneurs?module_item_id=2424998
+    Link: 022_Page_module_1_the_foundational_elements_to_establishing_an_entrepreneurial_mindset_lesson_4_1_what_drives.png
   - Name: "Lesson 5.3: What is an entrepreneurial mindset?"
-    Link: https://myuni.adelaide.edu.au/courses/69867/pages/lesson-5-dot-3-how-to-develop-an-entrepreneurial-mindset?module_item_id=2428442
+    Link: 026_Page_module_1_the_foundational_elements_to_establishing_an_entrepreneurial_mindset_lesson_5_3_how_to_deve.png
   - Name: "Lesson 3.1: Where do entrepreneurial ideas come from?"
-    Link: https://myuni.adelaide.edu.au/courses/69867/pages/lesson-3-dot-1-where-do-entrepreneurial-ideas-come-from?module_item_id=2429035
+    Link: 032_Page_module_2_ideas_and_opportunities_lesson_3_1_where_do_entrepreneurial_ideas_come_from_.png
   - Name: "Lesson 4.1: What is a Problem Statement and why should I develop one?"
-    Link: https://myuni.adelaide.edu.au/courses/69867/pages/lesson-4-dot-1-what-is-a-problem-statement-and-why-should-i-develop-one?module_item_id=2507738
+    Link: 041_Page_module_3_problem_and_customer_confirmation_lesson_4_1_what_is_a_problem_statement_and_why_should_i_d.png
   - Name: "Lesson 3.1: How do I present the value proposition in a tangible form?"
-    Link: https://myuni.adelaide.edu.au/courses/69867/pages/lesson-3-dot-1-how-do-i-present-the-value-proposition-in-a-tangible-form?module_item_id=2507747
+    Link: 047_Page_module_4_from_ideation_to_validation_lesson_3_1_how_do_i_present_the_value_proposition_in_a_tangible.png
   - Name: "Lesson 5.1: What are the main cost items I would need to consider?"
-    Link: https://myuni.adelaide.edu.au/courses/69867/pages/lesson-5-dot-1-what-are-the-main-cost-items-i-would-need-to-consider?module_item_id=2507762
+    Link: 055_Page_module_5_lean_start_up_lesson_5_1_what_are_the_main_cost_items_i_would_need_to_consider_.png
   - Name: "Lesson 1: What is the risk management process?"
-    Link: https://myuni.adelaide.edu.au/courses/69867/pages/lesson-1-dot-1-what-is-the-risk-management-process?module_item_id=2507958
+    Link: 070_Page_module_7_stage_1_and_stage_2_of_the_risk_management_process_lesson_1_1_what_is_the_risk_management_p.png
 ---
 This course provides a general overview of entrepreneurship and to understand the entrepreneurial mindset. The course is designed to be skills centric and focussed on practical activities that enable learners to develop skills to create their own entrepreneurial career path. A key feature of the experience is journey of fictional students Abbey and Eduardo. They provide an ongoing **worked example** throughout the course, helping to explain, demonstrate and set expectations for learners and their work.

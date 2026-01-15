@@ -85,17 +85,17 @@ Media:
     Link: https://myuni.adelaide.edu.au/courses/69868/pages/lesson-10-dot-8-why-do-we-make-efforts-to-perform?module_item_id=2485215
 Snapshot:
   - Name: How can you understand the stages of group development?
-    Link: https://myuni.adelaide.edu.au/courses/69868/pages/lesson-6-dot-2-how-can-you-understand-the-stages-of-group-development?module_item_id=2485054
-    Description: This lesson unpacks Tuckman’s stages of group development through
+    Link: 075_Page_module_6_managing_work_groups_and_teams_lesson_6_2_how_can_you_understand_the_stages_of_group_develo.png
+    Description: "This lesson unpacks Tuckman’s stages of group development through
       visual elements like diagrams and figures, paired with storytelling and
       real-world examples, such as Ashwini Asokan’s team, to contextualise
       theory. Tools like Belbin’s 9 team roles and Hofstede’s cultural
       dimensions engage students in applying concepts, while the weekly learning
       log fosters reflection and critical thinking, connecting theory to
-      personal experience and supporting diverse learning styles.
+      personal experience and supporting diverse learning styles."
   - Name: What are the focus and goals of organisational behaviour? Why are they so
       important to managers?
-    Link: https://myuni.adelaide.edu.au/courses/69868/pages/lesson-9-dot-1-what-are-the-focus-and-goals-of-organisational-behaviour-why-are-they-so-important-to-managers?module_item_id=2485094
+    Link: 106_Page_module_9_understanding_individual_behaviour_lesson_9_1_what_are_the_focus_and_goals_of_organisationa.png
     Description: "This lesson, one of the first in the OUA series, uses an iceberg
       infographic to visually contrast visible aspects of organisational
       behaviour, like strategies, with hidden ones, such as attitudes and group
@@ -103,16 +103,15 @@ Snapshot:
       predicting, and influencing behaviours, offering students a clear,
       engaging introduction to OB."
   - Name: What is perception? What influences it?
-    Link: https://myuni.adelaide.edu.au/courses/69868/pages/lesson-9-dot-6-what-is-perception-what-influences-it?module_item_id=2485115
-    Description: This lesson uses interactive activities like a jumbled text
+    Link: 111_Page_module_9_understanding_individual_behaviour_lesson_9_6_what_is_perception_what_influences_it_.png
+    Description: "This lesson uses interactive activities like a jumbled text
       exercise and optical illusions to demonstrate how perception shapes
       understanding. It introduces attribution theory with practical workplace
       examples and visual summaries, making complex concepts accessible.
       Reflective tasks, such as analysing group perceptions and mirror
       exercises, encourage critical thinking and self-awareness, helping
       students connect theory to real-world applications in teamwork and
-      assessments.
+      assessments."
 Jobs:
-  - Media
-  - Learning Experience
+  -  
 ---
