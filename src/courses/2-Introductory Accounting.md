@@ -80,19 +80,19 @@ Media:
     Description:
 Snapshot:
   - Name: "Lesson 5.2: How can income statement and balance sheet transactions be captured using accounting equation techniques?"
-    Link: https://myuni.adelaide.edu.au/courses/76550/pages/lesson-5-dot-2-how-can-income-statement-and-balance-sheet-transactions-be-captured-using-accounting-equation-techniques?module_item_id=2818995
+    Link: 052_Page_module_5_accounting_equation_techniques_lesson_5_2_how_can_income_statement_and_balance_sheet_transa.png
     Description: "Broke up a complex module into several worked example activities, simplified pages, included helpful graphics to further illustrate the relationshiph between the theories equations and steps, included plenty of activities for students to practice each calculation at each point."
   - Name: "Lesson 2.5: How is the accounting equation applied to the accounting elements?"
-    Link: https://myuni.adelaide.edu.au/courses/76550/pages/lesson-2-dot-5-how-is-the-accounting-equation-applied-to-the-accounting-elements?module_item_id=2818863
+    Link: 030_Page_module_2_the_accounting_process_lesson_2_5_how_is_the_accounting_equation_applied_to_the_accounting_.png
     Description: "Overhauled lesson by including demonstration videos, including accessible versions of the process outlined in the video."
   - Name: "Lesson 9.2: How is a cash budget prepared?"
-    Link: https://myuni.adelaide.edu.au/courses/76550/pages/lesson-9-dot-2-how-is-a-cash-budget-prepared?module_item_id=2816655
+    Link: 074_Page_module_9_budgeting_lesson_9_2_how_is_a_cash_budget_prepared_.png
     Description: "overhauled lesson by including demonstration videos, including accessible versions of the process outlined in the video"
   - Name: "Lesson 6.1: What is the purpose of the statement of cash flows?"
-    Link: https://myuni.adelaide.edu.au/courses/76550/pages/lesson-6-dot-1-what-is-the-purpose-of-the-statement-of-cash-flows
+    Link: 057_Page_module_6_statement_of_cash_flows_lesson_6_1_what_is_the_purpose_of_the_statement_of_cash_flows_.png
     Description: "overhauled the explanation so that graphic illustrations could be co-designed, further additions were made for user experinece including embedding the use of a case study into the learning activity with optional external link"
   - Name: "Lesson 8.3: What is the cash conversion period, and how is it calculated?"
-    Link: https://myuni.adelaide.edu.au/courses/76550/pages/lesson-8-dot-3-what-is-the-cash-conversion-period-and-how-is-it-calculated?module_item_id=2816482
+    Link: 069_Page_module_8_working_capital_lesson_8_3_what_is_the_cash_conversion_period_and_how_is_it_calculated_.png
     Description: "complex demonstration of cash flow budgeting concept, including several worked examples, as well as opportunity for student to attempt to calculate on their own and then compare their answer."
 Jobs: 
   - Media Required

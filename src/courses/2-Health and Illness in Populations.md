@@ -83,14 +83,14 @@ Media:
     Description: "Andrew Gardner introduces the different types of outcomes you can measure and what's required for evaluating long-term outcomes, impacts, and processes of interventions."
 Snapshot:
   - Name: Module 1 Review Summary
-    Link: https://myuni.adelaide.edu.au/courses/76553/pages/module-1-review-summary?module_item_id=2803165
+    Link: 029_Page_module_1_thinking_about_health_from_a_population_perspective_module_1_review_summary.png
     Description: "An end of module review allows students to check their understanding of the concepts and ideas covered thoughout the course content. It provide a formative learning opportunity for learners to check their own progress and revise areas they are struggling with."
   - Name: Lesson 8.1 What are ethical values and how do they shape public health issues?
-    Link: https://myuni.adelaide.edu.au/courses/76553/pages/lesson-8-dot-1-what-are-ethical-values-and-how-do-they-shape-public-health-issues?module_item_id=2800843
+    Link: 082_Page_module_8_weighing_up_population_health_against_values_and_vested_interests_lesson_8_1_what_are_ethic.png
   - Name: Module 9 interactive session overview
-    Link: https://myuni.adelaide.edu.au/courses/76553/pages/module-9-interactive-session-overview?module_item_id=2804203
+    Link: 093_Page_module_9_evaluating_public_health_interventions_and_programs_to_understand_if_they_work_module_9_int.png
   - Name: Lesson 10.1 How can you calculate measures of association between exposures and health outcomes?
-    Link: https://myuni.adelaide.edu.au/courses/76553/pages/lesson-10-dot-1-how-can-you-calculate-measures-of-association-between-exposures-and-health-outcomes?module_item_id=2816424
+    Link: 098_Page_module_10_using_epidemiology_to_tell_compelling_stories_with_data_lesson_10_1_how_can_you_calculate_.png
 Jobs: 
   - Check videos with Cathy
   - Learning Experience

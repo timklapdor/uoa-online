@@ -92,13 +92,13 @@ Media:
     Location: https://myuni.adelaide.edu.au/courses/76552/pages/lesson-9-dot-1-how-do-businesses-make-promotion-decisions?module_item_id=2755361
 Snapshot:
   - Name: "Lesson 1.2: What are Marketing Management Philosophies?"
-    Link: "https://myuni.adelaide.edu.au/courses/76552/pages/lesson-1-dot-2-what-are-marketing-management-philosophies?module_item_id=2755207"
+    Link: "017_Page_module_1_marketing_basics_lesson_1_2_what_are_marketing_management_philosophies_.png"
     Description: "This lesson uses clear explanations, visual examples, and comparison tables to illustrate marketing management philosophies. Images like a futuristic car and Nike's customisation page help students connect concepts to real-world examples. Interactive discussion prompts encourage engagement, making the lesson relatable and memorable."
   - Name: "Lesson 2.5: How do Businesses Identify Strategic Options?"
-    Link: https://myuni.adelaide.edu.au/courses/76552/pages/lesson-2-dot-5-how-do-businesses-identify-strategic-options?module_item_id=2755325
+    Link: 031_Page_module_2_marketing_strategy_and_developing_a_marketing_plan_lesson_2_5_how_do_businesses_identify_st.png
     Description: "This lesson uses clear visuals, practical examples like The Wiggles, and concise explanations to teach Ansoff's and BCG matrices. Videos and readings enhance understanding, while real-world applications connect theory to practice, helping students grasp strategic growth and portfolio management effectively."
   - Name: "Lesson 3.3: How is Technology used in Market Research?"
-    Link: https://myuni.adelaide.edu.au/courses/76552/pages/lesson-3-dot-3-how-is-technology-used-in-market-research?module_item_id=2755332
+    Link: 041_Page_module_3_market_research_lesson_3_3_how_is_technology_used_in_market_research_.png
     Description: "In this lesson, Rich and Tim collaborated to create the activity Conducting Market Research for a Pop-Up Business. This activity provides students with practical experience in using real-world tools such as the Australian Bureau of Statistics (ABS), Google Maps, and Google Trends to gather and analyse data for informed marketing decisions. By engaging with these tools, students not only enhance their technical proficiency but also develop critical thinking skills as they assess market viability and competition for a pop-up business. The inclusion of real-world platforms and step-by-step guidance ensures students gain hands-on insights, making the learning experience practical, engaging, and highly applicable to real-life marketing scenarios."
 Jobs: 
   - Media Descriptions

@@ -70,19 +70,19 @@ Media:
     Description: "The diagram uses the PESTLE model to explore the external factors that can influence the global operations of business organisations."
 Snapshot:
   - Name: "Lesson 4.1: What are the major theories of international trade?"
-    Link: https://myuni.adelaide.edu.au/courses/76551/pages/lesson-4-dot-1-what-are-the-major-theories-of-international-trade?module_item_id=2819021
+    Link: 045_Page_module_4_theoretical_foundations_of_international_business_lesson_4_1_what_are_the_major_theories_of.png
     Description: 
   - Name: "Lesson 5.1: What is culture?"
-    Link: "https://myuni.adelaide.edu.au/courses/76551/pages/lesson-5-dot-1-what-is-culture?module_item_id=2820192"
+    Link: "054_Page_module_5_the_cultural_environment_of_international_business_lesson_5_1_what_is_culture_.png"
     Description: 
   - Name: "Lesson 10.2: What are the risks and challenges of emerging markets?"
-    Link: "https://myuni.adelaide.edu.au/courses/76551/pages/lesson-10-dot-2-what-are-the-risks-and-challenges-of-emerging-markets?module_item_id=2826461"
+    Link: "107_Page_module_10_understanding_emerging_markets_lesson_10_2_what_are_the_risks_and_challenges_of_emerging_m.png"
     Description: 
   - Name: "Lesson 11.1: What is sustainability?"
-    Link: "https://myuni.adelaide.edu.au/courses/76551/pages/lesson-11-dot-1-what-is-sustainability?module_item_id=2824891"
+    Link: "114_Page_module_11_sustainability_in_global_business_lesson_11_1_what_is_sustainability_.png"
     Description: 
   - Name: "Lesson 11.2: What is the triple bottom line?"
-    Link: "https://myuni.adelaide.edu.au/courses/76551/pages/lesson-11-dot-2-what-is-the-triple-bottom-line?module_item_id=2824893"
+    Link: "117_Page_module_11_sustainability_in_global_business_lesson_11_2_what_is_the_triple_bottom_line_.png"
     Description: 
 Jobs: 
   - Media

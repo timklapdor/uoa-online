@@ -44,7 +44,7 @@ title: Courses
     {%- set bannerFile = courseSlug + '.png' -%}
       <li 
         class="filterDiv {% for program in item.data.Programs %}{{ program }} {% endfor %} Dev-{{ item.data.DevCycle }}"
-        style="background: url('{% bgImageUrlShort bannerFile, 800 %}') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: soft-light; background-position: 55% 30%;"
+        style="background: url('{% bgImageUrlShort bannerFile, 400 %}') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: soft-light; background-position: 55% 30%;"
         >
         <a href="{{ item.url |url }}">
           <h3>{{ item.data.CourseName }}</h3> 
