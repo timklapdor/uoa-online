@@ -29,7 +29,362 @@
         <main>
   <article>
   <h1>Courses </h1>
-    <p>Will move the home page to here - maybe more of a card layout like the <a href="https://learning-patterns.com/">Learning Patterns</a>.</p>
+    
+<div class="filters" id="filters">
+			<h3>Programs</h3>
+			<button type="button" class="btn all" onclick="filterSelection('all')">All</button>
+      <button type="button" class="btn content" onclick="filterSelection('IB')">International Business</button>
+      <button type="button" class="btn content" onclick="filterSelection('HSM')">Health Service Management</button>
+</div>
+
+<div class="filters" id="filters">
+			<h3>Development Cycles</h3>
+			<button type="button" class="btn all" onclick="filterSelection('all')">All</button>
+      <button type="button" class="btn content" onclick="filterSelection('Dev-1')">1</button>
+      <button type="button" class="btn content" onclick="filterSelection('Dev-2')">2</button>
+      <button type="button" class="btn content" onclick="filterSelection('Dev-3')">3</button>
+      <button type="button" class="btn content" onclick="filterSelection('Dev-4')">4</button>
+      <button type="button" class="btn content" onclick="filterSelection('Dev-5')">5</button>
+      <button type="button" class="btn content" onclick="filterSelection('Dev-6')">6</button>
+      <button type="button" class="btn content" onclick="filterSelection('Dev-7')">7</button>
+      <button type="button" class="btn content" onclick="filterSelection('Dev-8')">8</button>
+      <button type="button" class="btn content" onclick="filterSelection('Dev-9')">9</button>
+</div>
+
+
+<ul id="course-list"><li 
+        class="filterDiv IB  Dev-1"
+        style="background: url('../images/banners/optimized/business-lifecycles-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/business-lifecycles/">
+          <h3>Business Lifecycles</h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv IB HSM  Dev-1"
+        style="background: url('../images/banners/optimized/entrepreneurship-foundations-and-mindset-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/entrepreneurship-foundations-and-mindset/">
+          <h3>Entrepreneurship Foundations and Mindset </h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv IB HSM  Dev-1"
+        style="background: url('../images/banners/optimized/personal-and-professional-development-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/personal-and-professional-development/">
+          <h3>Personal and Professional Development</h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv IB HSM  Dev-1"
+        style="background: url('../images/banners/optimized/managing-organisations-and-people-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/managing-organisations-and-people/">
+          <h3>Managing Organisations and People</h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv HSM  Dev-2"
+        style="background: url('../images/banners/optimized/health-and-illness-in-populations-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/health-and-illness-in-populations/">
+          <h3>Health and Illness in Populations</h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv IB  Dev-2"
+        style="background: url('../images/banners/optimized/international-business-environments-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/international-business-environments/">
+          <h3>International Business Environments</h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv IB HSM  Dev-2"
+        style="background: url('../images/banners/optimized/introduction-to-marketing-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/introduction-to-marketing/">
+          <h3>Introduction to Marketing</h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv IB HSM  Dev-2"
+        style="background: url('../images/banners/optimized/introductory-accounting-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/introductory-accounting/">
+          <h3>Introductory Accounting</h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv HSM  Dev-3"
+        style="background: url('../images/banners/optimized/introduction-to-health-ethics-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/introduction-to-health-ethics/">
+          <h3>Introduction to Health Ethics </h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv IB HSM  Dev-3"
+        style="background: url('../images/banners/optimized/data-analytics-1-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/data-analytics-1/">
+          <h3>Data Analytics 1</h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv IB  Dev-4"
+        style="background: url('../images/banners/optimized/international-business-operation-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/international-business-operation/">
+          <h3>International Business Operation</h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv IB  Dev-4"
+        style="background: url('../images/banners/optimized/international-trade-strategies-and-opportunities-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/international-trade-strategies-and-opportunities/">
+          <h3>International Trade Strategies &amp; Opportunities </h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv IB HSM  Dev-5"
+        style="background: url('../images/banners/optimized/business-information-systems-and-management-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/business-information-systems-and-management/">
+          <h3>Business Information Systems &amp; Management</h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv HSM  Dev-5"
+        style="background: url('../images/banners/optimized/social-foundations-of-health-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/social-foundations-of-health/">
+          <h3>Social Foundations of Health</h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv IB HSM  Dev-5"
+        style="background: url('../images/banners/optimized/business-operations-management-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/business-operations-management/">
+          <h3>Business Operations Management</h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv IB HSM  Dev-5"
+        style="background: url('../images/banners/optimized/human-resource-management-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/human-resource-management/">
+          <h3>Human Resource Management </h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv IB  Dev-5"
+        style="background: url('../images/banners/optimized/international-trade-negotiations-and-agreements-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/international-trade-negotiations-and-agreements/">
+          <h3>International Trade: Negotiations &amp; Agreements</h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv IB  Dev-5"
+        style="background: url('../images/banners/optimized/building-and-managing-brands-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/building-and-managing-brands/">
+          <h3>Building &amp; Managing Brands</h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv HSM  Dev-5"
+        style="background: url('../images/banners/optimized/health-economics-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/health-economics/">
+          <h3>Health Economics</h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv HSM  Dev-7"
+        style="background: url('../images/banners/optimized/environmental-and-occupational-health-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/environmental-and-occupational-health/">
+          <h3>Environmental &amp; Occupational Health </h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv HSM  Dev-7"
+        style="background: url('../images/banners/optimized/health-care-systems-structure-policy-and-people-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/health-care-systems-structure-policy-and-people/">
+          <h3>Health Care Systems: Structure, Policy and People </h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv IB HSM  Dev-7"
+        style="background: url('../images/banners/optimized/managing-conflicts-and-change-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/managing-conflicts-and-change/">
+          <h3>Managing Conflicts &amp; Change</h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv IB  Dev-7"
+        style="background: url('../images/banners/optimized/marketing-to-the-world-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/marketing-to-the-world/">
+          <h3>Marketing to the World</h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv IB HSM  Dev-7"
+        style="background: url('../images/banners/optimized/systems-thinking-for-a-complex-world-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/systems-thinking-for-a-complex-world/">
+          <h3>Systems Thinking for a Complex World </h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv IB HSM  Dev-8"
+        style="background: url('../images/banners/optimized/strategic-management-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/strategic-management/">
+          <h3>Strategic Management</h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv HSM  Dev-8"
+        style="background: url('../images/banners/optimized/health-promotions-iii-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/health-promotions-iii/">
+          <h3>Health Promotions III</h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv IB  Dev-8"
+        style="background: url('../images/banners/optimized/internationalisation-of-smes-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/internationalisation-of-smes/">
+          <h3>Internationalisation of SMEs</h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv HSM  Dev-8"
+        style="background: url('../images/banners/optimized/knowing-what-works-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/knowing-what-works/">
+          <h3>Knowing What Works</h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv IB  Dev-8"
+        style="background: url('../images/banners/optimized/marketing-communications-in-a-digital-world-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/marketing-communications-in-a-digital-world/">
+          <h3>Marketing Communications in a Digital World</h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv HSM  Dev-8"
+        style="background: url('../images/banners/optimized/doing-business-in-health-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/doing-business-in-health/">
+          <h3>Doing Business in Health</h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv IB  Dev-9"
+        style="background: url('../images/banners/optimized/corporate-responsibility-for-global-business-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/corporate-responsibility-for-global-business/">
+          <h3>Corporate Responsibility for Global Business</h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv HSM  Dev-9"
+        style="background: url('../images/banners/optimized/health-technology-assessment-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/health-technology-assessment/">
+          <h3>Health Technology Assessment</h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv HSM  Dev-9"
+        style="background: url('../images/banners/optimized/management-challenges-in-health-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/management-challenges-in-health/">
+          <h3>Management Challenges in Health</h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv IB  Dev-9"
+        style="background: url('../images/banners/optimized/managing-across-cultures-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/managing-across-cultures/">
+          <h3>Managing Across Cultures</h3> 
+        </a>
+   </li>
+    <li 
+        class="filterDiv IB HSM  Dev-9"
+        style="background: url('../images/banners/optimized/echallenge-800w.jpeg') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="/uoa-online/courses/echallenge/">
+          <h3>eChallenge</h3> 
+        </a>
+   </li>
+    
+</ul>
+
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+// Show filtered elements
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current control button (highlight it)
+var btnContainer = document.getElementById("filters");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+} 
+</script>
 
   </article>
 </main>

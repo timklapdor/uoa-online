@@ -1,0 +1,105 @@
+---
+layout: page.njk
+title: Courses
+---
+
+<div class="filters" id="filters">
+			<h3>Programs</h3>
+			<button type="button" class="btn all" onclick="filterSelection('all')">All</button>
+      <button type="button" class="btn content" onclick="filterSelection('IB')">International Business</button>
+      <button type="button" class="btn content" onclick="filterSelection('HSM')">Health Service Management</button>
+</div>
+
+<div class="filters" id="filters">
+			<h3>Development Cycles</h3>
+			<button type="button" class="btn all" onclick="filterSelection('all')">All</button>
+      <button type="button" class="btn content" onclick="filterSelection('Dev-1')">1</button>
+      <button type="button" class="btn content" onclick="filterSelection('Dev-2')">2</button>
+      <button type="button" class="btn content" onclick="filterSelection('Dev-3')">3</button>
+      <button type="button" class="btn content" onclick="filterSelection('Dev-4')">4</button>
+      <button type="button" class="btn content" onclick="filterSelection('Dev-5')">5</button>
+      <button type="button" class="btn content" onclick="filterSelection('Dev-6')">6</button>
+      <button type="button" class="btn content" onclick="filterSelection('Dev-7')">7</button>
+      <button type="button" class="btn content" onclick="filterSelection('Dev-8')">8</button>
+      <button type="button" class="btn content" onclick="filterSelection('Dev-9')">9</button>
+</div>
+
+
+<ul id="course-list">
+    {%- set regularCourses = [] -%}
+    {%- set eChallengeCourse = [] -%}
+
+    {%- for item in collections.courses | sort(false, false, 'data.DevCycle') | sort(attribute="data.name") -%}
+      {%- if item.data.CourseName == "eChallenge" -%}
+        {%- set temp = eChallengeCourse.push(item) -%}
+      {%- else -%}
+        {%- set temp = regularCourses.push(item) -%}
+      {%- endif -%}
+    {%- endfor -%}
+
+    {%- set sortedCourses = regularCourses.concat(eChallengeCourse) -%}
+    {% for item in sortedCourses -%}    
+
+    {%- set courseSlug = item.data.CourseName | slugify -%}
+    {%- set bannerFile = courseSlug + '.png' -%}
+      <li 
+        class="filterDiv {% for program in item.data.Programs %}{{ program }} {% endfor %} Dev-{{ item.data.DevCycle }}"
+        style="background: url('{% bgImageUrlShort bannerFile, 800 %}') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: darken; background-position: 55% 30%;"
+        >
+        <a href="{{ item.url |url }}">
+          <h3>{{ item.data.CourseName }}</h3> 
+        </a>
+   </li>
+    {% endfor %}
+</ul>
+
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+// Show filtered elements
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current control button (highlight it)
+var btnContainer = document.getElementById("filters");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+} 
+</script>

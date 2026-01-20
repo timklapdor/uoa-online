@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
@@ -414,4 +415,51 @@ main {
  img { 
     grid-column: 3/6;
  }
+}
+
+#course-list {
+   padding: 0;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
+   grid-auto-rows: minmax(200px, 1fr);
+   grid-gap: 1ch;
+
+   a {
+      text-decoration: none;
+   }
+   
+  li {
+    list-style: none;
+    padding: 1ch;
+    border-radius: .7ch;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: var(--tertiary-default);
+    height: 100%;
+    display: none; /* Hidden by default */
+  
+    &.show {
+      display: flex;
+    }
+
+   &:hover {
+      background-color: var(--secondary-default) !important;
+      background-blend-mode: soft-light !important;
+    }
+
+   & a::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      }  
+   
+   h3 {
+      color: var(--rev);
+   }
+  }
 }

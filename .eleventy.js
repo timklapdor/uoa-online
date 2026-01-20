@@ -86,7 +86,7 @@ module.exports = function (eleventyConfig) {
     return Array.from(roles).sort();
   });
 
-   // Shortcode for background images
+  // Shortcode for background images
   eleventyConfig.addNunjucksAsyncShortcode("bgImage", async function(src, alt = "") {
     // Construct the full path to the source image
     const fullSrc = path.join("./images/banners/", src);
@@ -149,6 +149,37 @@ module.exports = function (eleventyConfig) {
       console.error(`Error processing image ${src}:`, error.message);
       // Return fallback path on error
       return `../../images/banners/${src}`;
+    }
+  });
+
+  // Alternative version with single ../ path
+  eleventyConfig.addAsyncShortcode("bgImageUrlShort", async function(src, width = 1200) {
+    const fs = require("fs");
+    const fullSrc = path.resolve(__dirname, "./src/images/banners/", src);
+    
+    // Check if file exists before processing
+    if (!fs.existsSync(fullSrc)) {
+      console.warn(`Warning: Banner image not found: ${fullSrc}`);
+      return `../images/banners/${src}`;
+    }
+    
+    try {
+      let metadata = await Image(fullSrc, {
+        widths: [width],
+        formats: ["jpeg"],
+        outputDir: "./docs/images/banners/optimized/",
+        urlPath: "../images/banners/optimized/",
+        filenameFormat: function (id, src, width, format) {
+          const extension = path.extname(src);
+          const name = path.basename(src, extension);
+          return `${name}-${width}w.${format}`;
+        }
+      });
+
+      return metadata.jpeg[0].url;
+    } catch (error) {
+      console.error(`Error processing image ${src}:`, error.message);
+      return `../images/banners/${src}`;
     }
   });
 
