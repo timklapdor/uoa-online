@@ -2,7 +2,7 @@
 CourseName: Building & Managing Brands
 Programs: 
   - IB
-DevCycle: 5
+DevCycle: 6
 Blueprint: 'https://myuni.adelaide.edu.au/courses/86262'
 Description: >
   A company's most valuable assets often include its brand. Even startups and

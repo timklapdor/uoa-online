@@ -2,7 +2,7 @@
 CourseName: 'International Trade: Negotiations & Agreements'
 Programs:
   - IB
-DevCycle: 5
+DevCycle: 6
 Blueprint: 'https://myuni.adelaide.edu.au/courses/86391'
 Description: >
   International Trade: Negotiation and Agreement will build your knowledge and

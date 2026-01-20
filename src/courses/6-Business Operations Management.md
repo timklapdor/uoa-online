@@ -3,7 +3,7 @@ CourseName: Business Operations Management
 Programs: 
   - IB
   - HSM
-DevCycle: 5
+DevCycle: 6
 Blueprint: 'https://myuni.adelaide.edu.au/courses/80195'
 Description: >
   Operations management is at the heart of every organisation. It's the activity

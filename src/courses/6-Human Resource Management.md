@@ -17,7 +17,7 @@ CourseName: 'Human Resource Management '
 Programs:
   - IB
   - HSM
-DevCycle: 5
+DevCycle: 6
 Blueprint: 'https://myuni.adelaide.edu.au/courses/86261'
 Description: >
   The past few years have seen rapid changes both at personal and professional

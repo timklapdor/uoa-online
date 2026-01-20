@@ -439,6 +439,7 @@ main {
     background: var(--tertiary-default);
     height: 100%;
     display: none; /* Hidden by default */
+    color: var(--rev);
   
     &.show {
       display: flex;
@@ -459,7 +460,7 @@ main {
       }  
    
    h3 {
-      color: var(--rev);
+      
    }
   }
 }
