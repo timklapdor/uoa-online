@@ -41,7 +41,7 @@
       "image": "brianna-morello.jpg"
     },{
       "name": "Bryan Macdonald",
-      "image": ""
+      "image": "bryan-macdonald.jpeg"
     },{
       "name": "Camille Schubert",
       "image": "camille-schubert.jpg"
@@ -62,7 +62,7 @@
       "image": "chris-graves.jpg"
     },{
       "name": "Claire Paterson",
-      "image": "",
+      "image": "claire-paterson.jpeg",
       "position": "Project Officer",
       "team": "project"
     },{
@@ -235,7 +235,7 @@
       "team": "devel"
     },{
       "name": "Rosemarie Fonseka",
-      "image": "",
+      "image": "rosemarie-fonseka.jpg",
       "position": "Learning Designer",
       "team": "devel"
     },{
@@ -260,7 +260,7 @@
       "image": "shona-crabb.jpeg"
     },{
       "name": "Simon Nagy",
-      "image": "",
+      "image": "simon-nagy.jpeg",
       "position": "Learning Designer",
       "team": "devel"
     },{
@@ -273,7 +273,7 @@
       "image": "stella-bachtis.jpeg"
     },{
       "name": "Suman Laudari",
-      "image": "",
+      "image": "suman-laudari.jpeg",
       "position": "Learning Designer",
       "team": "devel"
     },{
@@ -289,6 +289,12 @@
       "team": "devel", 
       "role" : "lead"
     },{
+      "name": "Tom Whitford",
+      "image": "tom-whitford.jpeg",
+      "position": "Learning Designer",
+      "team": "", 
+      "role" : ""
+    },{
       "name": "Tracy Merlin",
       "image": "tracy-merlin.jpg"
     },{
@@ -301,7 +307,7 @@
       "image": "virginie-masson.jpeg"
     },{
       "name": "Viviana Zuluaga",
-      "image": "",
+      "image": "viviana-zuluaga.jpeg",
       "position": "Digital Education Developer",
       "team": "devel"
     },{
