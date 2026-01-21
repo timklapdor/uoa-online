@@ -203,9 +203,12 @@ Link: &quot;https://miro.com/app/board/uXjVOGQleuE=/&quot;</li>
   </div>
 </div>
 
-  <div class="learning-resources">
+  <div class="learning-resources media-carousel-container">
     <h3 class="label">Learning Resources</h3>
-    <ul class="list">
+      <button class="carousel-nav prev" onclick="navigateCarousel(-1)">&larr;</button>
+      <button class="carousel-nav next" onclick="navigateCarousel(1)">&rarr;</button>
+ 
+    <ul class="list" id="mediaCarousel">
       
       <li class="media YOUTUBE">
 
@@ -216,6 +219,7 @@ Link: &quot;https://miro.com/app/board/uXjVOGQleuE=/&quot;</li>
             
 
             
+              <p> </p>
               <div class="responsive-iframe-container">
                 <iframe title="YouTube video player" src="https://www.youtube-nocookie.com/embed/VAUlg8u5vyQ" width="560" height="315" loading="lazy" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
               </div>
@@ -236,6 +240,7 @@ Link: &quot;https://miro.com/app/board/uXjVOGQleuE=/&quot;</li>
             
 
             
+              <p> </p>
               <div class="responsive-iframe-container">
                 <iframe title="YouTube video player" src="https://www.youtube-nocookie.com/embed/NtCOTo_T8zw" width="560" height="315" loading="lazy" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
               </div>
@@ -256,6 +261,7 @@ Link: &quot;https://miro.com/app/board/uXjVOGQleuE=/&quot;</li>
             
 
             
+              <p> </p>
               <div class="responsive-iframe-container">
                 <iframe title="YouTube video player" src="https://www.youtube-nocookie.com/embed/ankADrn9s9g" width="560" height="315" loading="lazy" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
               </div>
@@ -276,6 +282,7 @@ Link: &quot;https://miro.com/app/board/uXjVOGQleuE=/&quot;</li>
             
 
             
+              <p> </p>
               <div class="responsive-iframe-container">
                 <iframe title="YouTube video player" src="https://www.youtube-nocookie.com/embed/SYmNG5e1XaU" width="560" height="315" loading="lazy" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
               </div>
@@ -296,6 +303,7 @@ Link: &quot;https://miro.com/app/board/uXjVOGQleuE=/&quot;</li>
             
 
             
+              <p> </p>
               <div class="responsive-iframe-container">
                 <iframe title="YouTube video player" src="https://www.youtube-nocookie.com/embed/royklEy6i_I" width="560" height="315" loading="lazy" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
               </div>
@@ -314,10 +322,9 @@ Link: &quot;https://miro.com/app/board/uXjVOGQleuE=/&quot;</li>
             
         
             
-                
+                <p>Learners can quickly check their knowledge of marketing management philosophies by dragging and dropping the words under the Focus section to correctly match up with the Orientation. </p>
                 <div class="responsive-iframe-container">
                   <iframe class="lti-embed" width="100%" height="800" title="Marketing management philosophies drag and drop H5P" src="https://adelaide.h5p.com/lti/401078/content/1291660264527716869" frameborder="0"></iframe>
-                <figcaption>Learners can quickly check their knowledge of marketing management philosophies by dragging and dropping the words under the Focus section to correctly match up with the Orientation.</figcaption>
                 </div>
             
 
@@ -336,10 +343,9 @@ Link: &quot;https://miro.com/app/board/uXjVOGQleuE=/&quot;</li>
             
         
             
-                
+                <p> </p>
                 <div class="responsive-iframe-container">
                   <iframe class="lti-embed" width="100%" height="800" title="Product Lifecycle H5P drag and drop" src="https://adelaide.h5p.com/lti/401078/content/1291666243689325949" frameborder="0"></iframe>
-                <figcaption></figcaption>
                 </div>
             
 
@@ -373,6 +379,7 @@ Link: &quot;https://miro.com/app/board/uXjVOGQleuE=/&quot;</li>
       </li>
     
     </ul>
+      <ul class="carousel-indicators" id="carouselIndicators"></ul>
   </div>
 
 
@@ -442,6 +449,64 @@ document.addEventListener('keydown', function(e) {
     }
   }
 });
+</script>
+
+<script>
+const carousel = document.getElementById('mediaCarousel');
+const indicators = document.getElementById('carouselIndicators');
+const items = carousel.querySelectorAll('li.media');
+let currentIndex = 0;
+
+// Create indicators
+items.forEach((item, index) => {
+  const button = document.createElement('button');
+  button.setAttribute('aria-label', `Go to slide ${index + 1}`);
+  button.onclick = () => scrollToItem(index);
+  if (index === 0) button.classList.add('active');
+  indicators.appendChild(button);
+});
+
+function updateIndicators() {
+  const buttons = indicators.querySelectorAll('button');
+  buttons.forEach((btn, index) => {
+    btn.classList.toggle('active', index === currentIndex);
+  });
+  
+  // Update nav button states
+  document.querySelector('.carousel-nav.prev').disabled = currentIndex === 0;
+  document.querySelector('.carousel-nav.next').disabled = currentIndex === items.length - 1;
+}
+
+function scrollToItem(index) {
+  currentIndex = Math.max(0, Math.min(index, items.length - 1));
+  items[currentIndex].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
+  updateIndicators();
+}
+
+function navigateCarousel(direction) {
+  scrollToItem(currentIndex + direction);
+}
+
+// Detect scroll position for indicators
+let scrollTimeout;
+carousel.addEventListener('scroll', () => {
+  clearTimeout(scrollTimeout);
+  scrollTimeout = setTimeout(() => {
+    const scrollLeft = carousel.scrollLeft;
+    const itemWidth = items[0].offsetWidth;
+    currentIndex = Math.round(scrollLeft / itemWidth);
+    updateIndicators();
+  }, 100);
+});
+
+// Keyboard navigation
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'ArrowLeft') navigateCarousel(-1);
+  if (e.key === 'ArrowRight') navigateCarousel(1);
+});
+
+// Initialize
+updateIndicators();
 </script>
 
     </body>

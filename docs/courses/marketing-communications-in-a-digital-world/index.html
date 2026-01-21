@@ -167,18 +167,21 @@
   </div>
 </div>
 
-  <div class="learning-resources">
+  <div class="learning-resources media-carousel-container">
     <h3 class="label">Learning Resources</h3>
-    <ul class="list">
+      <button class="carousel-nav prev" onclick="navigateCarousel(-1)">&larr;</button>
+      <button class="carousel-nav next" onclick="navigateCarousel(1)">&rarr;</button>
+ 
+    <ul class="list" id="mediaCarousel">
       
       <li class="media IMG">
 
         <h4>Fundamental and guiding structure for marketing communication decisions </h4>
         
             
+                <p>Four-quadrant diagram outlining the key structure for marketing communication decisions. </p>
                 <figure>
                     <img src="/uoa-online/images/resources/MCDW_0012_Fundamental and guiding structure for marketing communication decisions.png" alt="Fundamental and guiding structure for marketing communication decisions" title="Fundamental and guiding structure for marketing communication decisions">
-                    <figcaption>Four-quadrant diagram outlining the key structure for marketing communication decisions.</figcaption>
                 </figure>
             
         
@@ -197,9 +200,9 @@
         <h4>Mckinsey&#39;s &quot;Consumer decision journey&quot; </h4>
         
             
+                <p> </p>
                 <figure>
                     <img src="/uoa-online/images/resources/MCDW_M7_0066_Consumer decision journey.png" alt="Mckinsey&#39;s &quot;Consumer decision journey&quot;" title="Mckinsey&#39;s &quot;Consumer decision journey&quot;">
-                    <figcaption></figcaption>
                 </figure>
             
         
@@ -214,6 +217,7 @@
       </li>
     
     </ul>
+      <ul class="carousel-indicators" id="carouselIndicators"></ul>
   </div>
 
 
@@ -283,6 +287,64 @@ document.addEventListener('keydown', function(e) {
     }
   }
 });
+</script>
+
+<script>
+const carousel = document.getElementById('mediaCarousel');
+const indicators = document.getElementById('carouselIndicators');
+const items = carousel.querySelectorAll('li.media');
+let currentIndex = 0;
+
+// Create indicators
+items.forEach((item, index) => {
+  const button = document.createElement('button');
+  button.setAttribute('aria-label', `Go to slide ${index + 1}`);
+  button.onclick = () => scrollToItem(index);
+  if (index === 0) button.classList.add('active');
+  indicators.appendChild(button);
+});
+
+function updateIndicators() {
+  const buttons = indicators.querySelectorAll('button');
+  buttons.forEach((btn, index) => {
+    btn.classList.toggle('active', index === currentIndex);
+  });
+  
+  // Update nav button states
+  document.querySelector('.carousel-nav.prev').disabled = currentIndex === 0;
+  document.querySelector('.carousel-nav.next').disabled = currentIndex === items.length - 1;
+}
+
+function scrollToItem(index) {
+  currentIndex = Math.max(0, Math.min(index, items.length - 1));
+  items[currentIndex].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
+  updateIndicators();
+}
+
+function navigateCarousel(direction) {
+  scrollToItem(currentIndex + direction);
+}
+
+// Detect scroll position for indicators
+let scrollTimeout;
+carousel.addEventListener('scroll', () => {
+  clearTimeout(scrollTimeout);
+  scrollTimeout = setTimeout(() => {
+    const scrollLeft = carousel.scrollLeft;
+    const itemWidth = items[0].offsetWidth;
+    currentIndex = Math.round(scrollLeft / itemWidth);
+    updateIndicators();
+  }, 100);
+});
+
+// Keyboard navigation
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'ArrowLeft') navigateCarousel(-1);
+  if (e.key === 'ArrowRight') navigateCarousel(1);
+});
+
+// Initialize
+updateIndicators();
 </script>
 
     </body>

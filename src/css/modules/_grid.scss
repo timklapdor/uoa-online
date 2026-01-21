@@ -328,32 +328,172 @@ main {
    border: 0;
    border-top: 4px solid;
 
-   & ul {
-      display: flex;
-      gap: 5vw;
-      padding: 1em;
-      height: 70vh;
-      list-style: none;
-      overflow-x: scroll;
-      scroll-snap-type: x mandatory;
+   // & ul {
+   //    display: flex;
+   //    gap: 5vw;
+   //    padding: 1em;
+   //    height: 70vh;
+   //    list-style: none;
+   //    overflow-x: scroll;
+   //    scroll-snap-type: x mandatory;
+
+   //       & li {
+   //          flex-shrink: 0;
+   //          max-height: 60vh;
+   //          min-width: 300px;
+   //          max-width: 100em;
+   //          scroll-snap-align: center;
+
+   //          display: flex;
+   //          flex-direction: column;
+   //          align-items: start;
+   //          justify-content: start;
+
+   //          img {
+   //             max-height: 60vh;
+   //          }
+   //       }
+   //    }
+
+   ul {
+        display: grid;
+         grid-auto-flow: column;
+         grid-auto-columns: 100%;
+         gap: 0;
+         overflow-x: auto;
+         scroll-snap-type: x mandatory;
+         scroll-behavior: smooth;
+         scrollbar-width: none;
+         list-style: none;
+         padding: 0;
+         margin: 0;
+
+         &:-webkit-scrollbar {
+         display: none;
+         }
 
          & li {
-            flex-shrink: 0;
-            max-height: 60vh;
-            min-width: 300px;
-            max-width: 100em;
-            scroll-snap-align: center;
-
             display: flex;
             flex-direction: column;
-            align-items: start;
-            justify-content: start;
 
-            img {
-               max-height: 60vh;
+            scroll-snap-align: start;
+            padding: 2rem;
+            box-sizing: border-box;
+
+            h4 {
+               margin-top: 0;
+               margin-bottom: 1rem;
             }
+
+
+
+            figure {
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+
+               img {
+                  margin: 0;
+                  max-height: 60vh;
+               }
+
+               figcaption {
+                  max-width: 70ch;
+                  font-style: italic;
+                  margin-top: 2rem;
+                  text-align: center;
+               }
+
          }
       }
+   }
+
+      /* Carousel Navigation */
+         .carousel-nav {
+         position: absolute;
+         top: 50%;
+         transform: translateY(-50%);
+         background: rgba(255, 255, 255, 0.9);
+         border: none;
+         width: 50px;
+         height: 50px;
+         border-radius: 50%;
+         cursor: pointer;
+         font-size: 24px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         z-index: 10;
+         transition: background 0.2s;
+         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+         }
+
+         .carousel-nav:hover {
+         background: rgba(255, 255, 255, 1);
+         }
+
+         .carousel-nav.prev {
+         left: 1rem;
+         }
+
+         .carousel-nav.next {
+         right: 1rem;
+         }
+
+         .carousel-nav:disabled {
+         opacity: 0.3;
+         cursor: not-allowed;
+         }
+
+         /* Carousel Indicators */
+         .carousel-indicators {
+         display: flex;
+         justify-content: center;
+         gap: 0.5rem;
+         margin-top: 1rem;
+         padding: 0;
+         list-style: none;
+         }
+
+         .carousel-indicators button {
+         width: 12px;
+         height: 12px;
+         border-radius: 50%;
+         border: 2px solid #666;
+         background: transparent;
+         cursor: pointer;
+         padding: 0;
+         transition: background 0.2s;
+         }
+
+         .carousel-indicators button.active {
+         background: #666;
+         }
+
+         .carousel-indicators button:hover {
+         background: #999;
+         }
+
+         @media (max-width: 768px) {
+         .carousel-nav {
+            width: 40px;
+            height: 40px;
+            font-size: 20px;
+         }
+         
+         .carousel-nav.prev {
+            left: 0.5rem;
+         }
+         
+         .carousel-nav.next {
+            right: 0.5rem;
+         }
+         
+         .list li.media {
+            padding: 1rem;
+         }
+         }
+
    }
 
  .assessments {

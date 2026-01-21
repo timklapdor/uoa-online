@@ -265,18 +265,21 @@
   </div>
 </div>
 
-  <div class="learning-resources">
+  <div class="learning-resources media-carousel-container">
     <h3 class="label">Learning Resources</h3>
-    <ul class="list">
+      <button class="carousel-nav prev" onclick="navigateCarousel(-1)">&larr;</button>
+      <button class="carousel-nav next" onclick="navigateCarousel(1)">&rarr;</button>
+ 
+    <ul class="list" id="mediaCarousel">
       
       <li class="media IMG">
 
         <h4>The five stages of the demographic transition </h4>
         
             
+                <p>The demographic transition is a model that describes population change over time from high mortality, including high infant mortality, and high fertility to low mortality and fertility and higher life expectancy. The demographic transition occurs as part of the economic development of a country. </p>
                 <figure>
                     <img src="/uoa-online/images/resources/HIP_M1_0019_five_stages.png" alt="The five stages of the demographic transition" title="The five stages of the demographic transition">
-                    <figcaption>The demographic transition is a model that describes population change over time from high mortality, including high infant mortality, and high fertility to low mortality and fertility and higher life expectancy. The demographic transition occurs as part of the economic development of a country.</figcaption>
                 </figure>
             
         
@@ -295,9 +298,9 @@
         <h4>Three levels of prevention mapped across a &#39;stages of disease&#39; continuum. </h4>
         
             
+                <p>The three levels of prevention - preventing the occurrence of disease, detecting it early, arresting its progress, and reducing its consequences - are mapped onto the stages of the disease continuum. </p>
                 <figure>
                     <img src="/uoa-online/images/resources/HIP_M2_0074_levels_disease_prevention_A.png" alt="Three levels of prevention mapped across a &#39;stages of disease&#39; continuum." title="Three levels of prevention mapped across a &#39;stages of disease&#39; continuum.">
-                    <figcaption>The three levels of prevention - preventing the occurrence of disease, detecting it early, arresting its progress, and reducing its consequences - are mapped onto the stages of the disease continuum.</figcaption>
                 </figure>
             
         
@@ -320,6 +323,7 @@
             
 
             
+              <p>Andrew Gardner introduces the different types of outcomes you can measure and what&#39;s required for evaluating long-term outcomes, impacts, and processes of interventions. </p>
               <div class="responsive-iframe-container">
                 <iframe title="YouTube video player" src="https://www.youtube-nocookie.com/embed/4H0Ax0OqzJI" width="560" height="315" loading="lazy" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
               </div>
@@ -332,6 +336,7 @@
       </li>
     
     </ul>
+      <ul class="carousel-indicators" id="carouselIndicators"></ul>
   </div>
 
 
@@ -401,6 +406,64 @@ document.addEventListener('keydown', function(e) {
     }
   }
 });
+</script>
+
+<script>
+const carousel = document.getElementById('mediaCarousel');
+const indicators = document.getElementById('carouselIndicators');
+const items = carousel.querySelectorAll('li.media');
+let currentIndex = 0;
+
+// Create indicators
+items.forEach((item, index) => {
+  const button = document.createElement('button');
+  button.setAttribute('aria-label', `Go to slide ${index + 1}`);
+  button.onclick = () => scrollToItem(index);
+  if (index === 0) button.classList.add('active');
+  indicators.appendChild(button);
+});
+
+function updateIndicators() {
+  const buttons = indicators.querySelectorAll('button');
+  buttons.forEach((btn, index) => {
+    btn.classList.toggle('active', index === currentIndex);
+  });
+  
+  // Update nav button states
+  document.querySelector('.carousel-nav.prev').disabled = currentIndex === 0;
+  document.querySelector('.carousel-nav.next').disabled = currentIndex === items.length - 1;
+}
+
+function scrollToItem(index) {
+  currentIndex = Math.max(0, Math.min(index, items.length - 1));
+  items[currentIndex].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
+  updateIndicators();
+}
+
+function navigateCarousel(direction) {
+  scrollToItem(currentIndex + direction);
+}
+
+// Detect scroll position for indicators
+let scrollTimeout;
+carousel.addEventListener('scroll', () => {
+  clearTimeout(scrollTimeout);
+  scrollTimeout = setTimeout(() => {
+    const scrollLeft = carousel.scrollLeft;
+    const itemWidth = items[0].offsetWidth;
+    currentIndex = Math.round(scrollLeft / itemWidth);
+    updateIndicators();
+  }, 100);
+});
+
+// Keyboard navigation
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'ArrowLeft') navigateCarousel(-1);
+  if (e.key === 'ArrowRight') navigateCarousel(1);
+});
+
+// Initialize
+updateIndicators();
 </script>
 
     </body>

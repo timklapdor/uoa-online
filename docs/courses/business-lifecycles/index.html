@@ -273,9 +273,12 @@
   </div>
 </div>
 
-  <div class="learning-resources">
+  <div class="learning-resources media-carousel-container">
     <h3 class="label">Learning Resources</h3>
-    <ul class="list">
+      <button class="carousel-nav prev" onclick="navigateCarousel(-1)">&larr;</button>
+      <button class="carousel-nav next" onclick="navigateCarousel(1)">&rarr;</button>
+ 
+    <ul class="list" id="mediaCarousel">
       
       <li class="media H5P">
 
@@ -284,10 +287,9 @@
             
         
             
-                
+                <p>This H5P helps to create an agreement for the team to work together, stepping through the key decisions they need to make to form a team, establish communication, responsibility and accountability for the team. </p>
                 <div class="responsive-iframe-container">
                   <iframe class="lti-embed" width="100%" height="800" title="Team Expectations Agreement" src="https://adelaide.h5p.com/content/1291534980679882069" frameborder="0"></iframe>
-                <figcaption>This H5P helps to create an agreement for the team to work together, stepping through the key decisions they need to make to form a team, establish communication, responsibility and accountability for the team.</figcaption>
                 </div>
             
 
@@ -304,9 +306,9 @@
         <h4>AIDA Model </h4>
         
             
+                <p>The AIDA concept (Awareness, Interest, Desire and Action) is a model that outlines the stages of the consumer decision-making process. The concept helps businesses understand their consumers in relation to what promotional tactics will be most effective depending on where the consumer is at with their decision-making process of “to buy the product, or not?”. </p>
                 <figure>
                     <img src="/uoa-online/images/resources/BL_M4_05.png" alt="AIDA Model" title="AIDA Model">
-                    <figcaption>The AIDA concept (Awareness, Interest, Desire and Action) is a model that outlines the stages of the consumer decision-making process. The concept helps businesses understand their consumers in relation to what promotional tactics will be most effective depending on where the consumer is at with their decision-making process of “to buy the product, or not?”.</figcaption>
                 </figure>
             
         
@@ -325,9 +327,9 @@
         <h4>Leadership and management approaches across the stages of business growth </h4>
         
             
+                <p>This graphic illustrates the different leadership and management approaches required for diffferent stages of business growth and highlights the different aspects of leadership and management that change. </p>
                 <figure>
                     <img src="/uoa-online/images/resources/BL_M8_05.png" alt="Leadership and management approaches across the stages of business growth" title="Leadership and management approaches across the stages of business growth">
-                    <figcaption>This graphic illustrates the different leadership and management approaches required for diffferent stages of business growth and highlights the different aspects of leadership and management that change.</figcaption>
                 </figure>
             
         
@@ -342,6 +344,7 @@
       </li>
     
     </ul>
+      <ul class="carousel-indicators" id="carouselIndicators"></ul>
   </div>
 
 
@@ -411,6 +414,64 @@ document.addEventListener('keydown', function(e) {
     }
   }
 });
+</script>
+
+<script>
+const carousel = document.getElementById('mediaCarousel');
+const indicators = document.getElementById('carouselIndicators');
+const items = carousel.querySelectorAll('li.media');
+let currentIndex = 0;
+
+// Create indicators
+items.forEach((item, index) => {
+  const button = document.createElement('button');
+  button.setAttribute('aria-label', `Go to slide ${index + 1}`);
+  button.onclick = () => scrollToItem(index);
+  if (index === 0) button.classList.add('active');
+  indicators.appendChild(button);
+});
+
+function updateIndicators() {
+  const buttons = indicators.querySelectorAll('button');
+  buttons.forEach((btn, index) => {
+    btn.classList.toggle('active', index === currentIndex);
+  });
+  
+  // Update nav button states
+  document.querySelector('.carousel-nav.prev').disabled = currentIndex === 0;
+  document.querySelector('.carousel-nav.next').disabled = currentIndex === items.length - 1;
+}
+
+function scrollToItem(index) {
+  currentIndex = Math.max(0, Math.min(index, items.length - 1));
+  items[currentIndex].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
+  updateIndicators();
+}
+
+function navigateCarousel(direction) {
+  scrollToItem(currentIndex + direction);
+}
+
+// Detect scroll position for indicators
+let scrollTimeout;
+carousel.addEventListener('scroll', () => {
+  clearTimeout(scrollTimeout);
+  scrollTimeout = setTimeout(() => {
+    const scrollLeft = carousel.scrollLeft;
+    const itemWidth = items[0].offsetWidth;
+    currentIndex = Math.round(scrollLeft / itemWidth);
+    updateIndicators();
+  }, 100);
+});
+
+// Keyboard navigation
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'ArrowLeft') navigateCarousel(-1);
+  if (e.key === 'ArrowRight') navigateCarousel(1);
+});
+
+// Initialize
+updateIndicators();
 </script>
 
     </body>

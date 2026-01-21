@@ -172,18 +172,21 @@
   </div>
 </div>
 
-  <div class="learning-resources">
+  <div class="learning-resources media-carousel-container">
     <h3 class="label">Learning Resources</h3>
-    <ul class="list">
+      <button class="carousel-nav prev" onclick="navigateCarousel(-1)">&larr;</button>
+      <button class="carousel-nav next" onclick="navigateCarousel(1)">&rarr;</button>
+ 
+    <ul class="list" id="mediaCarousel">
       
       <li class="media IMG">
 
         <h4>Schumpeter&#39;s view of creative destruction </h4>
         
             
+                <p>Visualisation of Schumpeter&#39;s 4 pillars of creative destruction: innovation, competition, entrepreneurship and capital. </p>
                 <figure>
                     <img src="/uoa-online/images/resources/ISME_M1_0061_schumpeter&#39;s creative destruction infographic.png" alt="Schumpeter&#39;s view of creative destruction" title="Schumpeter&#39;s view of creative destruction">
-                    <figcaption>Visualisation of Schumpeter&#39;s 4 pillars of creative destruction: innovation, competition, entrepreneurship and capital.</figcaption>
                 </figure>
             
         
@@ -204,10 +207,9 @@
             
         
             
-                
+                <p>Entrepreneurs may need to work on attitudes and habits that prevent them from reaching their goals and objectives. This activity will help you understand some of these personal characteristics and why it is important to avoid them. </p>
                 <div class="responsive-iframe-container">
                   <iframe class="lti-embed" width="100%" height="800" title="Personal characteristics that can prevent you reaching your goals and objectives" src="https://adelaide.h5p.com/lti/755784/content/1292174978198724809" frameborder="0"></iframe>
-                <figcaption>Entrepreneurs may need to work on attitudes and habits that prevent them from reaching their goals and objectives. This activity will help you understand some of these personal characteristics and why it is important to avoid them.</figcaption>
                 </div>
             
 
@@ -230,6 +232,7 @@
             
 
             
+                <p>In this video, you&#39;re introduced to two SMEs: Goolwa Pipi Co. and Woods Bagot. Each guest gives a brief introduction to their firms, before discussing some of the motivations for each of the firms to move into new markets. </p>
                 <p><a href="media.Location">Motivations to Internationalise</a></p>
             
 
@@ -238,6 +241,7 @@
       </li>
     
     </ul>
+      <ul class="carousel-indicators" id="carouselIndicators"></ul>
   </div>
 
 
@@ -307,6 +311,64 @@ document.addEventListener('keydown', function(e) {
     }
   }
 });
+</script>
+
+<script>
+const carousel = document.getElementById('mediaCarousel');
+const indicators = document.getElementById('carouselIndicators');
+const items = carousel.querySelectorAll('li.media');
+let currentIndex = 0;
+
+// Create indicators
+items.forEach((item, index) => {
+  const button = document.createElement('button');
+  button.setAttribute('aria-label', `Go to slide ${index + 1}`);
+  button.onclick = () => scrollToItem(index);
+  if (index === 0) button.classList.add('active');
+  indicators.appendChild(button);
+});
+
+function updateIndicators() {
+  const buttons = indicators.querySelectorAll('button');
+  buttons.forEach((btn, index) => {
+    btn.classList.toggle('active', index === currentIndex);
+  });
+  
+  // Update nav button states
+  document.querySelector('.carousel-nav.prev').disabled = currentIndex === 0;
+  document.querySelector('.carousel-nav.next').disabled = currentIndex === items.length - 1;
+}
+
+function scrollToItem(index) {
+  currentIndex = Math.max(0, Math.min(index, items.length - 1));
+  items[currentIndex].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
+  updateIndicators();
+}
+
+function navigateCarousel(direction) {
+  scrollToItem(currentIndex + direction);
+}
+
+// Detect scroll position for indicators
+let scrollTimeout;
+carousel.addEventListener('scroll', () => {
+  clearTimeout(scrollTimeout);
+  scrollTimeout = setTimeout(() => {
+    const scrollLeft = carousel.scrollLeft;
+    const itemWidth = items[0].offsetWidth;
+    currentIndex = Math.round(scrollLeft / itemWidth);
+    updateIndicators();
+  }, 100);
+});
+
+// Keyboard navigation
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'ArrowLeft') navigateCarousel(-1);
+  if (e.key === 'ArrowRight') navigateCarousel(1);
+});
+
+// Initialize
+updateIndicators();
 </script>
 
     </body>

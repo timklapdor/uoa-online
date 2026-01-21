@@ -209,9 +209,12 @@ Link: 'https://miro.com/app/board/uXjVMhHzJUc=/'</li>
   </div>
 </div>
 
-  <div class="learning-resources">
+  <div class="learning-resources media-carousel-container">
     <h3 class="label">Learning Resources</h3>
-    <ul class="list">
+      <button class="carousel-nav prev" onclick="navigateCarousel(-1)">&larr;</button>
+      <button class="carousel-nav next" onclick="navigateCarousel(1)">&rarr;</button>
+ 
+    <ul class="list" id="mediaCarousel">
       
       <li class="media ECHO">
 
@@ -224,6 +227,7 @@ Link: 'https://miro.com/app/board/uXjVMhHzJUc=/'</li>
             
 
             
+                <p> </p>
                 <p><a href="media.Location">Strategic Conquest: The Five Forces Unveiled</a></p>
             
 
@@ -242,6 +246,7 @@ Link: 'https://miro.com/app/board/uXjVMhHzJUc=/'</li>
             
 
             
+                <p> </p>
                 <p><a href="media.Location">Strategic Resource Management: Cultivating Organisational Capabilities</a></p>
             
 
@@ -256,10 +261,9 @@ Link: 'https://miro.com/app/board/uXjVMhHzJUc=/'</li>
             
         
             
-                
+                <p> </p>
                 <div class="responsive-iframe-container">
                   <iframe class="lti-embed" width="100%" height="800" title="Mission vs Vision: A Flip Card Exploration" src="https://adelaide.h5p.com/lti/748837/content/1292118765658619529" frameborder="0"></iframe>
-                <figcaption></figcaption>
                 </div>
             
 
@@ -310,10 +314,9 @@ Link: 'https://miro.com/app/board/uXjVMhHzJUc=/'</li>
             
         
             
-                
+                <p>This activity immerses learners in strategic decisions that shape Tesla&#39;s direction and define its competitive stance. There are multiple viable paths, and the exercise isn&#39;t about finding the &#39;right&#39; answer but learners having the opportunity to explore different strategic options. </p>
                 <div class="responsive-iframe-container">
                   <iframe class="lti-embed" width="100%" height="800" title="Strategic Decision-Making Simulation" src="https://adelaide.h5p.com/lti/748837/content/1292169930862688019" frameborder="0"></iframe>
-                <figcaption>This activity immerses learners in strategic decisions that shape Tesla&#39;s direction and define its competitive stance. There are multiple viable paths, and the exercise isn&#39;t about finding the &#39;right&#39; answer but learners having the opportunity to explore different strategic options.</figcaption>
                 </div>
             
 
@@ -332,10 +335,9 @@ Link: 'https://miro.com/app/board/uXjVMhHzJUc=/'</li>
             
         
             
-                
+                <p>This activity is designed to improve learners critical reading and analysis skills by broadly identifying terms that may constitute Business and or Corporate level strategy. </p>
                 <div class="responsive-iframe-container">
                   <iframe class="lti-embed" width="100%" height="800" title="Business vs Corporate Strategy" src="https://adelaide.h5p.com/lti/748837/content/1292139671056797109" frameborder="0"></iframe>
-                <figcaption>This activity is designed to improve learners critical reading and analysis skills by broadly identifying terms that may constitute Business and or Corporate level strategy.</figcaption>
                 </div>
             
 
@@ -348,6 +350,7 @@ Link: 'https://miro.com/app/board/uXjVMhHzJUc=/'</li>
       </li>
     
     </ul>
+      <ul class="carousel-indicators" id="carouselIndicators"></ul>
   </div>
 
 
@@ -417,6 +420,64 @@ document.addEventListener('keydown', function(e) {
     }
   }
 });
+</script>
+
+<script>
+const carousel = document.getElementById('mediaCarousel');
+const indicators = document.getElementById('carouselIndicators');
+const items = carousel.querySelectorAll('li.media');
+let currentIndex = 0;
+
+// Create indicators
+items.forEach((item, index) => {
+  const button = document.createElement('button');
+  button.setAttribute('aria-label', `Go to slide ${index + 1}`);
+  button.onclick = () => scrollToItem(index);
+  if (index === 0) button.classList.add('active');
+  indicators.appendChild(button);
+});
+
+function updateIndicators() {
+  const buttons = indicators.querySelectorAll('button');
+  buttons.forEach((btn, index) => {
+    btn.classList.toggle('active', index === currentIndex);
+  });
+  
+  // Update nav button states
+  document.querySelector('.carousel-nav.prev').disabled = currentIndex === 0;
+  document.querySelector('.carousel-nav.next').disabled = currentIndex === items.length - 1;
+}
+
+function scrollToItem(index) {
+  currentIndex = Math.max(0, Math.min(index, items.length - 1));
+  items[currentIndex].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
+  updateIndicators();
+}
+
+function navigateCarousel(direction) {
+  scrollToItem(currentIndex + direction);
+}
+
+// Detect scroll position for indicators
+let scrollTimeout;
+carousel.addEventListener('scroll', () => {
+  clearTimeout(scrollTimeout);
+  scrollTimeout = setTimeout(() => {
+    const scrollLeft = carousel.scrollLeft;
+    const itemWidth = items[0].offsetWidth;
+    currentIndex = Math.round(scrollLeft / itemWidth);
+    updateIndicators();
+  }, 100);
+});
+
+// Keyboard navigation
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'ArrowLeft') navigateCarousel(-1);
+  if (e.key === 'ArrowRight') navigateCarousel(1);
+});
+
+// Initialize
+updateIndicators();
 </script>
 
     </body>
