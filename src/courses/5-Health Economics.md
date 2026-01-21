@@ -104,7 +104,7 @@ Media:
     Location: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-10-dot-3-reporting-uncertainty-in-the-icer?module_item_id=3063049
 Snapshot:
   - Name: "Lesson 2.1: What is a resource?"
-    Link: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-2-dot-1-what-is-a-resource?module_item_id=2974586
+    Link: 026_Page_module_2_economic_resources_lesson_2_1_what_is_a_resource_.png
     Description: The 'What are economic resources?' segment in this lesson was a
       collaborative innovation, conceptualised from scratch and refined through
       iterative storyboarding sessions with subject matter experts (SMEs). Input
@@ -118,7 +118,7 @@ Snapshot:
       lesson. with a final review component of connecting health resources to
       test student knowledge in a drag and drop h5p.
   - Name: "Lesson 3.4: How to measure utility values?"
-    Link: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-3-dot-4-how-to-measure-utility-values?module_item_id=3003721
+    Link: 043_Page_module_3_economic_health_outcomes_lesson_3_4_how_to_measure_utility_values_.png
     Description: This lesson explores utility measurement in health economics, using
       methods like Standard Gamble, Time Trade-Off, and Multi-Attribute Utility
       Instruments. Students apply these methods through vignette activities,
@@ -126,7 +126,7 @@ Snapshot:
       Supplementary readings and discussions deepen understanding, while the
       lesson thoughtfully addresses the sensitive nature of health scenarios.
   - Name: "Lesson 8.1: What are key components in an economic evaluation?"
-    Link: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-8-dot-1-what-are-key-components-in-an-economic-evaluation?module_item_id=3062603
+    Link: 089_Page_module_8_introduction_to_economic_evaluation_lesson_8_1_what_are_key_components_in_an_economic_evalu.png
     Description: This lesson introduces the PICOC framework—Population,
       Intervention, Comparator, Outcomes, and Costs—using a creative peacock
       graphic to enhance engagement with the acronym. Developed collaboratively
@@ -136,22 +136,16 @@ Snapshot:
       interactive activities provide practical context, encouraging active
       learning and application of the framework.
   - Name: "Lesson 12.1: Is your health service efficient?"
-    Link: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-12-dot-1-is-your-health-service-efficient?module_item_id=3056818
+    Link: 124_Page_module_12_applying_other_considerations_of_economics_to_healthcare_lesson_12_1_is_your_health_servic.png
     Description: >-
       This lesson uses the Hard Times for Hospital Administrators case study to
       examine health service efficiency and resource allocation within an
       ethical framework, focusing on utilitarianism. It integrates:
 
-
       *   Case study analysis for real-world application.
-          
       *   Ethical discussion contrasting utilitarianism with other frameworks.
-          
-      *   Video learning with visual tools to interpret resource allocation
-      challenges.
-          
-      *   This approach bridges theory and practice, enhancing critical thinking
-      and decision-making skills.
+      *   Video learning with visual tools to interpret resource allocation challenges.
+      *   This approach bridges theory and practice, enhancing critical thinking and decision-making skills.
 Jobs:
   - Media descriptions
   - Learning Experience
