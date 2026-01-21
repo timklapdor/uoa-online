@@ -224,18 +224,21 @@
   </div>
 </div>
 
-  <div class="learning-resources">
+  <div class="learning-resources media-carousel-container">
     <h3 class="label">Learning Resources</h3>
-    <ul class="list">
+      <button class="carousel-nav prev" onclick="navigateCarousel(-1)">&larr;</button>
+      <button class="carousel-nav next" onclick="navigateCarousel(1)">&rarr;</button>
+ 
+    <ul class="list" id="mediaCarousel">
       
       <li class="media IMG">
 
         <h4>The role of evaluation within the planning cycle for a health intervention. </h4>
         
             
+                <p>The simplified diagram shows the planning cycle for a health intervention, progressing through key steps of needs assessment, planning, intervention and evaluation. Importantly, the diagram shows that evaluation should feed (back) into needs assessment and planning, in an iterative process, rather than a linear one. </p>
                 <figure>
                     <img src="/uoa-online/images/resources/KWW_M1_0004_The role of evaluation within the planning cycle for a health intervention.png" alt="The role of evaluation within the planning cycle for a health intervention." title="The role of evaluation within the planning cycle for a health intervention.">
-                    <figcaption>The simplified diagram shows the planning cycle for a health intervention, progressing through key steps of needs assessment, planning, intervention and evaluation. Importantly, the diagram shows that evaluation should feed (back) into needs assessment and planning, in an iterative process, rather than a linear one.</figcaption>
                 </figure>
             
         
@@ -254,9 +257,9 @@
         <h4>The standards and steps for good evaluation within the CDC evaluation framework </h4>
         
             
+                <p>The diagram shows the four standards at the centre of the diagram, with the six evaluation steps forming a circle surrounding the standards. Each step informs the next, in an iterative loop. </p>
                 <figure>
                     <img src="/uoa-online/images/resources/KWW_M2_0006_CDC Evaluation Framework Standards and Steps.png" alt="The standards and steps for good evaluation within the CDC evaluation framework" title="The standards and steps for good evaluation within the CDC evaluation framework">
-                    <figcaption>The diagram shows the four standards at the centre of the diagram, with the six evaluation steps forming a circle surrounding the standards. Each step informs the next, in an iterative loop.</figcaption>
                 </figure>
             
         
@@ -275,9 +278,9 @@
         <h4>The six-step Prevention and Population Health Branch evaluation framework for health promotion and disease prevention ( </h4>
         
             
+                <p>The diagram shows the PPHB evaluation framework, with six steps for evaluation, and each progressing into the next, connected by arrows. </p>
                 <figure>
                     <img src="/uoa-online/images/resources/KWW_M2_0029_PPHB Framework.png" alt="The six-step Prevention and Population Health Branch evaluation framework for health promotion and disease prevention (" title="The six-step Prevention and Population Health Branch evaluation framework for health promotion and disease prevention (">
-                    <figcaption>The diagram shows the PPHB evaluation framework, with six steps for evaluation, and each progressing into the next, connected by arrows.</figcaption>
                 </figure>
             
         
@@ -302,6 +305,7 @@
             
 
             
+                <p>Shona Crabb provides a general overview of the concept of vulnerable populations and communities, and explains why it is important for evaluators to work with them, and how evaluation, when approached properly, can produce significant benefits. </p>
                 <p><a href="media.Location">Benefiting vulnerable and marginalised communities with our evaluation</a></p>
             
 
@@ -316,10 +320,9 @@
             
         
             
-                
+                <p>The interactive graphic below shows different items likely to be included in an economic evaluation at different levels of analysis (international, government - state and local, community, and household) and from different perspectives (individual, health care, single payer, multisector, and societal). Select each perspective to see which items and levels would be most likely to be included in an economic evaluation. Darker shading indicates that that item is more likely to be included. </p>
                 <div class="responsive-iframe-container">
                   <iframe class="lti-embed" width="100%" height="800" title="Analysis Perspectives" src="https://mediaproduction.adelaide.edu.au/oua-interactives/#/perspectiveChart" frameborder="0"></iframe>
-                <figcaption>The interactive graphic below shows different items likely to be included in an economic evaluation at different levels of analysis (international, government - state and local, community, and household) and from different perspectives (individual, health care, single payer, multisector, and societal). Select each perspective to see which items and levels would be most likely to be included in an economic evaluation. Darker shading indicates that that item is more likely to be included.</figcaption>
                 </div>
             
 
@@ -336,9 +339,9 @@
         <h4>The hierarchy of evidence for research design </h4>
         
             
+                <p>The graphic shows a pyramid, with different kinds of research/study designs. The designs are ranked vertically by their quality of evidence, with studies such as randomised controlled trials and systematic reviews ranked higher than items like narrative reviews or editorials. </p>
                 <figure>
                     <img src="/uoa-online/images/resources/KWW_M8_0069_Hierarchy of Evidence for Research Design.png" alt="The hierarchy of evidence for research design" title="The hierarchy of evidence for research design">
-                    <figcaption>The graphic shows a pyramid, with different kinds of research/study designs. The designs are ranked vertically by their quality of evidence, with studies such as randomised controlled trials and systematic reviews ranked higher than items like narrative reviews or editorials.</figcaption>
                 </figure>
             
         
@@ -353,6 +356,7 @@
       </li>
     
     </ul>
+      <ul class="carousel-indicators" id="carouselIndicators"></ul>
   </div>
 
 
@@ -422,6 +426,64 @@ document.addEventListener('keydown', function(e) {
     }
   }
 });
+</script>
+
+<script>
+const carousel = document.getElementById('mediaCarousel');
+const indicators = document.getElementById('carouselIndicators');
+const items = carousel.querySelectorAll('li.media');
+let currentIndex = 0;
+
+// Create indicators
+items.forEach((item, index) => {
+  const button = document.createElement('button');
+  button.setAttribute('aria-label', `Go to slide ${index + 1}`);
+  button.onclick = () => scrollToItem(index);
+  if (index === 0) button.classList.add('active');
+  indicators.appendChild(button);
+});
+
+function updateIndicators() {
+  const buttons = indicators.querySelectorAll('button');
+  buttons.forEach((btn, index) => {
+    btn.classList.toggle('active', index === currentIndex);
+  });
+  
+  // Update nav button states
+  document.querySelector('.carousel-nav.prev').disabled = currentIndex === 0;
+  document.querySelector('.carousel-nav.next').disabled = currentIndex === items.length - 1;
+}
+
+function scrollToItem(index) {
+  currentIndex = Math.max(0, Math.min(index, items.length - 1));
+  items[currentIndex].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
+  updateIndicators();
+}
+
+function navigateCarousel(direction) {
+  scrollToItem(currentIndex + direction);
+}
+
+// Detect scroll position for indicators
+let scrollTimeout;
+carousel.addEventListener('scroll', () => {
+  clearTimeout(scrollTimeout);
+  scrollTimeout = setTimeout(() => {
+    const scrollLeft = carousel.scrollLeft;
+    const itemWidth = items[0].offsetWidth;
+    currentIndex = Math.round(scrollLeft / itemWidth);
+    updateIndicators();
+  }, 100);
+});
+
+// Keyboard navigation
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'ArrowLeft') navigateCarousel(-1);
+  if (e.key === 'ArrowRight') navigateCarousel(1);
+});
+
+// Initialize
+updateIndicators();
 </script>
 
     </body>
