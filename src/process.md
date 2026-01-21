@@ -3,11 +3,13 @@ layout: page.njk
 title: Process
 ---
 
-Add in information about our course development process – graphic, list of tools, maybe links to templates and style guide. 
-
 ## Course Development Workflow
 
 The Course Development team established and refined a robust workflow for course development throughout the project. This approach provided the required flexibility to work for the diverse set of courses being developed, different staffing requirements and availability, course content and learning experiences and quality assurance requirements. The process became a foundation for the universities broader processes and helped to establish best practices across teams. 
+
+This video walks through the design and development process developed of online courses for Open Universities Australia. It walks through the stages of the process and ways of working created to Discover, Design, Develop, Build & Review new courses.
+
+https://youtu.be/IPv_zKrab7k
 
 ![The Course Development Process developed](../images/Course-Development.png)
 

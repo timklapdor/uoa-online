@@ -3,7 +3,7 @@ layout: base.njk
 ---
 <main>
   <article>
-  <h1>{{ title}} </h1>
-    {{ content | safe }}
+  <h1>{{ title | safe }} </h1>
+    {{ content | replace("<p><img", "<figure><img") | replace("></p>", "></figure>") | safe }}
   </article>
 </main>

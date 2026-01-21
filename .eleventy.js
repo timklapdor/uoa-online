@@ -3,12 +3,14 @@ const eleventySass = require("@11tyrocks/eleventy-plugin-sass-lightningcss");
 const Image = require("@11ty/eleventy-img");
 const path = require("path");
 const markdownItDeflist = require("markdown-it-deflist");
+const embedYouTube = require("eleventy-plugin-youtube-embed");
 
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/images");
   eleventyConfig.addPassthroughCopy("./src/assets");
   eleventyConfig.addPlugin(eleventySass);
+  eleventyConfig.addPlugin(embedYouTube, {lite: true});
 
   eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItDeflist));
 

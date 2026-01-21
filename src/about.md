@@ -17,4 +17,10 @@ The central task was to build the university’s internal capacity for online co
 
 A **learning design** team was established to work across the project and work with staff from two faculties to develop the courses.This central team were supported by a **project team**, **media team** and staff from the **learning futures** portfolio. 
 
+This video is full of reflection and insights by the team into the work involved across the project and the methods developed to get the job done. We discuss the importance of teamwork and creating a team culture that fosters collaboration and learns in order to adapt and change when required. 
 
+https://youtu.be/lhXJx7BUwf0
+
+All of this work was always about the student – and it was with great pride we welcomed our first graduate, Owen, in 2025.  
+
+https://youtu.be/Ky1E0DzbxsU

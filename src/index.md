@@ -1,9 +1,8 @@
 ---
-layout: home.njk
-title: Course List
+layout: page.njk
+title: The University of Adelaide — *Online*
 ---
 
-# Hello there!
+This video provides an overview of the project to take the unique learning experiences created at the University of Adelaide and deliver them online. 
 
-Welcome to this site. Check out the [Assessment Types]({{ '/assessments/' | url }}). 
-
+https://youtu.be/tR5PW51ImJI

@@ -406,15 +406,31 @@ main {
    }
    }
 
- article {grid-column: 3/5;padding:2ch; background: var(--rev);}
+ article {
+   grid-column: 3/5;
+   padding:2ch; 
+   background: var(--rev);
+   display: grid;
+   grid-template-columns: 1fr 1fr minmax(280px, 72ch) 1fr 1fr;
+
+   & > * {
+   grid-column: 3/4;
+   }
+
+   figure, div.eleventy-plugin-youtube-embed, #course-list{
+      grid-column: 2/5;
+      margin: 2ch 0;
+      }
+      
+   }
  
  & > * {
-    grid-column: 4/5;
- }
+   grid-column: 4/5;
+   }
 
  img { 
-    grid-column: 3/6;
- }
+   grid-column: 3/6;
+   }
 }
 
 #course-list {
@@ -423,6 +439,7 @@ main {
    grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
    grid-auto-rows: minmax(200px, 1fr);
    grid-gap: 1ch;
+
 
    a {
       text-decoration: none;
