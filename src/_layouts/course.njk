@@ -6,14 +6,14 @@ layout: base.njk
 {%- set courseSlug = CourseName | slugify -%}
 {%- set bannerFile = courseSlug + '.png' -%}
 
-<header style="background: url('{% bgImageUrl bannerFile, 800 %}') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: soft-light ; background-position: 55% 30%;">
+<header style="background: url('{%-bgImageUrl bannerFile, 800-%}') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: soft-light ; background-position: 55% 30%;">
   
   <h2 class="p-name course-name">{{ CourseName }}</h2>
   <div id="program-details">
     <ul class"programs">
-      {% for item in Programs -%}
-      <li class="{% if item=="IB" %}program-ib {% else %} program-hsm {% endif %}">{{ item }}</li>
-      {% endfor %}
+      {%-for item in Programs -%}
+      <li class="{%-if item=="IB"-%}program-ib {%-else-%} program-hsm {%-endif-%}">{{ item }}</li>
+      {%-endfor-%}
     </ul>
     <div class="dev-cycle">Cycle {{ DevCycle }}</div>
   </div>
@@ -26,9 +26,9 @@ layout: base.njk
 
     <h3 class="label">Learning Outcomes</h3>
     <ul>
-      {% for item in CLOs -%}
+      {%-for item in CLOs -%}
       <li>{{ item }}</li>
-      {% endfor %}
+      {%-endfor-%}
     </ul>
 
     <h3 class="label">Learning Experience</h3>
@@ -39,27 +39,27 @@ layout: base.njk
   <div class="course-information">
     <h3 class="label">Topics</h3>
     <ul class="topics">
-        {% for topic in Topics -%}
+        {%-for topic in Topics -%}
         <li>{{ topic }} </li>
-        {% endfor %}
+        {%-endfor-%}
     </ul>
 
     <h3 class="label">Development Team</h3>
     <ul  class="development-team">
-      {% for member in Team -%}
+      {%-for member in Team -%}
 <li>
     {%- set personData = people.teamMembers | find("name", member.Name) -%}
-      {% if personData and personData.image != "" %}
+      {%-if personData and personData.image != ""-%}
     <div class="profile-picture">
         <img src="../../images/people/{{ personData.image }}" alt="{{ member.Name }}" /> 
     </div>
-      {% endif %}
+      {%-endif-%}
 
     <h4 class="team-name">{{ member.Name }}</h4>
     <h5 class="team-role label">{{ member.Role }}</h5>
     <p class="team-involvement">{{ member.Involvement | capitalize }}</p>
 </li>
-{% endfor %}
+{%-endfor-%}
     </ul>
 
 
@@ -68,38 +68,38 @@ layout: base.njk
   <div class="assessments">
     <h3 class="label">Assessments</h3>
     <ol>
-      {% for assignment in Assessments -%}
+      {%-for assignment in Assessments -%}
       <li>
         <h4 class="assessment-name">{{ assignment.Name}}</h4>
         <h5 class="assessment-type">{{ assignment.Type }}</h5>
         <p class="assessment-description">{{ assignment.Description}}</p>
         <h4 class="assessment-weight">{{ assignment.Weighting }}%</h4>
       </li>
-      {% endfor %}
+      {%-endfor-%}
     </ol>
   </div>
 
 {# <div class="snapshots">
     <h3 class="label">Snapshots</h3>
     <ul>
-        {% for item in Snapshot %}
+        {%-for item in Snapshot-%}
         <li>
-          {% if item.Link | isImage %}
+          {%-if item.Link | isImage-%}
             <img src="../../images/archive/{{courseSlug}}/{{ item.Link }}" alt="Image">
-          {% else %}
+          {%-else-%}
             <a href="{{ item.Link }}">{{ item.Name }}</a> 
-          {% endif %}
+          {%-endif-%}
         </li>
-        {% endfor %}
+        {%-endfor-%}
     </ul>
 </div> #}
 
 <div class="snapshots">
     <h3 class="label">Snapshots</h3>
     <ul>
-        {% for item in Snapshot %}
+        {%-for item in Snapshot-%}
         <li>
-          {% if item.Link | isImage %}
+          {%-if item.Link | isImage-%}
             <img 
               src="../../images/archive/{{courseSlug}}/{{ item.Link }}" 
               alt="{{ item.Name }}"
@@ -109,11 +109,11 @@ layout: base.njk
               data-description="{{ item.Description | markdown | safe }}"
               onclick="openSnapshot(this)"
             >
-          {% else %}
+          {%-else-%}
             <a href="{{ item.Link }}">{{ item.Name }}</a> 
-          {% endif %}
+          {%-endif-%}
         </li>
-        {% endfor %}
+        {%-endfor-%}
     </ul>
 </div>
 
@@ -138,46 +138,45 @@ layout: base.njk
       <button class="carousel-nav next" onclick="navigateCarousel(1)">&rarr;</button>
  
     <ul class="list" id="mediaCarousel">
-      {% for media in Media %}
+      {%- for media in Media-%}
       <li class="media {{ media.Type }}">
 
         <h4>{{ media.Name }} </h4>
-        
-            {% if media.Type=="IMG"%}
-                <p>{{ media.Description }} </p>
+            {%- if media.Type=="IMG"%}
+                {{ media.Description | markdown | safe }}
                 <figure>
                     <img src="/uoa-online/images/resources/{{ media.Link }}" alt="{{ media.Name }}" title="{{ media.Name }}">
                 </figure>
-            {% endif %}
+            {%- endif-%}
         
-            {% if media.Type=="H5P"%}
-                <p>{{ media.Description }} </p>
+            {%- if media.Type=="H5P"%}
+                {{ media.Description | markdown | safe }}
                 <div class="responsive-iframe-container">
                   <iframe class="lti-embed" width="100%" height="800" title="{{ media.Name }}" src="{{ media.Link }}" frameborder="0"></iframe>
                 </div>
-            {% endif %}
+            {%- endif-%}
 
-            {% if media.Type=="YOUTUBE" %}
-              <p>{{ media.Description }} </p>
+            {%- if media.Type=="YOUTUBE"-%}
+              {{ media.Description | markdown | safe }}
               <div class="responsive-iframe-container">
                 <iframe title="YouTube video player" src="https://www.youtube-nocookie.com/embed/{{ media.Link }}" width="560" height="315" loading="lazy" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
               </div>
-            {% endif %}
+            {%- endif-%}
 
-            {% if media.Type=="ECHO" %}
-                <p>{{ media.Description }} </p>
+            {%- if media.Type=="ECHO"-%}
+                {{ media.Description | markdown | safe }}
                 <p><a href="media.Location">{{ media.Name }}</a></p>
-            {% endif %}
+            {%- endif-%}
 
-            {% if media.Type=="IFRAME"%}
-                <p>{{ media.Description }} </p>
+            {%- if media.Type=="IFRAME"%}
+                {{ media.Description | markdown | safe }}
                 <div class="responsive-iframe-container">
                   <iframe class="lti-embed" width="100%" height="800" title="{{ media.Name }}" src="{{ media.Link }}" frameborder="0"></iframe>
                 </div>
-            {% endif %}
+            {%- endif-%}
 
       </li>
-    {% endfor %}
+    {%- endfor-%}
     </ul>
       <ul class="carousel-indicators" id="carouselIndicators"></ul>
   </div>
