@@ -1,18 +1,4 @@
 ---
-LearningExperience:
-  - null
-Screenshots:
-  - Link: null
-    Description: null
-MiroBoards:
-  - Description: null
-    Link: null
-VideosToArchive:
-  - Name: null
-    Link: null
-InteractivesToArchive:
-  - Name: null
-    Link: null
 CourseName: 'Human Resource Management '
 Programs:
   - IB
@@ -100,9 +86,14 @@ Assessments:
       Learners prepare business report that contains targeted strategic Human
       Resource Management advice for to address issues relating to leadership
       capability, remuneration and reward, and strategic workforce planning.
-Jobs:
-  - Snapshots of the course
-  - Learning Experience
-  - Media
+Media: 
+  - Name: 
+    Type: 
+    Link: 
+    Description:
+Snapshot:
+  - Name: 
+    Link:
+    Description: 
 ---
 

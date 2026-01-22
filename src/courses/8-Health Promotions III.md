@@ -131,9 +131,9 @@ Media:
     Location: https://myuni.adelaide.edu.au/courses/90116/pages/lesson-9-dot-2-the-south-australian-walking-strategy?module_item_id=3289674
 Snapshot:
   - Name: "Lesson 1.1: The Ottawa Charter for Health Promotion"
-    Link: https://myuni.adelaide.edu.au/courses/90116/pages/lesson-1-dot-1-the-ottawa-charter-for-health-promotion?module_item_id=3224921
+    Link: 018_Page_module_1_key_concepts_in_health_promotion_lesson_1_1_the_ottawa_charter_for_health_promotion.png
   - Name: "Lesson 10.3: How to Evaluate a Strategy"
-    Link: https://myuni.adelaide.edu.au/courses/90116/pages/lesson-10-dot-3-how-to-evaluate-a-strategy?module_item_id=3299926
+    Link: 065_Page_module_10_health_promotion_monitoring_and_evaluation_lesson_10_3_how_to_evaluate_a_strategy.png
 Jobs:
   - Snapshots of the course
   - Learning Experience

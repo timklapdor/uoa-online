@@ -89,29 +89,22 @@ Media:
     Description: Nigel Barker expands on Keller's customer-based brand equity model.
     Location: >-
       https://myuni.adelaide.edu.au/courses/86262/pages/lesson-2-dot-1-what-are-the-components-of-customer-based-brand-equity?module_item_id=3062196
-  - Name: >-
-      https://echo360.net.au/ui/player/a30e50de-d59a-42e9-8200-d6f12ab99936?secureLinkAccessDataId=f26e26a1-b4b0-4c20-afe8-bb86670cfc73&autoplay=false&automute=false
+  - Name: Brand Value Chain
     Type: ECHO
     Link: >-
       https://echo360.net.au/ui/player/93e4462c-9c64-4b2c-ba79-88a7394f1cb4?secureLinkAccessDataId=3bd314ce-bc05-4453-8d37-cc94baaf3fc0&autoplay=false&automute=false
-    Description: >-
-      Nigel Barker explains the four stages of the brand value chain, and how
-      the model can be used to create brand equity.
+    Description: Nigel Barker explains the four stages of the brand value chain, and how the model can be used to create brand equity.
     Location: >-
       https://myuni.adelaide.edu.au/courses/86262/pages/lesson-2-dot-5-how-does-branding-create-value-for-the-business?module_item_id=3062200
 Snapshot:
   - Name: 'Lesson 5.1: Why is integrated marketing important?'
-    Link: >-
-      https://myuni.adelaide.edu.au/courses/86262/pages/lesson-5-dot-1-why-is-integrated-marketing-important?module_item_id=3064898
+    Link: 056_Page_module_5_integrated_marketing_to_create_brand_equity_lesson_5_1_why_is_integrated_marketing_importan.png
   - Name: 'Lesson 4.3: Why are brand logos important?'
-    Link: >-
-      https://myuni.adelaide.edu.au/courses/86262/pages/lesson-4-dot-3-why-are-brand-logos-important?module_item_id=3064866
+    Link: 048_Page_module_4_brand_elements_to_create_equity_lesson_4_3_why_are_brand_logos_important_.png
     Description: Visually rich page design
   - Name: 'Lesson 3.2: Developing a strong understanding of your competitors'
-    Link: >-
-      https://myuni.adelaide.edu.au/courses/86262/pages/lesson-3-dot-2-developing-a-strong-understanding-of-your-competitors?module_item_id=3062204
+    Link: 037_Page_module_3_understanding_the_brand_offer_lesson_3_2_developing_a_strong_understanding_of_your_competit.png
     Description: null
-    Location: ''
 Jobs:
   - Media
   - Learning Experience

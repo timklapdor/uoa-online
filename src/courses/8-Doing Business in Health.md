@@ -113,11 +113,11 @@ Media:
     Location: https://myuni.adelaide.edu.au/courses/90115/pages/lesson-5-dot-1-how-are-healthcare-systems-financed?module_item_id=3243765
 Snapshot:
   - Name: "Lesson 2.1: How has the healthcare system evolved in Australia?"
-    Link: https://myuni.adelaide.edu.au/courses/90115/pages/lesson-2-dot-1-how-has-the-healthcare-system-evolved-in-australia?module_item_id=3227891
+    Link: 023_Page_module_2_healthcare_system_design_lesson_2_1_how_has_the_healthcare_system_evolved_in_australia_.png
   - Name: "Lesson 3.1: How do we define health and disease?"
-    Link: https://myuni.adelaide.edu.au/courses/90115/pages/lesson-3-dot-1-how-do-we-define-health-and-disease?module_item_id=3228322
+    Link: 029_Page_module_3_healthcare_business_drivers_lesson_3_1_how_do_we_define_health_and_disease_.png
   - Name: "Lesson 4.1: How do Indigenous health services work?"
-    Link: https://myuni.adelaide.edu.au/courses/90115/pages/lesson-4-dot-1-how-do-indigenous-health-services-work?module_item_id=3228992
+    Link: 034_Page_module_4_determinants_of_health_business_lesson_4_1_how_do_indigenous_health_services_work_.png
   - Name: "Lesson 8.3: What does healthcare leadership look like?"
-    Link: https://myuni.adelaide.edu.au/courses/90115/pages/lesson-8-dot-3-what-does-healthcare-leadership-look-like?module_item_id=3261696
+    Link: 064_Page_module_8_health_leadership_lesson_8_3_what_does_healthcare_leadership_look_like_.png
 ---

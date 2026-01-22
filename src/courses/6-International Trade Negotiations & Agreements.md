@@ -106,16 +106,17 @@ Media:
   - Name: Formation of the European Union - Timeline
     Type: H5P
     Link: 'https://adelaide.h5p.com/lti/646381/content/1291997939842504499'
-    Description: Timline
+    Description: Timeline
     Location: >-
       https://myuni.adelaide.edu.au/courses/86391/pages/lesson-3-dot-2-liberal-internationalism?module_item_id=3116868
 Snapshot:
-  - Name: 'Lesson 3.1: Hegemony - Unipolar, Bipolar and Multipolar Worlds'
-    Link: >-
-      https://myuni.adelaide.edu.au/courses/86391/pages/lesson-3-dot-1-hegemony-unipolar-bipolar-and-multipolar-worlds?module_item_id=3116867
   - Name: 'Lesson 1.2: Power in the international system'
-    Link: >-
-      https://myuni.adelaide.edu.au/courses/86391/pages/lesson-1-dot-2-power-in-the-international-system?module_item_id=3105047
+    Link: 019_Page_module_1_introduction_to_international_relations_lesson_1_2_power_in_the_international_system.png
+    Description:
+  - Name: 'Lesson 3.1: Hegemony - Unipolar, Bipolar and Multipolar Worlds'
+    Link: 031_Page_module_3_the_international_system_since_world_war_ii_lesson_3_1_hegemony_unipolar_bipolar_and_multip.png
+    Description:
+
 Jobs:
   - Snapshots of the course
   - Learning Experience

@@ -102,9 +102,9 @@ Media:
     Location: https://myuni.adelaide.edu.au/courses/90186/pages/lesson-2-dot-3-what-are-the-common-motivations-for-smes-that-drive-internationalisation?module_item_id=3288768
 Snapshot:
   - Name: Introduction and team agreement activity
-    Link: https://myuni.adelaide.edu.au/courses/90186/pages/introduction-and-team-agreement-activity-publish-if-required?module_item_id=3333022
+    Link: 015_Page_orientation_introduction_and_team_agreement_activity_publish_if_required.png
   - Name: "Lesson 1.1: What is an SME and why are they important?"
-    Link: https://myuni.adelaide.edu.au/courses/90186/pages/lesson-1-dot-1-what-is-an-sme-and-why-are-they-important?module_item_id=3289165
+    Link: 018_Page_module_1_the_role_of_smes_and_the_entrepreneur_in_a_globalised_world_lesson_1_1_what_is_an_sme_and_w.png
 Jobs:
   - Media
   - Snapshots of the course

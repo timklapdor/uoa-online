@@ -1,5 +1,5 @@
 ---
-layout: page.njk
+layout: home.njk
 title: The University of Adelaide — *Online*
 ---
 

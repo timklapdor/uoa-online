@@ -113,19 +113,19 @@ Media:
     Location: https://myuni.adelaide.edu.au/courses/89959/pages/lesson-6-dot-1-what-is-corporate-level-strategy-and-what-is-its-purpose?module_item_id=3247989
 Snapshot: 
   - Name: "Lesson 2.3: How can industry environment and competitor analysis inform strategic decision-making?"
-    Link: https://myuni.adelaide.edu.au/courses/89959/pages/lesson-2-dot-3-how-can-industry-environment-and-competitor-analysis-inform-strategic-decision-making?module_item_id=3229935
+    Link: 028_Page_module_2_the_external_environment_lesson_2_3_how_can_industry_environment_and_competitor_analysis_in.png
     Description: "This page uses various pedagogical tools to create an engaging and applied learning experience. It scaffolds prior knowledge, links theory to practice, and incorporates a video to simplify complex concepts and cater to diverse learning preferences. Storytelling and real-world examples, such as Amazon’s 'Strategic Conquest' entry into the Australian market, make abstract ideas relatable. Active learning activities, visual aids, and prompts for reflection encourage critical thinking and collaboration, ensuring learners connect theory with practical application."
   - Name: "Lesson 4.3: What are the different types of business-level strategies available to a firm?"
-    Link: https://myuni.adelaide.edu.au/courses/89959/pages/lesson-4-dot-3-what-are-the-different-types-of-business-level-strategies-available-to-a-firm?module_item_id=3235075
+    Link: 048_Page_module_4_business_level_strategy_lesson_4_3_what_are_the_different_types_of_business_level_strategie.png
     Description: "The 'You make the decision - Tesla' H5P simulation is an effective pedagogical tool as it engages learners in interactive, practical decision-making. It encourages critical thinking by allowing participants to explore Tesla’s business strategies and their implications. Immediate feedback helps reinforce concepts like market positioning and competitive forces, while the simulation's non-linear design promotes experimentation and deeper understanding without scoring pressure. This approach effectively bridges theory and practice. The mapping process to create the framework for this tool was long and detailed, which was then refined by the academic."
   - Name: "Lesson 5.1: How might a firm's understanding of competitive dynamics benefit its strategy in a multimarket environment?"
-    Link: https://myuni.adelaide.edu.au/courses/89959/pages/lesson-5-dot-1-how-might-a-firms-understanding-of-competitive-dynamics-benefit-its-strategy-in-a-multimarket-environment?module_item_id=3244194
+    Link: 054_Page_module_5_competitive_dynamics_lesson_5_1_how_might_a_firm_s_understanding_of_competitive_dynamics_be.png
     Description: "The Strategy 'Funnovation' challenge effectively combines creativity, humour, and strategic thinking to engage learners in competitive strategy. Using AI-generated images via DALL-E enhances visualisation and adds a technological element. The activity links directly to Assessment 3a by developing creative and strategic thinking skills, ensuring learners see its relevance to real-world applications while maintaining an interactive and practical approach."
   - Name: "Lesson 5.3: How do strategic and tactical actions shape competitive rivalry and response?"
-    Link: https://myuni.adelaide.edu.au/courses/89959/pages/lesson-5-dot-3-how-do-strategic-and-tactical-actions-shape-competitive-rivalry-and-response?module_item_id=3245024
+    Link: 056_Page_module_5_competitive_dynamics_lesson_5_3_how_do_strategic_and_tactical_actions_shape_competitive_riv.png
     Description: "The Ugly Dad Shoe example illustrates effective pedagogy by connecting strategic concepts to a relatable, real-world product. It fosters active learning by linking theory to practice, encouraging critical analysis of market dynamics and company strategy. Using humour and multimedia enhances engagement, appeals to diverse learning styles, and improves retention. This example supports constructivist learning by prompting reflection and scaffolding, helping students apply competitive strategy frameworks in meaningful ways."
   - Name: "Lesson 8.9: Strategic insights into Qantas for Assessment 3a"
-    Link: https://myuni.adelaide.edu.au/courses/89959/pages/lesson-8-dot-9-strategic-insights-into-qantas-for-assessment-3a?module_item_id=3253317
+    Link: 096_Page_module_8_international_and_cooperative_strategies_lesson_8_9_strategic_insights_into_qantas_for_asse.png
     Description: "Worked with Media team to create reading checklist that students check once assignment reading is considered complete. Then once all readings are completed the master list in the assignment page shows either a fill list of green, strike through items or not, therefore students will know which articles they've missed."
 Jobs: 
   - Media

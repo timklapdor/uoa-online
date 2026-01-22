@@ -155,11 +155,11 @@ Media:
     Location: https://myuni.adelaide.edu.au/courses/97643/pages/lesson-8-dot-3-data-and-data-sources-used-for-economic-evaluation?module_item_id=3402195
 Snapshot:
   - Name: "Lesson 2.5: What is a logic model?"
-    Link: https://myuni.adelaide.edu.au/courses/97643/pages/lesson-2-dot-5-what-is-a-logic-model?module_item_id=3402144
+    Link: 033_Page_module_2_lesson_2_5_what_is_a_logic_model_.png
   - Name: "Lesson 5.1: What is the role of economic evaluations in health?"
-    Link: https://myuni.adelaide.edu.au/courses/97643/pages/lesson-5-dot-1-what-is-the-role-of-economic-evaluations-in-health?module_item_id=3402166
+    Link: 058_Page_module_5_lesson_5_1_what_is_the_role_of_economic_evaluations_in_health_.png
   - Name: "Lesson 7.4: How do we generate results for an SRoI?"
-    Link: https://myuni.adelaide.edu.au/courses/97643/pages/lesson-7-dot-4-how-do-we-generate-results-for-an-sroi?module_item_id=3402187
+    Link: 081_Page_module_7_lesson_7_4_how_do_we_generate_results_for_an_sroi_.png
 Jobs:
   - Snapshots of the course
   - Media

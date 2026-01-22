@@ -68,13 +68,13 @@ Media:
     Description:
 Snapshot:
   - Name: "Lesson 1.1: What are the fundamental building blocks of healthcare systems?"
-    Link: https://myuni.adelaide.edu.au/courses/96767/pages/lesson-1-dot-1-what-are-the-fundamental-building-blocks-of-healthcare-systems?module_item_id=3433851
+    Link: 022_Page_module_1_the_healthcare_landscape_lesson_1_1_what_are_the_fundamental_building_blocks_of_healthcare_.png
     Description: "1.1 has a good mix of OUA styling, a self-check H5P and a custom 'Building Blocks of Healthcare Delivery' graphic that was used multiple times in the course."
   - Name: "Lesson 2.2: How can systems thinking principles help us to manage healthcare systems?"
-    Link: https://myuni.adelaide.edu.au/courses/96767/pages/lesson-2-dot-2-how-can-systems-thinking-principles-help-us-to-manage-healthcare-systems?module_item_id=3437264
+    Link: 029_Page_module_2_healthcare_organisations_as_systems_lesson_2_2_how_can_systems_thinking_principles_help_us_.png
     Description: "2.2 has multiple videos and custom graphics to help students learn about applying systems thinking to healthcare"
   - Name: "Lesson 4.3: How can healthcare leaders manage resistance to change?"
-    Link: https://myuni.adelaide.edu.au/courses/96767/pages/lesson-4-dot-3-how-can-healthcare-leaders-manage-resistance-to-change-2?module_item_id=3434307
+    Link: 044_Page_module_4_managing_change_in_healthcare_organisations_lesson_4_3_how_can_healthcare_leaders_manage_re.png
     Description: "Included for case study and showcase of OUA table design"
 Jobs: 
   - Media

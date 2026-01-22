@@ -123,5 +123,5 @@ Media:
     Location: https://myuni.adelaide.edu.au/courses/88449/pages/lesson-1-dot-2-how-is-the-world-changing?module_item_id=3186448
 Snapshot:
   - Name: "Lesson 1.3: How can you see systems in the world around you?"
-    Link: https://myuni.adelaide.edu.au/courses/88449/pages/lesson-1-dot-3-how-can-you-see-systems-in-the-world-around-you?module_item_id=3186449
+    Link: 019_Page_module_1_systems_thinking_and_complexity_lesson_1_3_how_can_you_see_systems_in_the_world_around_you_.png
 ---

@@ -1,35 +1,4 @@
 ---
-Screenshots:
-  - Link: >-
-      https://myuni.adelaide.edu.au/courses/89525/pages/lesson-1-dot-2-what-causes-disease?module_item_id=3200257
-    Description: >-
-      Good example of a standard lesson page - but particularly, well-written,
-      referenced, engaging page of standard old course content. This is very
-      meat and potatoes - but well-cooked, delicious meat and potatoes. Also has
-      my favorite of course graphs.
-  - Link: >-
-      https://myuni.adelaide.edu.au/courses/89525/pages/lesson-2-dot-3-what-does-workplace-risk-management-look-like-in-practice?module_item_id=3200264
-    Description: >-
-      Video interview between course author (Dr. Sharyn Gaskin) and industry
-      expert Shelly Rowett. 
-  - Link: >-
-      https://myuni.adelaide.edu.au/courses/89525/pages/welcome-to-module-8-performing-an-environmental-health-risk-assessment?module_item_id=3200297
-    Description: >-
-      Module demonstrates a unique lesson structure for the OUA courses;
-      typically each lesson aims to answer a question, but this week's content
-      moves explicitly through each step in a critical workplace process. Dunno
-      what part of this to screencap but something here is worth noting.
-LearningExperience:
-  - null
-MiroBoards:
-  - Description: null
-    Link: null
-VideosToArchive:
-  - Name: null
-    Link: null
-InteractivesToArchive:
-  - Name: null
-    Link: null
 CourseName: 'Environmental & Occupational Health '
 Programs:
   - HSM
@@ -132,9 +101,7 @@ Media:
     Type: ECHO
     Link: >-
       https://echo360.net.au/ui/player/02383725-22ec-437b-abd7-078e8f8dc4fa?secureLinkAccessDataId=6eee44b6-37a8-494b-bc38-67ef59e9ec73&autoplay=false&automute=false
-    Description: >-
-      Dr. Sharyn Gaskin speaks with Shelley Rowett about how the risk of
-      silicosis is managed in the real world.
+    Description: "Dr. Sharyn Gaskin speaks with Shelley Rowett about how the risk of silicosis is managed in the real world."
     Location: >-
       https://myuni.adelaide.edu.au/courses/89525/pages/lesson-2-dot-3-what-does-workplace-risk-management-look-like-in-practice?module_item_id=3200264
   - Name: Health hazards on the worker
@@ -148,20 +115,21 @@ Media:
     Location: >-
       https://myuni.adelaide.edu.au/courses/89525/pages/lesson-2-dot-1-how-do-we-identify-risks-in-the-workplace?module_item_id=3200261
 Snapshot:
-  - Name: 'Lesson 10.2: How do air pollutants impact health?'
-    Link: >-
-      https://myuni.adelaide.edu.au/courses/89525/pages/lesson-10-dot-2-how-do-air-pollutants-impact-health?module_item_id=3200313
-  - Name: 'Lesson 5.3: Noise'
-    Link: >-
-      https://myuni.adelaide.edu.au/courses/89525/pages/lesson-5-dot-3-noise?module_item_id=3200283
-  - Name: 'Lesson 3.2: Who is the older worker?'
-    Link: >-
-      https://myuni.adelaide.edu.au/courses/89525/pages/lesson-3-dot-2-who-is-the-older-worker?module_item_id=3200269
+  - Name: 'Lesson 1.2: What causes disease?'
+    Link: 016_Page_module_1_introduction_to_occupational_health_lesson_1_2_what_causes_disease_.png
+    Description: "A good example of a standard lesson page - but particularly, well-written, reference but engaging page of standard old course content. Demonstrates the use of humour and visual material to illustrate key concepts."
   - Name: 'Lesson 2.2: What is the Health Hazard Management framework?'
-    Link: >-
-      https://myuni.adelaide.edu.au/courses/89525/pages/lesson-2-dot-2-what-is-the-health-hazard-management-framework?module_item_id=3200263
-    Location: >-
-      https://myuni.adelaide.edu.au/courses/89525/pages/lesson-2-dot-2-what-is-the-health-hazard-management-framework?module_item_id=3200263
+    Link: 023_Page_module_2_the_health_hazard_management_framework_lesson_2_2_what_is_the_health_hazard_management_fram.png
+    Description: 
+  - Name: 'Lesson 3.2: Who is the older worker?'
+    Link: 030_Page_module_3_different_workers_different_risks_lesson_3_2_who_is_the_older_worker_.png
+    Description:
+  - Name: 'Lesson 5.3: Noise'
+    Link: 046_Page_module_5_physical_hazards_lesson_5_3_noise.png
+    Descruption: 
+  - Name: 'Lesson 10.2: How do air pollutants impact health?'
+    Link: 081_Page_module_10_0_air_and_infection_lesson_10_2_how_do_air_pollutants_impact_health_.png
+    Description:
 Jobs:
   - Media
   - Learning Experience

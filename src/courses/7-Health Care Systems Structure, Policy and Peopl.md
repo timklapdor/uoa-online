@@ -1,18 +1,4 @@
 ---
-LearningExperience:
-  - null
-Screenshots:
-  - Link: null
-    Description: null
-MiroBoards:
-  - Description: null
-    Link: null
-VideosToArchive:
-  - Name: null
-    Link: null
-InteractivesToArchive:
-  - Name: null
-    Link: null
 CourseName: 'Health Care Systems: Structure, Policy and People '
 Programs:
   - HSM
@@ -116,5 +102,13 @@ Assessments:
       Learners are asked to produce a policy brief for the Health Minister,
       providing information and a policy recommendation. They are then asked to
       present this information as a pitch through a 5 minute presentation.
+Media:
+  - Name: 
+    Type: 
+    Link:
+Snapshot:
+  - Name: 
+    Link: 
+    Description:
 ---
 

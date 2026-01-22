@@ -62,22 +62,6 @@ Media:
     Type: YOUTUBE
     Link: lAvUTQapi2w
     Description: "A worked example of the application of the accounting equation and the impact of different types of transactions on the balance sheet and income statement."
-  - Name: 
-    Type: 
-    Link: 
-    Description:
-  - Name: 
-    Type: 
-    Link: 
-    Description:
-  - Name: 
-    Type: 
-    Link: 
-    Description:
-  - Name: 
-    Type: 
-    Link: 
-    Description:
 Snapshot:
   - Name: "Lesson 5.2: How can income statement and balance sheet transactions be captured using accounting equation techniques?"
     Link: 052_Page_module_5_accounting_equation_techniques_lesson_5_2_how_can_income_statement_and_balance_sheet_transa.png

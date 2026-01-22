@@ -85,11 +85,10 @@ Media:
     Link: MCDW_M7_0066_Consumer decision journey.png
     Location: https://myuni.adelaide.edu.au/courses/90064/pages/lesson-7-dot-1-what-are-digitalisation-and-digital-marketing-models?module_item_id=3222751
 Snapshot:
-  - Name: "Lesson 1.3: What is brand equity and how are IMC impacted by ethical
-      concerns?"
-    Link: https://myuni.adelaide.edu.au/courses/90064/pages/lesson-1-dot-2-what-is-the-marketing-communication-process?module_item_id=3222163
+  - Name: "Lesson 1.3: What is brand equity and how are IMC impacted by ethical concerns?"
+    Link: 019_Page_module_1_integrated_marketing_communications_lesson_1_3_what_is_brand_equity_and_how_are_imc_impacte.png
   - Name: "Lesson 4.1: What are creative marketing communications?"
-    Link: https://myuni.adelaide.edu.au/courses/90064/pages/lesson-4-dot-1-what-are-creative-marketing-communications?module_item_id=3222281
+    Link: 037_Page_module_4_developing_creative_strategies_lesson_4_1_what_are_creative_marketing_communications_.png
 Jobs:
   - Snapshots of the course
   - Media
