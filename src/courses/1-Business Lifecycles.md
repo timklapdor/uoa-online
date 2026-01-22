@@ -15,6 +15,19 @@ Description: >
   will appeal to those who are interested in starting up their own business, as
   well as those intending in becoming business advisers, leaders or
   policymakers.
+ToDo:
+  - Review course description
+  - Add learning experience
+  - Review learning experience
+  - Add snapshots
+  - Add snapshot descriptions
+  - Review snapshots
+  - Add learning resources
+  - Add learning resource descriptions
+  - Download video resources
+  - Review learning resources
+  - Editorial review
+  - Course ready to publish
 Team:
   - Name: Chris Graves
     Role: Course Author
