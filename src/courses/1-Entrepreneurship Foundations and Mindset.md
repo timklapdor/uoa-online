@@ -14,6 +14,20 @@ Description: This course focuses on the development of new skills and the
   entrepreneurship, use a number of tools/frameworks/models to identify and
   assess opportunities, and engage in experiential learning activities to
   develop their entrepreneurial mindset.
+ToDo:
+  - Review course description
+  - Add learning experience
+  - Review learning experience
+  - Add assessment descriptions
+  - Add snapshots
+  - Add snapshot descriptions
+  - Review snapshots
+  - Add learning resources
+  - Add learning resource descriptions
+  - Download video resources
+  - Review learning resources
+  - Editorial review
+  - Course ready to publish
 Team:
   - Name: Mercy Oloo
     Role: Course Author
