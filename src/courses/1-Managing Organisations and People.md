@@ -6,17 +6,15 @@ Programs:
 DevCycle: 1
 Blueprint: https://myuni.adelaide.edu.au/courses/69868
 Description: "This course introduces students to the roles and functions of
-  managers. The content includes an introduction to organisations and the need
-  for and nature of management. It examines the evolution of management theory,
+  managers. The content includes an introduction to organisations, the need for,
+  and nature of, management. It examines the evolution of management theory,
   organisational environments, and corporate social responsibility and ethics.
   The course also includes a detailed investigation of the four functions of
   management: planning and decision making, organising, leading and motivating,
   and controlling."
 ToDo:
-  - Review course description
   - Add learning experience
   - Review learning experience
-  - Add assessment descriptions
   - Add snapshots
   - Add snapshot descriptions
   - Review snapshots
@@ -91,13 +89,13 @@ Media:
 Snapshot:
   - Name: How can you understand the stages of group development?
     Link: 075_Page_module_6_managing_work_groups_and_teams_lesson_6_2_how_can_you_understand_the_stages_of_group_develo.png
-    Description: "This lesson unpacks Tuckman’s stages of group development through
+    Description: This lesson unpacks Tuckman’s stages of group development through
       visual elements like diagrams and figures, paired with storytelling and
       real-world examples, such as Ashwini Asokan’s team, to contextualise
       theory. Tools like Belbin’s 9 team roles and Hofstede’s cultural
       dimensions engage students in applying concepts, while the weekly learning
       log fosters reflection and critical thinking, connecting theory to
-      personal experience and supporting diverse learning styles."
+      personal experience and supporting diverse learning styles.
   - Name: What are the focus and goals of organisational behaviour? Why are they so
       important to managers?
     Link: 106_Page_module_9_understanding_individual_behaviour_lesson_9_1_what_are_the_focus_and_goals_of_organisationa.png
@@ -109,14 +107,12 @@ Snapshot:
       engaging introduction to OB."
   - Name: What is perception? What influences it?
     Link: 111_Page_module_9_understanding_individual_behaviour_lesson_9_6_what_is_perception_what_influences_it_.png
-    Description: "This lesson uses interactive activities like a jumbled text
+    Description: This lesson uses interactive activities like a jumbled text
       exercise and optical illusions to demonstrate how perception shapes
       understanding. It introduces attribution theory with practical workplace
       examples and visual summaries, making complex concepts accessible.
       Reflective tasks, such as analysing group perceptions and mirror
       exercises, encourage critical thinking and self-awareness, helping
       students connect theory to real-world applications in teamwork and
-      assessments."
-Jobs:
-  -  
+      assessments.
 ---
