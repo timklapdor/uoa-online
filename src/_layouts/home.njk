@@ -7,18 +7,34 @@ layout: base.njk
     <article>
 
     <h1>Jobs to be Done</h1>
-    <ol>
+    <ul class="jobs">
         {% for item in collections.courses | sort(false, false, 'data.DevCycle') |  sort(attribute="data.name") -%}
-        <li><a href="{{ item.url |url }}">{{ item.data.CourseName }}</a> {{item.data.DevCycle}}
+        <li>
+            <h4><a href="{{ item.url |url }}">{{ item.data.CourseName }}</a> {{item.data.DevCycle}}</h4>
         {% for member in item.data.Team %}
             <span class="lead">{{ member.Name if member.Role=="Learning Designer" and member.Involvement=="Lead"}}</span>
         {% endfor %}
-        {% if item.data.ToDo | length %}<ul>{%for item in item.data.ToDo %}<li class="job">{{item}}</li> {% endfor %}</ul> {% endif %} </li>
+            {%- set allTodos = ["Review course description","Add learning experience","Review learning experience","Add assessment descriptions","Add snapshots","Add snapshot descriptions","Review snapshots","Add learning resources","Add learning resource descriptions","Download video resources","Review learning resources","Editorial review","Course ready to publish"] -%}
+            <div class="todo-list">
+                <ul>
+            {% for task in allTodos %}
+                {%- set isComplete = ToDo and task not in ToDo -%}
+                <li class="todo-item {% if isComplete %}completed{% endif %}">
+                <label>
+                    <input type="checkbox" {% if isComplete %}checked{% endif %} disabled>
+                    <span>{{ task }}</span>
+                </label>
+                </li>
+            {% endfor %}
+                </ul>
+            </div>
         {% endfor %}
-    </ol>
+        </li>
+        </ul>
     </article>
 
     <article>
             {{ content | safe }}
     </article>
 </main>
+
