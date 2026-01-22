@@ -6,30 +6,39 @@ layout: base.njk
 <main>
     <article>
 
-    <h1>Jobs to be Done</h1>
-    <ul class="jobs">
-        {% for item in collections.courses | sort(false, false, 'data.DevCycle') |  sort(attribute="data.name") -%}
-        <li>
-            <h4><a href="{{ item.url |url }}">{{ item.data.CourseName }}</a> {{item.data.DevCycle}}</h4>
-        {% for member in item.data.Team %}
-            <span class="lead">{{ member.Name if member.Role=="Learning Designer" and member.Involvement=="Lead"}}</span>
-        {% endfor %}
-            {%- set allTodos = ["Review course description","Add learning experience","Review learning experience","Add assessment descriptions","Add snapshots","Add snapshot descriptions","Review snapshots","Add learning resources","Add learning resource descriptions","Download video resources","Review learning resources","Editorial review","Course ready to publish"] -%}
-            <div class="todo-list">
-                <ul>
-            {% for task in allTodos %}
-                {%- set isComplete = ToDo and task not in ToDo -%}
-                <li class="todo-item {% if isComplete %}completed{% endif %}">
-                <label>
-                    <input type="checkbox" {% if isComplete %}checked{% endif %} disabled>
-                    <span>{{ task }}</span>
-                </label>
-                </li>
+        {%- set allTodos = ["Review course description","Add learning experience","Review learning experience","Add assessment descriptions","Add snapshots","Add snapshot descriptions","Review snapshots","Add learning resources","Add learning resource descriptions","Download video resources","Review learning resources","Editorial review","Course ready to publish"] -%}
+
+        <h1>Jobs to be Done</h1>
+        <ul class="jobs">
+            {% for item in collections.courses | sort(false, false, 'data.DevCycle') |  sort(attribute="data.name") -%}
+            <li>
+                <h4><a href="{{ item.url |url }}">{{ item.data.CourseName }}</a> {{item.data.DevCycle}}</h4>
+                {% for member in item.data.Team %}
+                    <span class="lead">{{ member.Name if member.Role=="Learning Designer" and member.Involvement=="Lead"}}</span>
+                {% endfor %}
+                
+                <div class="todo-list">
+                    <ul>
+                    {% for task in allTodos %}
+                        {%- set isIncomplete = false -%}
+                        {% if item.data.ToDo %}
+                            {% for todoItem in item.data.ToDo %}
+                                {% if todoItem == task %}
+                                    {%- set isIncomplete = true -%}
+                                {% endif %}
+                            {% endfor %}
+                        {% endif %}
+                        <li class="todo-item {% if not isIncomplete %}completed{% endif %}">
+                            <label>
+                                <input type="checkbox" {% if not isIncomplete %}checked{% endif %} disabled>
+                                <span>{{ task }}</span>
+                            </label>
+                        </li>
+                    {% endfor %}
+                    </ul>
+                </div>
+            </li>
             {% endfor %}
-                </ul>
-            </div>
-        {% endfor %}
-        </li>
         </ul>
     </article>
 

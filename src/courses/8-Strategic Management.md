@@ -15,6 +15,20 @@ Description: >
   Students can expect to critically explore how the continuous and accurate
   analysis of essential strategic tasks and how internal and external
   environments interact are components of a successful strategy.
+ToDo:
+  - Review course description
+  - Add learning experience
+  - Review learning experience
+  - Add assessment descriptions
+  - Add snapshots
+  - Add snapshot descriptions
+  - Review snapshots
+  - Add learning resources
+  - Add learning resource descriptions
+  - Download video resources
+  - Review learning resources
+  - Editorial review
+  - Course ready to publish
 Team:
   - Name: Devendra Kumaria
     Role: Course Author

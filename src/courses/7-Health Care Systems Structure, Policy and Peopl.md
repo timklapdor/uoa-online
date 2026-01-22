@@ -19,6 +19,20 @@ Description: >
   other countries work. Students will learn a variety of practical skills such
   as how to analyse health polices, how to write a policy brief and how to
   approach health care reform.
+ToDo:
+  - Review course description
+  - Add learning experience
+  - Review learning experience
+  - Add assessment descriptions
+  - Add snapshots
+  - Add snapshot descriptions
+  - Review snapshots
+  - Add learning resources
+  - Add learning resource descriptions
+  - Download video resources
+  - Review learning resources
+  - Editorial review
+  - Course ready to publish
 Team:
   - Name: Andrew Gardner
     Role: Course Author

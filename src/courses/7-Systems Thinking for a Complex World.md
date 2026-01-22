@@ -19,6 +19,20 @@ Description: Many of today's complex challenges cannot be tackled with the
   parts, and explore ways in which managers can make use of the nature of
   systems—even in complex, unpredictable environments—to influence outcomes in a
   more profound way than can be achieved with linear or mechanistic thinking.
+ToDo:
+  - Review course description
+  - Add learning experience
+  - Review learning experience
+  - Add assessment descriptions
+  - Add snapshots
+  - Add snapshot descriptions
+  - Review snapshots
+  - Add learning resources
+  - Add learning resource descriptions
+  - Download video resources
+  - Review learning resources
+  - Editorial review
+  - Course ready to publish
 Team:
   - Name: David Pender
     Role: Course Author

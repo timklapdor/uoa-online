@@ -5,6 +5,20 @@ Programs:
 DevCycle: 4
 Blueprint: "https://myuni.adelaide.edu.au/courses/80193"
 Description: "This course prepares students to understand, assess and consider global trade opportunities, and strategies for realising these opportunities. This course prepares students to build competitive knowledge and understanding in international trade, by challenging them to engage in cognitive and critical thinking skills, independent learning and analysis, and requiring them to demonstrate the ability to analyse and integrate information across the broad disciplines of economics, law and politics in both a domestic and international context."
+ToDo:
+  - Review course description
+  - Add learning experience
+  - Review learning experience
+  - Add assessment descriptions
+  - Add snapshots
+  - Add snapshot descriptions
+  - Review snapshots
+  - Add learning resources
+  - Add learning resource descriptions
+  - Download video resources
+  - Review learning resources
+  - Editorial review
+  - Course ready to publish
 Team:
   - Name: "Nathan Gray"
     Role: "Course Author"

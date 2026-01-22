@@ -20,6 +20,20 @@ Description: This course explores how increasing globalisation, rapid
   have wide-reaching impact. Further attention is paid to how the
   internationalisation process has effects on enterprise operations regarding
   intellectual property, risk management, governance and financing.
+ToDo:
+  - Review course description
+  - Add learning experience
+  - Review learning experience
+  - Add assessment descriptions
+  - Add snapshots
+  - Add snapshot descriptions
+  - Review snapshots
+  - Add learning resources
+  - Add learning resource descriptions
+  - Download video resources
+  - Review learning resources
+  - Editorial review
+  - Course ready to publish
 Team:
   - Name: Chanaka Wijewardena
     Role: Course Author

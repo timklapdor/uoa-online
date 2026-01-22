@@ -17,6 +17,20 @@ Description: >
   understand, analyse and determine human resource-related decisions, whether
   proactively or in response to the dynamic times we live in, through the use of
   HRM strategy and practice.
+ToDo:
+  - Review course description
+  - Add learning experience
+  - Review learning experience
+  - Add assessment descriptions
+  - Add snapshots
+  - Add snapshot descriptions
+  - Review snapshots
+  - Add learning resources
+  - Add learning resource descriptions
+  - Download video resources
+  - Review learning resources
+  - Editorial review
+  - Course ready to publish
 Team:
   - Name: Devendra Kumaria
     Role: Course Author

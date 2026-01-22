@@ -9,6 +9,20 @@ Description: This course aims to provide students with the skills necessary to
   begin their development as a business professional. As students develop their
   skills and knowledge in their chosen profession it is important that they also
   develop a broader set of skills and identity as a professional.
+ToDo:
+  - Review course description
+  - Add learning experience
+  - Review learning experience
+  - Add assessment descriptions
+  - Add snapshots
+  - Add snapshot descriptions
+  - Review snapshots
+  - Add learning resources
+  - Add learning resource descriptions
+  - Download video resources
+  - Review learning resources
+  - Editorial review
+  - Course ready to publish
 Team:
   - Name: Tiffany de Sousa Machado
     Role: Course Author

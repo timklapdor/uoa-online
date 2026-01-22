@@ -5,6 +5,20 @@ Programs:
 DevCycle: 9
 Blueprint: "https://myuni.adelaide.edu.au/courses/88423"
 Description: "The objective of this course is to provide students with a basic understanding of the fundamental principles and practices of International Management. The course focuses on the foundations of international management, the role of culture, cross-cultural communication and negotiations, MNC strategies and structures, and international human resource management. There will be a focus on appropriate theory and the course will aim to provide opportunities for the practical implementation of the main concepts covered."
+ToDo:
+  - Review course description
+  - Add learning experience
+  - Review learning experience
+  - Add assessment descriptions
+  - Add snapshots
+  - Add snapshot descriptions
+  - Review snapshots
+  - Add learning resources
+  - Add learning resource descriptions
+  - Download video resources
+  - Review learning resources
+  - Editorial review
+  - Course ready to publish
 Team:
   - Name: "Sanjeev Abeynayake"
     Role: "Course Author"

@@ -12,6 +12,20 @@ Description: >
   environmental factors will be discussed. In addition, there will be an
   overview of the historical, legislative and administrative aspects of
   occupational health.
+ToDo:
+  - Review course description
+  - Add learning experience
+  - Review learning experience
+  - Add assessment descriptions
+  - Add snapshots
+  - Add snapshot descriptions
+  - Review snapshots
+  - Add learning resources
+  - Add learning resource descriptions
+  - Download video resources
+  - Review learning resources
+  - Editorial review
+  - Course ready to publish
 Team:
   - Name: Sharyn Gaskin
     Role: Course Author

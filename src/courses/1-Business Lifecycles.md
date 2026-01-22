@@ -5,21 +5,18 @@ Programs:
 DevCycle: 1
 Blueprint: https://myuni.adelaide.edu.au/courses/69866
 Description: >
-  This course uses a life cycle perspective of the firm to develop students'
+  This course uses a life cycle perspective of a firm to develop an
   understanding of the interrelated nature of the different business disciplines
   required to establish and grow a business successfully. With the use of an
-  online business simulation game, student groups compete with each other in
-  growing a business in a virtual world while learning about the role of
+  online business simulation game, student groups compete with each other to
+  grow a business in a virtual world while learning about the roles of
   entrepreneurship, strategy, marketing, finance, business structures,
   management, accounting, taxation, and exit and succession planning. The course
   will appeal to those who are interested in starting up their own business, as
   well as those intending in becoming business advisers, leaders or
   policymakers.
 ToDo:
-  - Review course description
-  - Add learning experience
   - Review learning experience
-  - Add snapshots
   - Add snapshot descriptions
   - Review snapshots
   - Add learning resources
@@ -130,4 +127,4 @@ Snapshot:
   - Name: "11.1.5: Enacting a successful turnaround to renew the business"
     Link: 206_Page_module_11_maturity_and_exit_renewal_versus_failure_sale_versus_succession_11_1_5_enacting_a_successf.png
 ---
-The course has been purposefully designed to balance learning theoretical concepts and practical application, enabling learners to regularly put into practice what they've learnt to gain a deeper understanding. Teams are established and use an online business simulation game called **_Mike's Bikes_**. They compete with other teams to make key decisions to grow a virtual business while learning about the role of disciplines such as entrepreneurship, strategy, marketing, accounting, finance and management.
+The course was purposefully designed to balance learning theoretical concepts and practical application, enabling learners to regularly put into practice what they've learnt to gain a deeper understanding. Teams are established and use an online business simulation game called **_Mike's Bikes_**. They compete with other teams to make key decisions to grow a virtual business. This framework allows students to learn and practice the roles that entrepreneurship, strategy, marketing, accounting, finance and management play in creating a sustainable business. The simulator provides students with a safe space to experiement and learn from any mistakes they make. 

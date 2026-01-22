@@ -22,6 +22,20 @@ Description: International marketing is a rapidly growing area within the
   and adaptation versus standardisation. The conceptual material developed
   during this course will be implemented through class exercises, case studies
   and a major project.
+ToDo:
+  - Review course description
+  - Add learning experience
+  - Review learning experience
+  - Add assessment descriptions
+  - Add snapshots
+  - Add snapshot descriptions
+  - Review snapshots
+  - Add learning resources
+  - Add learning resource descriptions
+  - Download video resources
+  - Review learning resources
+  - Editorial review
+  - Course ready to publish
 Team:
   - Name: Kym Chappell
     Role: Course Author

@@ -21,6 +21,20 @@ Description: In this course, you'll explore the theory and practice of health
   of your learning, you will feel equipped with the knowledge, skills, and
   perspectives necessary for effective and impactful practice in health
   promotion and health service management.
+ToDo:
+  - Review course description
+  - Add learning experience
+  - Review learning experience
+  - Add assessment descriptions
+  - Add snapshots
+  - Add snapshot descriptions
+  - Review snapshots
+  - Add learning resources
+  - Add learning resource descriptions
+  - Download video resources
+  - Review learning resources
+  - Editorial review
+  - Course ready to publish
 Team:
   - Name: Andrew Gardner
     Role: Course Author

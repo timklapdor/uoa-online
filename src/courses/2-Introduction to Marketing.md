@@ -6,6 +6,20 @@ Programs:
 DevCycle: 2
 Blueprint: "https://myuni.adelaide.edu.au/courses/76552"
 Description: "This course is designed to provide students with an understanding of the principles of Marketing. There will be a focus on the management of the marketing activities and how marketing relates to overall organisational functioning, including the management of exchange processes between business units and consumers and between firms. It will include environmental analysis, industry and competitor analysis, objective setting, marketing strategies, and marketing mix components such as pricing, distribution, product and service development and promotion, including traditional and digital marketing communication. Additionally, the course will provide opportunities for the practical implementation of the concepts covered and the development of problem-solving skills by means of interactive assessments, weekly tutorials and online learning."
+ToDo:
+  - Review course description
+  - Add learning experience
+  - Review learning experience
+  - Add assessment descriptions
+  - Add snapshots
+  - Add snapshot descriptions
+  - Review snapshots
+  - Add learning resources
+  - Add learning resource descriptions
+  - Download video resources
+  - Review learning resources
+  - Editorial review
+  - Course ready to publish
 Team:
   - Name: "Nigel Barker"
     Role: "Course Author"

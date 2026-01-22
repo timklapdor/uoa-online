@@ -14,6 +14,20 @@ Description: >
   change, from both theoretical and practical perspectives. Students will
   develop their critical thinking and analytical skills to understand
   conversations around health and health outcomes.
+ToDo:
+  - Review course description
+  - Add learning experience
+  - Review learning experience
+  - Add assessment descriptions
+  - Add snapshots
+  - Add snapshot descriptions
+  - Review snapshots
+  - Add learning resources
+  - Add learning resource descriptions
+  - Download video resources
+  - Review learning resources
+  - Editorial review
+  - Course ready to publish
 Team:
   - Name: Shona Crabb
     Role: Course Author

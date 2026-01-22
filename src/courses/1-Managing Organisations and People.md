@@ -12,6 +12,20 @@ Description: "This course introduces students to the roles and functions of
   The course also includes a detailed investigation of the four functions of
   management: planning and decision making, organising, leading and motivating,
   and controlling."
+ToDo:
+  - Review course description
+  - Add learning experience
+  - Review learning experience
+  - Add assessment descriptions
+  - Add snapshots
+  - Add snapshot descriptions
+  - Review snapshots
+  - Add learning resources
+  - Add learning resource descriptions
+  - Download video resources
+  - Review learning resources
+  - Editorial review
+  - Course ready to publish
 Team:
   - Name: Ankit Agarwal
     Role: Course Author

@@ -6,6 +6,20 @@ Programs:
 DevCycle: 5
 Blueprint: "https://myuni.adelaide.edu.au/courses/80192"
 Description: "Business Information Systems and Management is a foundation subject that overviews the critical aspects of Information Management and Information Systems needed in all businesses in the 21st century. While primarily a business course, there will be consideration of the technical aspects necessary to be able to liaise meaningfully with IT departments and personnel. The predominant focus of the course will be the ability to leverage technology for business purposes. The subject includes fundamental information management skills (e.g. spreadsheets and databases) and focuses on the use of information to make business decisions and solve business problems."
+ToDo:
+  - Review course description
+  - Add learning experience
+  - Review learning experience
+  - Add assessment descriptions
+  - Add snapshots
+  - Add snapshot descriptions
+  - Review snapshots
+  - Add learning resources
+  - Add learning resource descriptions
+  - Download video resources
+  - Review learning resources
+  - Editorial review
+  - Course ready to publish
 Team:
   - Name: "Bryan Macdonald"
     Role: "Course Author"

@@ -5,6 +5,20 @@ Programs:
 DevCycle: 4
 Blueprint: "https://myuni.adelaide.edu.au/courses/80194"
 Description: "This course prepares students for working in an organisation that operates internationally. Students are exposed to different aspects that underpin internationalisation decisions of a firm. They also learn about the input of different functional units within organisations in the success of its international operationists. The broad content themes include international strategy and organisation; entrepreneurial nature of international expansion; different modes of foreign market entry; internationalisation of service firm; international marketing, human resource management, and sourcing. Finally, students have an opportunity to explore ethics and corporate social responsibility (CSR) in the international context.The course develops skills in analysing cross-border business scenarios, identifying opportunities and risks entailed in various internationalisation decisions, appreciating the complexity of international business operations, and including ethics and social responsibility as significant factors shaping a firm's behaviour in a home and host country(ies)."
+ToDo:
+  - Review course description
+  - Add learning experience
+  - Review learning experience
+  - Add assessment descriptions
+  - Add snapshots
+  - Add snapshot descriptions
+  - Review snapshots
+  - Add learning resources
+  - Add learning resource descriptions
+  - Download video resources
+  - Review learning resources
+  - Editorial review
+  - Course ready to publish
 Team:
   - Name: "Max Smith"
     Role: Course Author

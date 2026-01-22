@@ -15,6 +15,20 @@ Description: >
   Brand co-creation is explored, especially in social media marketing involving
   Facebook, Twitter, and blogs. The course also evaluates brand equity's
   leverage into extensions, as in the case of Virgin, as a growth strategy.
+ToDo:
+  - Review course description
+  - Add learning experience
+  - Review learning experience
+  - Add assessment descriptions
+  - Add snapshots
+  - Add snapshot descriptions
+  - Review snapshots
+  - Add learning resources
+  - Add learning resource descriptions
+  - Download video resources
+  - Review learning resources
+  - Editorial review
+  - Course ready to publish
 Team:
   - Name: Nigel Barker
     Role: Course Author

@@ -19,6 +19,20 @@ Description: >
   thinking skills essential to understanding, managing and improving operations
   in a broad range of industries and business contexts that you may find
   yourself in.
+ToDo:
+  - Review course description
+  - Add learning experience
+  - Review learning experience
+  - Add assessment descriptions
+  - Add snapshots
+  - Add snapshot descriptions
+  - Review snapshots
+  - Add learning resources
+  - Add learning resource descriptions
+  - Download video resources
+  - Review learning resources
+  - Editorial review
+  - Course ready to publish
 Team:
   - Name: Wayne Hobbs
     Role: Course Author

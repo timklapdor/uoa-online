@@ -16,6 +16,20 @@ Description: >
   reflection on current events, you will be equipped with the skills to identify
   and evaluate the factors that shape global trade, conduct policy analysis, and
   connect key theory to current world events.
+ToDo:
+  - Review course description
+  - Add learning experience
+  - Review learning experience
+  - Add assessment descriptions
+  - Add snapshots
+  - Add snapshot descriptions
+  - Review snapshots
+  - Add learning resources
+  - Add learning resource descriptions
+  - Download video resources
+  - Review learning resources
+  - Editorial review
+  - Course ready to publish
 Team:
   - Name: Vutha Hing
     Role: Course Author

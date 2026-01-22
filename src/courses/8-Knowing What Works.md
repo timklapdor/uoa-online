@@ -20,6 +20,20 @@ Description: "In the era of evidence-based practice and policy in health care,
   collection and analysis, and economic evaluation. You will build your
   evaluation toolkit and develop an evaluation mindset, which will provide you
   with a strong foundation for knowing what works in your career."
+ToDo:
+  - Review course description
+  - Add learning experience
+  - Review learning experience
+  - Add assessment descriptions
+  - Add snapshots
+  - Add snapshot descriptions
+  - Review snapshots
+  - Add learning resources
+  - Add learning resource descriptions
+  - Download video resources
+  - Review learning resources
+  - Editorial review
+  - Course ready to publish
 Team:
   - Name: Andrew Gardner
     Role: Course Author

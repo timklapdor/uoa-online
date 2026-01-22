@@ -19,6 +19,20 @@ Description: This course gives an overview of the Australian health system and
   understanding of key stakeholders in the health sector and will be equipped to
   address the problems facing sustainable and quality healthcare delivery in
   Australia.
+ToDo:
+  - Review course description
+  - Add learning experience
+  - Review learning experience
+  - Add assessment descriptions
+  - Add snapshots
+  - Add snapshot descriptions
+  - Review snapshots
+  - Add learning resources
+  - Add learning resource descriptions
+  - Download video resources
+  - Review learning resources
+  - Editorial review
+  - Course ready to publish
 Team:
   - Name: Andrew Gardner
     Role: Course Author

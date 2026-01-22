@@ -12,6 +12,20 @@ Description: The course aims to provide you with an understanding of the
   planned. You'll also explore the evolution of marketing activities in an
   increasingly digital environment, including activities undertaken via online
   platforms, social media, email and other digital formats.
+ToDo:
+  - Review course description
+  - Add learning experience
+  - Review learning experience
+  - Add assessment descriptions
+  - Add snapshots
+  - Add snapshot descriptions
+  - Review snapshots
+  - Add learning resources
+  - Add learning resource descriptions
+  - Download video resources
+  - Review learning resources
+  - Editorial review
+  - Course ready to publish
 Team:
   - Name: Wenjie Li
     Role: Course Author

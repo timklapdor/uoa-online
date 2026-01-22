@@ -5,24 +5,26 @@ Programs:
   - HSM
 DevCycle: 9
 Blueprint: 'https://myuni.adelaide.edu.au/courses/96761'
-Description: >
-  Systematically assessing the viability of your ideas is an integral
-  requirement for any career path - not only for those embarking an
-  entrepreneurial career. Evidence suggests that your time at University is one
-  of the best times to gain this experience.
+Description: |
+  Systematically assessing the viability of your ideas is an integral requirement for any career path - not only for those embarking an entrepreneurial career. Evidence suggests that your time at University is one of the best times to gain this experience.
 
+  The eChallenge is a course designed to offer you a chance to perceive ideas from the perspective of pain experienced by or gain obtained by customers, develop innovative solutions using creative strategies, test ideas by interacting with customers, mentors and industry practitioners, and finally pitch ideas to a panel of investors from industry. Building your network during the industry interactions is an added benefit.
 
-  The eChallenge is a course designed to offer you a chance to perceive ideas
-  from the perspective of pain experienced by or gain obtained by customers,
-  develop innovative solutions using creative strategies, test ideas by
-  interacting with customers, mentors and industry practitioners, and finally
-  pitch ideas to a panel of investors from industry. Building your network
-  during the industry interactions is an added benefit.
-
-
-  The course is the first step into entrepreneurship for many who have gone on
-  to great entrepreneurial endeavours, as well as an enriching personal learning
-  experience for all.
+  The course is the first step into entrepreneurship for many who have gone on to great entrepreneurial endeavours, as well as an enriching personal learning experience for all.
+ToDo:
+  - Review course description
+  - Add learning experience
+  - Review learning experience
+  - Add assessment descriptions
+  - Add snapshots
+  - Add snapshot descriptions
+  - Review snapshots
+  - Add learning resources
+  - Add learning resource descriptions
+  - Download video resources
+  - Review learning resources
+  - Editorial review
+  - Course ready to publish
 Team:
   - Name: Manjula Dissanayake
     Role: Course Author

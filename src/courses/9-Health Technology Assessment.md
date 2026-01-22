@@ -10,6 +10,20 @@ Description: |
   This course provides the opportunity to develop and practise real world skills in HTA, including identifying and appraising literature to assess the safety and effectiveness of a technology; planning and conducting an HTA; and communicating findings meaningfully to inform health policy and clinical practice. Through this course, you will also develop an understanding of the role of other key components within an HTA, including economic evaluation, ethical analysis, organisational and implementation considerations, and public and patient engagement and involvement in decision-making. 
   
   By the end of this course, you will have the confidence to interpret published HTAs, recognise when it might be appropriate to conduct or commission one, conduct a simple HTA, and make recommendations for adopting or implementing a health technology within a health service. HTA is a field that produces skills that are in high demand. The skills learnt are transferable to different levels of the health system and to a range of positions that are involved with health service delivery, health service management and in the development of health policy.
+ToDo:
+  - Review course description
+  - Add learning experience
+  - Review learning experience
+  - Add assessment descriptions
+  - Add snapshots
+  - Add snapshot descriptions
+  - Review snapshots
+  - Add learning resources
+  - Add learning resource descriptions
+  - Download video resources
+  - Review learning resources
+  - Editorial review
+  - Course ready to publish
 Team:
   - Name: "Andrew Gardner"
     Role: "Course Author"

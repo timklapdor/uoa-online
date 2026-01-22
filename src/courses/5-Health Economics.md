@@ -28,6 +28,20 @@ Description: "The study of health economics sits at the junction of the broader
   to meet your needs. With flexible online delivery, you can study at your own
   pace and schedule, making it easier to gain the knowledge and skills you need
   to succeed."
+ToDo:
+  - Review course description
+  - Add learning experience
+  - Review learning experience
+  - Add assessment descriptions
+  - Add snapshots
+  - Add snapshot descriptions
+  - Review snapshots
+  - Add learning resources
+  - Add learning resource descriptions
+  - Download video resources
+  - Review learning resources
+  - Editorial review
+  - Course ready to publish
 Team:
   - Name: Andrew Gardner
     Role: Course Author

@@ -5,6 +5,20 @@ Programs:
 DevCycle: 9
 Blueprint: "https://myuni.adelaide.edu.au/courses/96767"
 Description: "Healthcare organisations, in the 21st century, are being challenged by rapid changes. Due to these changes, healthcare organisations must adapt, learn and innovate. This requires a paradigm shift in the mindset and skills of healthcare leaders, managers and practitioners. In this course, you will learn management concepts, tools and techniques to address some of the daunting challenges that healthcare organisations are facing. Each module focuses on how health service managers can manage different aspects of the healthcare landscape. The course uses real-world, health-related scenarios in its materials and assessments to develop practical learning that can be applied in the workplace."
+ToDo:
+  - Review course description
+  - Add learning experience
+  - Review learning experience
+  - Add assessment descriptions
+  - Add snapshots
+  - Add snapshot descriptions
+  - Review snapshots
+  - Add learning resources
+  - Add learning resource descriptions
+  - Download video resources
+  - Review learning resources
+  - Editorial review
+  - Course ready to publish
 Team:
   - Name: "Andrew Gardner"
     Role: "Course Author"
