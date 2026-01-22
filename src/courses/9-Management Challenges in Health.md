@@ -44,23 +44,23 @@ Assessments:
     Weighting: 25
     Type: 
       - Report
-    Description: 
+    Description: "Learners develop a report analysing a successful transformational change within a healthcare organisation."
   - Name: "Case analysis and recommendations"
     Weighting: 20
     Type: 
       - Report
-    Description: 
+    Description: "Learners analyse an *unsuccessful* transformational change within a healthcare organisation. They are asked to critique the strategy that led to the failure of the transformational change, make recommendations and propose an implementation plan."
   - Name: "Case analysis and recommendations"
     Weighting: 20
     Type: 
       - Presentation
-    Description: 
+    Description: "Learners present their recommendations for implementing a successful transformational management strategy."
   - Name: "Responses to selection criteria, role play job interview"
     Weighting: 30
     Type: 
       - Short Response Questions
       - Interview
-    Description: 
+    Description: "Learners practise responding to selection criteria for a job in health service management in order to connect the course material and the expectations of employers in the health service management industry."
 Media: 
   - Name: 
     Type: 
@@ -76,7 +76,4 @@ Snapshot:
   - Name: "Lesson 4.3: How can healthcare leaders manage resistance to change?"
     Link: 044_Page_module_4_managing_change_in_healthcare_organisations_lesson_4_3_how_can_healthcare_leaders_manage_re.png
     Description: "Included for case study and showcase of OUA table design"
-Jobs: 
-  - Media
-  - Learning Experience
 ---

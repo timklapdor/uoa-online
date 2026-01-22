@@ -10,7 +10,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/images");
   eleventyConfig.addPassthroughCopy("./src/assets");
   eleventyConfig.addPlugin(eleventySass);
-  eleventyConfig.addPlugin(embedYouTube, {lite: true});
+  eleventyConfig.addPlugin(embedYouTube);
 
   eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItDeflist));
 
@@ -25,6 +25,17 @@ module.exports = function (eleventyConfig) {
   const imageExtensions = ['.png', '.jpg', '.jpeg', '.gif', '.webp', '.svg'];
   return imageExtensions.some(ext => value.toLowerCase().endsWith(ext));
   });
+
+  // To render stuff as markdown
+  eleventyConfig.addFilter("markdown", function(value) {
+  if (!value) return '';
+  const md = require("markdown-it")({
+    html: true,
+    breaks: true,
+    linkify: true
+  });
+  return md.render(value);
+});
 
   // Create a filter to limit number of characters
   eleventyConfig.addFilter("limit", function(value, length) {

@@ -170,7 +170,8 @@
               class="snapshot-thumbnail"
               data-image="../../images/archive/health-economics/026_Page_module_2_economic_resources_lesson_2_1_what_is_a_resource_.png"
               data-title="Lesson 2.1: What is a resource?"
-              data-description="The &#39;What are economic resources?&#39; segment in this lesson was a collaborative innovation, conceptualised from scratch and refined through iterative storyboarding sessions with subject matter experts (SMEs). Input from the media team played a crucial role in transforming the initial idea into an engaging studio-recorded segment. The inclusion of the baking a cake analogy was further enhanced by a custom animation developed by the media team, creating a visually rich and memorable learning experience. Additionally, the Timeline tool was converted into an H5P interactive, offering an engaging and interactive way for students to explore and connect key concepts, further enhancing the pedagogical impact of this lesson. with a final review component of connecting health resources to test student knowledge in a drag and drop h5p."
+              data-description="<p>The 'What are economic resources?' segment in this lesson was a collaborative innovation, conceptualised from scratch and refined through iterative storyboarding sessions with subject matter experts (SMEs). Input from the media team played a crucial role in transforming the initial idea into an engaging studio-recorded segment. The inclusion of the baking a cake analogy was further enhanced by a custom animation developed by the media team, creating a visually rich and memorable learning experience. Additionally, the Timeline tool was converted into an H5P interactive, offering an engaging and interactive way for students to explore and connect key concepts, further enhancing the pedagogical impact of this lesson. with a final review component of connecting health resources to test student knowledge in a drag and drop h5p.</p>
+"
               onclick="openSnapshot(this)"
             >
           
@@ -184,7 +185,8 @@
               class="snapshot-thumbnail"
               data-image="../../images/archive/health-economics/043_Page_module_3_economic_health_outcomes_lesson_3_4_how_to_measure_utility_values_.png"
               data-title="Lesson 3.4: How to measure utility values?"
-              data-description="This lesson explores utility measurement in health economics, using methods like Standard Gamble, Time Trade-Off, and Multi-Attribute Utility Instruments. Students apply these methods through vignette activities, comparing subjective utility estimates and discussing findings. Supplementary readings and discussions deepen understanding, while the lesson thoughtfully addresses the sensitive nature of health scenarios."
+              data-description="<p>This lesson explores utility measurement in health economics, using methods like Standard Gamble, Time Trade-Off, and Multi-Attribute Utility Instruments. Students apply these methods through vignette activities, comparing subjective utility estimates and discussing findings. Supplementary readings and discussions deepen understanding, while the lesson thoughtfully addresses the sensitive nature of health scenarios.</p>
+"
               onclick="openSnapshot(this)"
             >
           
@@ -198,7 +200,8 @@
               class="snapshot-thumbnail"
               data-image="../../images/archive/health-economics/089_Page_module_8_introduction_to_economic_evaluation_lesson_8_1_what_are_key_components_in_an_economic_evalu.png"
               data-title="Lesson 8.1: What are key components in an economic evaluation?"
-              data-description="This lesson introduces the PICOC framework—Population, Intervention, Comparator, Outcomes, and Costs—using a creative peacock graphic to enhance engagement with the acronym. Developed collaboratively with subject matter experts and the media team, the design combines storytelling and visual appeal to simplify complex healthcare evaluations. Real-world examples, such as treatment-resistant depression studies, and interactive activities provide practical context, encouraging active learning and application of the framework."
+              data-description="<p>This lesson introduces the PICOC framework—Population, Intervention, Comparator, Outcomes, and Costs—using a creative peacock graphic to enhance engagement with the acronym. Developed collaboratively with subject matter experts and the media team, the design combines storytelling and visual appeal to simplify complex healthcare evaluations. Real-world examples, such as treatment-resistant depression studies, and interactive activities provide practical context, encouraging active learning and application of the framework.</p>
+"
               onclick="openSnapshot(this)"
             >
           
@@ -212,8 +215,14 @@
               class="snapshot-thumbnail"
               data-image="../../images/archive/health-economics/124_Page_module_12_applying_other_considerations_of_economics_to_healthcare_lesson_12_1_is_your_health_servic.png"
               data-title="Lesson 12.1: Is your health service efficient?"
-              data-description="This lesson uses the Hard Times for Hospital Administrators case study to examine health service efficiency and resource allocation within an ethical framework, focusing on utilitarianism. It integrates:
-*   Case study analysis for real-world application. *   Ethical discussion contrasting utilitarianism with other frameworks. *   Video learning with visual tools to interpret resource allocation challenges. *   This approach bridges theory and practice, enhancing critical thinking and decision-making skills."
+              data-description="<p>This lesson uses the Hard Times for Hospital Administrators case study to examine health service efficiency and resource allocation within an ethical framework, focusing on utilitarianism. It integrates:</p>
+<ul>
+<li>Case study analysis for real-world application.</li>
+<li>Ethical discussion contrasting utilitarianism with other frameworks.</li>
+<li>Video learning with visual tools to interpret resource allocation challenges.</li>
+<li>This approach bridges theory and practice, enhancing critical thinking and decision-making skills.</li>
+</ul>
+"
               onclick="openSnapshot(this)"
             >
           
@@ -405,6 +414,7 @@
 </main>
 
 <script>
+// For Snapshots overlay
 let currentSnapshotIndex = 0;
 let snapshotElements = [];
 
@@ -426,7 +436,9 @@ function displaySnapshot(element) {
   document.getElementById('popoverImage').src = imageSrc;
   document.getElementById('popoverImage').alt = title;
   document.getElementById('popoverTitle').textContent = title;
-  document.getElementById('popoverDescription').textContent = description;
+  
+  // Render HTML (already parsed from markdown server-side)
+  document.getElementById('popoverDescription').innerHTML = description || '';
   
   // Reset scroll to top
   document.getElementById('popoverImageContainer').scrollTop = 0;
@@ -470,6 +482,7 @@ document.addEventListener('keydown', function(e) {
 </script>
 
 <script>
+// For media Carousel
 const carousel = document.getElementById('mediaCarousel');
 const indicators = document.getElementById('carouselIndicators');
 const items = carousel.querySelectorAll('li.media');

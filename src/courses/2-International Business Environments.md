@@ -84,7 +84,4 @@ Snapshot:
   - Name: "Lesson 11.2: What is the triple bottom line?"
     Link: "117_Page_module_11_sustainability_in_global_business_lesson_11_2_what_is_the_triple_bottom_line_.png"
     Description: 
-Jobs: 
-  - Media
-  - Learning Experience
 ---

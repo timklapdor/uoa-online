@@ -328,6 +328,7 @@
 </main>
 
 <script>
+// For Snapshots overlay
 let currentSnapshotIndex = 0;
 let snapshotElements = [];
 
@@ -349,7 +350,9 @@ function displaySnapshot(element) {
   document.getElementById('popoverImage').src = imageSrc;
   document.getElementById('popoverImage').alt = title;
   document.getElementById('popoverTitle').textContent = title;
-  document.getElementById('popoverDescription').textContent = description;
+  
+  // Render HTML (already parsed from markdown server-side)
+  document.getElementById('popoverDescription').innerHTML = description || '';
   
   // Reset scroll to top
   document.getElementById('popoverImageContainer').scrollTop = 0;
@@ -393,6 +396,7 @@ document.addEventListener('keydown', function(e) {
 </script>
 
 <script>
+// For media Carousel
 const carousel = document.getElementById('mediaCarousel');
 const indicators = document.getElementById('carouselIndicators');
 const items = carousel.querySelectorAll('li.media');

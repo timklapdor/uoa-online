@@ -152,7 +152,8 @@
               class="snapshot-thumbnail"
               data-image="../../images/archive/managing-conflicts-and-change/033_Page_module_2_negotiation_lesson_2_3_what_does_negotiation_look_like_.png"
               data-title="Lesson 2.3: What does negotiation look like?"
-              data-description="Originally a heavily theory based lessons, sourced further media for students to engage in, as well as a short media-based activity where students would practice applying these theories in practice. It was discussed that students often struggled with applyimg or understanding these theories to real-world scenarios in their assessments or, so we focused several practice activities on asking students to do this."
+              data-description="<p>Originally a heavily theory based lessons, sourced further media for students to engage in, as well as a short media-based activity where students would practice applying these theories in practice. It was discussed that students often struggled with applyimg or understanding these theories to real-world scenarios in their assessments or, so we focused several practice activities on asking students to do this.</p>
+"
               onclick="openSnapshot(this)"
             >
           
@@ -166,7 +167,8 @@
               class="snapshot-thumbnail"
               data-image="../../images/archive/managing-conflicts-and-change/093_Page_module_7_diagnosing_and_planning_change_lesson_7_3_how_do_you_apply_stakeholder_mapping_to_the_plann.png"
               data-title="Lesson 7.3: How do you apply stakeholder mapping to the planned change approach?"
-              data-description="Set up a visual link to a compelex stepped process, with clearly explained how to demonstration videos, as ewll as graphics that situate learner into an overall process and how it links with the theories they&#39;ve learnt, which they&#39;ll also use for the assessments."
+              data-description="<p>Set up a visual link to a compelex stepped process, with clearly explained how to demonstration videos, as ewll as graphics that situate learner into an overall process and how it links with the theories they've learnt, which they'll also use for the assessments.</p>
+"
               onclick="openSnapshot(this)"
             >
           
@@ -180,7 +182,8 @@
               class="snapshot-thumbnail"
               data-image="../../images/archive/managing-conflicts-and-change/138_discussion_discussion_discussion_10_2_organisational_change.png"
               data-title="Discussion 10.2: Organisational change"
-              data-description="Discussion boards in this course always gave students the option to upload a voice recording instead of writing out responses, so that students could best manage workloads and choose how to personalise learning according to their skills."
+              data-description="<p>Discussion boards in this course always gave students the option to upload a voice recording instead of writing out responses, so that students could best manage workloads and choose how to personalise learning according to their skills.</p>
+"
               onclick="openSnapshot(this)"
             >
           
@@ -194,7 +197,8 @@
               class="snapshot-thumbnail"
               data-image="../../images/archive/managing-conflicts-and-change/124_Page_module_11_varieties_of_change_choice_change_management_model_lesson_11_2_what_is_the_choice_manageme.png"
               data-title="Lesson 11.2: What is the choice management – change management model?"
-              data-description="Co-designed images to help explain and link the choice and change process  with worked examples, and inforgraphics to demonstrate the process better, as well as it&#39;s links to earlier management leadership framework model."
+              data-description="<p>Co-designed images to help explain and link the choice and change process  with worked examples, and inforgraphics to demonstrate the process better, as well as it's links to earlier management leadership framework model.</p>
+"
               onclick="openSnapshot(this)"
             >
           
@@ -330,6 +334,7 @@
 </main>
 
 <script>
+// For Snapshots overlay
 let currentSnapshotIndex = 0;
 let snapshotElements = [];
 
@@ -351,7 +356,9 @@ function displaySnapshot(element) {
   document.getElementById('popoverImage').src = imageSrc;
   document.getElementById('popoverImage').alt = title;
   document.getElementById('popoverTitle').textContent = title;
-  document.getElementById('popoverDescription').textContent = description;
+  
+  // Render HTML (already parsed from markdown server-side)
+  document.getElementById('popoverDescription').innerHTML = description || '';
   
   // Reset scroll to top
   document.getElementById('popoverImageContainer').scrollTop = 0;
@@ -395,6 +402,7 @@ document.addEventListener('keydown', function(e) {
 </script>
 
 <script>
+// For media Carousel
 const carousel = document.getElementById('mediaCarousel');
 const indicators = document.getElementById('carouselIndicators');
 const items = carousel.querySelectorAll('li.media');

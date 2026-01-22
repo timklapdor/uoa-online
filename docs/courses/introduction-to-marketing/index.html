@@ -151,7 +151,8 @@ Link: &quot;https://miro.com/app/board/uXjVOGQleuE=/&quot;</li>
               class="snapshot-thumbnail"
               data-image="../../images/archive/introduction-to-marketing/017_Page_module_1_marketing_basics_lesson_1_2_what_are_marketing_management_philosophies_.png"
               data-title="Lesson 1.2: What are Marketing Management Philosophies?"
-              data-description="This lesson uses clear explanations, visual examples, and comparison tables to illustrate marketing management philosophies. Images like a futuristic car and Nike&#39;s customisation page help students connect concepts to real-world examples. Interactive discussion prompts encourage engagement, making the lesson relatable and memorable."
+              data-description="<p>This lesson uses clear explanations, visual examples, and comparison tables to illustrate marketing management philosophies. Images like a futuristic car and Nike's customisation page help students connect concepts to real-world examples. Interactive discussion prompts encourage engagement, making the lesson relatable and memorable.</p>
+"
               onclick="openSnapshot(this)"
             >
           
@@ -165,7 +166,8 @@ Link: &quot;https://miro.com/app/board/uXjVOGQleuE=/&quot;</li>
               class="snapshot-thumbnail"
               data-image="../../images/archive/introduction-to-marketing/031_Page_module_2_marketing_strategy_and_developing_a_marketing_plan_lesson_2_5_how_do_businesses_identify_st.png"
               data-title="Lesson 2.5: How do Businesses Identify Strategic Options?"
-              data-description="This lesson uses clear visuals, practical examples like The Wiggles, and concise explanations to teach Ansoff&#39;s and BCG matrices. Videos and readings enhance understanding, while real-world applications connect theory to practice, helping students grasp strategic growth and portfolio management effectively."
+              data-description="<p>This lesson uses clear visuals, practical examples like The Wiggles, and concise explanations to teach Ansoff's and BCG matrices. Videos and readings enhance understanding, while real-world applications connect theory to practice, helping students grasp strategic growth and portfolio management effectively.</p>
+"
               onclick="openSnapshot(this)"
             >
           
@@ -179,7 +181,8 @@ Link: &quot;https://miro.com/app/board/uXjVOGQleuE=/&quot;</li>
               class="snapshot-thumbnail"
               data-image="../../images/archive/introduction-to-marketing/041_Page_module_3_market_research_lesson_3_3_how_is_technology_used_in_market_research_.png"
               data-title="Lesson 3.3: How is Technology used in Market Research?"
-              data-description="In this lesson, Rich and Tim collaborated to create the activity Conducting Market Research for a Pop-Up Business. This activity provides students with practical experience in using real-world tools such as the Australian Bureau of Statistics (ABS), Google Maps, and Google Trends to gather and analyse data for informed marketing decisions. By engaging with these tools, students not only enhance their technical proficiency but also develop critical thinking skills as they assess market viability and competition for a pop-up business. The inclusion of real-world platforms and step-by-step guidance ensures students gain hands-on insights, making the learning experience practical, engaging, and highly applicable to real-life marketing scenarios."
+              data-description="<p>In this lesson, Rich and Tim collaborated to create the activity Conducting Market Research for a Pop-Up Business. This activity provides students with practical experience in using real-world tools such as the Australian Bureau of Statistics (ABS), Google Maps, and Google Trends to gather and analyse data for informed marketing decisions. By engaging with these tools, students not only enhance their technical proficiency but also develop critical thinking skills as they assess market viability and competition for a pop-up business. The inclusion of real-world platforms and step-by-step guidance ensures students gain hands-on insights, making the learning experience practical, engaging, and highly applicable to real-life marketing scenarios.</p>
+"
               onclick="openSnapshot(this)"
             >
           
@@ -387,6 +390,7 @@ Link: &quot;https://miro.com/app/board/uXjVOGQleuE=/&quot;</li>
 </main>
 
 <script>
+// For Snapshots overlay
 let currentSnapshotIndex = 0;
 let snapshotElements = [];
 
@@ -408,7 +412,9 @@ function displaySnapshot(element) {
   document.getElementById('popoverImage').src = imageSrc;
   document.getElementById('popoverImage').alt = title;
   document.getElementById('popoverTitle').textContent = title;
-  document.getElementById('popoverDescription').textContent = description;
+  
+  // Render HTML (already parsed from markdown server-side)
+  document.getElementById('popoverDescription').innerHTML = description || '';
   
   // Reset scroll to top
   document.getElementById('popoverImageContainer').scrollTop = 0;
@@ -452,6 +458,7 @@ document.addEventListener('keydown', function(e) {
 </script>
 
 <script>
+// For media Carousel
 const carousel = document.getElementById('mediaCarousel');
 const indicators = document.getElementById('carouselIndicators');
 const items = carousel.querySelectorAll('li.media');

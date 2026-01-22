@@ -557,7 +557,7 @@ main {
    grid-column: 3/4;
    }
 
-   figure, div.eleventy-plugin-youtube-embed, #course-list{
+   figure, .eleventy-plugin-youtube-embed, #course-list{
       grid-column: 2/5;
       margin: 2ch 0;
       }

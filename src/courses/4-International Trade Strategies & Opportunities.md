@@ -57,9 +57,4 @@ Snapshot:
   - Name: 
     Link:
     Description: 
-Jobs: 
-  - Media
-  - Learning Experience
-  - Snapshots
-  - Assessment info
 ---

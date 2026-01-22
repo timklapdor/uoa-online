@@ -65,7 +65,4 @@ Snapshot:
   - Name: 
     Link:
     Description: 
-Jobs: 
-  - Media
-  - Learning Experience
 ---

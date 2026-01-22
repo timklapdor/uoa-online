@@ -105,7 +105,8 @@ Media:
 Snapshot:
   - Name: "Lesson 2.1: What is a resource?"
     Link: 026_Page_module_2_economic_resources_lesson_2_1_what_is_a_resource_.png
-    Description: The 'What are economic resources?' segment in this lesson was a
+    Description: >
+      The 'What are economic resources?' segment in this lesson was a
       collaborative innovation, conceptualised from scratch and refined through
       iterative storyboarding sessions with subject matter experts (SMEs). Input
       from the media team played a crucial role in transforming the initial idea
@@ -119,7 +120,8 @@ Snapshot:
       test student knowledge in a drag and drop h5p.
   - Name: "Lesson 3.4: How to measure utility values?"
     Link: 043_Page_module_3_economic_health_outcomes_lesson_3_4_how_to_measure_utility_values_.png
-    Description: This lesson explores utility measurement in health economics, using
+    Description: > 
+      This lesson explores utility measurement in health economics, using
       methods like Standard Gamble, Time Trade-Off, and Multi-Attribute Utility
       Instruments. Students apply these methods through vignette activities,
       comparing subjective utility estimates and discussing findings.
@@ -127,7 +129,8 @@ Snapshot:
       lesson thoughtfully addresses the sensitive nature of health scenarios.
   - Name: "Lesson 8.1: What are key components in an economic evaluation?"
     Link: 089_Page_module_8_introduction_to_economic_evaluation_lesson_8_1_what_are_key_components_in_an_economic_evalu.png
-    Description: This lesson introduces the PICOC framework—Population,
+    Description: > 
+      This lesson introduces the PICOC framework—Population,
       Intervention, Comparator, Outcomes, and Costs—using a creative peacock
       graphic to enhance engagement with the acronym. Developed collaboratively
       with subject matter experts and the media team, the design combines
@@ -137,20 +140,15 @@ Snapshot:
       learning and application of the framework.
   - Name: "Lesson 12.1: Is your health service efficient?"
     Link: 124_Page_module_12_applying_other_considerations_of_economics_to_healthcare_lesson_12_1_is_your_health_servic.png
-    Description: >-
-      This lesson uses the Hard Times for Hospital Administrators case study to
-      examine health service efficiency and resource allocation within an
-      ethical framework, focusing on utilitarianism. It integrates:
+    Description: |
+      This lesson uses the Hard Times for Hospital Administrators case study to examine health service efficiency and resource allocation within an ethical framework, focusing on utilitarianism. It integrates:
 
       *   Case study analysis for real-world application.
       *   Ethical discussion contrasting utilitarianism with other frameworks.
       *   Video learning with visual tools to interpret resource allocation challenges.
       *   This approach bridges theory and practice, enhancing critical thinking and decision-making skills.
-Jobs:
-  - Media descriptions
-  - Learning Experience
-  - Assessment information
-  - Miro boards
+      
+
 ---
 MiroBoards:
 
