@@ -24,6 +24,30 @@ title: Courses
       <button type="button" class="btn content" onclick="filterSelection('Dev-9')">9</button>
 </div>
 
+<div class="filters" id="filters">
+  <h3>Lead Designers</h3>
+  <button type="button" class="btn all" onclick="filterSelection('all')">All</button>
+  
+  {%- set leadDesigners = [] -%}
+  
+  {# Collect all lead designer names #}
+  {% for item in collections.courses %}
+    {% for member in item.data.Team %}
+      {% if member.Role == "Learning Designer" and member.Involvement == "Lead" %}
+        {%- if member.Name not in leadDesigners -%}
+          {%- set temp = leadDesigners.push(member.Name) -%}
+        {%- endif -%}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+  
+  {# Sort and create buttons for unique names #}
+  {%- set sortedDesigners = leadDesigners | sort -%}
+  {% for name in sortedDesigners %}
+    <button type="button" class="btn content" onclick="filterSelection('{{ name }}')">{{ name }}</button>
+  {% endfor %}
+</div>
+
 
 <ul id="course-list">
     {%- set regularCourses = [] -%}
@@ -43,7 +67,7 @@ title: Courses
     {%- set courseSlug = item.data.CourseName | slugify -%}
     {%- set bannerFile = courseSlug + '.png' -%}
       <li 
-        class="filterDiv {% for program in item.data.Programs %}{{ program }} {% endfor %} Dev-{{ item.data.DevCycle }}"
+        class="filterDiv {% for program in item.data.Programs %}{{ program }} {% endfor %} Dev-{{ item.data.DevCycle }} {% for member in item.data.Team %} {{ member.Name if member.Role=="Learning Designer" and member.Involvement=="Lead"}} {% endfor %}"
         style="background: url('{% bgImageUrlShort bannerFile, 400 %}') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: soft-light; background-position: 55% 30%;"
         >
         <a href="{{ item.url |url }}">
