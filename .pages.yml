@@ -28,7 +28,7 @@ content:
         type: select
         options:
           multiple: true
-          values: ["Assessment Overview Information","Learning Experience Written","Learning Experience Reviewed","Snapshot Links","Snapshot Images", "Snapshot Descriptions", "Resource Links","Media Downloads","Review of Content","Editorial Review"]
+          values: ["Review course description","Add learning experience","Review learning experience","Add assessment descriptions","Add snapshots","Add snapshot descriptions","Review snapshots","Add learning resources","Add learning resource descriptions","Download video resources","Review learning resources","Editorial review","Course ready to publish"]
       - name: Team
         label: Team
         type: object
