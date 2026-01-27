@@ -5,18 +5,17 @@ Programs:
   - HSM
 DevCycle: 3
 Blueprint: "https://myuni.adelaide.edu.au/courses/80190"
-Description: "In today's world, good decision-making relies on data and data analysis. This course helps students develop the understanding that they will need to make informed decisions using data and to communicate the results effectively. The course is an introduction to the essential concepts, tools and methods of statistics for students in business, economics and similar disciplines, although it may have wider interest. The focus is on concepts, reasoning, interpretation and thinking rather than computation, formulae and theory. Much of the work will require students to write effectively and communicate their ideas with clarity. The course covers two main branches of statistics: descriptive statistics and inferential statistics. Descriptive statistics includes collecting data and summarising and interpreting them through numerical and graphical techniques. Inferential statistics includes selecting and applying the correct statistical technique in order to make estimates or test claims about a population based on a sample. Topics covered may include descriptive statistics, correlation and simple regression, probability, point and interval estimation, hypothesis testing, multiple regression, time series analysis and index numbers. By the end of this course, students should understand and know how to use statistics. Students will also develop some understanding of the limitations of statistical inference and of the ethics of data analysis and statistics. Students will work in small groups in this course; this will develop the skills required to work effectively and inclusively in groups, as in a real work environment. Typically, one assessment component requires students to work in teams and collect and analyse data to answer a real-world problem of their own choosing."
+Description: > 
+  In today's world, good decision-making relies on data and data analysis. This course helps students develop the understanding that they will need to make informed decisions using data and to communicate the results effectively. The course introduces students in business, economics, and related disciplines to the essential concepts, tools, and methods of statistics. The focus of the course is on concepts, reasoning, interpretation and thinking rather than computation, formulae and theory. The course covers two main branches of statistics: descriptive statistics and inferential statistics. At the end of the course, students will know how to use statistics, the limitations of statistical inference and the ethics of data analysis and statistics.
 ToDo:
-  - Review course description
   - Add learning experience
   - Review learning experience
-  - Add assessment descriptions
   - Add snapshots
   - Add snapshot descriptions
   - Review snapshots
   - Add learning resources
   - Add learning resource descriptions
-  - Download video resources
+  - Download media resources
   - Review learning resources
   - Editorial review
   - Course ready to publish
@@ -53,20 +52,20 @@ Topics:
 Assessments:
   - Name: "Quizzes"
     Weighting: 20
-    Type: 
-    Description: 
+    Type: Short Answer Questions
+    Description: These quizzes have been designed to assess learners understanding of statistical and mathematical concepts. 
   - Name: "Descriptive stats case study"
     Weighting: 25
-    Type: 
-    Description: 
+    Type: Case Study
+    Description: This assessment allows learners to showcase their skills in descriptive statistics using visual and quantitative tools to explore and analyse data.
   - Name: "Probability & hypothesis testing case study"
     Weighting: 25
-    Type: 
-    Description: 
+    Type: Case Study
+    Description: This assessment asks learners to apply their statistical skills to draw conclusions about a population from samples.
   - Name: "Assocation and regression case study"
     Weighting: 25
-    Type: 
-    Description: 
+    Type: Case Study
+    Description: This assignment evaluates learners understanding of the relationships between two variables and building a simple linear regression model and demonstrate graphical and numerical presentation and evaluation of their results.
 Media: 
   - Name: 
     Type: 

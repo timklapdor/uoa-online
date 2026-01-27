@@ -4,35 +4,17 @@ Programs:
   - IB
 DevCycle: 7
 Blueprint: https://myuni.adelaide.edu.au/courses/88422
-Description: International marketing is a rapidly growing area within the
-  disciplines of marketing and international business. Central to international
-  marketing is the response of international rather than domestic buyers in the
-  marketing environment, the types of decisions that are most feasible and the
-  information required in decision making. During this course, the student will
-  gain insights into the pressures created by the international economic,
-  political, legal and cultural environmental influences on marketing planning.
-  This course will enable students to learn analytical skills required to
-  develop international marketing plans and develop the marketing mix elements
-  in the international environment. Marketing to the World is one of five
-  subjects in the marketing discipline and extends the knowledge developed in
-  marketing management into the international rather than the domestic market.
-  The major theories include, pathways of internationalisation, political and
-  economic risk analysis, international planning, cultural distance, branding
-  for international markets, international market entry, distribution strategies
-  and adaptation versus standardisation. The conceptual material developed
-  during this course will be implemented through class exercises, case studies
-  and a major project.
+Description: >
+  International marketing is a rapidly growing area within the disciplines of marketing and international business. Central to international marketing is the response of international rather than domestic buyers in the marketing environment, the types of decisions that are most feasible, and the information required for decision-making. During this course, the student will gain insights into the pressures created by the international economic, political, legal and cultural environmental influences on marketing planning. This course will enable students to learn the analytical skills required to develop international marketing plans and develop the marketing mix elements in the international environment.
 ToDo:
-  - Review course description
   - Add learning experience
   - Review learning experience
-  - Add assessment descriptions
   - Add snapshots
   - Add snapshot descriptions
   - Review snapshots
   - Add learning resources
   - Add learning resource descriptions
-  - Download video resources
+  - Download media resources
   - Review learning resources
   - Editorial review
   - Course ready to publish
@@ -77,31 +59,22 @@ Assessments:
     Weighting: 10
     Type:
       - Short Response Questions
-    Description: Learners are required to engage in discussions to help them develop
-      the analytical, critical thinking, and communication skills necessary to
-      successfully pass this course.
+    Description: Learners are required to engage in discussions to help them develop the analytical, critical thinking, and communication skills necessary to successfully pass this course.
   - Name: Case study analysis
     Weighting: 20
-    Description: Learners conduct a PESTLE analysis to determine what opportunities
-      and threats exist for Australian wine businesses attempting to reenter the
-      Chinese market. This task allows them to practise applying the theories,
-      concepts, and frameworks taught in the course.
+    Type: Case Study
+    Description: Learners conduct a PESTLE analysis to determine what opportunities and threats exist for Australian exports attempting to enter the Chinese market.
   - Name: Strategic report & PESTLE analysis
     Weighting: 30
     Type:
       - Report
       - Critical Analysis
-    Description: This task requires learners to conduct an analysis, prepare a
-      strategic plan and develop a report that provides recommendations for an
-      SME wishing to expand into a new overseas market.
+    Description: Learners to conduct an analysis, prepare a strategic plan and develop a report that provides recommendations for an SME wishing to expand into a new overseas market.
   - Name: "Strategic report: core benefit, promotion and protection"
     Weighting: 30
     Type:
       - Report
-    Description: "In this task learners draw on the core theories, concepts, and
-      frameworks to analyse an Agtech product and prepare a strategic report
-      outlining the product attributes and service attributes, and proposing
-      promotion and protection strategies. "
+    Description: Learners analyse an AgTech product and prepare a strategic report outlining the product attributes and service attributes, and propose promotion and protection strategies for the international market.
 Media:
   - Name: The Wheel of International Marketing.
     Type: IMG

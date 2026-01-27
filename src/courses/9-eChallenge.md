@@ -5,23 +5,17 @@ Programs:
   - HSM
 DevCycle: 9
 Blueprint: 'https://myuni.adelaide.edu.au/courses/96761'
-Description: |
-  Systematically assessing the viability of your ideas is an integral requirement for any career path - not only for those embarking an entrepreneurial career. Evidence suggests that your time at University is one of the best times to gain this experience.
-
-  The eChallenge is a course designed to offer you a chance to perceive ideas from the perspective of pain experienced by or gain obtained by customers, develop innovative solutions using creative strategies, test ideas by interacting with customers, mentors and industry practitioners, and finally pitch ideas to a panel of investors from industry. Building your network during the industry interactions is an added benefit.
-
-  The course is the first step into entrepreneurship for many who have gone on to great entrepreneurial endeavours, as well as an enriching personal learning experience for all.
+Description: >
+  Systematically assessing the viability of your ideas is an integral requirement for any career path - not only for those embarking an entrepreneurial career. The eChallenge is a course designed to offer students a chance to develop ideas based on their experience, develop innovative solutions using creative strategies, test ideas by interacting with customers, mentors, and industry practitioners, and finally pitch their ideas to an audience. The course is the first step into entrepreneurship for many who have gone on to great entrepreneurial endeavours, as well as an enriching personal learning experience for all.
 ToDo:
-  - Review course description
   - Add learning experience
   - Review learning experience
-  - Add assessment descriptions
   - Add snapshots
   - Add snapshot descriptions
   - Review snapshots
   - Add learning resources
   - Add learning resource descriptions
-  - Download video resources
+  - Download media resources
   - Review learning resources
   - Editorial review
   - Course ready to publish
@@ -75,22 +69,26 @@ Assessments:
     Weighting: 30
     Type:
       - Report
-    Description: null
+    Description: > 
+      Learners develop a Landscape Assessment Report, designed to verify that their ideas presents a valid, explorable opportunity.
   - Name: Empathy Interviews
     Weighting: 30
     Type:
       - Interview
-    Description: null
+    Description: > 
+      This assessment has been designed for learners to demonstrate their capacity and ability to empathetically and individually engage people and test their idea.
   - Name: Pitching Your Idea
     Weighting: 30
     Type:
       - Online presentation
-    Description: null
+    Description: > 
+      Learners pitch their opportunity to a live online panel of adjudicators. After the presentation learners respond to questions about their idea from the panelists, demonstrating their investigation and understanding of the opportunity.
   - Name: Reflective Development Portfolio
     Weighting: 10
     Type:
       - Portfolio
-    Description: null
+    Description: > 
+      The portfolio captures the weekly excercises learners complete each week in the course, capturing their unique learning journey and exploration of their ideas througout the course. 
 Media: 
   - Name: 
     Type: 

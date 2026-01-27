@@ -5,24 +5,16 @@ Programs:
 DevCycle: 7
 Blueprint: 'https://myuni.adelaide.edu.au/courses/89525'
 Description: >
-  This course aims to introduce you to a range of environmental factors which
-  may pose a risk to the health of human populations. It also addresses risk
-  assessment and management methods for evaluating and controlling such risks. A
-  variety of diseases associated with exposure to common occupational and
-  environmental factors will be discussed. In addition, there will be an
-  overview of the historical, legislative and administrative aspects of
-  occupational health.
+  This course aims to introduce students to a range of environmental factors that may pose risks to the health of human populations. It addresses risk assessment and management methods for evaluating and controlling such risks. A variety of diseases associated with exposure to common occupational and environmental factors will be discussed. In addition, students engage with the historical, legislative and administrative aspects of occupational health.
 ToDo:
-  - Review course description
   - Add learning experience
   - Review learning experience
-  - Add assessment descriptions
   - Add snapshots
   - Add snapshot descriptions
   - Review snapshots
   - Add learning resources
   - Add learning resource descriptions
-  - Download video resources
+  - Download media resources
   - Review learning resources
   - Editorial review
   - Course ready to publish
@@ -90,26 +82,15 @@ Assessments:
     Weighting: 25
     Type:
       - Report
-    Description: >-
-      In this assessment learners are asked to respond to a manager of a
-      childcare centre who has contacted them for advice. They need to describe
-      potential sources of lead exposure in your community and the steps
-      necessary to conduct an environmental health risk assessment of lead
-      exposure in the centre.
+    Description: In this assessment learners provide advice and the steps necessary to conduct an environmental health risk assessment around exposure within a workplace.
   - Name: Major written report
-    Weighting: 20
+    Weighting: 40
     Type:
       - Report
       - Proposal
     Description: >
-      This assessment is broken up into two parts. The first asks learners to
-      identify the topic they plan to discuss and describe the process of
-      finding and identifying relevant literature. They will be assessed on your
-      ability to rapidly search for relevant, up-to-date literature, identify
-      useful sources, and provide a concise overview of a health hazard and its
-      potential effects. For the second part, learners will apply relevant
-      frameworks to their chosen topic and describe the process of assessing and
-      measuring risk, responding to the hazard, and preventing future exposure.
+      Learners identify a topic and identify and assess relevant literature. They then apply relevant
+      frameworks to their topic and describe the process of assessing and measuring risk, responding to the hazard, and preventing future exposure.
 Media:
   - Name: Addressing silicosis
     Type: ECHO

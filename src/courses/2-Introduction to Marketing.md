@@ -5,18 +5,17 @@ Programs:
   - HSM
 DevCycle: 2
 Blueprint: "https://myuni.adelaide.edu.au/courses/76552"
-Description: "This course is designed to provide students with an understanding of the principles of Marketing. There will be a focus on the management of the marketing activities and how marketing relates to overall organisational functioning, including the management of exchange processes between business units and consumers and between firms. It will include environmental analysis, industry and competitor analysis, objective setting, marketing strategies, and marketing mix components such as pricing, distribution, product and service development and promotion, including traditional and digital marketing communication. Additionally, the course will provide opportunities for the practical implementation of the concepts covered and the development of problem-solving skills by means of interactive assessments, weekly tutorials and online learning."
+Description: >
+  This course is designed to provide students with an understanding of the principles of Marketing. There is a focus on the management of marketing activities and on how marketing relates to overall organisational functionality, including the management of exchange processes between business units, consumers, and firms. It includes environmental analysis, industry and competitor analysis, objective setting, marketing strategies, and marketing mix components such as pricing, distribution, product and service development. Students explore promotion through traditional and digital marketing communication.
 ToDo:
-  - Review course description
   - Add learning experience
   - Review learning experience
-  - Add assessment descriptions
   - Add snapshots
   - Add snapshot descriptions
   - Review snapshots
   - Add learning resources
   - Add learning resource descriptions
-  - Download video resources
+  - Download media resources
   - Review learning resources
   - Editorial review
   - Course ready to publish
@@ -58,13 +57,13 @@ Assessments:
       - Discussion
     Description: Learners are asked to add to a discussion prompt each week and share their experiences and perspecives with the class.  
   - Name: "Marketing plan research and presentation"
-    Weighting: "80"
+    Weighting: 45
     Type:
       - Assessment Plan
       - Media Task
     Description: "Learners are asked to perform preliminary research on an organisation and to focus on identifying key information that influences torganisation and its marketing activities/strategy."
   - Name: "Marketing plan proposal"
-    Weighting: "80"
+    Weighting: 35
     Type: 
       - Report
     Description: The report provides an authentic task for learners to show their ability to develop a proposal for an organisations marketing activities are aimed at achieving its desired objectives.
@@ -114,10 +113,6 @@ Snapshot:
   - Name: "Lesson 3.3: How is Technology used in Market Research?"
     Link: 041_Page_module_3_market_research_lesson_3_3_how_is_technology_used_in_market_research_.png
     Description: "In this lesson, Rich and Tim collaborated to create the activity Conducting Market Research for a Pop-Up Business. This activity provides students with practical experience in using real-world tools such as the Australian Bureau of Statistics (ABS), Google Maps, and Google Trends to gather and analyse data for informed marketing decisions. By engaging with these tools, students not only enhance their technical proficiency but also develop critical thinking skills as they assess market viability and competition for a pop-up business. The inclusion of real-world platforms and step-by-step guidance ensures students gain hands-on insights, making the learning experience practical, engaging, and highly applicable to real-life marketing scenarios."
-Jobs: 
-  - Media Descriptions
-  - Learning Experience
-
 ---
 
 MiroBoards: 

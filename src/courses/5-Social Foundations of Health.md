@@ -5,26 +5,16 @@ Programs:
 DevCycle: 5
 Blueprint: 'https://myuni.adelaide.edu.au/courses/86610'
 Description: >
-  This course seeks to develop understanding of the social foundations of health
-  and the ways in which frameworks and theories can be used to guide thought and
-  action to improve health. The course draws out the historical, cultural and
-  structural dimensions of contemporary health problems, using the framework of
-  the sociological imagination. Students will explore the social determinants of
-  Indigenous health. Finally, the course will consider social and behaviour
-  change, from both theoretical and practical perspectives. Students will
-  develop their critical thinking and analytical skills to understand
-  conversations around health and health outcomes.
+  This course seeks to develop an understanding of the social foundations of health and of how frameworks and theories can guide thought and action to improve health. The course draws out the historical, cultural and structural dimensions of contemporary health problems, using the framework of the sociological imagination, and students will explore the social determinants of Indigenous health. Finally, the course will consider social and behavioural change from both theoretical and practical perspectives. Students will develop their critical thinking and analytical skills to understand conversations around health and health outcomes. 
 ToDo:
-  - Review course description
   - Add learning experience
   - Review learning experience
-  - Add assessment descriptions
   - Add snapshots
-  - Add snapshot descriptions
+  - Add snapshot descriptions  
   - Review snapshots
   - Add learning resources
   - Add learning resource descriptions
-  - Download video resources
+  - Download media resources
   - Review learning resources
   - Editorial review
   - Course ready to publish

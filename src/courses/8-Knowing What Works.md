@@ -4,33 +4,17 @@ Programs:
   - HSM
 DevCycle: 8
 Blueprint: https://myuni.adelaide.edu.au/courses/97643
-Description: "In the era of evidence-based practice and policy in health care,
-  evidence is required to determine how well an intervention works and whether
-  it provides value for money. Evaluation is a tool to provide such information:
-  measuring the success of the intervention in achieving its intended outcomes,
-  determining its value, and providing information on how to improve
-  interventions and service delivery to attain even greater success. Evaluation
-  is an increasingly sought after skill in today’s health workforce. In this
-  course, you will learn the basics of evaluation for health, including what it
-  is, why we do it, and how to design and carry out an effective evaluation that
-  answers real-world questions. The course builds from principles to practical
-  application, providing you with the knowledge and skills to design and apply
-  an integrated framework to evaluate a health intervention. You will learn
-  about evaluation planning, different data sources, key processes for data
-  collection and analysis, and economic evaluation. You will build your
-  evaluation toolkit and develop an evaluation mindset, which will provide you
-  with a strong foundation for knowing what works in your career."
+Description: > 
+  In the era of evidence-based practice and policy in health care, evidence is required to determine how well an intervention works and whether it provides value for money. Evaluation is a tool for providing such information: measuring the success of the intervention in achieving its intended outcomes, determining its value, and providing guidance on how to improve interventions and service delivery to attain even greater success. Evaluation is an increasingly sought-after skill in today’s health workforce. In this course, students will learn the basics of evaluation in health, including what it is, why we do it, and how to design and conduct an effective evaluation that answers real-world questions. The course builds from principles to practical application, equipping students with the knowledge and skills to design and apply an integrated framework for evaluating health interventions. They will learn to plan evaluations, utilise different data sources, key processes for data collection and analysis, and economic evaluation. They will develop an evaluation toolkit and an evaluation mindset, providing a strong foundation for knowing what works in their career.
 ToDo:
-  - Review course description
   - Add learning experience
   - Review learning experience
-  - Add assessment descriptions
   - Add snapshots
   - Add snapshot descriptions
   - Review snapshots
   - Add learning resources
   - Add learning resource descriptions
-  - Download video resources
+  - Download media resources
   - Review learning resources
   - Editorial review
   - Course ready to publish
@@ -86,34 +70,26 @@ Assessments:
     Type:
       - Short Response Questions
       - Multiple Choice Questions
-    Description: "This task assesses learners understanding of the basic principles
-      of health evaluation. "
+    Description: >
+      This task assesses learners understanding of the basic principles of health evaluation. 
   - Name: Reflection
     Weighting: 10
     Type:
       - Learning Journal
-    Description: "Learners reflect on health evaluation contexts that are relevant
-      to their experience, and on their own health evaluation skills. They are
-      asked to share their reflections with peers to extend their understanding
-      of health evaluation processes into deeper consideration of context and
-      develop their professional evaluation skillset. "
+    Description: > 
+      Learners reflect on health evaluation contexts that are relevant to their experience, and on their own health evaluation skills. They are asked to share their reflections with peers to extend their understanding of health evaluation processes into deeper consideration of context and develop their professional evaluation skillset.
   - Name: Economic evaluation review
     Weighting: 35
     Type:
       - Short Response Questions
-    Description: This task assesses learners understanding of the key health
-      economics concepts and their ability to apply those concepts to
-      sophisticated interpretation and critique
+    Description: >
+      This task assesses learners understanding of the key health economics concepts and their ability to apply those concepts to sophisticated interpretation and critique
   - Name: Health program evaluation plan
     Weighting: 45
     Type:
       - Critical Analysis
-    Description: Learners develop an evaluation plan for a selected health program,
-      service or intervention to demonstrate their knowledge and skills in
-      health evaluation planning and design. It involves real-world health
-      contexts and requires them to apply relevant professional evaluation
-      frameworks to produce evaluation plans and documents as would be expected
-      of professional evaluators working in health.
+    Description: >
+      Learners develop an evaluation plan for a selected health program, service or intervention to demonstrate their knowledge and skills in health evaluation planning and design. It involves real-world health contexts and requires them to apply relevant professional evaluation frameworks to produce evaluation plans and documents as would be expected of professional evaluators working in health.
 Media:
   - Name: The role of evaluation within the planning cycle for a health intervention.
     Type: IMG

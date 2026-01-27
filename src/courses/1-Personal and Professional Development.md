@@ -5,21 +5,16 @@ Programs:
   - HSM
 DevCycle: 1
 Blueprint: https://myuni.adelaide.edu.au/courses/76549
-Description: This course aims to provide students with the skills necessary to
-  begin their development as a business professional. As students develop their
-  skills and knowledge in their chosen profession it is important that they also
-  develop a broader set of skills and identity as a professional.
+Description: >
+  This course aims to provide students with the skills necessary to begin their development as business professionals. Students develop their skills and knowledge in their chosen profession while also building a broader set of professional skills and establishing their professional identity.
 ToDo:
   - Review course description
   - Add learning experience
   - Review learning experience
-  - Add assessment descriptions
-  - Add snapshots
-  - Add snapshot descriptions
   - Review snapshots
   - Add learning resources
   - Add learning resource descriptions
-  - Download video resources
+  - Download media resources
   - Review learning resources
   - Editorial review
   - Course ready to publish
@@ -63,7 +58,7 @@ Assessments:
     Type:
       - Case Study
       - Proposal
-    Description: This assessment aims to help learners develop an understanding of
+    Description: This assessment helps learners develop an understanding of
       ethical behaviour in an entrepreneurial business context.
   - Name: Personal professional development plan
     Weighting: 25

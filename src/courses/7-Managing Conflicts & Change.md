@@ -5,21 +5,15 @@ Programs:
   - HSM
 DevCycle: 7
 Blueprint: 'https://myuni.adelaide.edu.au/courses/88425'
-Description: "This course explores approaches to managing conflict and change in the workplace. Students will reflect upon and develop their own conflict
-  management skills, and practice analysing the conflict management and negotiation skills of others. The course will consider theory and research as
-  well as practical management tools and techniques for dealing with conflict  and change. Students will apply these skills and techniques to case studies
-  and real-world scenarios, in order to critically assess successful change  proposals and change implementation practices."
+Description: > 
+  This course explores approaches to managing workplace conflict and change. Students will reflect upon and develop their own conflict management skills, and practice analysing the conflict management and negotiation skills of others. The course will consider theory and research, as well as practical management tools and techniques for addressing conflict and change. Students will apply these skills and techniques to case studies and real-world scenarios in order to critically assess successful change proposals and change implementation practices.
 ToDo:
-  - Review course description
   - Add learning experience
   - Review learning experience
-  - Add assessment descriptions
-  - Add snapshots
-  - Add snapshot descriptions
   - Review snapshots
   - Add learning resources
   - Add learning resource descriptions
-  - Download video resources
+  - Download media resources
   - Review learning resources
   - Editorial review
   - Course ready to publish
@@ -55,32 +49,26 @@ Assessments:
   - Name: Reflective journal
     Weighting: 15
     Type: Learning Journal
-    Description: "In this task learners draw connections between their own personal experiences of conflict, and reflect on how they might better navigate and
-      resolve conflict. Learners are asked to consider specific concepts and techniques, identify which may have been present in their experiences, and
-      consider how to create alternative outcomes and better manage conflict."
+    Description: "In this task learners draw connections between their own personal experiences of conflict, and reflect on how they might better navigate and  resolve conflict. Learners are asked to consider specific concepts and techniques, identify which may have been present in their experiences, and consider how to create alternative outcomes and better manage conflict."
   - Name: Conflict management and negotiation observation
     Weighting: 20
     Type:
       - Observation
       - Report
-    Description: "Learners are asked to apply multiple technique to prepare for a negotiation, in order to actively and dynamically manage a conflict. They
-      are asked to identify and explain the causes of conflict between two parties. They need to identify and propose alternative conflict management
-      methods, and reflect upon their ways in which their preferences for handling conflict can influence their recommendations."
+    Description: "Learners are asked to apply multiple technique to prepare for a negotiation, in order to actively and dynamically manage a conflict. They are asked to identify and explain the causes of conflict between two parties, propose alternative conflict management methods, and reflect upon their ways in which their preferences for handling conflict can influence their recommendations."
   - Name: Change management proposal presentation
     Weighting: 35
     Type:
       - Presentation
       - Oral Defence
       - Media Task
-    Description: "Learners are asked to make recommendations for an organisational change, based on a planned change approach. They will analyse and diagnose the
-      issues experienced within an organisation, using  techniques they've learnt, before presenting a proposed solution for management in a  presentation-style format."
+    Description: "Learners are asked to make recommendations for an organisational change, based on a planned change approach. They will analyse and diagnose the issues experienced within an organisation, and present a proposed solution for management."
   - Name: Change implementation executive report
     Weighting: 30
     Type:
       - Report
       - Case Study
-    Description: "In this task learners must propose an organisational change along with an  implementation plan for a given case study. Using Kotter's 8 Step model,
-      they must write an executive report detailing their analysis and recommendations."
+    Description: "Learners propose an organisational change along with an  implementation plan for a given case study. Using Kotter's 8 Step model they must write an executive report detailing their analysis and recommendations."
 Media:
   - Name: null
     Type: 

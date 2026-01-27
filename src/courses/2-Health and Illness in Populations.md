@@ -4,18 +4,17 @@ Programs:
   - HSM
 DevCycle: 2
 Blueprint: "https://myuni.adelaide.edu.au/courses/76553"
-Description: "Health and Illness in Populations aims to introduce you to careers such as public health practice, health-related research, or clinical practice, to a population view of health. It draws on a range of disciplines that contribute to a focus on the health of populations, including epidemiology, health promotion and disease prevention, history, politics, and ethics. The subject invites you to develop a critical view about what constitutes public health issues, how they are measured, and potential responses to improve population health."
+Description: > 
+  Health and Illness in Populations introduces students to a population-based view of health. It draws on a range of disciplines that focus on the health of populations, including epidemiology, health promotion and disease prevention, history, politics, and ethics. The course invites students to develop a critical view of what constitutes public health issues, how they are measured, and potential responses to improve population health.
 ToDo:
-  - Review course description
   - Add learning experience
   - Review learning experience
-  - Add assessment descriptions
   - Add snapshots
   - Add snapshot descriptions
   - Review snapshots
   - Add learning resources
   - Add learning resource descriptions
-  - Download video resources
+  - Download media resources
   - Review learning resources
   - Editorial review
   - Course ready to publish
@@ -71,7 +70,7 @@ Assessments:
     Weighting: 30
     Type: 
       - Short Response Questions
-    Description: "These quizze have been designed to assess learners understanding of determinants, health promotion & policy."
+    Description: "These quizzes have been designed to assess learners understanding of determinants, health promotion & policy."
   - Name: "Epidemiology of a health priority report"
     Weighting: 30
     Type: 
@@ -105,7 +104,4 @@ Snapshot:
     Link: 093_Page_module_9_evaluating_public_health_interventions_and_programs_to_understand_if_they_work_module_9_int.png
   - Name: Lesson 10.1 How can you calculate measures of association between exposures and health outcomes?
     Link: 098_Page_module_10_using_epidemiology_to_tell_compelling_stories_with_data_lesson_10_1_how_can_you_calculate_.png
-Jobs: 
-  - Check videos with Cathy
-  - Learning Experience
 ---

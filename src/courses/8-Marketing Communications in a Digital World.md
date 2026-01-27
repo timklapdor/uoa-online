@@ -4,25 +4,17 @@ Programs:
   - IB
 DevCycle: 8
 Blueprint: https://myuni.adelaide.edu.au/courses/90064
-Description: The course aims to provide you with an understanding of the
-  communication aspects of marketing. In this course, you will learn about the
-  range of tools available to marketers for the purpose of promotion - such as
-  advertising, sales promotion, personal selling, sponsorship, publicity and
-  public relations - as well as the process by which these are integrated and
-  planned. You'll also explore the evolution of marketing activities in an
-  increasingly digital environment, including activities undertaken via online
-  platforms, social media, email and other digital formats.
+Description: >
+  The course aims to provide students with an understanding of the communication aspects of marketing. In this course, students learn about the range of tools available to marketers for the purpose of promotion - such as advertising, sales promotion, personal selling, sponsorship, publicity and public relations - as well as the process by which these are integrated and planned. Students explore the evolution of marketing activities in an increasingly digital environment, including activities undertaken via online platforms, social media, email and other digital formats.
 ToDo:
-  - Review course description
   - Add learning experience
   - Review learning experience
-  - Add assessment descriptions
   - Add snapshots
   - Add snapshot descriptions
   - Review snapshots
   - Add learning resources
   - Add learning resource descriptions
-  - Download video resources
+  - Download media resources
   - Review learning resources
   - Editorial review
   - Course ready to publish
@@ -64,28 +56,20 @@ Assessments:
     Weighting: 30
     Type:
       - Critical Analysis
-    Description: In this task learners are asked to identify relevant and
-      non-relevant information concerning integrated marketing communication
-      activities. Learners are asked to collate relevant marketing information
-      from multiple sources, discuss factors contributing to the overall success
-      or failure of a brand’s marketing activities, identify potential areas for
-      success, and clearly communicate their findings.
+    Description: >
+      In this task learners are asked to identify relevant and non-relevant information concerning integrated marketing communication activities. Learners are asked to collate relevant marketing information from multiple sources, discuss factors contributing to the overall success or failure of a brand’s marketing activities, identify potential areas for success, and clearly communicate their findings.
   - Name: Marketing Communications Brief
     Weighting: 30
     Type:
       - Proposal
-    Description: "Learners are asked to prepare a clear marketing communications
-      brief by establishing a marketing communications objective and conducting
-      research to support the brief. "
+    Description: >
+      Learners are asked to prepare a clear marketing communications brief by establishing a marketing communications objective and conducting research to support the brief.
   - Name: Marketing Communications Plan
     Weighting: 40
     Type:
       - Report
-    Description: "In this task learners develop a marketing communications plan for
-      a chosen brand, product or service. They are required to develop an
-      integrated marketing communications campaign, coordinate multiple
-      marketing activities in support of a common objective, and present this
-      campaign in a clear, professional manner. "
+    Description: >
+      In this task learners develop a marketing communications plan for a chosen brand, product or service. They are required to develop an integrated marketing communications campaign, coordinate multiple marketing activities in support of a common objective, and present this campaign in a clear, professional manner.
 Media:
   - Name: Fundamental and guiding structure for marketing communication decisions
     Type: IMG

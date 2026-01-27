@@ -5,27 +5,16 @@ Programs:
 DevCycle: 6
 Blueprint: 'https://myuni.adelaide.edu.au/courses/86262'
 Description: >
-  A company's most valuable assets often include its brand. Even startups and
-  individuals must be aware of their brand's essence. In larger corporations, a
-  'Brand Manager' is responsible for maintaining and developing the company's
-  brand value. This course equips students for this role, covering products,
-  whether tangible goods or intangible services. It introduces the practical
-  measurement and management of brand equity, industry-standard brand metrics,
-  and the theory of brand equity, points of parity, and points of difference.
-  Brand co-creation is explored, especially in social media marketing involving
-  Facebook, Twitter, and blogs. The course also evaluates brand equity's
-  leverage into extensions, as in the case of Virgin, as a growth strategy.
+  A company's most valuable asset is often its brand. Even startups and individuals must be aware of their brand's essence. In larger corporations, a 'Brand Manager' is responsible for maintaining and developing the company's brand value. This course equips students for this role, covering products, whether tangible goods or intangible services. It introduces the practical measurement and management of brand equity, industry-standard brand metrics, and the theory of brand equity, points of parity, and points of difference. Brand co-creation is explored, especially in social media marketing, and leveraging brand equity as a growth strategy.
 ToDo:
-  - Review course description
   - Add learning experience
   - Review learning experience
-  - Add assessment descriptions
   - Add snapshots
   - Add snapshot descriptions
   - Review snapshots
   - Add learning resources
   - Add learning resource descriptions
-  - Download video resources
+  - Download media resources
   - Review learning resources
   - Editorial review
   - Course ready to publish
@@ -44,12 +33,8 @@ CLOs:
   - Identify and explain strategies that build brand equity
   - Demonstrate how knowledge of branding can be applied to marketing
   - Display critical thinking and problem-solving skills
-  - >-
-    Gain, evaluate, and synthesise information and existing knowledge from a
-    number of sources and experiences
-  - >-
-    Prepare a professional, logical and coherent brand development report within
-    a specific context.
+  - Gain, evaluate, and synthesise information and existing knowledge from a number of sources and experiences
+  - Prepare a professional, logical and coherent brand development report within a specific context.
 Topics:
   - The importance of branding
   - Developing brand equity
@@ -81,7 +66,7 @@ Assessments:
       issues posed. 
   - Name: 'Report: Brand analysis'
     Weighting: 20
-    Type: null
+    Type: Report
     Description: >-
       In this assessment learners are required to conduct research to understand
       a chosen brand, the market, their competitors and the activities that have
@@ -90,8 +75,7 @@ Assessments:
       critique each strategy. 
   - Name: 'Report: Brand development'
     Weighting: 40
-    Type:
-      - Report
+    Type: Report
     Description: >-
       In this report learners are asked to provide recommendations for a chosen
       brand based on the market and competitive environment.

@@ -4,18 +4,15 @@ Programs:
   - IB
 DevCycle: 4
 Blueprint: "https://myuni.adelaide.edu.au/courses/80194"
-Description: "This course prepares students for working in an organisation that operates internationally. Students are exposed to different aspects that underpin internationalisation decisions of a firm. They also learn about the input of different functional units within organisations in the success of its international operationists. The broad content themes include international strategy and organisation; entrepreneurial nature of international expansion; different modes of foreign market entry; internationalisation of service firm; international marketing, human resource management, and sourcing. Finally, students have an opportunity to explore ethics and corporate social responsibility (CSR) in the international context.The course develops skills in analysing cross-border business scenarios, identifying opportunities and risks entailed in various internationalisation decisions, appreciating the complexity of international business operations, and including ethics and social responsibility as significant factors shaping a firm's behaviour in a home and host country(ies)."
+Description: > 
+  This course prepares students for working in an organisation that operates internationally. Students work through different aspects that underpin internationalisation decisions and learn about the input of different functional units within organisations in the success of their international operations, including international strategy, international expansion, different modes of foreign market entry, international marketing, and explore ethics and corporate social responsibility. The course develops skills in analysing cross-border business scenarios, identifying opportunities and risks associated with various internationalisation decisions, appreciating the complexity of international business operations, and recognising ethics and social responsibility as significant factors shaping a firm's behaviour.
 ToDo:
-  - Review course description
   - Add learning experience
   - Review learning experience
-  - Add assessment descriptions
-  - Add snapshots
-  - Add snapshot descriptions
   - Review snapshots
   - Add learning resources
   - Add learning resource descriptions
-  - Download video resources
+  - Download media resources
   - Review learning resources
   - Editorial review
   - Course ready to publish
@@ -47,20 +44,20 @@ Topics:
 Assessments:
   - Name: "Course journal"
     Weighting: 20
-    Type: 
-    Description: 
+    Type: Learning Journal
+    Description: Learners create a learning journal that summarises all of the important theories and concepts from the course alongside reflection on how international business operations have been affected by these concepts. 
   - Name: "Global sourcing research case study"
     Weighting: 30
-    Type: 
-    Description: 
+    Type: Case Study
+    Description: Learners analyse business responses to global supply chain disruptions and the impacts of government policies. 
   - Name: "International business plan"
     Weighting: 30
-    Type: 
-    Description: 
+    Type: Concept Design
+    Description: Working in a team learners develop a proposal for a firm's internationalisation. 
   - Name: "Reflection"
     Weighting: 20
-    Type: 
-    Description: 
+    Type: Portfolio
+    Description: Leaners choose two to three topics covered in the course, and reflect on how their learning has broadened, deepened or had their understanding challenged.
 Media: 
   - Name: "International Business Strategy"
     Type: YOUTUBE
@@ -83,8 +80,8 @@ Media:
     Link: RWj9HE8T_oI
     Description:
   - Name: Slider Scale H5P
-    Type: 
-    Link: 
+    Type: IFRAME
+    Link: https://mediaproduction.adelaide.edu.au/oua-interactives/#/control-slider
     Description:
     Location: https://myuni.adelaide.edu.au/courses/80194/pages/lesson-2-dot-6-which-organisational-structures-are-common-for-global-firms?module_item_id=2892967
   - Name: Drag and drop on FDI

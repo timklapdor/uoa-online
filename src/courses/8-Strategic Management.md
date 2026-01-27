@@ -6,26 +6,16 @@ Programs:
 DevCycle: 8
 Blueprint: 'https://myuni.adelaide.edu.au/courses/89959'
 Description: >
-  Managing strategy is concerned with the long-term direction and performance of
-  an organisation. This course draws on prior business and management studies to
-  examine contemporary thinking in the field of strategy. Using case studies,
-  the course aims to equip you with a practical understanding of the relevant
-  concepts and frameworks needed to make better strategic decisions in the
-  context of the dynamic and fast-changing business and management environment.
-  Students can expect to critically explore how the continuous and accurate
-  analysis of essential strategic tasks and how internal and external
-  environments interact are components of a successful strategy.
+  Managing strategy is concerned with the long-term direction and performance of an organisation. This course draws on students' prior business and management studies to examine contemporary thinking in strategy. Using case studies, the course aims to equip you with a practical understanding of the concepts and frameworks needed to make better strategic decisions in the dynamic, fast-changing business and management environment. Students can expect to critically explore how the continuous, accurate analysis of essential strategic tasks and the interaction between internal and external environments are components of a successful strategy.
 ToDo:
-  - Review course description
   - Add learning experience
   - Review learning experience
-  - Add assessment descriptions
   - Add snapshots
   - Add snapshot descriptions
   - Review snapshots
   - Add learning resources
   - Add learning resource descriptions
-  - Download video resources
+  - Download media resources
   - Review learning resources
   - Editorial review
   - Course ready to publish
@@ -70,25 +60,28 @@ Assessments:
     Weighting: 15
     Type:
       - Media Task
-    Description: "Learners select a case studies that cover various sectors and conduct an in-depth strategic analysis of real-world business cases, utilising a multimedia presentation format accompanied by audio commentary."
+    Description: >
+      Learners select a case studies that cover various sectors and conduct an in-depth strategic analysis of real-world business cases, utilising a multimedia presentation format accompanied by audio commentary.
   - Name: Strategic Assessment
     Weighting: 20
     Type:
       - Report
-    Description: "In this assessment learners demonstrate their understanding of strategic planning, analytical thinking, and critical evaluation throught the development of a written report."
+    Description: > 
+      In this assessment learners demonstrate their understanding of strategic planning, analytical thinking, and critical evaluation throught the development of a written report.
   - Name: Concept Poster
     Weighting: 15
     Type: 
       - Media Task
-    Description: "Leaners are tasked with distilling complex strategic concepts into a visual format. The poster consists of a concept map that visually organises and links strategic concepts relevant to their organisation of interest."
+    Description: > 
+      Leaners are tasked with distilling complex strategic concepts into a visual format. The poster consists of a concept map that visually organises and links strategic concepts relevant to their organisation of interest.
   - Name: Strategic Report
     Weighting: 15
-    Type: null
-    Description: null
+    Type: Report
+    Description: This report requires learners to provide an analytical narrative that synthesises their research findings to assess their ability to critically analyse strategic environments and apply theories, frameworks, and concepts learned in the course to real-world contexts.
   - Name: Executive strategy proposal
     Weighting: 35
-    Type: null
-    Description: null
+    Type: Proposal
+    Description: Working in groups, learners are required to create a Board/CEO-level presentation that analyses the current strategic posture of a company and proposes a strategic roadmap for future initiatives.
 Media: 
   - Name: "Strategic Conquest: The Five Forces Unveiled"
     Type: ECHO

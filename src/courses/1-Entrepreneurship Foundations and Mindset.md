@@ -6,15 +6,14 @@ Programs:
 DevCycle: 1
 Blueprint: "https://myuni.adelaide.edu.au/courses/69867 "
 Description: > 
-  This course focuses on the development of new skills and the cultivation of an entrepreneurial mindset. These skills prepare students for creating their own entrepreneurial career path, becoming a valued corporate team member, or using their own enterprising skills within government or the not-for-profit sector. Students will
-  understand the theoretical concepts behind the nature and importance of entrepreneurship, use a number of tools, frameworks and models to identify and assess opportunities, and engage in experiential learning activities to develop their entrepreneurial mindset.
+  This course focuses on developing new skills and cultivating an entrepreneurial mindset. These skills prepare students to create their own entrepreneurial career path, become a valued corporate team member, or use their enterprising skills within government or the not-for-profit sector. Students will understand the theoretical concepts behind the nature and importance of entrepreneurship, use a number of tools, frameworks and models to identify and assess opportunities, and engage in experiential learning activities to develop their entrepreneurial mindset.
 ToDo:
   - Review learning experience
   - Add snapshot descriptions
   - Review snapshots
   - Add learning resources
   - Add learning resource descriptions
-  - Download video resources
+  - Download media resources
   - Review learning resources
   - Editorial review
   - Course ready to publish

@@ -6,28 +6,16 @@ Programs:
 DevCycle: 6
 Blueprint: 'https://myuni.adelaide.edu.au/courses/86261'
 Description: >
-  The past few years have seen rapid changes both at personal and professional
-  levels on how we want to work, study and play. The pandemic has brought about
-  questions, options, alternatives, and actions that individuals have considered
-  and, in many cases, implemented towards the ‘new-normal’ whether it has been
-  in our personal or professional lives. Organisational success is depended on
-  the efficient and effective utilisation of its tangible assets, intangible
-  assets and human resources. The Human Resource Management course has been
-  designed to provide you with the capability and capacity to identify,
-  understand, analyse and determine human resource-related decisions, whether
-  proactively or in response to the dynamic times we live in, through the use of
-  HRM strategy and practice.
+  The past few years have seen rapid changes both at personal and professional levels in how we want to work, study and play. The pandemic helped bring about a‘new-normal’ in our personal or professional lives. Today, organisational success depends on the efficient and effective utilisation of tangible, intangible, and human resources. The Human Resource Management course has been designed to provide students with the capability and capacity to identify, understand, analyse and determine human resource-related decisions, proactively and in response to the dynamic times we live in, through the use of strategy and practice.
 ToDo:
-  - Review course description
   - Add learning experience
   - Review learning experience
-  - Add assessment descriptions
   - Add snapshots
   - Add snapshot descriptions
   - Review snapshots
   - Add learning resources
   - Add learning resource descriptions
-  - Download video resources
+  - Download media resources
   - Review learning resources
   - Editorial review
   - Course ready to publish
@@ -75,11 +63,11 @@ Assessments:
   - Name: 'Quiz and reflection '
     Weighting: 30
     Type:
-      - 'Quiz '
+      - Quiz
       - Learning Journal
       - Multiple Choice Questions
     Description: >-
-      Learners can complete a formative quiz each week to test their
+      Learners complete a formative quiz each week to test their
       understanding of the topics covered. For the reflective pieces, learners
       respond to questions asking them to consider the course materials within
       the context of their own lived experience.

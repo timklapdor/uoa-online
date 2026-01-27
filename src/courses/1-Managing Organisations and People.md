@@ -5,13 +5,8 @@ Programs:
   - HSM
 DevCycle: 1
 Blueprint: https://myuni.adelaide.edu.au/courses/69868
-Description: "This course introduces students to the roles and functions of
-  managers. The content includes an introduction to organisations, the need for,
-  and nature of, management. It examines the evolution of management theory,
-  organisational environments, and corporate social responsibility and ethics.
-  The course also includes a detailed investigation of the four functions of
-  management: planning and decision making, organising, leading and motivating,
-  and controlling."
+Description: > 
+  This course introduces students to the roles and functions of managers. The content includes an introduction to organisations, the need for, and nature of, management. It examines the evolution of management theory, organisational environments, and corporate social responsibility and ethics. The course also includes a detailed investigation of the four functions of management: planning and decision making, organising, leading and motivating, and controlling.
 ToDo:
   - Add learning experience
   - Review learning experience
@@ -20,7 +15,7 @@ ToDo:
   - Review snapshots
   - Add learning resources
   - Add learning resource descriptions
-  - Download video resources
+  - Download media resources
   - Review learning resources
   - Editorial review
   - Course ready to publish

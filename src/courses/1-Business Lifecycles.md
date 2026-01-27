@@ -5,23 +5,14 @@ Programs:
 DevCycle: 1
 Blueprint: https://myuni.adelaide.edu.au/courses/69866
 Description: >
-  This course uses a life cycle perspective of a firm to develop an
-  understanding of the interrelated nature of the different business disciplines
-  required to establish and grow a business successfully. With the use of an
-  online business simulation game, student groups compete with each other to
-  grow a business in a virtual world while learning about the roles of
-  entrepreneurship, strategy, marketing, finance, business structures,
-  management, accounting, taxation, and exit and succession planning. The course
-  will appeal to those who are interested in starting up their own business, as
-  well as those intending in becoming business advisers, leaders or
-  policymakers.
+  This course uses a life-cycle perspective of a firm to develop an understanding of the interrelated nature of the different business disciplines required to establish and grow a business successfully. Using an online business simulation game, student groups compete to grow a business in a virtual world while learning about the roles of entrepreneurship, strategy, marketing, finance, business structures, management, accounting, taxation, and exit and succession planning. The course will appeal to those interested in starting their own business, as well as to those intending to become business advisers, leaders, or policymakers.
 ToDo:
   - Review learning experience
   - Add snapshot descriptions
   - Review snapshots
   - Add learning resources
   - Add learning resource descriptions
-  - Download video resources
+  - Download media resources
   - Review learning resources
   - Editorial review
   - Course ready to publish

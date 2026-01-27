@@ -5,18 +5,17 @@ Programs:
   - HSM
 DevCycle: 5
 Blueprint: "https://myuni.adelaide.edu.au/courses/80192"
-Description: "Business Information Systems and Management is a foundation subject that overviews the critical aspects of Information Management and Information Systems needed in all businesses in the 21st century. While primarily a business course, there will be consideration of the technical aspects necessary to be able to liaise meaningfully with IT departments and personnel. The predominant focus of the course will be the ability to leverage technology for business purposes. The subject includes fundamental information management skills (e.g. spreadsheets and databases) and focuses on the use of information to make business decisions and solve business problems."
+Description: >
+  Business Information Systems and Management is a foundation subject that provides an overview of the critical aspects of Information Management and Information Systems required in all businesses in the 21st century. While primarily a business course, the course will consider the technical aspects necessary to liaise meaningfully with IT departments and personnel. The course's focus will be on leveraging technology for business purposes. The subject covers fundamental information management skills and focuses on using information to make business decisions and solve business problems.
 ToDo:
-  - Review course description
   - Add learning experience
   - Review learning experience
-  - Add assessment descriptions
   - Add snapshots
   - Add snapshot descriptions
   - Review snapshots
   - Add learning resources
   - Add learning resource descriptions
-  - Download video resources
+  - Download media resources
   - Review learning resources
   - Editorial review
   - Course ready to publish
@@ -58,20 +57,20 @@ Topics:
 Assessments:
   - Name: "Case study analysis report"
     Weighting: 25
-    Type: 
-    Description: 
+    Type: Case Study
+    Description: Learners analyse and identify the key elements of an organisational problem with complex issues in business information systems.
   - Name: "Data visualisations report"
     Weighting: 15
-    Type: 
-    Description: 
+    Type: Report
+    Description: This assignment requires leaners to use different types of business data and produce a report to help managers make effective decisions based on the visualisation developed.
   - Name: "Business requirement analysis report"
     Weighting: 30
-    Type: 
-    Description: 
+    Type: Report
+    Description: Learners are required to evaluate and organisations information system strategy and analyse suitable tools to solve the organisation’s problems.
   - Name: "Business case pitch presentation"
     Weighting: 30
-    Type: 
-    Description: 
+    Type: Media Task
+    Description: Learners demonstrate their ability to design an innovative information systems solution for an organisation and communicate it to the management team of that organisation.
 Media: 
   - Name: 
     Type: 

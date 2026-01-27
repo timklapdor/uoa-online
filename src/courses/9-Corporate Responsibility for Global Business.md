@@ -4,18 +4,17 @@ Programs:
   - IB
 DevCycle: 9
 Blueprint: https://myuni.adelaide.edu.au/courses/96762
-Description: "The content of this course covers corporate social responsibility (CSR) and performance (CSP), the shareholder-stakeholder debate, corporate governance in global business, ethical foundations of CSR, strategic CSR, implementation of CSR as part of corporate strategy, challenges at the base of the pyramid (BoP), social entrepreneurship and social business around the world. Components of this course can include a group or individual discovery learning project, of which primary goals are (1) to train students in applying their knowledge, analytical and critical thinking skills to a practical problem in the field of CSR/corporate responsibility for global business; (2) to assist students in developing their own project in the form of a CSR strategy, social entrepreneurship or social business implementation plan; 3) to train students in developing skills in effective and efficient team and self-management in a real business environment."
+Description: >
+  This course provides students with an in-depth exploration of corporate social responsibility and performance. Students will engage in the shareholder-stakeholder debate, the role of corporate governance in global business, the ethical foundations of corporate social responsibility, the strategic implementation of corporate social responsibility and the associated challenges. The course explores social entrepreneurship and social business worldwide.
 ToDo:
-  - Review course description
   - Add learning experience
   - Review learning experience
-  - Add assessment descriptions
   - Add snapshots
   - Add snapshot descriptions
   - Review snapshots
   - Add learning resources
   - Add learning resource descriptions
-  - Download video resources
+  - Download media resources
   - Review learning resources
   - Editorial review
   - Course ready to publish
@@ -53,35 +52,34 @@ Topics:
   - "Government regulations and voluntary codes"
   - "Responsibility for your future"
 Assessments:
-  - Name: "Individual Research Project on Sustainable Development Goals"
+  - Name: "Research on Sustainable Development Goals"
     Weighting: 30
     Type: 
       - Report
-    Description: "Learners conduct an individual research project focusing on how specific projects contribute to the UN's Sustainable Development Goals (SDGs)."
+    Description: > 
+      Learners conduct an individual research project focusing on how specific projects contribute to the UN's Sustainable Development Goals (SDGs)
   - Name: "Case Analysis"
     Weighting: 30
-    Type: 
+    Type: Case Study
     Description: "This assessment involves a detailed analysis of a case study that highlights the complexities of international business expansion. Learners focus on cultural differences, human resource management, and ethical considerations within global market settings. Learners have a chance to develop their analytical and communication skills by engaging with real-world business scenarios and applying theoretical concepts to identify strategic solutions."
   - Name: "Business Advisory Report"
     Weighting: 40
-    Type: 
-    Description: 
+    Type: Report
+    Description: > 
+      Learners prepare a Business Advisory Report for an international firm facing a critical threat or opportunity in its external environment. Learners must unpack the situation, conduct a detailed analysis and provide strategic recommendations.
   - Name: "Group Discussion"
     Weighting: 10
+    Type: Discussion
+    Description: Learners share their recommended solutions and justifications and provide feedback to their peers on their work and how theu have understood the issues discussed. 
+Snapshot: 
+  - Name: 
+    Link: 
+    Description: 
+Media: 
+  - Name: 
     Type: 
-    Description: 
-LearningExperience:
-  -
-Screenshots:
-  - Link: 
-    Description: 
-MiroBoards: 
-  - Description: 
     Link: 
-VideosToArchive: 
-  - Name: 
-    Link: 
-InteractivesToArchive: 
-  - Name: 
-    Link:
+    Description:
+    Location:
+
 ---

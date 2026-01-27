@@ -1,0 +1,53 @@
+---
+layout: page.njk
+title: Media Inventory
+---
+
+{%- set mediaTypes = {
+  'H5P': [],
+  'IMG': [],
+  'ECHO': [],
+  'YOUTUBE': [],
+  'IFRAME': []
+} -%}
+
+{# Collect all media items grouped by type #}
+{% for course in collections.courses %}
+  {% if course.data.Media %}
+    {% for media in course.data.Media %}
+      {% if media.Type and mediaTypes[media.Type] != undefined %}
+        {%- set temp = mediaTypes[media.Type].push({
+          name: media.Name,
+          link: media.Link,
+          location: media.Location,
+          courseName: course.data.CourseName,
+          courseUrl: course.url
+        }) -%}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+{% for type in ['H5P', 'IMG', 'ECHO', 'YOUTUBE', 'IFRAME'] %}
+  {% if mediaTypes[type] | length > 0 %}
+    <section class="media-type-section">
+      <h2>{{ type }} ({{ mediaTypes[type] | length }})</h2>
+      <ul>
+      {% for item in mediaTypes[type] %}
+        <li>
+          <strong>{{ item.name }}</strong>
+          <br>
+          <small>From: <a href="{{ item.courseUrl }}">{{ item.courseName }}</a></small>
+          <br>
+          {% if item.link %}
+            Link: <a href="{{ item.link }}" target="_blank">{{ item.link }}</a>
+          {% endif %}
+          {% if item.location %}
+            <br>Location: <a href="{{ item.location }}" target="_blank">{{ item.location }}</a>
+          {% endif %}
+        </li>
+      {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
+{% endfor %}

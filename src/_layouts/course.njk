@@ -71,7 +71,15 @@ layout: base.njk
       {%-for assignment in Assessments -%}
       <li>
         <h4 class="assessment-name">{{ assignment.Name}}</h4>
-        <h5 class="assessment-type">{{ assignment.Type }}</h5>
+        <h5 class="assessment-type">
+          {% if assignment.Type is iterable and assignment.Type is not string %}
+            {% for type in assignment.Type -%}
+              {{ type }}{% if not loop.last %}, {% endif %}
+            {%- endfor %}
+          {% else %}
+            {{ assignment.Type }}
+          {% endif %}
+        </h5>
         <p class="assessment-description">{{ assignment.Description}}</p>
         <h4 class="assessment-weight">{{ assignment.Weighting }}%</h4>
       </li>
@@ -134,8 +142,8 @@ layout: base.njk
 
   <div class="learning-resources media-carousel-container">
     <h3 class="label">Learning Resources</h3>
-      <button class="carousel-nav prev" onclick="navigateCarousel(-1)">&larr;</button>
-      <button class="carousel-nav next" onclick="navigateCarousel(1)">&rarr;</button>
+      {# <button class="carousel-nav prev" onclick="navigateCarousel(-1)">&larr;</button>
+      <button class="carousel-nav next" onclick="navigateCarousel(1)">&rarr;</button> #}
  
     <ul class="list" id="mediaCarousel">
       {%- for media in Media-%}

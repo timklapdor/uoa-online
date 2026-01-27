@@ -5,18 +5,15 @@ Programs:
   - HSM
 DevCycle: 2
 Blueprint: "https://myuni.adelaide.edu.au/courses/76550"
-Description: "The objective of the course is to provide an introductory knowledge of accounting to students of all disciplines such as business, professions, arts, engineering, health, medicine and sciences. A general overview of accounting principles relating to the preparation of financial and managerial reports will be presented. The primary focus is to illuminate how accounting information is utilised by a variety of stakeholders in planning, controlling and investing decisions."
+Description: >
+  The objective of the course is to provide an introductory understanding of accounting and a general overview of accounting principles for the preparation of financial and managerial reports. The primary focus is to illuminate how accounting information is utilised by various stakeholders in planning, controlling, and investment decisions.
 ToDo:
-  - Review course description
   - Add learning experience
   - Review learning experience
-  - Add assessment descriptions
-  - Add snapshots
-  - Add snapshot descriptions
   - Review snapshots
   - Add learning resources
   - Add learning resource descriptions
-  - Download video resources
+  - Download media resources
   - Review learning resources
   - Editorial review
   - Course ready to publish
@@ -92,7 +89,4 @@ Snapshot:
   - Name: "Lesson 8.3: What is the cash conversion period, and how is it calculated?"
     Link: 069_Page_module_8_working_capital_lesson_8_3_what_is_the_cash_conversion_period_and_how_is_it_calculated_.png
     Description: "complex demonstration of cash flow budgeting concept, including several worked examples, as well as opportunity for student to attempt to calculate on their own and then compare their answer."
-Jobs: 
-  - Media Required
-  - Learning Experience
 ---

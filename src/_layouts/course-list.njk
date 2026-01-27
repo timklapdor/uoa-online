@@ -53,7 +53,7 @@ title: Courses
     {%- set regularCourses = [] -%}
     {%- set eChallengeCourse = [] -%}
 
-    {%- for item in collections.courses | sort(false, false, 'data.DevCycle') | sort(attribute="data.name") -%}
+    {%- for item in collections.courses  | sort(attribute="data.CourseName") | sort(false, false, 'data.DevCycle') -%}
       {%- if item.data.CourseName == "eChallenge" -%}
         {%- set temp = eChallengeCourse.push(item) -%}
       {%- else -%}

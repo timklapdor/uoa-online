@@ -4,18 +4,17 @@ Programs:
   - IB
 DevCycle: 4
 Blueprint: "https://myuni.adelaide.edu.au/courses/80193"
-Description: "This course prepares students to understand, assess and consider global trade opportunities, and strategies for realising these opportunities. This course prepares students to build competitive knowledge and understanding in international trade, by challenging them to engage in cognitive and critical thinking skills, independent learning and analysis, and requiring them to demonstrate the ability to analyse and integrate information across the broad disciplines of economics, law and politics in both a domestic and international context."
+Description: >
+  This course prepares students to understand, assess, and consider global trade opportunities and strategies for realising them. This course prepares students to build competitive knowledge and understanding in international trade by challenging them to engage in cognitive and critical thinking skills, independent learning and analysis, and requiring them to demonstrate the ability to analyse and integrate information across the broad disciplines of economics, law and politics in both a domestic and international context.
 ToDo:
-  - Review course description
   - Add learning experience
   - Review learning experience
-  - Add assessment descriptions
   - Add snapshots
   - Add snapshot descriptions
   - Review snapshots
   - Add learning resources
   - Add learning resource descriptions
-  - Download video resources
+  - Download media resources
   - Review learning resources
   - Editorial review
   - Course ready to publish
@@ -49,19 +48,23 @@ Assessments:
   - Name: "Quizzes"
     Weighting: 10
     Type: "Quiz "
-    Description: 
+    Description: These quizzes provide learners with regular check-in and ensures that concepts from the course material have been understood.
   - Name: "Reflective portfolio"
     Weighting: 10
     Type: "Reflection / Discussion"
-    Description: 
+    Description: Each week learners consider specific questions based on the learning materials from the week, and write short reflections examining their relevance to personal experience, businesses and their community.
   - Name: "Executive briefing"
     Weighting: 10
     Type: "Report"
-    Description: 
+    Description: Learners review an official Free Trade Area agreement and generate an executive briefing that summarises the implications and impact on a government department. 
   - Name: "Technical presentation"
     Weighting: 30
     Type: "Presentation"
-    Description: 
+    Description: Learners develop a targeted international market assessment, reviewing overlapping bi-lateral and multilateral trade agreements to determine which international market provide the highest market potential.
+  - Name: "Policy brief"
+    Weighting: 40
+    Type: "Case Study"
+    Description: This policy brief requires learners to advocate and argue for trade and investment approaches to use in negotiations with other countries. 
 Media: 
   - Name: 
     Type: 

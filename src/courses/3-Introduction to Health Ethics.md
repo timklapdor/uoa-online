@@ -4,18 +4,17 @@ Programs:
   - HSM
 DevCycle: 3
 Blueprint: "https://myuni.adelaide.edu.au/courses/80191"
-Description: "Should you be able to choose the gender of your baby? Should risky behaviours reduce your fair share of health care resources? Should researchers in developed countries conduct research with populations in developing countries? What are the ethical obligations of biomedical scientists? Is euthanasia morally permissible? These are some of the fascinating ethical questions this course will equip you to answer. You will explore ethical issues ranging from the individual to the global level, and learn to analyse and resolve these issues using major ethical theories and principles. In this way, you will come to appreciate that a tension sometimes exists between saving lives and respecting rights."
+Description: >
+  Should you be able to choose the gender of your baby? Should risky behaviours reduce your fair share of health care resources? Should researchers in developed countries conduct research with populations in developing countries? What are the ethical obligations of biomedical scientists? Is euthanasia morally permissible? These are some of the fascinating ethical questions this course will equip students to answer. Students explore ethical issues at the individual and global levels and learn to analyse and resolve them using major ethical theories and principles. Throughout the course students come to appreciate that a tension sometimes exists between saving lives and respecting rights.
 ToDo:
-  - Review course description
   - Add learning experience
   - Review learning experience
-  - Add assessment descriptions
   - Add snapshots
   - Add snapshot descriptions
   - Review snapshots
   - Add learning resources
   - Add learning resource descriptions
-  - Download video resources
+  - Download media resources
   - Review learning resources
   - Editorial review
   - Course ready to publish
@@ -55,19 +54,19 @@ Assessments:
   - Name: "Policy review"
     Weighting: 15
     Type: "Review"
-    Description: 
+    Description: This assignment assesses learners ability to identify and discuss ethical underpinnings of a policy and how core principles of health ethics have informed and shaped the policy.
   - Name: "Critical incident review"
     Weighting: 30
     Type: "Review"
-    Description: 
+    Description: Learners critically analyse a health care incident or challenge, the impact of policy, relevant ethical theories and principles, professional frameworks, and to provide clear recommendations with appropriate rationale.
   - Name: "Essay plan"
     Weighting: 15
     Type: "Essay"
-    Description: 
+    Description: This assessment provides learners with formative feedback on the argument, structure, and overall layout of their essay, and provides feedback to improve the overall quality of the final essay.
   - Name: "Essay"
     Weighting: 40
     Type: "Essay"
-    Description: 
+    Description: Learners are assessed on their ability to identify and apply relevant ethical theories and frameworks to a research question in health, write a coherent argument that reaches a clear conclusion regarding a proposed course of action, and substantiate their argument with relevant academic literature.
 Jobs: 
   - Media Missing
   - Learning Experience

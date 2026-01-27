@@ -4,41 +4,15 @@ Programs:
   - HSM
 DevCycle: 5
 Blueprint: https://myuni.adelaide.edu.au/courses/86265
-Description: "The study of health economics sits at the junction of the broader
-  disciplines of the health sciences and economics and business studies. Health
-  economics studies how scarce healthcare resources are allocated among
-  competing interventions and groups in society. How we distribute and fund
-  healthcare plays a significant determining role in the overall state of the
-  population's health and is also an essential factor in the overall economy's
-  health. Health economics shapes health policy at national, state and local
-  levels.This comprehensive online course introduces fundamental economics and
-  health economics concepts that are relevant at all levels of governance and
-  for both the public and private health sectors. It explains the economic
-  rationale behind various health policies and operating processes in the
-  Australian healthcare system. It also demonstrates practical applications of
-  economic approaches to problem-solving. The course covers fundamental economic
-  principles across twelve modules, with two major themes: healthcare as an
-  economic market (demand and supply, elasticity, market failure and regulation)
-  and the fundamentals of health economic evaluation, particularly
-  cost-effectiveness analysis. You will develop a strong foundation in the
-  subject through online content, videos and animations, hands-on practice
-  exercises, case studies, and interactive discussions. Whether you are a
-  healthcare professional, policy maker, or simply interested in learning more
-  about the intersection of economics and health, this online course is designed
-  to meet your needs. With flexible online delivery, you can study at your own
-  pace and schedule, making it easier to gain the knowledge and skills you need
-  to succeed."
+Description: >
+  The study of health economics sits at the junction of the broader disciplines of the health sciences, economics, and business studies. Health economics studies how scarce healthcare resources are allocated among competing interventions and groups in society. How we distribute and fund healthcare plays a significant role in determining the overall state of the population's health and is also an essential factor in the overall health of the economy. Health economics shapes health policy at the national, state and local levels. This comprehensive online course introduces fundamental economics and health economics concepts that are relevant at all levels of governance and for both the public and private health sectors. It explains the economic rationale behind various health policies and operating processes in the Australian healthcare system. It also demonstrates practical applications of economic approaches to problem-solving.
 ToDo:
-  - Review course description
   - Add learning experience
   - Review learning experience
-  - Add assessment descriptions
-  - Add snapshots
-  - Add snapshot descriptions
   - Review snapshots
   - Add learning resources
   - Add learning resource descriptions
-  - Download video resources
+  - Download media resources
   - Review learning resources
   - Editorial review
   - Course ready to publish
@@ -82,10 +56,16 @@ Topics:
 Assessments:
   - Name: Quizzes
     Weighting: 50
+    Type: Short Response Questions
+    Description: This assessment provides learners with a regular check-in to ensures that concepts from the course material have been understood.
   - Name: Discussion Paper
     Weighting: 30
+    Type: Discussion
+    Description: Learners demonstrate their understanding of the current Australian context of healthcare expenditure, and describe how they propose to change this and the aniticipated impact on future expenditure and healthcare equity. 
   - Name: Economic evaluation
     Weighting: 20
+    Type: Critical Analysis
+    Description: Learners critically review a published economic evaluation and comment on the validity and relevance of the findings.
 Media:
   - Name: "Resources analogy: Making a cake"
     Type: ECHO

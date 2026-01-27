@@ -5,28 +5,16 @@ Programs:
 DevCycle: 6
 Blueprint: 'https://myuni.adelaide.edu.au/courses/86391'
 Description: >
-  International Trade: Negotiation and Agreement will build your knowledge and
-  understanding of the core principles of international trade. You will need to
-  demonstrate well-rounded critical and creative thinking skills, the ability to
-  apply relevant theory, contrast historical and contemporary examples of trade
-  agreements, and evaluate policy documentation and actions by state actors. In
-  this course, you will have the opportunity to analyse and integrate key
-  concepts in International Relations and International Political Economy.
-  Through examination of contemporary and historic case studies, readings, and
-  reflection on current events, you will be equipped with the skills to identify
-  and evaluate the factors that shape global trade, conduct policy analysis, and
-  connect key theory to current world events.
+  This course developed students' knowledge and understanding of the core principles of international trade. Students utilise critical and creative thinking skills, apply relevant theory, contrast historical and contemporary examples of trade agreements, and evaluate policy documentation and actions by state actors. Through examination of contemporary and historic case studies, readings, and reflection on current events, students will identify and evaluate the factors that shape global trade, conduct policy analysis, and connect key theories to current world events.
 ToDo:
-  - Review course description
   - Add learning experience
   - Review learning experience
-  - Add assessment descriptions
   - Add snapshots
   - Add snapshot descriptions
   - Review snapshots
   - Add learning resources
   - Add learning resource descriptions
-  - Download video resources
+  - Download media resources
   - Review learning resources
   - Editorial review
   - Course ready to publish
@@ -76,33 +64,6 @@ Topics:
   - Change and Continuity
   - Trade and Strategic Alliances
 Assessments:
-  - Name: Case study
-    Weighting: 20
-    Type:
-      - Case Study
-    Description: >-
-      Learners are asked to choose from a list of the international events and
-      explain the actions from a Realist and Liberal perspective. The assessment
-      is designed to engage learners in key theories of International Relations,
-      the application of Realist and Liberal theories to case studies and their
-      interpretation and analysis of academic literature and perspectives.
-  - Name: Essay
-    Weighting: 20
-    Type:
-      - Essay
-    Description: >-
-      Learners are asked to role play as a senior negotiator and assess how
-      their geographic location, international bodies, risk and rewards,
-      potential influence and other relevant factors impact on international
-      trade negotiations. 
-  - Name: Business proposal
-    Weighting: 30
-    Type:
-      - Proposal
-    Description: >-
-      Learners are asked to develop a business proposal in the country of your
-      choice. They must devise a global value chain derived from one of the
-      nation’s key imports/exports. 
   - Name: Quizzes
     Weighting: 30
     Type:
@@ -110,6 +71,25 @@ Assessments:
     Description: >-
       Short comprehension quizzes provide learns with ongoing feedback on their
       understanding of the course content.
+  - Name: Case study
+    Weighting: 20
+    Type:
+      - Case Study
+    Description: >-
+      Learners utilise international events and explain the actions using key theories of international relations, interpret and analyse academic literature and perspectives.
+  - Name: Essay
+    Weighting: 20
+    Type:
+      - Essay
+    Description: >-
+      Learners role play senior negotiator and assess how their geographic location, international bodies, risk and rewards, potential influence and other relevant factors impact on international trade negotiations. 
+  - Name: Business proposal
+    Weighting: 30
+    Type:
+      - Proposal
+    Description: >-
+      Learners develop a business proposal and devise a global value chain derived from one of the
+      nation’s key imports/exports. 
 Media:
   - Name: The international system since 1945
     Type: ECHO

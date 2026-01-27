@@ -6,11 +6,13 @@ layout: base.njk
 <main>
     <article>
 
-        {%- set allTodos = ["Review course description","Add learning experience","Review learning experience","Add assessment descriptions","Add snapshots","Add snapshot descriptions","Review snapshots","Add learning resources","Add learning resource descriptions","Download video resources","Review learning resources","Editorial review","Course ready to publish"] -%}
+        {%- set allTodos = ["Review course description","Add learning experience","Review learning experience","Add assessment descriptions","Add snapshots","Add snapshot descriptions","Review snapshots","Add learning resources","Add learning resource descriptions","Download media resources","Review learning resources","Editorial review","Course ready to publish"] -%}
 
         <h1>Jobs to be Done</h1>
+
+        <h4><a href=" {{ "/media/" | url }}">Media List</a></h4>
         <ul class="jobs">
-            {% for item in collections.courses | sort(false, false, 'data.DevCycle') |  sort(attribute="data.name") -%}
+            {% for item in collections.courses | sort(attribute="data.CourseName") | sort(false, false, 'data.DevCycle') -%}
             <li>
                 <h4><a href="{{ item.url |url }}">{{ item.data.CourseName }}</a> {{item.data.DevCycle}}</h4>
                 {% for member in item.data.Team %}

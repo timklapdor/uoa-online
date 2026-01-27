@@ -5,31 +5,17 @@ Programs:
   - HSM
 DevCycle: 7
 Blueprint: https://myuni.adelaide.edu.au/courses/88449
-Description: Many of today's complex challenges cannot be tackled with the
-  narrowly focused, unconnected thinking of the past. Managers must make
-  decisions and take action in complex environments in which finance, economics,
-  markets, people and nature are interconnected and interdependent. This ‘messy’
-  interconnectedness blurs the boundaries between organisations, communities and
-  fields of expertise—nothing is neat and tidy. Systems thinking focuses on the
-  relationships among system elements and the interactions of the system with
-  its environment, as opposed to focusing on the elements themselves. It is
-  holistic (integrative) thinking instead of analytic (dissective) thinking.
-  This course will introduce you to the world of systems and systems thinking.
-  You will consider the merits of looking at wholes, rather than unconnected
-  parts, and explore ways in which managers can make use of the nature of
-  systems—even in complex, unpredictable environments—to influence outcomes in a
-  more profound way than can be achieved with linear or mechanistic thinking.
+Description: >
+  Many of today's complex challenges cannot be tackled with the narrowly focused, unconnected thinking of the past. Managers must make decisions and take action in complex environments where finance, economics, markets, people, and nature are interconnected and interdependent. This ‘messy’ interconnectedness blurs the boundaries between organisations, communities and fields of expertise—nothing is neat and tidy. Systems thinking focuses on the relationships among system elements and the interactions of the system with its environment, rather than on the elements themselves. This course will introduce students to the world of systems and systems thinking. Students will consider the merits of looking at wholes rather than unconnected parts and explore ways managers can leverage the nature of systems, even in complex, unpredictable environments, to influence outcomes more profoundly than linear or mechanistic thinking can.
 ToDo:
-  - Review course description
   - Add learning experience
   - Review learning experience
-  - Add assessment descriptions
   - Add snapshots
   - Add snapshot descriptions
   - Review snapshots
   - Add learning resources
   - Add learning resource descriptions
-  - Download video resources
+  - Download media resources
   - Review learning resources
   - Editorial review
   - Course ready to publish
@@ -81,7 +67,7 @@ Topics:
   - Emergence and practical examples
   - Applying systems thinking in organisational and sectoral contexts
 Assessments:
-  - Name: "Assessment 1: Research Report"
+  - Name: "Research Report"
     Weighting: 25
     Type:
       - Short Response Questions
@@ -91,7 +77,7 @@ Assessments:
       systemic behaviours, dynamics, and interdependencies, fostering insights
       that can contribute to effective problem-solving and decision-making
       within complex systems.
-  - Name: "Assessment 2: Evaluative Report"
+  - Name: "Evaluative Report"
     Weighting: 25
     Type:
       - Report
@@ -100,17 +86,17 @@ Assessments:
       interrelation and interdependence of system parts. They must evaluate
       recommendations for change, gaining insights into systemic behaviours and
       intervention leverage points. "
-  - Name: "Assessment 3: Case Study Discussions"
+  - Name: "Case Study Discussions"
     Weighting: 25
     Type:
-      - Case Study
+      - Discussions
     Description: "This assessment presents various case studies that offer
       opportunities for learners to apply systems thinking. Through practical
       exercises and real-world scenarios they deepen their understanding of how
       systems operate, from visible elements to deeply rooted structures and
       recurring patterns. Engaging with multi-dimensional aspects of systems,
       they refine their analytical abilities and written communication skills. "
-  - Name: "Assessment 4: Reflective Journal"
+  - Name: "Reflective Journal"
     Weighting: 25
     Type:
       - Learning Journal

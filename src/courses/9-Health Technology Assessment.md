@@ -4,23 +4,17 @@ Programs:
   - HSM
 DevCycle: 9
 Blueprint: "https://myuni.adelaide.edu.au/courses/96766"
-Description: |
-  Why is it important to assess health technologies? Health technologies include medicines, vaccines, medical and surgical procedures, medical devices, diagnostic and imaging tests, and public health programs. Health technologies are key elements in the delivery of health services. In this course, created by experts in the field of health technology assessment (HTA), you will learn key frameworks, methods, and tools for assessing the value of these technologies and communicating their benefits and possible harms.
-
-  This course provides the opportunity to develop and practise real world skills in HTA, including identifying and appraising literature to assess the safety and effectiveness of a technology; planning and conducting an HTA; and communicating findings meaningfully to inform health policy and clinical practice. Through this course, you will also develop an understanding of the role of other key components within an HTA, including economic evaluation, ethical analysis, organisational and implementation considerations, and public and patient engagement and involvement in decision-making. 
-  
-  By the end of this course, you will have the confidence to interpret published HTAs, recognise when it might be appropriate to conduct or commission one, conduct a simple HTA, and make recommendations for adopting or implementing a health technology within a health service. HTA is a field that produces skills that are in high demand. The skills learnt are transferable to different levels of the health system and to a range of positions that are involved with health service delivery, health service management and in the development of health policy.
+Description: >
+  Why is it important to assess health technologies? Health technologies include medicines, vaccines, medical and surgical procedures, medical devices, diagnostic and imaging tests, and public health programs. Health technologies are key elements in the delivery of health services. In this course, students will learn key frameworks, methods, and tools for assessing the value of these technologies and communicating their benefits and possible harms. This course provides the opportunity to develop and practise real-world skills, including identifying and appraising literature to assess the safety and effectiveness of a technology; planning and conducting a health technology assessment; and communicating findings meaningfully to inform health policy and clinical practice. Students will develop an understanding of the role of other key components, including economic evaluation, ethical analysis, organisational and implementation considerations, and public and patient engagement and involvement in decision-making. By the end of this course, students will have the confidence to interpret published HTAs, recognise when it might be appropriate to conduct or commission one, conduct a simple HTA, and make recommendations for adopting or implementing a health technology within a health service.
 ToDo:
-  - Review course description
   - Add learning experience
   - Review learning experience
-  - Add assessment descriptions
   - Add snapshots
   - Add snapshot descriptions
   - Review snapshots
   - Add learning resources
   - Add learning resource descriptions
-  - Download video resources
+  - Download media resources
   - Review learning resources
   - Editorial review
   - Course ready to publish
