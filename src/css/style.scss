@@ -19,8 +19,13 @@ h1 {
   background-color: lightdark(color-mix(in srgb, var(--primary-default), white 60%), var(--primary-default));
 }
 
-.lead {
+.lead-ld {
   background: color-mix(in srgb, var(--ld1-base) 30%, white);
+}
+
+
+.lead-ded {
+  background: color-mix(in srgb, var(--ld2-base) 30%, white);
 }
 
 .jobs {

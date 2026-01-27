@@ -16,7 +16,8 @@ layout: base.njk
             <li>
                 <h4><a href="{{ item.url |url }}">{{ item.data.CourseName }}</a> {{item.data.DevCycle}}</h4>
                 {% for member in item.data.Team %}
-                    <span class="lead">{{ member.Name if member.Role=="Learning Designer" and member.Involvement=="Lead"}}</span>
+                    <span class="lead-ld">{{ member.Name if member.Role=="Learning Designer" and member.Involvement=="Lead"}}</span>
+                    <span class="lead-ded">{{ member.Name if member.Role=="Digital Education Developer" and member.Involvement=="Lead"}}</span>
                 {% endfor %}
                 
                 <div class="todo-list">
