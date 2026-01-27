@@ -5,8 +5,15 @@ Programs:
   - HSM
 DevCycle: 1
 Blueprint: "https://myuni.adelaide.edu.au/courses/69867 "
-Description: > 
-  This course focuses on developing new skills and cultivating an entrepreneurial mindset. These skills prepare students to create their own entrepreneurial career path, become a valued corporate team member, or use their enterprising skills within government or the not-for-profit sector. Students will understand the theoretical concepts behind the nature and importance of entrepreneurship, use a number of tools, frameworks and models to identify and assess opportunities, and engage in experiential learning activities to develop their entrepreneurial mindset.
+Description: >
+  This course focuses on developing new skills and cultivating an
+  entrepreneurial mindset. These skills prepare students to create their own
+  entrepreneurial career path, become a valued corporate team member, or use
+  their enterprising skills within government or the not-for-profit sector.
+  Students will understand the theoretical concepts behind the nature and
+  importance of entrepreneurship, use a number of tools, frameworks and models
+  to identify and assess opportunities, and engage in experiential learning
+  activities to develop their entrepreneurial mindset.
 ToDo:
   - Review learning experience
   - Add snapshot descriptions
@@ -24,9 +31,11 @@ Team:
   - Name: Stella Bachtis
     Role: Course Author
     Involvement: Lead
-  - Name: Rich Bartlett
+  - Name: Sash Kertes
     Role: Learning Designer
     Involvement: Lead
+  - Name: Sinead Coulter
+    Role: Learning Designer
 CLOs:
   - Identify the difference between an idea and an opportunity.
   - Assess the potential of an opportunity and determine its viability for
@@ -104,4 +113,4 @@ Snapshot:
   - Name: "Lesson 1: What is the risk management process?"
     Link: 070_Page_module_7_stage_1_and_stage_2_of_the_risk_management_process_lesson_1_1_what_is_the_risk_management_p.png
 ---
-This course provides a general overview of entrepreneurship and to understand the entrepreneurial mindset. The course is designed to be skills centric and focussed on practical activities that enable learners to develop skills to create their own entrepreneurial career path. A key feature of the experience is journey of fictional students Abbey and Eduardo, who provide an ongoing *worked example* throughout the course, helping to explain, demonstrate and set expectations for learners and their work.
+This course provides a general overview of entrepreneurship and to understand the entrepreneurial mindset. The course is designed to be skills centric and focussed on practical activities that enable learners to develop skills to create their own entrepreneurial career path. A key feature of the experience is journey of fictional students Abbey and Eduardo, who provide an ongoing _worked example_ throughout the course, helping to explain, demonstrate and set expectations for learners and their work.
