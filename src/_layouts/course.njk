@@ -182,7 +182,7 @@ layout: base.njk
                   {%- if "https://" in media.Link or "http://" in media.Link -%}
                     <iframe loading="lazy" class="lti-embed" width="100%" height="800" title="{{ media.Name }}" src="{{ media.Link }}" frameborder="0"></iframe>
                   {%- else -%}
-                    <iframe loading="lazy" class="lti-embed" width="100%" height="800" title="{{ media.Name }}" src="/uoa-online/{{ media.Link }}" frameborder="0"></iframe>
+                    <iframe loading="lazy" class="lti-embed" width="100%" height="800" title="{{ media.Name }}" src="/uoa-online/media/h5p/{{ media.Link }}" frameborder="0"></iframe>
                   {%- endif -%}
                 </div>
             {%- endif-%}
