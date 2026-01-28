@@ -9,6 +9,9 @@ const embedYouTube = require("eleventy-plugin-youtube-embed");
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/images");
   eleventyConfig.addPassthroughCopy("./src/assets");
+  eleventyConfig.addPassthroughCopy("./src/media/h5p");
+  eleventyConfig.ignores.add("./src/media/h5p/**");
+  eleventyConfig.setServerOptions({showAllHosts: true,}); // Add support for serving HTML files without extensions
   eleventyConfig.addPlugin(eleventySass);
   eleventyConfig.addPlugin(embedYouTube);
 

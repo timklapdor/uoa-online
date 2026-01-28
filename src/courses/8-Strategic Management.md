@@ -94,8 +94,8 @@ Media:
     Description: 
     Location: https://myuni.adelaide.edu.au/courses/89959/pages/lesson-3-dot-2-in-what-ways-do-resources-and-capabilities-influence-strategic-management/
   - Name: "Mission vs Vision: A Flip Card Exploration"
-    Type: H5P
-    Link: https://adelaide.h5p.com/lti/748837/content/1292118765658619529
+    Type: IFRAME
+    Link: 'media/h5p/strategic-management-M1-2-flip-card.html'
     Description:
     Location: https://myuni.adelaide.edu.au/courses/89959/pages/lesson-1-dot-2-what-are-the-key-models-for-developing-an-organisations-strategic-vision-and-mission?module_item_id=3229132
   - Name: "Branching: You Make the Decision - Tesla"
@@ -109,8 +109,8 @@ Media:
     Description:
     Location: https://myuni.adelaide.edu.au/courses/89959/pages/lesson-3-dot-1-how-do-you-conduct-an-analysis-of-an-organisations-internal-environment?module_item_id=3234723    
   - Name: Strategic Decision-Making Simulation
-    Type: H5P
-    Link: https://adelaide.h5p.com/lti/748837/content/1292169930862688019
+    Type: IFRAME
+    Link: 'media/h5p/strategic-management-M4-3-Tesla.html'
     Description: "This activity immerses learners in strategic decisions that shape Tesla's direction and define its competitive stance. There are multiple viable paths, and the exercise isn't about finding the 'right' answer but learners having the opportunity to explore different strategic options."
     Location: https://myuni.adelaide.edu.au/courses/89959/pages/lesson-4-dot-3-what-are-the-different-types-of-business-level-strategies-available-to-a-firm?module_item_id=3235075
   - Name: Business vs Corporate Strategy
