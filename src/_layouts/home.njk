@@ -12,36 +12,35 @@ layout: base.njk
 
         <h4><a href=" {{ "/media/" | url }}">Media List</a></h4>
         <ul class="jobs">
-            {% for item in collections.courses | sort(attribute="data.CourseName") | sort(false, false, 'data.DevCycle') -%}
+            {%- for item in collections.courses | sort(attribute="data.CourseName") | sort(false, false, 'data.DevCycle') -%}
             <li>
                 <h4><a href="{{ item.url |url }}">{{ item.data.CourseName }}</a> {{item.data.DevCycle}}</h4>
-                {% for member in item.data.Team %}
+                {%- for member in item.data.Team -%}
                     <span class="lead-ld">{{ member.Name if member.Role=="Learning Designer" and member.Involvement=="Lead"}}</span>
                     <span class="lead-ded">{{ member.Name if member.Role=="Digital Education Developer" and member.Involvement=="Lead"}}</span>
-                {% endfor %}
-                
+                {%- endfor -%}
                 <div class="todo-list">
                     <ul>
-                    {% for task in allTodos %}
+                    {%- for task in allTodos -%}
                         {%- set isIncomplete = false -%}
-                        {% if item.data.ToDo %}
-                            {% for todoItem in item.data.ToDo %}
-                                {% if todoItem == task %}
+                        {%- if item.data.ToDo -%}
+                            {%- for todoItem in item.data.ToDo -%}
+                                {%- if todoItem == task -%}
                                     {%- set isIncomplete = true -%}
-                                {% endif %}
-                            {% endfor %}
-                        {% endif %}
+                                {%- endif -%}
+                            {%- endfor -%}
+                        {%- endif -%}
                         <li class="todo-item {% if not isIncomplete %}completed{% endif %}">
                             <label>
                                 <input type="checkbox" {% if not isIncomplete %}checked{% endif %} disabled>
                                 <span>{{ task }}</span>
                             </label>
                         </li>
-                    {% endfor %}
+                    {%- endfor -%}
                     </ul>
                 </div>
             </li>
-            {% endfor %}
+            {%- endfor -%}
         </ul>
     </article>
 
