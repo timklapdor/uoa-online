@@ -6,6 +6,11 @@
   min-width: 50vw;
   margin-top: 1rem;
 
+  &.interactive {
+    aspect-ratio: 4 / 3;
+    padding-top: 75%
+  }
+
 
   & iframe {
       position: absolute;

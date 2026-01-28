@@ -114,8 +114,8 @@ Media:
     Description:
     Location: https://myuni.adelaide.edu.au/courses/89959/pages/lesson-3-dot-1-how-do-you-conduct-an-analysis-of-an-organisations-internal-environment?module_item_id=3234723    
   - Name: Business vs Corporate Strategy
-    Type: H5P
-    Link: https://adelaide.h5p.com/lti/748837/content/1292139671056797109 
+    Type: IFRAME
+    Link: strategic-management-M6-1-strategy.html 
     Description: "This activity is designed to improve learners critical reading and analysis skills by broadly identifying terms that may constitute Business and or Corporate level strategy."
     Location: https://myuni.adelaide.edu.au/courses/89959/pages/lesson-6-dot-1-what-is-corporate-level-strategy-and-what-is-its-purpose?module_item_id=3247989
 Snapshot: 

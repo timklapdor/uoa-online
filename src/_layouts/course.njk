@@ -159,15 +159,15 @@ layout: base.njk
         
             {%- if media.Type=="H5P"%}
                 {{ media.Description | markdown | safe }}
-                <div class="responsive-iframe-container">
-                  <iframe class="lti-embed" width="100%" height="800" title="{{ media.Name }}" src="{{ media.Link }}" frameborder="0"></iframe>
+                <div class="responsive-iframe-container" >
+                  <iframe loading="lazy" class="lti-embed" width="100%" height="800" title="{{ media.Name }}" src="{{ media.Link }}" frameborder="0"></iframe>
                 </div>
             {%- endif-%}
 
             {%- if media.Type=="YOUTUBE"-%}
               {{ media.Description | markdown | safe }}
               <div class="responsive-iframe-container">
-                <iframe title="YouTube video player" src="https://www.youtube-nocookie.com/embed/{{ media.Link }}" width="560" height="315" loading="lazy" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                <iframe loading="lazy" title="YouTube video player" src="https://www.youtube-nocookie.com/embed/{{ media.Link }}" width="560" height="315" loading="lazy" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
               </div>
             {%- endif-%}
 
@@ -178,11 +178,11 @@ layout: base.njk
 
             {%- if media.Type=="IFRAME"%}
                 {{ media.Description | markdown | safe }}
-                <div class="responsive-iframe-container">
+                <div class="responsive-iframe-container interactive">
                   {%- if "https://" in media.Link or "http://" in media.Link -%}
-                    <iframe class="lti-embed" width="100%" height="800" title="{{ media.Name }}" src="{{ media.Link }}" frameborder="0"></iframe>
+                    <iframe loading="lazy" class="lti-embed" width="100%" height="800" title="{{ media.Name }}" src="{{ media.Link }}" frameborder="0"></iframe>
                   {%- else -%}
-                    <iframe class="lti-embed" width="100%" height="800" title="{{ media.Name }}" src="/uoa-online/{{ media.Link }}" frameborder="0"></iframe>
+                    <iframe loading="lazy" class="lti-embed" width="100%" height="800" title="{{ media.Name }}" src="/uoa-online/{{ media.Link }}" frameborder="0"></iframe>
                   {%- endif -%}
                 </div>
             {%- endif-%}

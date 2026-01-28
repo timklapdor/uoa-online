@@ -83,24 +83,24 @@ Media:
     Type: IMG
     Link: MTHW_M1_0011_SWOT_Analysis_v2.png
   - Name: Legal systems
-    Type: H5P
-    Link: https://adelaide.h5p.com/lti/657581/content/1291989229068043389
+    Type: IFRAME
+    Link: marketing-to-the-world-M2-2-legal.html
     Location: https://myuni.adelaide.edu.au/courses/88422/pages/lesson-2-dot-2-how-do-legal-systems-impact-international-marketing?module_item_id=3173631
   - Name: Hofstede's onion model
-    Type: H5P
+    Type: IFRAME
     Link: https://mediaproduction.adelaide.edu.au/oua-interactives/#/onion
     Location: https://myuni.adelaide.edu.au/courses/88422/pages/lesson-4-dot-1-how-do-we-conceptualise-culture-for-international-marketing?module_item_id=3201316
   - Name: Evolution of technology
-    Type: H5P
-    Link: https://adelaide.h5p.com/lti/657581/content/1292052343637244699
+    Type: IFRAME
+    Link: marketing-to-the-world-M5-1-technology.html
     Location: https://myuni.adelaide.edu.au/courses/88422/pages/lesson-5-dot-1-how-does-technology-evolve-and-become-adopted?module_item_id=3201320
   - Name: INCOTERMs
     Type: IMG
     Link: MTHW_M7_0002_INCOTERMS.png
     Location: https://myuni.adelaide.edu.au/courses/88422/pages/lesson-7-dot-2-what-are-the-potential-modes-of-entry-to-international-markets?module_item_id=3202192
   - Name: Advantages of services over physical products
-    Type: H5P
-    Link: https://adelaide.h5p.com/lti/657581/content/1292055115136246179
+    Type: IFRAME
+    Link: marketing-to-the-world-M9-1-physical.html
     Location: https://myuni.adelaide.edu.au/courses/88422/pages/lesson-9-dot-1-how-do-services-differ-from-products?module_item_id=3202202
 Snapshot:
   - Name: "Lesson 1.3: How do frameworks aid the investigation of markets?"

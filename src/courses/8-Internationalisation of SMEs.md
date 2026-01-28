@@ -77,12 +77,10 @@ Media:
     Location: https://myuni.adelaide.edu.au/courses/90186/pages/lesson-1-dot-3-what-is-entrepreneurship?module_item_id=3289167
   - Name: Personal characteristics that can prevent you reaching your goals and
       objectives
-    Type: H5P
-    Link: https://adelaide.h5p.com/lti/755784/content/1292174978198724809
-    Description: Entrepreneurs may need to work on attitudes and habits that prevent
-      them from reaching their goals and objectives. This activity will help you
-      understand some of these personal characteristics and why it is important
-      to avoid them.
+    Type: IFRAME
+    Link: internationalisation-of-smes-M1-personal.html
+    Description: > 
+      Entrepreneurs may need to work on attitudes and habits that prevent them from reaching their goals and objectives. This activity will help you understand some of these personal characteristics and why it is important to avoid them.
     Location: https://myuni.adelaide.edu.au/courses/90186/pages/lesson-1-dot-4-who-is-an-entrepreneur?module_item_id=3289168
   - Name: Motivations to Internationalise
     Type: ECHO

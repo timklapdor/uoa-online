@@ -85,13 +85,13 @@ Media:
     Description:
     Location: https://myuni.adelaide.edu.au/courses/80194/pages/lesson-2-dot-6-which-organisational-structures-are-common-for-global-firms?module_item_id=2892967
   - Name: Drag and drop on FDI
-    Type: H5P 
-    Link: https://adelaide.h5p.com/lti/503065/content/1291807757246163029
+    Type: IFRAME 
+    Link: international-business-operation-M6-fdi.html
     Description:
     Location: https://myuni.adelaide.edu.au/courses/80194/pages/lesson-6-dot-3-what-is-nature-of-ownership-in-fdi?module_item_id=2895035
   - Name: Case study drag and drop local business
-    Type: H5P
-    Link: https://adelaide.h5p.com/lti/503065/content/1291819195523883689
+    Type: UFRAME
+    Link: international-business-operation-M6-case-study.html
     Description:
     Location: https://myuni.adelaide.edu.au/courses/80194/pages/lesson-6-dot-4-what-are-vertical-and-horizontal-integration-in-fdi?module_item_id=2895036
 Snapshot:

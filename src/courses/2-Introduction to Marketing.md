@@ -89,13 +89,13 @@ Media:
     Link: royklEy6i_I
     Description:
   - Name: "Marketing management philosophies drag and drop H5P"
-    Type: H5P
-    Link: https://adelaide.h5p.com/lti/401078/content/1291660264527716869
+    Type: IFRAME
+    Link: introduction-to-marketing-M1-4-management.html
     Description: "Learners can quickly check their knowledge of marketing management philosophies by dragging and dropping the words under the Focus section to correctly match up with the Orientation."
     Location: https://myuni.adelaide.edu.au/courses/76552/pages/lesson-1-dot-4-how-do-businesses-do-marketing?module_item_id=2755209
   - Name: "Product Lifecycle H5P drag and drop"
-    Type: H5P
-    Link: https://adelaide.h5p.com/lti/401078/content/1291666243689325949
+    Type: IFRAME
+    Link: introduction-to-marketing-M7-3-lifecycle.html
     Description:
     Location: https://myuni.adelaide.edu.au/courses/76552/pages/lesson-7-dot-3-what-is-the-importance-of-a-product-life-cycle-plc?module_item_id=2755353
   - Name: "The communications process (Interactive Presentation)"
