@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.html",
   "scripts": {
-    "start": "eleventy --serve",
+    "start": "eleventy --serve --incremental",
     "build": "eleventy",
     "build-ghpages": "npx @11ty/eleventy"
   },
