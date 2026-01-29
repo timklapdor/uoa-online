@@ -69,9 +69,10 @@ Media:
     Link: 04eUlhGFuLE
     Description: "Course author Chanaka Wijewardena shares his experience with globalisation and how it has impacted on his own life."
   - Name: "Components of ethical behaviour"
-    Type: IFRAME
+    Type: H5P
     Link: international-business-environments-M3-ethical-behaviour.html
     Description: "This interactive displays the relationship between Corporate Governance, Ethics, Corporate Social Responsibility and Sustainability."
+    Location: Local
   - Name: "The evolution of government trade interventions"
     Type: IMG
     Link: IBE_M9_0021_The evolution of government trade interventions.png

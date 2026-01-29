@@ -79,21 +79,21 @@ Media:
     Type: YOUTUBE
     Link: RWj9HE8T_oI
     Description:
-  - Name: Slider Scale H5P
+  - Name: Slider Scale Interactive
     Type: IFRAME
     Link: https://mediaproduction.adelaide.edu.au/oua-interactives/#/control-slider
     Description:
     Location: https://myuni.adelaide.edu.au/courses/80194/pages/lesson-2-dot-6-which-organisational-structures-are-common-for-global-firms?module_item_id=2892967
   - Name: Drag and drop on FDI
-    Type: IFRAME 
+    Type: H5P 
     Link: international-business-operation-M6-fdi.html
     Description:
-    Location: https://myuni.adelaide.edu.au/courses/80194/pages/lesson-6-dot-3-what-is-nature-of-ownership-in-fdi?module_item_id=2895035
+    Location: Local
   - Name: Case study drag and drop local business
-    Type: UFRAME
+    Type: H5P
     Link: international-business-operation-M6-case-study.html
     Description:
-    Location: https://myuni.adelaide.edu.au/courses/80194/pages/lesson-6-dot-4-what-are-vertical-and-horizontal-integration-in-fdi?module_item_id=2895036
+    Location: Local
 Snapshot:
   - Name: "Lesson 2.6 Which organisational structures are common for global firms?"
     Link: 033_Page_module_2_strategy_and_organisation_in_the_international_firm_lesson_2_6_which_organisational_structu.png

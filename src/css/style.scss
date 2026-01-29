@@ -28,6 +28,10 @@ h1 {
   background: color-mix(in srgb, var(--ld2-base) 30%, white);
 }
 
+.done {
+  background: color-mix(in srgb, var(--ld5-base) 30%, white);
+}
+
 .jobs {
   grid-column: 2/5;
   list-style: none;

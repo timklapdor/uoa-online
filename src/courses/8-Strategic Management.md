@@ -84,15 +84,15 @@ Assessments:
     Description: Working in groups, learners are required to create a Board/CEO-level presentation that analyses the current strategic posture of a company and proposes a strategic roadmap for future initiatives.
 Media: 
   - Name: "Mission vs Vision: A Flip Card Exploration"
-    Type: IFRAME
-    Link: 'media/h5p/strategic-management-M1-2-flip-card.html'
+    Type: H5P
+    Link: 'strategic-management-M1-2-flip-card.html'
     Description:
-    Location: https://myuni.adelaide.edu.au/courses/89959/pages/lesson-1-dot-2-what-are-the-key-models-for-developing-an-organisations-strategic-vision-and-mission?module_item_id=3229132
+    Location: Local
   - Name: Strategic Decision-Making Simulation
-    Type: IFRAME
-    Link: 'media/h5p/strategic-management-M4-3-Tesla.html'
+    Type: H5P
+    Link: 'strategic-management-M4-3-Tesla.html'
     Description: "This activity immerses learners in strategic decisions that shape Tesla's direction and define its competitive stance. There are multiple viable paths, and the exercise isn't about finding the 'right' answer but learners having the opportunity to explore different strategic options."
-    Location: https://myuni.adelaide.edu.au/courses/89959/pages/lesson-4-dot-3-what-are-the-different-types-of-business-level-strategies-available-to-a-firm?module_item_id=3235075
+    Location: Local
   - Name: "Strategic Conquest: The Five Forces Unveiled"
     Type: ECHO
     Link: https://echo360.net.au/ui/player/de7810f4-3c02-4474-853a-f06c17f1f2bc?secureLinkAccessDataId=e44f7ed1-08b4-4b37-b762-07fbb8e9842e&autoplay=false&automute=false
@@ -114,10 +114,10 @@ Media:
     Description:
     Location: https://myuni.adelaide.edu.au/courses/89959/pages/lesson-3-dot-1-how-do-you-conduct-an-analysis-of-an-organisations-internal-environment?module_item_id=3234723    
   - Name: Business vs Corporate Strategy
-    Type: IFRAME
+    Type: H5P
     Link: strategic-management-M6-1-strategy.html 
     Description: "This activity is designed to improve learners critical reading and analysis skills by broadly identifying terms that may constitute Business and or Corporate level strategy."
-    Location: https://myuni.adelaide.edu.au/courses/89959/pages/lesson-6-dot-1-what-is-corporate-level-strategy-and-what-is-its-purpose?module_item_id=3247989
+    Location: Local
 Snapshot: 
   - Name: "Lesson 2.3: How can industry environment and competitor analysis inform strategic decision-making?"
     Link: 028_Page_module_2_the_external_environment_lesson_2_3_how_can_industry_environment_and_competitor_analysis_in.png

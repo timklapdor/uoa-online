@@ -83,10 +83,11 @@ Assessments:
       what they collectively learnt about working effectively.
 Media:
   - Name: Team Expectations Agreement
-    Type: IFRAME
+    Type: H5P
     Link: business-lifecycles-team-agreement.html
     Description: > 
       This H5P helps to create an agreement for the team to work together, stepping through the key decisions they need to make to form a team, establish communication, responsibility and accountability for the team.
+    Location: Local
   - Name: AIDA Model
     Type: IMG
     Link: BL_M4_05.png

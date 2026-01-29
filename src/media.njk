@@ -32,22 +32,80 @@ title: Media Inventory
   {% if mediaTypes[type] | length > 0 %}
     <section class="media-type-section">
       <h2>{{ type }} ({{ mediaTypes[type] | length }})</h2>
-      <ul>
-      {% for item in mediaTypes[type] %}
-        <li>
-          <strong>{{ item.name }}</strong>
-          <br>
-          <small>From: <a href="{{ item.courseUrl }}">{{ item.courseName }}</a></small>
-          <br>
-          {% if item.link %}
-            Link: <a href="{{ item.link }}" target="_blank">{{ item.link }}</a>
+      
+      {% if type == 'H5P' %}
+        {# Separate H5P into Outstanding and Done #}
+        {%- set outstanding = [] -%}
+        {%- set done = [] -%}
+        
+        {% for item in mediaTypes[type] %}
+          {% if item.location == 'Local' %}
+            {%- set temp = done.push(item) -%}
+          {% else %}
+            {%- set temp = outstanding.push(item) -%}
           {% endif %}
-          {% if item.location %}
-            <br>Location: <a href="{{ item.location }}" target="_blank">{{ item.location }}</a>
-          {% endif %}
-        </li>
-      {% endfor %}
-      </ul>
+        {% endfor %}
+        
+        {% if outstanding | length > 0 %}
+          <h3>Outstanding ({{ outstanding | length }})</h3>
+          <ul>
+          {% for item in outstanding %}
+            <li>
+              <strong>{{ item.name }}</strong>
+              <br>
+              <small>From: <a href="{{ item.courseUrl }}">{{ item.courseName }}</a></small>
+              <br>
+              {% if item.link %}
+                Link: <a href="{{ item.link }}" target="_blank">{{ item.link }}</a>
+              {% endif %}
+              {% if item.location %}
+                <br>Location: <a href="{{ item.location }}" target="_blank">{{ item.location }}</a>
+              {% endif %}
+            </li>
+          {% endfor %}
+          </ul>
+        {% endif %}
+        
+        {% if done | length > 0 %}
+          <h3>Done ({{ done | length }})</h3>
+          <ul>
+          {% for item in done %}
+            <li>
+              <strong>{{ item.name }}</strong>
+              <br>
+              <small>From: <a href="{{ item.courseUrl }}">{{ item.courseName }}</a></small>
+              <br>
+              {% if item.link %}
+                Link: <a href="{{ item.link }}" target="_blank">{{ item.link }}</a>
+              {% endif %}
+              <br><span class="done">Locally Hosted</span>
+            </li>
+          {% endfor %}
+          </ul>
+        {% endif %}
+        
+      {% else %}
+        {# Other media types display normally #}
+        <ul>
+        {% for item in mediaTypes[type] %}
+          <li>
+            <strong>{{ item.name }}</strong>
+            <br>
+            <small>From: <a href="{{ item.courseUrl }}">{{ item.courseName }}</a></small>
+            <br>
+            {% if item.link %}
+              Link: <a href="{{ item.link }}" target="_blank">{{ item.link }}</a>
+            {% endif %}
+            {% if item.location == 'Local'%}
+              <br><span class="done">Locally Hosted</span>
+            {% else%}  
+              <br>Location: <a href="{{ item.location }}" target="_blank">{{ item.location }}</a>
+            {% endif %}
+          </li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+      
     </section>
   {% endif %}
 {% endfor %}
