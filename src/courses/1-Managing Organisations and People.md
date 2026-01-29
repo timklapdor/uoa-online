@@ -34,10 +34,10 @@ Team:
     Involvement: Collaborator
   - Name: Sash Kertes
     Role: Learning Designer
-    Involvement: Lead
+    Involvement: Collaborator
   - Name: Rich Bartlett
     Role: Learning Designer
-    Involvement: Collaborator
+    Involvement: Lead
 CLOs:
   - Demonstrate foundational knowledge of the diversity of management thinking.
   - Autonomously and collaboratively analyse, evaluate, synthesise and apply
