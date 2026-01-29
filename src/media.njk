@@ -53,7 +53,7 @@ title: Media Inventory
             <li>
               <strong>{{ item.name }}</strong>
               <br>
-              <small>From: <a href="{{ item.courseUrl }}">{{ item.courseName }}</a></small>
+              <small>From: <a href="{{ item.courseUrl | url }}">{{ item.courseName }}</a></small>
               <br>
               {% if item.link %}
                 Link: <a href="{{ item.link }}" target="_blank">{{ item.link }}</a>
@@ -73,7 +73,7 @@ title: Media Inventory
             <li>
               <strong>{{ item.name }}</strong>
               <br>
-              <small>From: <a href="{{ item.courseUrl }}">{{ item.courseName }}</a></small>
+              <small>From: <a href="{{ item.courseUrl |url }}">{{ item.courseName }}</a></small>
               <br>
               {% if item.link %}
                 Link: <a href="{{ item.link }}" target="_blank">{{ item.link }}</a>
@@ -91,7 +91,7 @@ title: Media Inventory
           <li>
             <strong>{{ item.name }}</strong>
             <br>
-            <small>From: <a href="{{ item.courseUrl }}">{{ item.courseName }}</a></small>
+            <small>From: <a href="{{ item.courseUrl | url}}">{{ item.courseName }}</a></small>
             <br>
             {% if item.link %}
               Link: <a href="{{ item.link }}" target="_blank">{{ item.link }}</a>
