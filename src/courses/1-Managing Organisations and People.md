@@ -5,8 +5,14 @@ Programs:
   - HSM
 DevCycle: 1
 Blueprint: https://myuni.adelaide.edu.au/courses/69868
-Description: > 
-  This course introduces students to the roles and functions of managers. The content includes an introduction to organisations, the need for, and nature of, management. It examines the evolution of management theory, organisational environments, and corporate social responsibility and ethics. The course also includes a detailed investigation of the four functions of management: planning and decision making, organising, leading and motivating, and controlling.
+Description: >
+  This course introduces students to the roles and functions of managers. The
+  content includes an introduction to organisations, the need for, and nature
+  of, management. It examines the evolution of management theory, organisational
+  environments, and corporate social responsibility and ethics. The course also
+  includes a detailed investigation of the four functions of management:
+  planning and decision making, organising, leading and motivating, and
+  controlling.
 ToDo:
   - Add learning experience
   - Review learning experience
@@ -111,3 +117,14 @@ Snapshot:
       students connect theory to real-world applications in teamwork and
       assessments.
 ---
+Managing organisations and people is a foundational management course designed to introduce students to the nature, purpose, and practice of management across a wide range of organisational contexts. The primary aim of the course is to develop students’ understanding of core management functions, planning, organising, leading, motivating, and controlling, while encouraging critical reflection on how management theories and concepts apply to their own professional and personal experiences.
+
+The course was designed for a diverse, fully online OUA cohort with no assumed prior knowledge. This shaped a learning experience that prioritised clarity, scaffolding, and relevance to lived experience. Content was structured into 12 modules, each comprising multiple short lessons, with a consistent rhythm to support pacing and cognitive load. Constructive alignment guided the design, with learning outcomes, activities, and assessments explicitly connected throughout the course.
+
+A key feature of the learning experience was the integration of reflective practice through a weekly learning log. Students were supported to make sense of management theory by explicitly connecting concepts to their own work, study, and life contexts. The learning log, structured around prompts and the ‘5 whys’ method, encouraged deeper inquiry without over-assessment. This reflective artefact was not treated as a peripheral activity, but as a cumulative source of knowledge that informed the final assessment, reinforcing the value of longitudinal reflection and metacognition.
+
+Teaching and learning were supported through varied media and interaction design to reduce reliance on dense text. Short audio recordings from the academic were embedded across lessons to provide guidance, emphasis, and narrative continuity. For selected concepts, such as situational leadership theory, bespoke visual explanations were produced using a birds-eye camera, allowing the academic to draw and verbally annotate ideas in real time. This humanised abstract theory and mirrored the experience of being guided through a concept on paper.
+
+Learning achievement checklists were embedded at the end of each module to support self-regulation and progression, particularly important in an asynchronous online environment. Across the course, graphics, infographics, curated videos, and interface elements were used deliberately to support comprehension rather than decoration.
+
+Overall, the learning experience balanced foundational theory with reflective, applied learning, using a systematised yet flexible design approach that supported scale, consistency, and meaningful engagement in an online context.
