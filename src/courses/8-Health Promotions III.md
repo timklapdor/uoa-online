@@ -89,7 +89,7 @@ Media:
     Link: https://adelaide.h5p.com/lti/760885/content/1292103371506062839
     Location: https://myuni.adelaide.edu.au/courses/90116/pages/lesson-1-dot-1-the-ottawa-charter-for-health-promotion?module_item_id=3224921
   - Name: Stanford Cardiovascular Disease Prevention Programs
-    Type: H5P
+    Type: ECHO
     Link: https://echo360.net.au/media/950ff824-ce93-4f4f-a9e7-3a29095636e5/public?autoplay=false&automute=false
     Description: "Carmel Williams and Scott Hanson-Easey discuss the importance and
       relevance of the Stanford Cardiovascular Disease Prevention Programs for

@@ -125,7 +125,7 @@ Media:
       properly, can produce significant benefits.
     Location: https://myuni.adelaide.edu.au/courses/97643/pages/lesson-4-dot-3-how-can-program-evaluation-benefit-marginalised-communities?module_item_id=3402161
   - Name: Analysis Perspectives
-    Type: H5P
+    Type: IFRAME
     Link: https://mediaproduction.adelaide.edu.au/oua-interactives/#/perspectiveChart
     Description: The interactive graphic below shows different items likely to be
       included in an economic evaluation at different levels of analysis
