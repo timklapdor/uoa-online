@@ -13,7 +13,7 @@ content:
         order: desc
         sort: ["title"]
     fields: 
-      - title: 
+      - name: title 
         label: Page Name
         type: string
       - name: body
