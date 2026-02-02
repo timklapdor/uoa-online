@@ -6,12 +6,14 @@ content:
     label: Pages
     type: collection
     path: src
+    subfolders: false
     view: 
       fields: ["title"]
       primary: Title
       default: 
         order: desc
         sort: ["title"]
+        
     fields: 
       - name: title 
         label: Page Name
