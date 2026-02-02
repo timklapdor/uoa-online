@@ -2,6 +2,25 @@ media:
   input: src/images
   output: docs/images
 content:
+  - name: pages
+    label: Pages
+    type: collection
+    path: src
+    subfolders: false
+    view: 
+      fields: ["title", "filename"]
+      primary: Title
+      default: 
+        order: desc
+        sort: ["title", "filename"]
+    fields: 
+      - name: title 
+        label: Page Name
+        type: string
+      - name: body
+        label: Content
+        type: rich-text
+ 
   - name: courses
     label: Courses
     type: collection
