@@ -90,32 +90,37 @@ Media:
   - Name: "Resources analogy: Making a cake"
     Type: ECHO
     Location: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-2-dot-1-what-is-a-resource?module_item_id=2974586
+    Link: https://myuni.adelaide.edu.au/courses/86265/external_tools/retrieve?display=borderless&url=https%3A%2F%2Fecho360.net.au%2Flti%2F5444fea8-33ce-4784-934a-2e9f0cb5a200%3FmediaId%3D40fc8d13-0c96-4ba5-bac0-28a98e7dc8ce%26autoplay%3Dfalse%26automute%3Dfalse
   - Name: Working through an example of a decision tree
     Type: ECHO
     Location: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-9-dot-1-how-to-conceptualise-the-economic-decision?module_item_id=3062712
+    Link:
   - Name: Presentation and use of mind map to explain the case study
     Type: ECHO
     Description: Presentation and use of mind map to explain the case study
     Location: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-12-dot-1-is-your-health-service-efficient?module_item_id=3056818
-  - Name: Acute Cost Weights data in the NHCDC Round 24 spreadsheet (interactive
-      Video)
-    Type: ECHO
+    Link:
+  - Name: Acute Cost Weights data in the NHCDC Round 24 spreadsheet (Interactive Video)
+    Type: H5P
     Link: https://adelaide.h5p.com/lti/542374/content/1291885598474530539
     Location: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-2-dot-5-understanding-activity-based-funding-abf-in-public-hospitals?module_item_id=2987161
   - Name: Work out the utility using the Standard Gamble (SG), Time Trade-Off (TTO),
       and Multi-Attribute Utility Instrument (MAUI) methods
-    Type: ECHO
+    Type: IFRAME
     Location: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-3-dot-4-how-to-measure-utility-values?module_item_id=3003721
-  - Name: Changes in supply - movement along the supply curve or a shift of the
-      supply curve?
-    Type: ECHO
+    Link: https://mediaproduction.adelaide.edu.au/oua-interactives/#/health-utility
+  - Name: Changes in supply - movement along the supply curve or a shift of the supply curve?
+    Type: H5P
     Location: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-4-dot-3-what-are-supply-curves?module_item_id=3024831
+    Link: https://adelaide.h5p.com/lti/542374/content/1291909630264810729
   - Name: Mr A's healthcare journey
-    Type: ECHO
+    Type: H5P
     Location: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-6-dot-4-how-does-australia-finance-health?module_item_id=3051613
+    Link: https://adelaide.h5p.com/lti/542374/content/1291914203989186309
   - Name: The Cost-Effectiveness Acceptability Curve (CEAC)
-    Type: ECHO
+    Type: H5P
     Location: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-10-dot-3-reporting-uncertainty-in-the-icer?module_item_id=3063049
+    Link: https://adelaide.h5p.com/lti/542374/content/1291921897575349939
 Snapshot:
   - Name: "Lesson 2.1: What is a resource?"
     Link: 026_Page_module_2_economic_resources_lesson_2_1_what_is_a_resource_.png

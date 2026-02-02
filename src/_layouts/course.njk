@@ -177,7 +177,7 @@ layout: base.njk
 
             {%- if media.Type=="ECHO"-%}
                 {{ media.Description | markdown | safe }}
-                <p><a href="media.Location">{{ media.Name }}</a></p>
+                <p><a href="{{ media.Location }}">{{ media.Name }}</a></p>
             {%- endif-%}
 
             {%- if media.Type=="IFRAME"%}
