@@ -8,11 +8,11 @@ content:
     path: src
     subfolders: false
     view: 
-      fields: ["title", "node.filename"]
+      fields: ["title", "filename"]
       primary: Title
       default: 
         order: desc
-        sort: ["title", "node.filename"]
+        sort: ["title", "filename"]
     fields: 
       - name: title 
         label: Page Name
