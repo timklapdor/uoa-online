@@ -4,8 +4,8 @@ title: Tools
 tags: page
 ---
 
-- [Style guide]({{ '/styles/' | url }})
-- Smart Storyboard 
-- Miro Templates
-- QA Assessment
+- [Visual style guide]({{ '/styles/' | url }})
+- [Smart Storyboard]({{ '/ssb/' | url }})
+- [Miro Templates]({{ '/miro/' | url }})
+- [QA Assessment]({{ '/q-and-a/' | url }})
 - Online Learning Experience
