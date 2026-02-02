@@ -1,7 +1,4 @@
 ---
-layout: oua-styles.njk
-title: OUA Styles 
-tags: page
+title: Visual Styles
 ---
-
 Add some text
