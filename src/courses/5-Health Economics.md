@@ -5,7 +5,19 @@ Programs:
 DevCycle: 5
 Blueprint: https://myuni.adelaide.edu.au/courses/86265
 Description: >
-  The study of health economics sits at the junction of the broader disciplines of the health sciences, economics, and business studies. Health economics studies how scarce healthcare resources are allocated among competing interventions and groups in society. How we distribute and fund healthcare plays a significant role in determining the overall state of the population's health and is also an essential factor in the overall health of the economy. Health economics shapes health policy at the national, state and local levels. This comprehensive online course introduces fundamental economics and health economics concepts that are relevant at all levels of governance and for both the public and private health sectors. It explains the economic rationale behind various health policies and operating processes in the Australian healthcare system. It also demonstrates practical applications of economic approaches to problem-solving.
+  The study of health economics sits at the junction of the broader disciplines
+  of the health sciences, economics, and business studies. Health economics
+  studies how scarce healthcare resources are allocated among competing
+  interventions and groups in society. How we distribute and fund healthcare
+  plays a significant role in determining the overall state of the population's
+  health and is also an essential factor in the overall health of the economy.
+  Health economics shapes health policy at the national, state and local levels.
+  This comprehensive online course introduces fundamental economics and health
+  economics concepts that are relevant at all levels of governance and for both
+  the public and private health sectors. It explains the economic rationale
+  behind various health policies and operating processes in the Australian
+  healthcare system. It also demonstrates practical applications of economic
+  approaches to problem-solving.
 ToDo:
   - Add learning experience
   - Review learning experience
@@ -56,16 +68,24 @@ Topics:
 Assessments:
   - Name: Quizzes
     Weighting: 50
-    Type: Short Response Questions
-    Description: This assessment provides learners with a regular check-in to ensures that concepts from the course material have been understood.
+    Type:
+      - Multiple Choice Questions
+    Description: This assessment provides learners with a regular check-in to
+      ensures that concepts from the course material have been understood.
   - Name: Discussion Paper
     Weighting: 30
-    Type: Discussion
-    Description: Learners demonstrate their understanding of the current Australian context of healthcare expenditure, and describe how they propose to change this and the aniticipated impact on future expenditure and healthcare equity. 
+    Type:
+      - Critical Analysis
+    Description: Learners demonstrate their understanding of the current Australian
+      context of healthcare expenditure, and describe how they propose to change
+      this and the aniticipated impact on future expenditure and healthcare
+      equity.
   - Name: Economic evaluation
     Weighting: 20
-    Type: Critical Analysis
-    Description: Learners critically review a published economic evaluation and comment on the validity and relevance of the findings.
+    Type:
+      - Report
+    Description: Learners critically review a published economic evaluation and
+      comment on the validity and relevance of the findings.
 Media:
   - Name: "Resources analogy: Making a cake"
     Type: ECHO
@@ -99,8 +119,7 @@ Media:
 Snapshot:
   - Name: "Lesson 2.1: What is a resource?"
     Link: 026_Page_module_2_economic_resources_lesson_2_1_what_is_a_resource_.png
-    Description: >
-      The 'What are economic resources?' segment in this lesson was a
+    Description: The 'What are economic resources?' segment in this lesson was a
       collaborative innovation, conceptualised from scratch and refined through
       iterative storyboarding sessions with subject matter experts (SMEs). Input
       from the media team played a crucial role in transforming the initial idea
@@ -114,8 +133,7 @@ Snapshot:
       test student knowledge in a drag and drop h5p.
   - Name: "Lesson 3.4: How to measure utility values?"
     Link: 043_Page_module_3_economic_health_outcomes_lesson_3_4_how_to_measure_utility_values_.png
-    Description: > 
-      This lesson explores utility measurement in health economics, using
+    Description: This lesson explores utility measurement in health economics, using
       methods like Standard Gamble, Time Trade-Off, and Multi-Attribute Utility
       Instruments. Students apply these methods through vignette activities,
       comparing subjective utility estimates and discussing findings.
@@ -123,8 +141,7 @@ Snapshot:
       lesson thoughtfully addresses the sensitive nature of health scenarios.
   - Name: "Lesson 8.1: What are key components in an economic evaluation?"
     Link: 089_Page_module_8_introduction_to_economic_evaluation_lesson_8_1_what_are_key_components_in_an_economic_evalu.png
-    Description: > 
-      This lesson introduces the PICOC framework—Population,
+    Description: This lesson introduces the PICOC framework—Population,
       Intervention, Comparator, Outcomes, and Costs—using a creative peacock
       graphic to enhance engagement with the acronym. Developed collaboratively
       with subject matter experts and the media team, the design combines
@@ -134,16 +151,30 @@ Snapshot:
       learning and application of the framework.
   - Name: "Lesson 12.1: Is your health service efficient?"
     Link: 124_Page_module_12_applying_other_considerations_of_economics_to_healthcare_lesson_12_1_is_your_health_servic.png
-    Description: |
-      This lesson uses the Hard Times for Hospital Administrators case study to examine health service efficiency and resource allocation within an ethical framework, focusing on utilitarianism. It integrates:
+    Description: >-
+      This lesson uses the Hard Times for Hospital Administrators case study to
+      examine health service efficiency and resource allocation within an
+      ethical framework, focusing on utilitarianism. It integrates:
+
 
       *   Case study analysis for real-world application.
-      *   Ethical discussion contrasting utilitarianism with other frameworks.
-      *   Video learning with visual tools to interpret resource allocation challenges.
-      *   This approach bridges theory and practice, enhancing critical thinking and decision-making skills.
-      
 
+      *   Ethical discussion contrasting utilitarianism with other frameworks.
+
+      *   Video learning with visual tools to interpret resource allocation
+      challenges.
+
+      *   This approach bridges theory and practice, enhancing critical thinking
+      and decision-making skills.
 ---
+Health economics is designed as a structured twelve-module learning journey that progressively builds students’ capability to understand, analyse, and apply economic thinking within real healthcare contexts. Early modules establish foundational concepts, including scarcity, choice, opportunity cost, and the trade-offs between equity and efficiency, before extending these ideas into healthcare-specific contexts such as economic health outcomes, healthcare as a market, market failure, government intervention, and the organisation and financing of healthcare systems. Together, these modules provide students with a coherent mental model of how the healthcare industry operates and how economics shapes decision-making within it.
+
+Conceptual learning is reinforced through regular multiple-choice and short-answer quizzes from week two to week ten, enabling students to test their understanding incrementally and consolidate key ideas before progressing. Weekly one-hour interactive sessions further support learning by providing opportunities for discussion, clarification, and peer exchange, helping students connect theory to practice and build confidence in applying economic concepts.
+
+In the second half of the course, the focus shifts from understanding systems to applying economic tools. Students explore labour markets in health, economic evaluation, and the construction and interpretation of cost-effectiveness analyses, including incremental cost-effectiveness ratios and the translation of evidence into economic decisions. Assessments are aligned to this shift, with students developing a discussion paper in week eight and critically reviewing a published economic evaluation in week twelve. These tasks require students to synthesise concepts, interpret evidence, and justify recommendations using clear, defensible economic reasoning.
+
+By the end of the course, students are equipped to engage critically with health economic arguments and apply evidence-based thinking to real-world resource allocation challenges, a core capability for health service managers and policy-informed decision-makers.  
+  
 MiroBoards:
 
 *   Description: "Ideation of Mr A's Health Care journey " Link: "[https://miro.com/app/board/uXjVP-hjV5M=/](https://miro.com/app/board/uXjVP-hjV5M=/)"
