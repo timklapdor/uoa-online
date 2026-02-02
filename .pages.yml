@@ -12,6 +12,11 @@ content:
       default: 
         order: desc
         sort: ["title"]
+    fields: 
+      - name: body
+        label: Content
+        type: rich-text
+ 
   - name: courses
     label: Courses
     type: collection
