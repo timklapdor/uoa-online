@@ -20,7 +20,12 @@ content:
       - name: body
         label: Content
         type: rich-text
- 
+      - name: layout
+        label: Layout
+        hidden: true
+      - name: tags
+        label: Tags
+        hidden: true
   - name: courses
     label: Courses
     type: collection
