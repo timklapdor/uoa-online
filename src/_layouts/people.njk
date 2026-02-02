@@ -81,24 +81,24 @@ layout: base.njk
 
   <h2>Team Members</h2>
     <ul>
-    {% for member in collections.teamMembers %}
+    {%- for member in collections.teamMembers -%}
       <li>
         <strong>{{ member.name }}</strong> - {{ member.role }}
         <br>Worked on {{ member.courseCount }} course(s)
       </li>
-    {% endfor %}
+    {%- endfor -%}
     </ul>
 
   <!-- Or group by role -->
   <h2>Team by Role</h2>
-  {% for role in collections.teamMembers | uniqueRoles %}
+  {%- for role in collections.teamMembers | uniqueRoles -%}
     <h3>{{ role }}</h3>
     <ul>
-    {% for member in collections.teamMembers | teamByRole(role) %}
+    {%- for member in collections.teamMembers | teamByRole(role) -%}
       <li>{{ member.name }} ({{ member.courseCount }} courses)</li>
-    {% endfor %}
+    {%- endfor -%}
     </ul>
-  {% endfor %}
+  {%- endfor -%}
   
   </article>
 </main>
