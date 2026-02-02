@@ -1,9 +1,10 @@
 ---
 layout: page.njk
 title: Tools
+tags: page
 ---
 
-- Style guide
+- [Style guide]({{ '/styles/' | url }})
 - Smart Storyboard 
 - Miro Templates
 - QA Assessment

@@ -1,6 +1,8 @@
 ---
 layout: page.njk
 title: Programs
+tags: page
+
 ---
 
 The Open Universities Australia project focussed on the development of two new undergraduate programs for the University of Adelaide. These unique programs were developed sharing a 'spine' of foundational business courses. The programs also included five 'open enrollment' courses which allow students to enroll without any pre-requisites or specific requirements. 

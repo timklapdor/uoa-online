@@ -1,6 +1,8 @@
 ---
 layout: page.njk
 title: About 
+tags: page
+
 ---
 
 The partnership with Open Universities Australia was established in 2021 following the strategic vision to provide education to a growing community of learners from a greater diversity of backgrounds and needs. This vision included pathways to high-quality online study.

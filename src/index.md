@@ -1,6 +1,8 @@
 ---
 layout: home.njk
 title: The University of Adelaide — *Online*
+tags: page
+
 ---
 
 This video provides an overview of the project to take the unique learning experiences created at the University of Adelaide and deliver them online. 

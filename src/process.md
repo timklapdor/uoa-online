@@ -1,6 +1,8 @@
 ---
 layout: page.njk
 title: Process
+tags: page
+
 ---
 
 ## Course Development Workflow
