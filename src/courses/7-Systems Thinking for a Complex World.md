@@ -6,7 +6,19 @@ Programs:
 DevCycle: 7
 Blueprint: https://myuni.adelaide.edu.au/courses/88449
 Description: >
-  Many of today's complex challenges cannot be tackled with the narrowly focused, unconnected thinking of the past. Managers must make decisions and take action in complex environments where finance, economics, markets, people, and nature are interconnected and interdependent. This ‘messy’ interconnectedness blurs the boundaries between organisations, communities and fields of expertise—nothing is neat and tidy. Systems thinking focuses on the relationships among system elements and the interactions of the system with its environment, rather than on the elements themselves. This course will introduce students to the world of systems and systems thinking. Students will consider the merits of looking at wholes rather than unconnected parts and explore ways managers can leverage the nature of systems, even in complex, unpredictable environments, to influence outcomes more profoundly than linear or mechanistic thinking can.
+  Many of today's complex challenges cannot be tackled with the narrowly
+  focused, unconnected thinking of the past. Managers must make decisions and
+  take action in complex environments where finance, economics, markets, people,
+  and nature are interconnected and interdependent. This ‘messy’
+  interconnectedness blurs the boundaries between organisations, communities and
+  fields of expertise—nothing is neat and tidy. Systems thinking focuses on the
+  relationships among system elements and the interactions of the system with
+  its environment, rather than on the elements themselves. This course will
+  introduce students to the world of systems and systems thinking. Students will
+  consider the merits of looking at wholes rather than unconnected parts and
+  explore ways managers can leverage the nature of systems, even in complex,
+  unpredictable environments, to influence outcomes more profoundly than linear
+  or mechanistic thinking can.
 ToDo:
   - Add learning experience
   - Review learning experience
@@ -67,7 +79,7 @@ Topics:
   - Emergence and practical examples
   - Applying systems thinking in organisational and sectoral contexts
 Assessments:
-  - Name: "Research Report"
+  - Name: Research Report
     Weighting: 25
     Type:
       - Short Response Questions
@@ -77,7 +89,7 @@ Assessments:
       systemic behaviours, dynamics, and interdependencies, fostering insights
       that can contribute to effective problem-solving and decision-making
       within complex systems.
-  - Name: "Evaluative Report"
+  - Name: Evaluative Report
     Weighting: 25
     Type:
       - Report
@@ -86,17 +98,17 @@ Assessments:
       interrelation and interdependence of system parts. They must evaluate
       recommendations for change, gaining insights into systemic behaviours and
       intervention leverage points. "
-  - Name: "Case Study Discussions"
+  - Name: Case Study Discussions
     Weighting: 25
     Type:
-      - Discussions
+      - Case Study
     Description: "This assessment presents various case studies that offer
       opportunities for learners to apply systems thinking. Through practical
       exercises and real-world scenarios they deepen their understanding of how
       systems operate, from visible elements to deeply rooted structures and
       recurring patterns. Engaging with multi-dimensional aspects of systems,
       they refine their analytical abilities and written communication skills. "
-  - Name: "Reflective Journal"
+  - Name: Reflective Journal
     Weighting: 25
     Type:
       - Learning Journal
@@ -125,3 +137,22 @@ Snapshot:
   - Name: "Lesson 1.3: How can you see systems in the world around you?"
     Link: 019_Page_module_1_systems_thinking_and_complexity_lesson_1_3_how_can_you_see_systems_in_the_world_around_you_.png
 ---
+This course is designed to support students in developing the capability to work effectively in complex, uncertain, and interconnected environments by moving beyond traditional linear problem-solving approaches. Systems thinking is positioned as both a conceptual framework and a practical discipline, with deliberate application to health service management and international business contexts.
+
+The learning experience is intentionally scaffolded across 12 modules to shift students from recognising complexity to diagnosing system behaviour and ultimately designing informed interventions. Early modules establish foundational concepts by contrasting mechanistic and systems thinking, introducing definitions of systems, complexity, connectedness, and feedback, and encouraging students to observe patterns in real-world systems rather than isolated events.
+
+To support conceptual understanding, abstract ideas were translated into concrete and visual learning experiences. A custom-produced animation, _The paradox of deconstruction: frog vs bicycle_, was developed in collaboration with the academic and media team. This analogy was used to illustrate why complex living systems cannot be understood by breaking them into parts, reinforcing the central systems thinking principle that connectedness and relationships, not components alone, determine system behaviour.
+
+Mid-course modules focus on building analytical fluency through systems representation tools such as causal loop diagrams, stock and flow diagrams, and behaviour-over-time graphs. Students progressively learn to identify system structures, boundaries, hierarchies, mental models, delays, and information flows. These concepts are sequenced to reflect how complexity is encountered in practice, with formative knowledge checks embedded to reinforce accuracy without disrupting learning flow.
+
+Systems archetypes are introduced in later modules as recurring patterns of behaviour that explain why well-intentioned interventions often produce unintended consequences. Archetypes such as _fixes that fail_, _limits to growth_, _shifting the burden_, _escalation_, and _the tragedy of the commons_ are explored using contemporary examples drawn from healthcare systems and international business contexts.
+
+Authenticity and professional relevance are strengthened through interviews with external industry stakeholders. These interviews allow students to hear directly from practitioners describing organisations as complex systems, making abstract theory visible in lived professional experience. This approach supports sense-making and helps students connect systems thinking concepts to real decision-making environments.
+
+The final modules guide students from analysis to action by introducing Donella Meadows’ leverage points and concepts from complexity science, including emergence and complex adaptive systems. Students are supported to critically evaluate where interventions are likely to have superficial, temporary, or transformative impact.
+
+Visual scaffolding is used consistently throughout the course to support cognitive clarity. Discipline-specific examples are colour-coded, enabling students to distinguish between health service management and international business applications while engaging with shared systems concepts. Interactive media, branching scenarios, and visual system maps are used to deepen engagement and reduce cognitive overload when working with complex ideas.
+
+Assessment design prioritises application, reflection, and integration over reproduction. Research and evaluative reports require students to apply systems thinking tools to complex situations, while case studies and reflective journals encourage iterative learning, humility, and engagement with uncertainty. Weekly interactive sessions provide structured opportunities for discussion, collaborative exploration, and the testing of assumptions.
+
+By the end of the course, students develop not only technical systems thinking skills, but a fundamentally different way of seeing problems, organisations, and change. They are better equipped to recognise interconnectedness, anticipate unintended consequences, and intervene more thoughtfully in complex real-world systems.
