@@ -584,6 +584,15 @@ article.profile {
 
    ul, div {
       grid-column: 1/2;
+
+      li {
+         a {padding: 1ch;}
+
+        & :hover {
+            color: var(--accent-default);
+         }  
+   }
+
    }
 
    section {
