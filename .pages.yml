@@ -12,6 +12,32 @@ content:
       default:
         order: desc
         sort: ["name"]
+    fields: 
+      - name: name
+        label: Name
+        type: string
+      - name: roles
+        label: Roles
+        type: select
+        options: 
+          multiple: true
+          values: ["Learning Designer", "Digital Education Developer", "Project Officer", "Manager Educational Design", "Learning Resource Designer", "Course Author", "Program Coordinator", ]
+      - name: email
+        label: Email Address
+        type: string
+      - name: website
+        label: Website
+        type: string
+      - name: socials
+        label: Social Media
+        type: string       
+      - name: linkedin
+        label: LinkedIn
+        type: string
+      - name: body
+        label: Bio text
+        type: rich-text
+ 
   - name: pages
     label: Pages
     type: collection
