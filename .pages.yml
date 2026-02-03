@@ -2,6 +2,16 @@ media:
   input: src/images
   output: docs/images
 content:
+  - name: people
+    label: People
+    type: collection
+    path: src/people
+    view: 
+      fields: ["name"]
+      primary: Name
+      default:
+        order: desc
+        sort: ["name"]
   - name: pages
     label: Pages
     type: collection
