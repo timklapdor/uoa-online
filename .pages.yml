@@ -3,7 +3,7 @@ media:
   output: docs/images
 content:
   - name: people
-    label: People
+    label: Profiles
     type: collection
     path: src/people
     view: 
