@@ -1,0 +1,6 @@
+{
+    "tags": "people", 
+    "layout": "person.njk", 
+    "permalink": "people/{{ name |slugify }}/"
+
+}  

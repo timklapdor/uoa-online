@@ -44,13 +44,39 @@ layout: base.njk
       <ul class="team-list">
       {%- for person in sortedLeads -%}
         <li>
-          <strong>{{ person.name }}</strong> – {{ person.position }}
+          <strong>
+            {%- set foundPerson = false -%}
+              {%- for profile in collections.people -%}
+                {%- if profile.data.name == person.name -%}
+                  {%- set foundPerson = profile -%}
+                {%- endif -%}
+              {%- endfor -%}
+
+              {%- if foundPerson -%}
+                <a href="{{ foundPerson.url | url }}">{{ person.name }}</a>
+              {%- else -%}
+                {{ person.name }}
+              {%- endif -%}
+          </strong> – {{ person.position }}
           <span class="badge">Lead</span>
         </li>
       {%- endfor -%}
       {%- for person in sortedMembers -%}
         <li>
-          <strong>{{ person.name }}</strong> – {{ person.position }}
+          <strong>
+            {%- set foundPerson = false -%}
+              {%- for profile in collections.people -%}
+                {%- if profile.data.name == person.name -%}
+                  {%- set foundPerson = profile -%}
+                {%- endif -%}
+              {%- endfor -%}
+
+              {%- if foundPerson -%}
+                <a href="{{ foundPerson.url | url }}">{{ person.name }}</a>
+              {%- else -%}
+                {{ person.name }}
+              {%- endif -%}
+          </strong> – {{ person.position }}
         </li>
       {%- endfor -%}
       </ul>

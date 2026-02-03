@@ -1,0 +1,75 @@
+---
+layout: base.njk
+---
+<main>
+  <article class="profile">
+    <h1>{{ name | safe }}</h1>
+    <small>
+      {% if roles is iterable and roles is not string %}
+        {% for role in roles -%}
+          {{ role }}{% if not loop.last %} & {% endif %}
+        {%- endfor %}
+      {% else %}
+        {{ roles }}
+      {% endif %}
+      </small>
+    <ul class="external">
+      {%- if linkedin and linkedin != "" -%}
+      <li>
+        <a href="{{ linkedin}}" title="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5.52 19c.64-2.2 1.84-3 3.22-3h6.52c1.38 0 2.58.8 3.22 3"/><circle cx="12" cy="10" r="3"/><circle cx="12" cy="12" r="10"/></svg>
+        </a>
+      </li>
+      {%- endif -%}
+      {%- if email and email != "" -%}
+      <li>
+        <a href="mailto:{{ email}}?subject=I%20read%20your%20profile%20on%20the%20UoA%20Online%20Website%20" title="Email">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+        </a>
+      </li>
+      {%- endif -%}
+      {%- if website and website != "" -%}
+      <li>
+        <a href="{{ website }}" title="Website">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+        </a>
+      </li>
+      {%- endif -%}
+      {%- if socials and socials != "" -%}
+      <li>
+        <a href="{{ socials}}" title="Socials">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+        </a>
+      </li>
+      {%- endif -%}
+    </ul>
+
+    {%- set personData = people.teamMembers | find("name", name) -%}
+    {%-if personData and personData.image != ""-%}
+    <div class="profile-picture">
+        <img src="../../images/people/{{ personData.image }}" alt="{{ name }}" /> 
+    </div>
+    {%-endif-%}
+
+  <section>
+    <h2>Bio</h2>
+    {{ content | replace("<p><img", "<figure><img") | replace("></p>", "></figure>") | safe }}
+
+    <h2>Course Worked on</h2>
+    <ul>
+      {%- for item in collections.courses | sort(attribute="data.CourseName") | sort(false, false, 'data.DevCycle') -%}
+        {%- set personFound = false -%}
+        {%- for member in item.data.Team -%}
+          {%- if member.Name == name -%}
+            {%- set personFound = true -%}
+          {%- endif -%}
+        {%- endfor -%}
+        {%- if personFound -%}
+          <li><a href="{{ item.url |url }}">{{ item.data.CourseName }}</a></li>
+        {%- endif -%}
+      {%- endfor -%}
+    </ul>
+
+  </section>
+  </article>
+</main>
