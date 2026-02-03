@@ -571,8 +571,33 @@ main {
  img { 
    grid-column: 3/6;
    }
-}
 
+  table {
+      grid-column: 2/6;
+      font-size: 1rem;
+      margin: 1.44rem 0;
+      margin-left: auto;
+      margin-right: auto;
+      border-collapse: collapse;
+
+      th {
+         background: var(--primary-default);
+         color: var(--rev);
+         font-weight: bold;
+         text-align: start;
+         font-size: 1.5rem;
+         padding: 1ch;
+      }
+      td {
+         padding: 1ch;
+         border-bottom: 1px solid var(--secondary-default);
+      }
+      h4 {
+         font-size: 1.5rem;
+         font-style: italic;
+      }
+   }
+}
 article.profile {
    display: grid;
    grid-template-columns: 1fr 2fr;

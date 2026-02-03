@@ -9,10 +9,6 @@ tags: page
 
 The Course Development team established and refined a robust workflow for course development throughout the project. This approach provided the required flexibility to work for the diverse set of courses being developed, different staffing requirements and availability, course content and learning experiences and quality assurance requirements. The process became a foundation for the universities broader processes and helped to establish best practices across teams. 
 
-This video walks through the design and development process developed of online courses for Open Universities Australia. It walks through the stages of the process and ways of working created to Discover, Design, Develop, Build & Review new courses.
-
-https://youtu.be/IPv_zKrab7k
-
 ![The Course Development Process developed](../images/Course-Development.png)
 
 1. **Scope**
@@ -35,3 +31,7 @@ The teaching of the course. Additional support, including troubleshooting, train
 The process of reviewing the delivery of a course to seek areas for improvement and development. Uses the SELTs and Learning Analytics to identify issues and tweaks that can be made.
 10. **Maintain**
 The process of making small improvements to the existing course. These would be minor amendments, tweaks and changes to make the course run more smoothly.
+
+This video walks through the design and development process developed of online courses for Open Universities Australia. It walks through the stages of the process and ways of working created to Discover, Design, Develop, Build & Review new courses.
+
+https://youtu.be/IPv_zKrab7k
