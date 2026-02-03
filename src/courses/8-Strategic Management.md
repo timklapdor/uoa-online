@@ -1,12 +1,20 @@
 ---
 CourseName: Strategic Management
-Programs: 
+Programs:
   - IB
   - HSM
 DevCycle: 8
-Blueprint: 'https://myuni.adelaide.edu.au/courses/89959'
+Blueprint: https://myuni.adelaide.edu.au/courses/89959
 Description: >
-  Managing strategy is concerned with the long-term direction and performance of an organisation. This course draws on students' prior business and management studies to examine contemporary thinking in strategy. Using case studies, the course aims to equip you with a practical understanding of the concepts and frameworks needed to make better strategic decisions in the dynamic, fast-changing business and management environment. Students can expect to critically explore how the continuous, accurate analysis of essential strategic tasks and the interaction between internal and external environments are components of a successful strategy.
+  Managing strategy is concerned with the long-term direction and performance of
+  an organisation. This course draws on students' prior business and management
+  studies to examine contemporary thinking in strategy. Using case studies, the
+  course aims to equip you with a practical understanding of the concepts and
+  frameworks needed to make better strategic decisions in the dynamic,
+  fast-changing business and management environment. Students can expect to
+  critically explore how the continuous, accurate analysis of essential
+  strategic tasks and the interaction between internal and external environments
+  are components of a successful strategy.
 ToDo:
   - Add learning experience
   - Review learning experience
@@ -30,17 +38,13 @@ Team:
     Role: Digital Education Developer
     Involvement: Lead
 CLOs:
-  - >-
-    Critically analyse the internal and external environments in which
+  - Critically analyse the internal and external environments in which
     businesses operate and assess their significance for future initiatives.
-  - >-
-    Apply understanding of the theories, concepts and tools that support
+  - Apply understanding of the theories, concepts and tools that support
     strategic management in organisations.
-  - >-
-    Individually and collaboratively evaluate and synthesise information and
+  - Individually and collaboratively evaluate and synthesise information and
     existing knowledge from numerous sources and experiences.
-  - >-
-    Apply appropriate tools, theories and concepts to analyse strategic issues
+  - Apply appropriate tools, theories and concepts to analyse strategic issues
     in organizations and to develop potential implementation options.
 Topics:
   - Strategic Management and Strategic Competitiveness
@@ -61,89 +65,147 @@ Assessments:
     Type:
       - Media Task
     Description: >
-      Learners select a case studies that cover various sectors and conduct an in-depth strategic analysis of real-world business cases, utilising a multimedia presentation format accompanied by audio commentary.
+      Learners select a case studies that cover various sectors and conduct an
+      in-depth strategic analysis of real-world business cases, utilising a
+      multimedia presentation format accompanied by audio commentary.
   - Name: Strategic Assessment
     Weighting: 20
     Type:
       - Report
-    Description: > 
-      In this assessment learners demonstrate their understanding of strategic planning, analytical thinking, and critical evaluation throught the development of a written report.
+    Description: >
+      In this assessment learners demonstrate their understanding of strategic
+      planning, analytical thinking, and critical evaluation throught the
+      development of a written report.
   - Name: Concept Poster
     Weighting: 15
-    Type: 
+    Type:
       - Media Task
-    Description: > 
-      Leaners are tasked with distilling complex strategic concepts into a visual format. The poster consists of a concept map that visually organises and links strategic concepts relevant to their organisation of interest.
+    Description: >
+      Leaners are tasked with distilling complex strategic concepts into a
+      visual format. The poster consists of a concept map that visually
+      organises and links strategic concepts relevant to their organisation of
+      interest.
   - Name: Strategic Report
     Weighting: 15
-    Type: Report
-    Description: This report requires learners to provide an analytical narrative that synthesises their research findings to assess their ability to critically analyse strategic environments and apply theories, frameworks, and concepts learned in the course to real-world contexts.
+    Type:
+      - Report
+    Description: This report requires learners to provide an analytical narrative
+      that synthesises their research findings to assess their ability to
+      critically analyse strategic environments and apply theories, frameworks,
+      and concepts learned in the course to real-world contexts.
   - Name: Executive strategy proposal
     Weighting: 35
-    Type: Proposal
-    Description: Working in groups, learners are required to create a Board/CEO-level presentation that analyses the current strategic posture of a company and proposes a strategic roadmap for future initiatives.
-Media: 
+    Type:
+      - Proposal
+    Description: Working in groups, learners are required to create a
+      Board/CEO-level presentation that analyses the current strategic posture
+      of a company and proposes a strategic roadmap for future initiatives.
+Media:
   - Name: "Mission vs Vision: A Flip Card Exploration"
     Type: H5P
-    Link: 'strategic-management-M1-2-flip-card.html'
-    Description:
+    Link: strategic-management-M1-2-flip-card.html
     Location: Local
   - Name: Strategic Decision-Making Simulation
     Type: H5P
-    Link: 'strategic-management-M4-3-Tesla.html'
-    Description: "This activity immerses learners in strategic decisions that shape Tesla's direction and define its competitive stance. There are multiple viable paths, and the exercise isn't about finding the 'right' answer but learners having the opportunity to explore different strategic options."
+    Link: strategic-management-M4-3-Tesla.html
+    Description: This activity immerses learners in strategic decisions that shape
+      Tesla's direction and define its competitive stance. There are multiple
+      viable paths, and the exercise isn't about finding the 'right' answer but
+      learners having the opportunity to explore different strategic options.
     Location: Local
   - Name: "Strategic Conquest: The Five Forces Unveiled"
     Type: ECHO
     Link: https://echo360.net.au/ui/player/de7810f4-3c02-4474-853a-f06c17f1f2bc?secureLinkAccessDataId=e44f7ed1-08b4-4b37-b762-07fbb8e9842e&autoplay=false&automute=false
-    Description:
     Location: https://myuni.adelaide.edu.au/courses/89959/pages/lesson-2-dot-3-how-can-industry-environment-and-competitor-analysis-inform-strategic-decision-making?module_item_id=3229935
   - Name: "Strategic Resource Management: Cultivating Organisational Capabilities"
-    Type:  ECHO
+    Type: ECHO
     Link: https://echo360.net.au/ui/player/70d5da6d-9797-4797-b54d-e87ff5630bf0?secureLinkAccessDataId=763536f9-afac-44ca-bdf8-16e18e07239c&autoplay=false&automute=false
-    Description: 
     Location: https://myuni.adelaide.edu.au/courses/89959/pages/lesson-3-dot-2-in-what-ways-do-resources-and-capabilities-influence-strategic-management/
   - Name: "Branching: You Make the Decision - Tesla"
-    Type:  
     Link: https://miro.com/app/board/uXjVNS9GIm8=/
-    Description:
     Location: https://miro.com/app/board/uXjVNS9GIm8=/
-  - Name: "What are the components of internal analysis?- Custom documentation tool"
-    Type:  
-    Link: 
-    Description:
-    Location: https://myuni.adelaide.edu.au/courses/89959/pages/lesson-3-dot-1-how-do-you-conduct-an-analysis-of-an-organisations-internal-environment?module_item_id=3234723    
+  - Name: What are the components of internal analysis?- Custom documentation tool
+    Location: https://myuni.adelaide.edu.au/courses/89959/pages/lesson-3-dot-1-how-do-you-conduct-an-analysis-of-an-organisations-internal-environment?module_item_id=3234723
   - Name: Business vs Corporate Strategy
     Type: H5P
-    Link: strategic-management-M6-1-strategy.html 
-    Description: "This activity is designed to improve learners critical reading and analysis skills by broadly identifying terms that may constitute Business and or Corporate level strategy."
+    Link: strategic-management-M6-1-strategy.html
+    Description: This activity is designed to improve learners critical reading and
+      analysis skills by broadly identifying terms that may constitute Business
+      and or Corporate level strategy.
     Location: Local
-Snapshot: 
-  - Name: "Lesson 2.3: How can industry environment and competitor analysis inform strategic decision-making?"
+Snapshot:
+  - Name: "Lesson 2.3: How can industry environment and competitor analysis inform
+      strategic decision-making?"
     Link: 028_Page_module_2_the_external_environment_lesson_2_3_how_can_industry_environment_and_competitor_analysis_in.png
-    Description: "This page uses various pedagogical tools to create an engaging and applied learning experience. It scaffolds prior knowledge, links theory to practice, and incorporates a video to simplify complex concepts and cater to diverse learning preferences. Storytelling and real-world examples, such as Amazon’s 'Strategic Conquest' entry into the Australian market, make abstract ideas relatable. Active learning activities, visual aids, and prompts for reflection encourage critical thinking and collaboration, ensuring learners connect theory with practical application."
-  - Name: "Lesson 4.3: What are the different types of business-level strategies available to a firm?"
+    Description: This page uses various pedagogical tools to create an engaging and
+      applied learning experience. It scaffolds prior knowledge, links theory to
+      practice, and incorporates a video to simplify complex concepts and cater
+      to diverse learning preferences. Storytelling and real-world examples,
+      such as Amazon’s 'Strategic Conquest' entry into the Australian market,
+      make abstract ideas relatable. Active learning activities, visual aids,
+      and prompts for reflection encourage critical thinking and collaboration,
+      ensuring learners connect theory with practical application.
+  - Name: "Lesson 4.3: What are the different types of business-level strategies
+      available to a firm?"
     Link: 048_Page_module_4_business_level_strategy_lesson_4_3_what_are_the_different_types_of_business_level_strategie.png
-    Description: "The 'You make the decision - Tesla' H5P simulation is an effective pedagogical tool as it engages learners in interactive, practical decision-making. It encourages critical thinking by allowing participants to explore Tesla’s business strategies and their implications. Immediate feedback helps reinforce concepts like market positioning and competitive forces, while the simulation's non-linear design promotes experimentation and deeper understanding without scoring pressure. This approach effectively bridges theory and practice. The mapping process to create the framework for this tool was long and detailed, which was then refined by the academic."
-  - Name: "Lesson 5.1: How might a firm's understanding of competitive dynamics benefit its strategy in a multimarket environment?"
+    Description: The 'You make the decision - Tesla' H5P simulation is an effective
+      pedagogical tool as it engages learners in interactive, practical
+      decision-making. It encourages critical thinking by allowing participants
+      to explore Tesla’s business strategies and their implications. Immediate
+      feedback helps reinforce concepts like market positioning and competitive
+      forces, while the simulation's non-linear design promotes experimentation
+      and deeper understanding without scoring pressure. This approach
+      effectively bridges theory and practice. The mapping process to create the
+      framework for this tool was long and detailed, which was then refined by
+      the academic.
+  - Name: "Lesson 5.1: How might a firm's understanding of competitive dynamics
+      benefit its strategy in a multimarket environment?"
     Link: 054_Page_module_5_competitive_dynamics_lesson_5_1_how_might_a_firm_s_understanding_of_competitive_dynamics_be.png
-    Description: "The Strategy 'Funnovation' challenge effectively combines creativity, humour, and strategic thinking to engage learners in competitive strategy. Using AI-generated images via DALL-E enhances visualisation and adds a technological element. The activity links directly to Assessment 3a by developing creative and strategic thinking skills, ensuring learners see its relevance to real-world applications while maintaining an interactive and practical approach."
-  - Name: "Lesson 5.3: How do strategic and tactical actions shape competitive rivalry and response?"
+    Description: The Strategy 'Funnovation' challenge effectively combines
+      creativity, humour, and strategic thinking to engage learners in
+      competitive strategy. Using AI-generated images via DALL-E enhances
+      visualisation and adds a technological element. The activity links
+      directly to Assessment 3a by developing creative and strategic thinking
+      skills, ensuring learners see its relevance to real-world applications
+      while maintaining an interactive and practical approach.
+  - Name: "Lesson 5.3: How do strategic and tactical actions shape competitive
+      rivalry and response?"
     Link: 056_Page_module_5_competitive_dynamics_lesson_5_3_how_do_strategic_and_tactical_actions_shape_competitive_riv.png
-    Description: "The Ugly Dad Shoe example illustrates effective pedagogy by connecting strategic concepts to a relatable, real-world product. It fosters active learning by linking theory to practice, encouraging critical analysis of market dynamics and company strategy. Using humour and multimedia enhances engagement, appeals to diverse learning styles, and improves retention. This example supports constructivist learning by prompting reflection and scaffolding, helping students apply competitive strategy frameworks in meaningful ways."
+    Description: The Ugly Dad Shoe example illustrates effective pedagogy by
+      connecting strategic concepts to a relatable, real-world product. It
+      fosters active learning by linking theory to practice, encouraging
+      critical analysis of market dynamics and company strategy. Using humour
+      and multimedia enhances engagement, appeals to diverse learning styles,
+      and improves retention. This example supports constructivist learning by
+      prompting reflection and scaffolding, helping students apply competitive
+      strategy frameworks in meaningful ways.
   - Name: "Lesson 8.9: Strategic insights into Qantas for Assessment 3a"
     Link: 096_Page_module_8_international_and_cooperative_strategies_lesson_8_9_strategic_insights_into_qantas_for_asse.png
-    Description: "Worked with Media team to create reading checklist that students check once assignment reading is considered complete. Then once all readings are completed the master list in the assignment page shows either a fill list of green, strike through items or not, therefore students will know which articles they've missed."
-Jobs: 
+    Description: Worked with Media team to create reading checklist that students
+      check once assignment reading is considered complete. Then once all
+      readings are completed the master list in the assignment page shows either
+      a fill list of green, strike through items or not, therefore students will
+      know which articles they've missed.
+Jobs:
   - Media
   - Learning Experience
 ---
+This course is designed to develop students’ ability to think and act strategically in dynamic, technology-driven, and globally competitive environments. Drawing on contemporary strategy theory and real-world cases, the learning experience equips students to analyse organisational contexts, formulate strategic choices, and evaluate how strategy is implemented, governed, and sustained over time.
 
+The course is structured across 12 modules and intentionally sequenced to mirror the strategic management process itself. In the first six modules, students establish foundational understanding by exploring why strategy matters, how strategic planning contributes to organisational longevity, and how strategic inputs emerge from the interaction between internal capabilities and external environments. Core concepts such as competitive advantage, globalisation, technological change, and strategic flexibility are introduced through short teaching videos, applied readings, and facilitated discussion.
+
+From module seven onwards, the focus shifts from understanding strategy to exercising strategic judgement. Students engage with advanced strategy formulation topics including mergers and acquisitions, restructuring, growth strategies, and the governance and control mechanisms required for effective implementation. Later modules extend this thinking to leadership, entrepreneurship, and innovation, supporting students to consider how organisations build and renew strategic capability for the future.
+
+Learning activities are designed to make strategy tangible and experiential. Interactive case studies and branching scenarios are used to simulate real strategic decision-making under uncertainty. For example, an H5P branching scenario centred on Tesla places students in the role of a senior decision-maker, requiring them to weigh competing strategic options and observe the consequences of their choices. This activity provides a safe environment for experimentation, reinforcing that strategic management rarely involves a single “correct” answer, but rather informed trade-offs shaped by context.
+
+Creative strategy development is also deliberately embedded to broaden students’ strategic repertoire. Activities such as the “funnovation” challenge encourage imaginative yet viable strategic thinking, demonstrating how differentiation, storytelling, and brand identity can coexist with sound commercial logic. By linking these activities explicitly to the executive-level assessment, students are supported to see creativity as a legitimate and valuable component of strategic leadership.
+
+Assessment design reinforces progression from analysis to synthesis. Multimedia presentations, written reports, and strategy visualisations allow students to demonstrate understanding in multiple formats. For the final executive strategy proposal, a custom self-checklist was incorporated into the assessment page to support self-regulation, ensuring students could track engagement with required readings and preparation tasks. The capstone group assessment requires students to present at Board or CEO level, applying strategic tools to provide coherent, evidence-informed direction for an organisation.
+
+Weekly interactive sessions underpin the learning experience by providing structured opportunities for discussion, clarification, and peer learning. These sessions support students to interrogate assumptions, test strategic frameworks against real-world examples, and build confidence in articulating strategic recommendations.
+
+By the end of the course, students develop the capacity to view organisations through a strategic lens, critically analyse competitive environments, and contribute meaningfully to strategic decision-making in a wide range of organisational contexts.  
+  
 MiroBoards:
-  - Description: >-
-      A card sort can be a valuable exercise for multiple reasons, such as
-      familiarising participants with using Miro as a collaborative tool, aiding
-      in the creation of a coherent module structure for a course, and
-      facilitating a collective understanding of key themes and concepts among
-      team members of a course build.
-    Link: 'https://miro.com/app/board/uXjVMhHzJUc=/'
+
+*   Description: >- A card sort can be a valuable exercise for multiple reasons, such as familiarising participants with using Miro as a collaborative tool, aiding in the creation of a coherent module structure for a course, and facilitating a collective understanding of key themes and concepts among team members of a course build. Link: '[https://miro.com/app/board/uXjVMhHzJUc=/](https://miro.com/app/board/uXjVMhHzJUc=/)'
