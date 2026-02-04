@@ -1,6 +1,6 @@
 {
     "tags": "people", 
-    "layout": "person.njk", 
+    "layout": "profile.njk", 
     "permalink": "people/{{ name |slugify }}/"
 
 }  
