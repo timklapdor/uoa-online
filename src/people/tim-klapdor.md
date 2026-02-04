@@ -18,18 +18,11 @@ I deliberately recruited a diverse team and structured our work around design sp
 
 Key contributions:
 
-*   Established **Miro** as the team's core design tool, enabling distributed and real-time collaboration and visual thinking across the entire design process.
-    
-*   Developed the first **Visual Style Guide**, creating consistency across courses, providing designers with clear direction and embedding signposts for learners.
-    
-*   Created **Learning Types and Patterns** as a shared design language that streamlined course development, reduced decision paralysis and provided insight into the underlying pedagogy and learning experience.
-    
-*   Conceptualised **Smart Storyboard**, a tool that integrates learning design, content development and project management in a single workflow.
-    
-*   Led quality assurance for all courses, reviewing design briefs and evaluating courses against the **Adelaide Online Learning Experience** standards.
-    
-*   Stepped in to do hands-on learning design when resourcing gaps emerged, ensuring project timelines stayed on track.
-    
-*   Built working relationships with **Media Production** and **Project Management** teams, establishing clear workflows and communication protocols.
-    
-*   Developed project management practices and reporting systems that kept stakeholders informed and the project transparent
+- Established **Miro** as the team's core design tool, enabling distributed and real-time collaboration and visual thinking across the entire design process.
+- Developed the first **Visual Style Guide**, creating consistency across courses, providing designers with clear direction and embedding signposts for learners.
+- Created **Learning Types and Patterns** as a shared design language that streamlined course development, reduced decision paralysis and provided insight into the underlying pedagogy and learning experience.
+- Conceptualised **Smart Storyboard**, a tool that integrates learning design, content development and project management in a single workflow.
+- Led quality assurance for all courses, reviewing design briefs and evaluating courses against the **Adelaide Online Learning Experience** standards.
+- Stepped in to do hands-on learning design when resourcing gaps emerged, ensuring project timelines stayed on track.
+- Built working relationships with **Media Production** and **Project Management** teams, establishing clear workflows and communication protocols.
+- Developed project management practices and reporting systems that kept stakeholders informed and the project transparent
