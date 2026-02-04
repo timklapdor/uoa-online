@@ -4,7 +4,7 @@ const Image = require("@11ty/eleventy-img");
 const path = require("path");
 const markdownItDeflist = require("markdown-it-deflist");
 const embedYouTube = require("eleventy-plugin-youtube-embed");
-
+const markdownItCallouts = require("markdown-it-callouts").default;
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/images");
@@ -15,9 +15,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setServerOptions({showAllHosts: true,}); // Add support for serving HTML files without extensions
   eleventyConfig.addPlugin(eleventySass);
   eleventyConfig.addPlugin(embedYouTube);
+  
 
   eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItDeflist));
-
+  eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItCallouts));
   //Adding find filter for people image matching
   eleventyConfig.addFilter("find", function(array, key, value) {
   return array.find(item => item[key] === value);

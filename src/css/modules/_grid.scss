@@ -683,3 +683,51 @@ article.profile {
       }  
   }
 }
+
+.callout {
+   background: #f8f9f9;
+   padding: 1rem 1.728rem;
+   max-width: 90ch;
+   min-width: 70%;
+   margin: 1rem 2ch 1rem 1rem;
+
+   &:before {
+      text-align: end;
+      display: block;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 80%;
+   }
+
+}
+.callout-example {
+      background: #fef5e9;
+
+   &::before {
+      color: #955A12;
+      content: "example";
+   }
+}
+
+.callout-warning {
+   border: 1px solid #963E3F !important;
+   border-left: 1rem solid #963E3F !important;
+   background: #fff0f0;
+
+   &::before {
+      content: "attention";
+      color: #963E3F;
+
+   }
+}
+ 
+   blockquote {
+      margin: 1ch auto;
+      padding: 1rem 1.728rem;
+      border-width: 0 0 0 0.694rem !important;
+      border-style: solid;
+      border-color: #102535;
+      max-width: 90ch;
+      background: #f1f1f1;
+      width: fit-content;
+   }
