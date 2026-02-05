@@ -5,6 +5,7 @@ tags: page
 ---
 
 - [Visual style guide]({{ '/styles/' | url }})
+- [Written style guide]({{ '/style-guide/' | url }})
 - [Smart Storyboard]({{ '/ssb/' | url }})
 - [Miro Templates]({{ '/miro/' | url }})
 - [QA Assessment]({{ '/q-and-a/' | url }})

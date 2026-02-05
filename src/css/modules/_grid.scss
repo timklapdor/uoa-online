@@ -560,6 +560,9 @@ main {
    figure, .eleventy-plugin-youtube-embed, #course-list{
       grid-column: 2/5;
       margin: 2ch 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       }
       
    }
@@ -571,6 +574,19 @@ main {
  img { 
    grid-column: 3/6;
    }
+
+pre {
+   white-space: pre-wrap;
+   word-wrap: break-word;
+   padding: 1ch;
+
+}   
+
+code {
+   background: var(--page-light);
+   line-break: auto;
+   padding: .2ch;
+}
 
   table {
       grid-column: 2/6;
@@ -720,6 +736,33 @@ article.profile {
 
    }
 }
+
+.callout-note {
+   background: #f8f9f9;
+
+   &::before {
+      content: "note";
+      color: #5D6063;
+   }
+}
+
+.callout-right {
+   background: color-mix(in srgb, var(--positive-base), var(--rev) 80%);
+
+   &::before {
+      content: "Correct";
+      color: var(--positive-base);
+   }
+}
+
+.callout-wrong {
+   background: color-mix(in srgb, var(--negative-base), var(--rev) 80%);
+
+   &::before {
+      content: "Incorrect";
+      color: var(--negative-base);
+   }
+}
  
    blockquote {
       margin: 1ch auto;
@@ -730,4 +773,9 @@ article.profile {
       max-width: 90ch;
       background: #f1f1f1;
       width: fit-content;
+   }
+
+nav.adx-sequence {
+      background: none;
+      display: block;
    }

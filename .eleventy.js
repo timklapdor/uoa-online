@@ -5,6 +5,15 @@ const path = require("path");
 const markdownItDeflist = require("markdown-it-deflist");
 const embedYouTube = require("eleventy-plugin-youtube-embed");
 const markdownItCallouts = require("markdown-it-callouts").default;
+const markdownItAnchor = require("markdown-it-anchor");
+const markdownItToc= require("markdown-it-table-of-contents");
+
+
+const markdownItTocOptions = {
+	includeLevel: [2,3],
+	containerHeaderHtml: "<h1>Table of Contents</h1>",
+	listType: "ul",
+};
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/images");
@@ -15,10 +24,13 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setServerOptions({showAllHosts: true,}); // Add support for serving HTML files without extensions
   eleventyConfig.addPlugin(eleventySass);
   eleventyConfig.addPlugin(embedYouTube);
-  
 
   eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItDeflist));
   eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItCallouts));
+  eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItAnchor));
+  eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItToc, markdownItTocOptions));
+
+
   //Adding find filter for people image matching
   eleventyConfig.addFilter("find", function(array, key, value) {
   return array.find(item => item[key] === value);
