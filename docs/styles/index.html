@@ -33,109 +33,62 @@
         <main>
   <article>
   <h1>Visual Styles </h1>
-    
-<p>The purpose of the visual design system was to enable a consistent and cohesive experience that could be developed by multiple contributors. The aim was to ensure the creayion of an engaging experience whilst maintaining the unique characteristics of each course, discipline, topics and authors.</p>
+    <p>The purpose of the visual design system was to enable a consistent and cohesive experience that could be developed by multiple contributors. The aim was to ensure the creayion of an engaging experience whilst maintaining the unique characteristics of each course, discipline, topics and authors.</p>
 <p>To achieve this the team developed a distinct visual language and common approaches for design decisions. Use of the design system meant teams weren't needing to reinvent or rethink the visual and graphic design by solving problems centrally. This allowed teams to spend more time on the learner experience, creating value-adds and clarity of purpose.</p>
 <p>This enabled the deliverable of each course, the MVP to switch from the traditional <em>Minimum Viable Product</em> to the <strong>Maximum Value Product</strong>.</p>
 <p>A sample of some of the unique components of the broader design system are outlined below.</p>
-<div class="table-of-contents"><h1>Table of Contents</h1><ul><li><a href="#cues-and-directions">Cues and Directions</a><ul><li><a href="#cues">Cues</a></li><li><a href="#directions">Directions</a></li></ul></li><li><a href="#media">Media</a></li><li><a href="#people">People</a></li><li><a href="#lists">Lists</a></li><li><a href="#navigation">Navigation</a></li></ul></div>
 <h2 id="cues-and-directions" tabindex="-1">Cues and Directions</h2>
 <p>These two components provided learners with clear signposting throughout each course.</p>
 <h3 id="cues" tabindex="-1">Cues</h3>
 <p>Cues visually communicated specific information about the content. These helped define for students critical types of content, rather than rely on their interpretation. This reduced the coginitive load on students to read AND interpret implied meaning of content. Cues helped direct learner attention to specific informationo on the page - to find definitions, see examples, be warned about sensitive content or to find the summary of specific topics or references.</p>
+<div class="adx">
+<h4 class="adx-markup-label">Basic Cues</h4>
+<div class="adx-cue"><p>This is a basic cue, with no border. This <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-cue <i class="far fa-clipboard"></i></code> is used as a low-tier hierarchy element and contains extra information inside the flow of the content on the page.</p></div>
+<div class="adx-cue-left"><p>This is a basic cue, with a border on the left. This <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-cue-left <i class="far fa-clipboard"></i></code> is used as a mid-tier hierarchy element inside the flow of content but can stand alone as a key point to draw the eye and interrupt the reading eyeline motion.</p></div>
+<div class="adx-cue-bordered"><p>This is a basic cue, with a border on the left and a surrounding border. This <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-cue-bordered <i class="far fa-clipboard"></i></code> is used as a top-tier hierarchy element to call extra attention to important information.</p></div>
+<h4 class="adx-markup-label">Cue Variants</h4>
+<div class="adx-cue-note"><p>The note cue should be used to call out information on a page without breaking the flow of the readers attention. Using the <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-cue-note <i class="far fa-clipboard"></i></code> cue should be used if there is useful content on the page - items that students should note down or could be marked with an N.B. (Nota Bene).</p></div>
+<div class="adx-cue-case-study"><p>The case study cue should be used to call out the scaffolding text or context of a case study using the <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-cue-case-study <i class="far fa-clipboard"></i></code> cue should be used if there a case study layout on the page before the case study text content and then followed by a direction box with the appropriate call-to-action task.</p></div>
+<div class="adx-cue-example"><p>An example should use the <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-cue-example <i class="far fa-clipboard"></i></code> cue. This is a visual clue to an example and does not require a heading explaining that to a student, but should be evident in the text itself.</p></div>
+<div class="adx-cue-definition"><p>When providing a definition for a specific term or concept you should use the <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-cue-definition <i class="far fa-clipboard"></i></code> cue. This will provide a visual cue to students that something important is being defined in the content.</p></div>
+<div class="adx-cue-phil-toolkit"><p>The <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-cue-phil-toolkit <i class="far fa-clipboard"></i></code> cue is there to call out content that is used to call out specific re-usable concepts in your "philosophical toolkit" used in the Introduction to Health Ethics course</p></div>
+<div class="adx-cue-notification"><p>A notification should be used to notify the student of the information contained within the cue box. This might be to nudge students to complete certain tasks or activities, that there is an upcoming assessment or interactive session. The <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-cue-notification <i class="far fa-clipboard"></i></code> cue is a subtle hint to students.</p></div>
+<div class="adx-cue-attention"><p>The <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-cue-attention <i class="far fa-clipboard"></i></code> is a non-subtle cue that contains critical information that students must address or is of the utmost importance they take on. This might be useful to flag upcoming events, due dates, important tasks and reminders for students, or key content beyond simply assessment or course-related reasons (legal, safety, etc).</p></div>
+<div class="adx-cue-content-warning"><p>The <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-cue-content-warning <i class="far fa-clipboard"></i></code> is an obvious cue that contains a warning about possibly sensitive content. This might be used to warn students about content that may be upsetting or distressing, or content that may be triggering for students with a history of trauma.</p></div>
+<div class="adx-cue-summary"><p>The <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-cue-summary <i class="far fa-clipboard"></i></code> cue is there to call out content that is a summary of prior content or learning. Use it to wrap up a lesson, module or course or to reintroduce content learnt earlier in the course or in a previous course.</p></div>
+<div class="adx-cue-reference"><p>The <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-cue-reference <i class="far fa-clipboard"></i></code> cue is for a single or multiple references. These can be contained within a <code>ul</code> or as <code>p</code>. These are not resources for students to access, but rather to provide academic rigour to the content. Do not use this cue for readings or other student tasks. </p><p>Albanese, A (Minister for Infrastructure, Transport, Regional Development and Local Government) 2009, Fairer compensation for air travellers, media release, 29 January, Department of Infrastructure, Transport, Regional Development and Local Government, Canberra, viewed 30 January 2009, <a href="http://www.minister.infrastructure.gov.au/releases/2009" target="_blank" rel="noreferrer noopener">www.minister.infrastructure.gov.au/releases/2009</a>. </p><ul><li><p>Albanese, A (Minister for Infrastructure, Transport, Regional Development and Local Government) 2009, Fairer compensation for air travellers, media release, 29 January, Department of Infrastructure, Transport, Regional Development and Local Government, Canberra, viewed 30 January 2009, <a href="http://www.minister.infrastructure.gov.au/releases/2009" target="_blank" rel="noreferrer noopener">www.minister.infrastructure.gov.au/releases/2009</a>.</p></li><li><p>Australian Government Publishing Service 1987, Commonwealth printing and publishing manual, 2nd edn, A.G.P.S., Canberra.</p></li><li><p>Australian Institute of Health and Welfare 2010, Child protection Australia 2008-09, Child welfare series no. 47. Cat. no. CWS 35, Australian Institute of Health and Welfare, Canberra, viewed 06 November 2012, <a href="https://www.aihw.gov.au/reports/child-protection/child-protection-australia-2008-09/contents/table-of-contents" target="_blank" rel="noreferrer noopener">www.aihw.gov.au/reports/child-protection/child-protection-australia-2008-09/contents/table-of-contents</a>.</p></li></ul></div>
+</div>
 <h3 id="directions" tabindex="-1">Directions</h3>
 <p>Directions were developed to provide clear prompts for learners to act on. This helped to remove any ambiguity in regards what learners needed to do throughout the course. The directions also helped students recognise types of activity, allowing them to make choices in regards to how they would approach tasks and manage their time and effort.</p>
-<h2 id="media" tabindex="-1">Media</h2>
-<h2 id="people" tabindex="-1">People</h2>
-<h2 id="lists" tabindex="-1">Lists</h2>
-<h2 id="navigation" tabindex="-1">Navigation</h2>
-
-
 <div class="adx">
-
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-<h4>Heading 4</h4>
-<h5>Heading 5</h5>
-<h6>Heading 6</h6>
-
 <div class="adx-direction">
   <p><strong>This is a Direction Box</strong></figure>
   <p>Directions are used to <em>direct</em> students to take action or do something external to the current content flow inside the LMS.</p>
 </div>
-
 <p>Use the following direction boxes to markup specific directions for students. These are callouts to complete specific tasks external to the page and flow of the lesson.</p>
-
 <div class="adx-direction-assessment"><p><strong>This is an Assessment Direction</strong></figure><p>Use the <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-direction-assessment <i class="far fa-clipboard"></i></code> class to define information on the page about assessment tasks. This would specifically include directions to complete the task itself, or elements of the task.</p></div>
-
 <div class="adx-direction-discussion"><p><strong>This is a Discussion Direction</strong></figure><p>Use the <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-direction-discussion <i class="far fa-clipboard"></i></code> class to alert students to tasks that relate to discussions. This maybe located on another page - but if context information is suitable, i.e. the information in this lesson is the logical point to carry out and contribute to the discussion, then use this direction.</p></div>
-
 <div class="adx-direction-extra"><p><strong>This is an Extra Direction</strong></figure><p>Use the <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-direction-extra <i class="far fa-clipboard"></i></code> class to alert students to extra tasks. These are not required but could be seen as extensions beyond the content and activities required in this course. This may be useful for "parking" concepts and ideas that students aren't required to complete but may be useful in the longer term.</p></div>
-
 <div class="adx-direction-interactive"><p><strong>This is an Interactive Direction</strong></figure><p>Use the <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-direction-interactive <i class="far fa-clipboard"></i></code> class to alert students to interactive activities and ways to engage with other students. Can be used for synchronous sessions on Zoom or on other tools.</p></div>
-
 <div class="adx-direction-investigate"><p><strong>This is an Investigate Direction</strong></figure><p>Use the <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-direction-investigate <i class="far fa-clipboard"></i></code> class to alert students to tasks that ask them to investigate, search and find information. Useful for research tasks like accessing databases, papers or articles.</p></div>
-
 <div class="adx-direction-listen"><p><strong>This is a Listen Direction</strong></figure><p>Use the <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-direction-listen <i class="far fa-clipboard"></i></code> class to alert students to audio they need to listen to. This could include a podcast or other audio recording.</p></div>
-
 <div class="adx-direction-practice"><p><strong>This is a Practice Direction</strong></figure><p>Use the <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-direction-practice <i class="far fa-clipboard"></i></code> class to alert students to activities where they practice skills, tasks and processes.</p></div>
-
 <div class="adx-direction-reading"><p><strong>This is a Reading Direction</strong></figure><p>Use the <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-direction-reading <i class="far fa-clipboard"></i></code> class to alert students to reading tasks. This could include reading texts, articles and papers.</p></div>
-
 <div class="adx-direction-reflect"><p><strong>This is a Reflect Direction</strong></figure><p>Use the <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-direction-reflect <i class="far fa-clipboard"></i></code> class to alert students to reflection tasks.</p></div>
-
 <div class="adx-direction-watch"><p><strong>This is a Watch Direction</strong></figure><p>Use the <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-direction-watch <i class="far fa-clipboard"></i></code> class to alert students to videos or presentations they need to watch. This can be used for any video that can't be embedded or if the video is not required viewing, but part of an extension task.</p></div>
-
 <div class="adx-direction-write"><p><strong>This is a Write Direction</strong></figure><p>Use the <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-direction-write <i class="far fa-clipboard"></i></code> class to alert students to writing tasks.</p></div>
-
 <div class="adx-direction-university"><p><strong>This is a University Direction</strong></figure><p>Use the <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-direction-university <i class="far fa-clipboard"></i></code> class to define information on the page about University services and engagement tasks.</p></div>
-
 <h4 class="adx-markup-label">Programme Directions</h4>
-
-<p>These are used to highlight activities or information specific to each programme for the shared courses in OUA.</p>
-
+<p>These directions are used to highlight activities or information specific to each programme for the shared courses in OUA.</p>
 <div class="adx-direction-hsm"><p><strong>This is an HSM Direction</strong></figure><p>Use the <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-direction-hsm <i class="far fa-clipboard"></i></code> class to define information on the page about this programme.</p></div>
-
 <div class="adx-direction-ib"><p><strong>This is an IB Direction</strong></figure><p>Use the <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-direction-ib <i class="far fa-clipboard"></i></code> class to define information on the page about this programme.</p></div>
-
-<h4 class="adx-markup-label">Basic Cues</h4>
-
-<div class="adx-cue"><p>This is a basic cue, with no border. This <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-cue <i class="far fa-clipboard"></i></code> is used as a low-tier hierarchy element and contains extra information inside the flow of the content on the page.</p></div>
-
-<div class="adx-cue-left"><p>This is a basic cue, with a border on the left. This <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-cue-left <i class="far fa-clipboard"></i></code> is used as a mid-tier hierarchy element inside the flow of content but can stand alone as a key point to draw the eye and interrupt the reading eyeline motion.</p></div>
-
-<div class="adx-cue-bordered"><p>This is a basic cue, with a border on the left and a surrounding border. This <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-cue-bordered <i class="far fa-clipboard"></i></code> is used as a top-tier hierarchy element to call extra attention to important information.</p></div>
-
-<h4 class="adx-markup-label">Cue Variants</h4>
-
-<div class="adx-cue-note"><p>The note cue should be used to call out information on a page without breaking the flow of the readers attention. Using the <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-cue-note <i class="far fa-clipboard"></i></code> cue should be used if there is useful content on the page - items that students should note down or could be marked with an N.B. (Nota Bene).</p></div>
-
-<div class="adx-cue-case-study"><p>The case study cue should be used to call out the scaffolding text or context of a case study using the <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-cue-case-study <i class="far fa-clipboard"></i></code> cue should be used if there a case study layout on the page before the case study text content and then followed by a direction box with the appropriate call-to-action task.</p></div>
-
-<div class="adx-cue-example"><p>An example should use the <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-cue-example <i class="far fa-clipboard"></i></code> cue. This is a visual clue to an example and does not require a heading explaining that to a student, but should be evident in the text itself.</p></div>
-
-<div class="adx-cue-definition"><p>When providing a definition for a specific term or concept you should use the <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-cue-definition <i class="far fa-clipboard"></i></code> cue. This will provide a visual cue to students that something important is being defined in the content.</p></div>
-
-<div class="adx-cue-phil-toolkit"><p>The <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-cue-phil-toolkit <i class="far fa-clipboard"></i></code> cue is there to call out content that is used to call out specific re-usable concepts in your "philosophical toolkit" used in the Introduction to Health Ethics course</p></div>
-
-<div class="adx-cue-notification"><p>A notification should be used to notify the student of the information contained within the cue box. This might be to nudge students to complete certain tasks or activities, that there is an upcoming assessment or interactive session. The <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-cue-notification <i class="far fa-clipboard"></i></code> cue is a subtle hint to students.</p></div>
-
-<div class="adx-cue-attention"><p>The <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-cue-attention <i class="far fa-clipboard"></i></code> is a non-subtle cue that contains critical information that students must address or is of the utmost importance they take on. This might be useful to flag upcoming events, due dates, important tasks and reminders for students, or key content beyond simply assessment or course-related reasons (legal, safety, etc).</p></div>
-
-<div class="adx-cue-content-warning"><p>The <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-cue-content-warning <i class="far fa-clipboard"></i></code> is an obvious cue that contains a warning about possibly sensitive content. This might be used to warn students about content that may be upsetting or distressing, or content that may be triggering for students with a history of trauma.</p></div>
-
-<div class="adx-cue-summary"><p>The <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-cue-summary <i class="far fa-clipboard"></i></code> cue is there to call out content that is a summary of prior content or learning. Use it to wrap up a lesson, module or course or to reintroduce content learnt earlier in the course or in a previous course.</p></div>
-
-
-<div class="adx-cue-reference"><p>The <code class="cursor-pointer hover:text-brand-midblue" title="Copy to clipboard">adx-cue-reference <i class="far fa-clipboard"></i></code> cue is for a single or multiple references. These can be contained within a <code>ul</code> or as <code>p</code>. These are not resources for students to access, but rather to provide academic rigour to the content. Do not use this cue for readings or other student tasks. </p><p>Albanese, A (Minister for Infrastructure, Transport, Regional Development and Local Government) 2009, Fairer compensation for air travellers, media release, 29 January, Department of Infrastructure, Transport, Regional Development and Local Government, Canberra, viewed 30 January 2009, <a href="http://www.minister.infrastructure.gov.au/releases/2009" target="_blank" rel="noreferrer noopener">www.minister.infrastructure.gov.au/releases/2009</a>. </p><ul><li><p>Albanese, A (Minister for Infrastructure, Transport, Regional Development and Local Government) 2009, Fairer compensation for air travellers, media release, 29 January, Department of Infrastructure, Transport, Regional Development and Local Government, Canberra, viewed 30 January 2009, <a href="http://www.minister.infrastructure.gov.au/releases/2009" target="_blank" rel="noreferrer noopener">www.minister.infrastructure.gov.au/releases/2009</a>.</p></li><li><p>Australian Government Publishing Service 1987, Commonwealth printing and publishing manual, 2nd edn, A.G.P.S., Canberra.</p></li><li><p>Australian Institute of Health and Welfare 2010, Child protection Australia 2008-09, Child welfare series no. 47. Cat. no. CWS 35, Australian Institute of Health and Welfare, Canberra, viewed 06 November 2012, <a href="https://www.aihw.gov.au/reports/child-protection/child-protection-australia-2008-09/contents/table-of-contents" target="_blank" rel="noreferrer noopener">www.aihw.gov.au/reports/child-protection/child-protection-australia-2008-09/contents/table-of-contents</a>.</p></li></ul></div>
-
+</div>
+<h2 id="media" tabindex="-1">Media</h2>
+<p>==REQUIRES SOME TEXT==</p>
+<div class="adx">
 <h4 class="adx-markup-label">Default landscape image set to 80%</h4>
-
 <figure class="w80" style="margin: auto; text-align: center;"><img src="https://mediaproduction.adelaide.edu.au/uoa-styles/assets/spacex-unsplash.d9507b06.jpg" alt="" class="top kl_popup_image"><figcaption><strong>Figure 1.1.1: </strong>This is one hell of a rocket with its width set to 80%.<br><em>Source: <a href="http://www.unsplash.com/" target="_blank" class="text-brand-midblue underline">http://www.unsplash.com/</a></em></figcaption></figure>
-
 <h4 class="adx-markup-label">Side by side</h4>
-
 <section class="adx-gallery two-up">
   <figure>
     <img src="https://mediaproduction.adelaide.edu.au/uoa-styles/assets/persona.987c5b3c.jpg" alt="" class="top kl_popup_image">
@@ -152,9 +105,7 @@
     </figcaption>
   </figure>
 </section>
-
 <h4 class="adx-markup-label">Video Player with Transcript</h4>
-
 <section class="adx video">
   <div class="videoWrapper">
     <iframe title="YouTube video player" src="https://www.youtube.com/embed/U9OPRtMRwE0" width="560" height="315" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
@@ -165,12 +116,9 @@
     </div>
   </footer>
 </section>
-
 <h4 class="adx-markup-label">Responsive iFrame Wrapper</h4>
 <section class="adx video"><iframe class="adx-frame" src="https://mediaproduction.adelaide.edu.au/oua-interactives/#/economy-transition-map" width="100%" height="900px"></iframe></section>
-
 <h4 class="adx-markup-label">Podcast Player</h4>
-
 <section class="adx-podcast-square">
   <div class="adx-aspect square adx-bg-primary art">
     <img src="https://mediaproduction.adelaide.edu.au/uoa-styles/assets/diff-square.d23bf47b.jpg" alt="" class="center-center">
@@ -180,7 +128,6 @@
   <audio controls src="">
   </audio>
 </section>
-
 <section class="adx-podcast-wide">
   <div class="track">
     <h3>Track Title Goes Here</h3>
@@ -192,9 +139,22 @@
   <audio controls src="">
   </audio>
 </section>
-
+</div>
+<h2 id="people" tabindex="-1">People</h2>
+<p>==REQUIRES SOME TEXT==</p>
+<div class="adx">
+<h4 class="adx-markup-label">Profile Card</h4>
+<article class="adx-profile"><img src="https://mediaproduction.adelaide.edu.au/uoa-styles/assets/persona.987c5b3c.jpg" alt=""><section><h3 class="name">Christian Surname</h3><p class="title">Senior Deputy Vice President</p><p class="location">Adelaide, Australia</p><p class="contact">christian.surname@adelaide.edu.au</p><p class="availability">Mon-Fri 9-3pm</p><p>Here's my bio about stuff</p></section></article>
+<h4 class="adx-markup-label">base Persona</h4>
+<div class="adx-cue persona"><div class="persona-image"><img src="https://mediaproduction.adelaide.edu.au/uoa-styles/assets/persona.987c5b3c.jpg" alt="" class="persona"></div><div class="persona-content"><h5>Persona Name</h5><p>Testing content!</p></div></div>
+<div class="adx-cue persona-brand-midblue"><div class="persona-image"><img src="https://mediaproduction.adelaide.edu.au/uoa-styles/assets/persona.987c5b3c.jpg" alt="" class="persona"></div><div class="persona-content"><h5>Persona Name</h5><p>Testing content!</p></div></div>
+<div class="adx-cue persona-warning"><div class="persona-image"><img src="https://mediaproduction.adelaide.edu.au/uoa-styles/assets/persona.987c5b3c.jpg" alt="" class="persona"></div><div class="persona-content"><h5>Persona Name</h5><p>Testing content!</p></div></div>
+<div class="adx-cue persona-positive"><div class="persona-image"><img src="https://mediaproduction.adelaide.edu.au/uoa-styles/assets/persona.987c5b3c.jpg" alt="" class="persona"></div><div class="persona-content"><h5>Persona Name</h5><p>Testing content!</p></div></div>
+</div>
+<h2 id="lists" tabindex="-1">Lists</h2>
+<p>==REQUIRES SOME TEXT==</p>
+<div class="adx">
 <h4 class="adx-markup-label">Fancy Ordered List</h4>
-
 <ol class="fancy-ol">
   <li>Gather your ingredients</li>
   <li>Pour all the ingreients into a bowl</li>
@@ -203,9 +163,7 @@
   <li>Remove from the oven and eat</li>
   <li>Meditation cray snackwave raw denim thundercats banh mi. XOXO pour-over unicorn bushwick YOLO brunch. Flexitarian direct trade hammock cloud bread art party occupy. Slow-carb glossier literally thundercats truffaut, church-key quinoa tousled. Pour-over asymmetrical brooklyn narwhal, hell of waistcoat 8-bit irony.</li>
 </ol>
-
 <h4 class="adx-markup-label">Step List</h4>
-
 <ul class="step-list">
   <li class="step-2">Gather your ingredients</li>
   <li>Pour all the ingreients into a bowl</li>
@@ -214,7 +172,10 @@
   <li>Remove from the oven and eat</li>
   <li>Meditation cray snackwave raw denim thundercats banh mi. XOXO pour-over unicorn bushwick YOLO brunch. Flexitarian direct trade hammock cloud bread art party occupy. Slow-carb glossier literally thundercats truffaut, church-key quinoa tousled. Pour-over asymmetrical brooklyn narwhal, hell of waistcoat 8-bit irony.</li>
 </ul>
-
+</div>
+<h2 id="navigation" tabindex="-1">Navigation</h2>
+<p>==REQUIRES SOME TEXT==</p>
+<div class="adx">
 <h4 class="adx-markup-label">Nav Table</h4>
 <ul class="adx-nav-table">
   <li class="full"><h4><a href="#">About this course</a></h4></li>
@@ -233,19 +194,7 @@
   <li class="full"><h4><a href="#">Online Orientations</a></h4>
     <p>Seperate MyUni course</p></li>
 </ul>
-</div>
-
 <h4 class="adx-markup-label">Stepped Sequence</h4>
-<div><nav class="adx-sequence">
-  <ul class="">
-    <li class="complete">Step 1</li>
-    <li class="progress">Step 2</li>
-    <li>Step 3</li>
-    <li>Step 4</li>
-    <li>Step 5</li>
-  </ul>
-</nav></div>
-
 <nav class="adx-sequence">
   <ul class="">
     <li class="complete">Step 1</li>
@@ -255,12 +204,7 @@
     <li>Step 5</li>
   </ul>
 </nav>
-<h4 class="adx-markup-label">Profile Card</h4>
-<article class="adx-profile"><img src="https://mediaproduction.adelaide.edu.au/uoa-styles/assets/persona.987c5b3c.jpg" alt=""><section><h3 class="name">Christian Surname</h3><p class="title">Senior Deputy Vice President</p><p class="location">Adelaide, Australia</p><p class="contact">christian.surname@adelaide.edu.au</p><p class="availability">Mon-Fri 9-3pm</p><p>Here's my bio about stuff</p></section></article>
-
-<h4 class="adx-markup-label">base Persona</h4>
-<div class="adx-cue persona"><div class="persona-image"><img src="https://mediaproduction.adelaide.edu.au/uoa-styles/assets/persona.987c5b3c.jpg" alt="" class="persona"></div><div class="persona-content"><h5>Persona Name</h5><p>Testing content!</p></div></div>
-<div class="adx-cue persona-brand-midblue"><div class="persona-image"><img src="https://mediaproduction.adelaide.edu.au/uoa-styles/assets/persona.987c5b3c.jpg" alt="" class="persona"></div><div class="persona-content"><h5>Persona Name</h5><p>Testing content!</p></div></div>
+</div>
 
   </article>
 </main>
