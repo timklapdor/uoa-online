@@ -1,0 +1,12 @@
+---
+layout: base.njk
+---
+<main class="long-page">
+  <aside> 
+
+  </aside>
+  <article>
+  <h1>{{ title | safe }} </h1>
+    {{ content | replace("<p><img", "<figure><img") | replace("></p>", "></figure>") | safe }}
+  </article>
+</main>

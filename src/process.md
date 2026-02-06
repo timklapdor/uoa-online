@@ -32,6 +32,8 @@ The process of reviewing the delivery of a course to seek areas for improvement 
 10. **Maintain**
 The process of making small improvements to the existing course. These would be minor amendments, tweaks and changes to make the course run more smoothly.
 
+A more [detailed explanation of the tasks involved in the Course Development Process]({{ '/process-details/' | url }}) - Discover through to Review. 
+
 This video walks through the design and development process developed of online courses for Open Universities Australia. It walks through the stages of the process and ways of working created to Discover, Design, Develop, Build & Review new courses.
 
 https://youtu.be/IPv_zKrab7k

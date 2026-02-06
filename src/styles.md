@@ -5,7 +5,7 @@ tags: page
 useOUACSS: true
 ---
 
-The purpose of the visual design system was to enable a consistent and cohesive experience that could be developed by multiple contributors. The aim was to ensure the creayion of an engaging experience whilst maintaining the unique characteristics of each course, discipline, topics and authors. 
+The purpose of the visual design system that was for the project was to enable a consistent and cohesive experience that could be developed by multiple contributors. The aim was to ensure the creation of an engaging experience whilst maintaining the unique characteristics of each course, discipline, topics and authors. 
 
 To achieve this the team developed a distinct visual language and common approaches for design decisions. Use of the design system meant teams weren't needing to reinvent or rethink the visual and graphic design by solving problems centrally. This allowed teams to spend more time on the learner experience, creating value-adds and clarity of purpose. 
 
@@ -32,13 +32,15 @@ Directions were developed to provide clear prompts for learners to act on. This 
 
 ## Media
 
-==REQUIRES SOME TEXT==
+Media elements were key for the online learning experience and so a number of visual elements were developed to ensure that different media types would display correctly and consistently through out the courses. These elements helped to embed accessibility practices into the development workflow, so having captions and transcripts became normalised practices and not seen as additional work. 
 
 {% include "./_layouts/includes/media.njk" %}
 
 
 ## People
-==REQUIRES SOME TEXT==
+
+One aspect the team was keen to embed was a consistent approach to how people were represented in the course. The profile cards were developed for all teaching staff to ensure consistent information was displayed to students, and that they would located consistently for each course. A number of coures utilised personas within the teaching materials to help illustrate different experiences. These visual elements were developed with different colour palettes, so that multiple personas could be used – as one offs, or as an ongoing feature throughout the course. 
+
 {% include "./_layouts/includes/people.njk" %}
 
 

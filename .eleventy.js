@@ -11,7 +11,7 @@ const markdownItToc= require("markdown-it-table-of-contents");
 
 const markdownItTocOptions = {
 	includeLevel: [2,3],
-	containerHeaderHtml: "<h1>Table of Contents</h1>",
+	containerHeaderHtml: "<h4>Table of Contents</h4>",
 	listType: "ul",
 };
 
