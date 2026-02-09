@@ -1,12 +1,21 @@
 ---
-layout: page.njk
+layout: long-page.njk
 title: Style Guide
 tags: page
 ---
 
-The following written style guide was developed to help guide the teams development of content and editorial processes. 
+
+{% aside %}
 
 [[toc]]
+
+{% endaside %}
+
+{% article %}
+
+# {{ title }}
+
+The following written style guide was developed to help guide the teams development of content and editorial processes. 
 
 ## Spelling 
 As an Australian organisation, the University of Adelaide's English language communications should reflect Australian standard style and Australian spelling. Use Australian spelling as per the Macquarie dictionary (Australian standard reference). 
@@ -664,10 +673,7 @@ Here is what this would look like if it was written according to the list rules 
 ## Referencing
  
 The Harvard Referencing System is used for both programs. Vancouver may be used in Health Service Management if requested by the Course Author, but Harvard is preferred by the Online Programs team. 
-
-The [University of Adelaide Referencing Guide](https://mediaproduction.adelaide.edu.au/referencing-guide/) explains the technicalities of the Harvard Referencing System. The information below only describes referencing conventions in a general sense. 
-
-Sources that are quoted, paraphrased and summarised must be acknowledged both within the text where they are used and at the end of the webpage. 
+The [University of Adelaide Referencing Guide](https://mediaproduction.adelaide.edu.au/referencing-guide/) explains the technicalities of the Harvard Referencing System. The information below only describes referencing conventions in a general sense. Sources that are quoted, paraphrased and summarised must be acknowledged both within the text where they are used and at the end of the webpage. 
 
 ### In-text references
 
@@ -686,14 +692,14 @@ Place in-text references to emphasise either the information or the author. Each
 
 ### Reference lists
 
-Each in-text reference (see above) must have a corresponding reference list entry which gives the full details of the source.
-
-Reference Lists generally appear in a cue box, using the code `adx-cue-reference`, and are collated alphabetically at the bottom of each lesson page.
+Reference Lists generally appear in a cue box, using the code `adx-cue-reference`, and are collated alphabetically at the bottom of each lesson page. Each in-text reference (see above) must have a corresponding reference list entry which gives the full details of the source.
 
 ![Reference list example]({{'../images/pages/reference-example.png' | url }})
 
 > [!Note]
 > There is no need to acknowledge material that is consulted but not used in the text in a bibliography.
+
+### Links and media
 
 ### Embedded sources such as a video
 
@@ -703,11 +709,11 @@ For reference of how they will appear, consider the below example.
 
 ![How embedded videos display in reference list]({{'../images/pages/reference-video.png' | url }})
 
-### Course readings, or external sources
+#### Course readings, or external sources
 
 For this, consider the context and the learning intent of the exercise. What will students be using this particular source for? Are you simply pointing them to a source to raise their awareness of it, or are they expected to read the source in full or leverage information from that source in order to complete an activity?
 
-### Reference required
+#### Reference required
 
 If there is an activity around the information contained in the source, then the source should be fully referenced and included in the Reference List at the bottom of the page.
 
@@ -715,12 +721,12 @@ An easy way to think about this is if you are inputting a cue box, such as `adx-
 
 For example, where students are directed to read two sources, compare them, and then will use this to discuss their findings in an interactive session. The intext citation is included, with a permalink to the Course Readings to direct students to the article. The full references are added to the Reference List at the bottom.
 
-### External Link only
+#### External Link only
 
 For an example of where you do not need to reference in full, see below. The student is simply being pointed towards some potential sources of data and information, and are sent to one example of a specific report. However, there is no exercise that leverages any information from this site.
 
 
-### Image sourcing conventions
+#### Image sourcing conventions
 
 Media production team have conventions on how to handle these. You can see how these appear on the UoA style Guide page here: UoA Styles.
 
@@ -854,3 +860,5 @@ Within Smart Storyboard, this would be the content present inside the block in a
 - An animation shows how to change a tire. The alt text briefly describes what the animation is about (changing a tire). The long description describes how to change a tire (the key steps or processes in detail so that a user who cannot watch the animation can also learn the process).
 - An image of a series of books on a shelf contains interactive areas that provide the navigation means to a Web page about the particular book. The alt text "The books available to buy in this section. Select a book for more details about that book." describes the picture and the interactive nature, to help the user use the features of the interactive.
 - A chart showing sales for October has alt text of "October sales chart". The long description in the body of the text explains the key information conveyed by the chart: "Bar Chart showing sales for October. There are 6 salespersons. Maria is highest with 349 units. Frances is next with 301. Then comes Juan with 256, Sue with 250, Li with 200 and Max with 195. The primary use of the chart is to show leaders, so the description is in sales order."
+
+{% endarticle %}

@@ -10,7 +10,7 @@ const markdownItToc= require("markdown-it-table-of-contents");
 
 
 const markdownItTocOptions = {
-	includeLevel: [2,3],
+	includeLevel: [2],
 	containerHeaderHtml: "<h4>Table of Contents</h4>",
 	listType: "ul",
 };
@@ -29,6 +29,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItCallouts));
   eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItAnchor));
   eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItToc, markdownItTocOptions));
+  eleventyConfig.addPairedShortcode('aside', (children) => `<aside>${children}</aside>`);
+  eleventyConfig.addPairedShortcode('article', (children) => `<article>${children}</article>`);
 
 
   //Adding find filter for people image matching

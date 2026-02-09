@@ -99,7 +99,7 @@ header {
 main {
    // background:var(--primary-default);
    display: grid;
-   grid-template-columns: 1vw 1fr minmax(200px, 70em) minmax(100px, 35em) 1fr 1vw;
+   grid-template-columns: 1vw 1fr minmax(100px, 35em) minmax(200px, 70em) 1fr 1vw;
    gap: 0;
 
  .course-details {
@@ -367,6 +367,20 @@ main {
          list-style: none;
          padding: 0;
          margin: 0;
+         animation: scroll-shadow-inset linear;
+         animation-timeline: scroll( self inline );
+
+         @keyframes scroll-shadow-inset {
+            /* start with inset shadow on right */
+            from {
+               box-shadow: inset -15px 0px 20px -20px rgb(0 0 0 / 0.5);
+            }
+
+            /* end with inset shadow on left */
+            to {
+               box-shadow: inset 15px 0px 20px -20px rgb(0 0 0 / 0.5);
+            }
+         }
 
          &:-webkit-scrollbar {
          display: none;
@@ -557,7 +571,7 @@ main {
    grid-column: 3/4;
    }
 
-   figure, .eleventy-plugin-youtube-embed, #course-list{
+   figure, .eleventy-plugin-youtube-embed {
       grid-column: 2/5;
       margin: 2ch 0;
       display: flex;
@@ -656,6 +670,8 @@ article.profile {
 }
 
 #course-list {
+   grid-column: 2/5;
+   margin: 2ch 0;
    padding: 0;
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
@@ -779,3 +795,69 @@ nav.adx-sequence {
       background: none;
       display: block;
    }
+
+div.long-page {
+   // display: flex;
+   // flex-direction: column;
+   grid-column: 3/5;
+   display: flex;
+   flex-direction: row;
+
+   article {
+      max-width: 70em;
+      grid-template-columns: 1fr minmax(280px, 72ch) 1fr;
+
+      & > * {
+         grid-column: 2;
+      }
+   }
+
+   aside {
+      min-width: 20em;
+      max-width: 30em;
+
+      div {
+         position: sticky;
+         top: 0;
+      }
+
+   }
+}
+
+.table-of-contents {
+   h4 { 
+      padding-top: 3ch;
+      margin: 0 0 1ch;
+      
+   }
+   ul { 
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li { 
+         background: var(--page-light);
+         margin: 0;
+
+         & a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+            padding: .5ch 2ch .5ch 2ch;
+            transition: all ease 0.1s;
+
+            &:hover {
+               background: var(--secondary-default);
+               color: var(--rev);
+               transform: scale(1.025);
+            }
+         }
+
+
+         ul {
+            padding-left: 2ch;
+         }
+      }
+   }
+}

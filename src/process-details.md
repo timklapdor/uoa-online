@@ -5,7 +5,7 @@ tags: page
 
 ---
 
-A large amount of effort that the team put in was to develop a sustainable process for course development. As the university looked towards scaling up its efforts in online programs, the team found that a lot of practices and processes had to evolve and change. The practice of designing a single course was quite different to designing two complete programs with 36.
+A large amount of effort the team put into the project was to develop a **sustainable process** for course development. As the university looked towards scaling up its efforts in online programs, the team found that a lot of practices and processes had to evolve and change. The practice of designing a single course was quite different to designing two complete programs with 36.
 
 Throughout the project the team continuously re-developed and iterated the processes to the point that it was stable, scalable and adaptable. The following outlines each of the key stages in the processes and outlines the key outputs and information generated at each stage.
 

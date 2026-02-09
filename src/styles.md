@@ -1,9 +1,18 @@
 ---
 title: Visual Styles
-layout: page.njk
+layout: long-page.njk
 tags: page
 useOUACSS: true
 ---
+{% aside %}
+
+[[toc]]
+
+{% endaside %}
+
+{% article %}
+
+# {{ title }}
 
 The purpose of the visual design system that was for the project was to enable a consistent and cohesive experience that could be developed by multiple contributors. The aim was to ensure the creation of an engaging experience whilst maintaining the unique characteristics of each course, discipline, topics and authors. 
 
@@ -55,3 +64,5 @@ One aspect the team was keen to embed was a consistent approach to how people we
 
 
 {% include "./_layouts/includes/nav.njk" %}
+
+{% endarticle %}
