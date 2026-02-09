@@ -25,7 +25,7 @@
             <li><a href="/uoa-online/courses/">Courses</a></li>
             <li><a href="/uoa-online/people/">People</a></li>
             <li><a href="/uoa-online/process/">Process</a></li>
-            <li><a href="/uoa-online/pedagogy/">Pedagogy</a></li>
+            
             <li><a href="/uoa-online/tools/">Tools</a></li>
           </ul>
         </nav>  
@@ -201,6 +201,49 @@
 </div>
 </article>
   </div>
+
+  <script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Add smooth scroll to all existing TOC links
+  const tocLinks = document.querySelectorAll('.table-of-contents a[href^="#"]');
+  tocLinks.forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      const targetId = this.getAttribute('href');
+      const targetElement = document.querySelector(targetId);
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
+  
+  // Add back to top link
+  const tocList = document.querySelector('.table-of-contents ul');
+  
+  if (tocList) {
+    // Create new list item
+    const newLi = document.createElement('li');
+    
+    // Create the back to top link
+    const backLink = document.createElement('a');
+    backLink.href = '#visual-styles';
+    backLink.textContent = '↑ Back to top';
+    backLink.className = '';
+
+    // Add smooth scroll
+    backLink.addEventListener('click', function(e) {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    
+    // Add link to list item
+    newLi.appendChild(backLink);
+    
+    // Append to the end of the list
+    tocList.appendChild(newLi);
+  }
+});
+</script>
 </main>
 
 

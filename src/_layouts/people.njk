@@ -37,53 +37,68 @@ layout: base.njk
     {%- endfor -%}
     
     {%- set sortedLeads = leads | sort(attribute='name') -%}
-    {%- set sortedMembers = members | sort(attribute='name') -%}
     
-    <section class="team-group">
-      <h2>{{ teamNames[teamKey] }}</h2>
-      <ul class="team-list">
-      {%- for person in sortedLeads -%}
-        <li>
-          <strong>
-            {%- set foundPerson = false -%}
-              {%- for profile in collections.people -%}
-                {%- if profile.data.name == person.name -%}
-                  {%- set foundPerson = profile -%}
-                {%- endif -%}
-              {%- endfor -%}
+    {# Enrich members with course count from collections.teamMembers #}
+    {%- set enrichedMembers = [] -%}
+    {%- for person in members -%}
+      {%- set memberData = collections.teamMembers | find("name", person.name) -%}
+      {%- set temp = enrichedMembers.push({
+        name: person.name,
+        position: person.position,
+        team: person.team,
+        courseCount: memberData.courseCount if memberData else 0
+      }) -%}
+    {%- endfor -%}
+    
+    {%- set sortedMembers = enrichedMembers | sort(true, false, 'courseCount') -%}
+    
+<section class="team-group">
+  <h2>{{ teamNames[teamKey] }}</h2>
+  <ul class="team-list">
+  {%- for person in sortedLeads -%}
+    {%- set personData = people.teamMembers | find("name", person.name) -%}
+    <li class="lead" {% if personData and personData.image %}style="background-image: url('/uoa-online/images/people/{{ personData.image }}'); background-size: cover; background-position: center; "{% endif %}>
+      <h3>
+        {%- set foundPerson = false -%}
+          {%- for profile in collections.people -%}
+            {%- if profile.data.name == person.name -%}
+              {%- set foundPerson = profile -%}
+            {%- endif -%}
+          {%- endfor -%}
 
-              {%- if foundPerson -%}
-                <a href="{{ foundPerson.url | url }}">{{ person.name }}</a>
-              {%- else -%}
-                {{ person.name }}
-              {%- endif -%}
-          </strong> – {{ person.position }}
-          <span class="badge">Lead</span>
-        </li>
-      {%- endfor -%}
-      {%- for person in sortedMembers -%}
-        <li>
-          <strong>
-            {%- set foundPerson = false -%}
-              {%- for profile in collections.people -%}
-                {%- if profile.data.name == person.name -%}
-                  {%- set foundPerson = profile -%}
-                {%- endif -%}
-              {%- endfor -%}
-
-              {%- if foundPerson -%}
-                <a href="{{ foundPerson.url | url }}">{{ person.name }}</a>
-              {%- else -%}
-                {{ person.name }}
-              {%- endif -%}
-          </strong> – {{ person.position }}
-        </li>
-      {%- endfor -%}
-      </ul>
-    </section>
-  {%- endif -%}
+          {%- if foundPerson -%}
+            <a href="{{ foundPerson.url | url }}">{{ person.name }}</a>
+          {%- else -%}
+            {{ person.name }}
+          {%- endif -%}
+      </h3> 
+      <p>{{ person.position }}</p>
+    </li>
+  {%- endfor -%}
+  {%- for person in sortedMembers -%}
+    {%- set personData = people.teamMembers | find("name", person.name) -%}
+    {%- set memberData = collections.teamMembers | find("name", person.name) -%}
+    <li {% if personData and personData.image %}style="background-image: url('/uoa-online/images/people/{{ personData.image }}'); background-size: cover; background-position: center; "{% endif %}>
+      <h3>
+        {%- set foundPerson = false -%}
+          {%- for profile in collections.people -%}
+            {%- if profile.data.name == person.name -%}
+              {%- set foundPerson = profile -%}
+            {%- endif -%}
+          {%- endfor -%}
+          {%- if foundPerson -%}
+            <a href="{{ foundPerson.url | url }}">{{ person.name }}</a>
+          {%- else -%}
+            {{ person.name }}
+          {%- endif -%}
+      </h3> 
+      <p>{{ person.position }}</p>
+    </li>
+  {%- endfor -%}
+  </ul>
+</section>
+{%- endif -%}
 {%- endfor -%}
-
 
 <h2>People Without Images</h2>
 <h3>Summary</h3>
