@@ -965,6 +965,48 @@ ul.team-list {
          color: var(--rev);
       }
    }
-    
-   
+}
+
+
+ul.tools {
+   list-style: none;
+   padding: 0;
+   grid-column: 2 / 5;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(min(20rem, 100%), 1fr));
+   grid-template-rows: minmax(15rem, 1fr);
+   gap: 1rem;
+   align-items: end;
+
+
+   & li { 
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      height: 15rem;
+      justify-content: flex-end;
+      background: var(--primary-default);
+      position: relative;
+      transition: all ease 0.1s;
+      padding: 1ch;
+      color: var(--rev);
+      background-blend-mode: luminosity;
+            &:hover {
+         background-color: var(--secondary-default) !important;
+         background-blend-mode: exclusion !important;
+      }
+
+      & a {
+         text-decoration: none;
+
+         &:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+         }  
+      }
+   }
 }

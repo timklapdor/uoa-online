@@ -1,0 +1,20 @@
+---
+layout: base.njk
+---
+<main>
+  <article>
+  <h1>{{ title | safe }} </h1>
+    {{ content | replace("<p><img", "<figure><img") | replace("></p>", "></figure>") | safe }}
+
+  <ul class="tools">
+    {%- for item in tool -%}
+    <li>
+      <h3>{{item.name}}</h3>
+      <p>{{item.blurb}}</p>
+      <a href="../{{ item.link | url }}/"></a>
+    </li>
+    {%- endfor-%}
+    </ul>
+
+  </article>
+</main>
