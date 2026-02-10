@@ -6,8 +6,8 @@ const markdownItDeflist = require("markdown-it-deflist");
 const embedYouTube = require("eleventy-plugin-youtube-embed");
 const markdownItCallouts = require("markdown-it-callouts").default;
 const markdownItAnchor = require("markdown-it-anchor");
-const markdownItToc= require("markdown-it-table-of-contents");
-
+const markdownItToc = require("markdown-it-table-of-contents");
+const markdownItMark = require("markdown-it-mark");
 
 const markdownItTocOptions = {
 	includeLevel: [2],
@@ -29,6 +29,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItCallouts));
   eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItAnchor));
   eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItToc, markdownItTocOptions));
+  eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItMark));
+
   eleventyConfig.addPairedShortcode('aside', (children) => `<aside>${children}</aside>`);
   eleventyConfig.addPairedShortcode('article', (children) => `<article>${children}</article>`);
 

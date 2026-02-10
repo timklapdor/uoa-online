@@ -4,13 +4,17 @@ title: The Adelaide Online Learning Experience
 tags: page
 ---
 
-The **Adelaide Online Learning Experience** was developed as a way to embed student-centric principles into the design, development and delivery of online courses. The aim was to sets clear expectations for students and staff involved and ensures a quality experience for University’s online programs. The experience was based around five critical principles:
+As the project began, we recognised the need to establish clear founding principles that would guide our work. We needed to articulate the fundamental experience we were designing for students based on contemporary online learning. These principles would inform every decision we made—from course structure to content development to assessment design.
+
+The **Adelaide Online Learning Experience** was developed to embed student-centric principles into the design, development and delivery of online courses. It set clear expectations for students and staff and ensured a quality experience across the University's online programs. The experience was built around five critical principles that defined not just what students would learn, but how they would experience that learning.
+
+## The Five Principles
 
 #### 1. Clear
 - Accessible and inclusive to all students.
 - Easy to understand and navigate.
 - Has defined goals and expectations.
-- Utilises technology that doesn’t get in the way of learning.
+- Utilises technology that doesn't get in the way of learning.
 - Explains the requirements for interactions.
 
 #### 2. Contextual
@@ -35,7 +39,27 @@ The **Adelaide Online Learning Experience** was developed as a way to embed stud
 - Respects student time and commitment to study.
 - Develops skills that are relevant to their professional practice.
 
-### Aligning the Experience
+## Developing the Principles
+
+The Adelaide Online Learning Experience emerged from the teams research into best practices and our experience in online education. It was based on evaluations from students, consultation with academics, and engagement with learning design professionals locally and internationally. We recognised that quality online learning required more than just moving content online — it demanded a fundamental rethinking of how students engage with their education.
+
+Each principle was carefully constructed to address specific challenges in online learning. **Clear** addressed the common frustration students face with confusing navigation and unclear expectations. **Contextual** ensured that learning wasn't abstract but connected to real-world application. **Interactive** pushed back against passive consumption models of online education. **Challenging** maintained academic rigour while providing appropriate support. **Personalised** acknowledged that adult learners needed education that respected their time and connected to their professional goals.
+
+These principles weren't aspirational statements—they were actionable guidelines that could be directly applied in course design and used to evaluate the quality of the student experience.
+
+## Using the Principles in Practice
+
+#### Guiding Course Design
+
+The five principles became the lens through which every design decision was made. During development and peer review we would explicitly ask: Does this lesson sequence provide clarity? Are we contextualising this content in real-world application? Is the student actively constructing knowledge or passively consuming? Are we challenging students appropriately? Does this respect student time and connect to their professional practice?
+
+Learning Designers used the principles to guide Course Authors through the design process. When discussing assessment, the principles helped frame conversations: "How can we engage students in a discussion they can all participate in?" or "How does this assessment develop skills relevant to their professional practice?"
+
+#### Quality Assurance
+
+The Adelaide Online Learning Experience provided a shared vocabulary for quality conversations. Rather than subjective opinions about what made a "good" course, the principles offered concrete criteria. Course reviews could evaluate whether each principle was adequately addressed. The principles provided a framework for peer review among the design team. Learning Designers could give constructive feedback grounded in shared values. 
+
+#### Aligning the Experience
 
 A key component of defining the online experience is to ensure that it aligns with existing quality models and frameworks. The table below maps the Adelaide Online Experience with the [Technology Enhanced Learning Accreditation Standard](https://telas.edu.au/framework/) (TELAS), [Quality Matters](https://www.qualitymatters.org/qa-resources/rubric-standards) (QM) and the [TEQSA Higher Education Standards Framework](https://www.teqsa.gov.au/how-we-regulate/higher-education-standards-framework-2021) (HESF).
 
@@ -117,4 +141,6 @@ A key component of defining the online experience is to ensure that it aligns wi
       </tbody>
     </table>
 
+This alignment demonstrated that our student-centric principles were not in conflict with regulatory and quality requirements — in fact they were supported by all of them. We had adapted the language and changed the focus from what was visible into the course (as quality by appearance) to what the students themselves would experience.
 
+By establishing the Adelaide Online Learning Experience as our founding principles, we created a north star for all subsequent work. These principles informed the development of each course and every other tool and process with the aim of ensuring that regardless of discipline or course level, students received a consistently high-quality learning experience.

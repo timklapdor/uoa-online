@@ -4,6 +4,9 @@
     --page-light: #E9E9E9;
     --page-dark: #140F50;
 
+    --rev: #ffffff;
+    --blk: #000000;
+
 // Brand Palette    
     --primary-default: #102535;
     --secondary-default: #005a9c;
@@ -11,13 +14,13 @@
     --accent-default: #d40000;
 
 // LD Palette
-    --ld1-base: #4cc9f0;
-    --ld2-base: #fa6769;
-    --ld3-base: #f8961e;
-    --ld4-base: #f9c74f; 
-    --ld5-base: #90be6d; 
-    --ld6-base: #43aa8b;
-    --ld7-base: #a279b5;
+    --ld1-base: hsl(189, 100%, 47%);
+    --ld2-base: hsl(355, 100%, 67%);
+    --ld3-base: hsl(33, 100%, 50%);
+    --ld4-base: hsl(40, 100%, 62%);
+    --ld5-base: hsl(100, 39%, 57%);
+    --ld6-base: hsl(167, 100%, 35%);
+    --ld7-base: hsl(278, 97%, 71%);
 
 // Program Palette
     --oua-ib: #fb6f26;
