@@ -2,7 +2,7 @@
   "teamMembers": [
     {
       "name": "Aaron Honson",
-      "image": "",
+      "image": "aaron-honson.jpeg",
       "position": "Creative Coordinator",
       "team": "media", 
       "role" : "lead"
@@ -33,7 +33,7 @@
       "image": "athar-qureshi.png"
     },{
       "name": "Ben Munro",
-      "image": "",
+      "image": "ben-munro.jpeg",
       "position": "Video Production Technician", 
       "team": "media"
     },{
@@ -77,7 +77,7 @@
       "team": "devel"
     },{
       "name": "Dave Johnston",
-      "image": "",
+      "image": "dave-johnston.jpg",
       "position": "Video Production Coordinator",
       "team": "media"
     },{
@@ -111,7 +111,7 @@
       "image": "florian-ploeckl.jpeg"
     },{
       "name": "Georgia Forrest",
-      "image": "",
+      "image": "georgia-forrest.jpeg",
       "position": "Senior Learning Resource Developer", 
       "team" : "media"
     },{
@@ -127,7 +127,7 @@
       "team": "project"
     },{
       "name": "Hui Mu",
-      "image": "",
+      "image": "hui-mu.jpeg",
       "position": "Learning Resource Developer",
       "team": "media"
     },{
@@ -140,7 +140,7 @@
       "team": "devel"
     },{
       "name": "James Donovan",
-      "image": "",
+      "image": "james-donovan.jpeg",
       "position": "Video Production Specialist",
       "team": "media"
     },{
@@ -174,7 +174,7 @@
       "image": "leonid-turczynowicz.jpeg"
     },{
       "name": "Lisa Japp",
-      "image": "",
+      "image": "lisa-japp.jpeg",
       "position": "Learning Resource Developer", 
       "team": "media"
     },{
@@ -329,7 +329,7 @@
       "team": "devel"
     },{
       "name": "Zane Roach",
-      "image": "",
+      "image": "zane-roach.jpeg",
       "position": "Video Production Technician",
       "team": "media" 
     }]
