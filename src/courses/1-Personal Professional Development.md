@@ -11,7 +11,6 @@ Description: >
   knowledge in their chosen profession while also building a broader set of
   professional skills and establishing their professional identity.
 ToDo:
-  - Add learning experience
   - Review learning experience
   - Review snapshots
   - Add learning resources
