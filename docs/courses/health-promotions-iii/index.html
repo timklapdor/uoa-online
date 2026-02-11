@@ -173,34 +173,46 @@
  
     <ul class="list" id="mediaCarousel"><li class="media H5P">
 
-        <h4>Timeline - History of the Ottawa Charter </h4>
-                
-                <div class="responsive-iframe-container interactive" ><iframe loading="lazy" class="lti-embed" width="100%" height="800" title="Timeline - History of the Ottawa Charter" src="https://adelaide.h5p.com/lti/760885/content/1292103371506062839" frameborder="0"></iframe></div></li><li class="media ECHO">
+        <section> 
+          <h4>Timeline - History of the Ottawa Charter </h4>
+          
+        </section>
+              <div class="responsive-iframe-container interactive" ><iframe loading="lazy" class="lti-embed" width="100%" height="800" title="Timeline - History of the Ottawa Charter" src="https://adelaide.h5p.com/lti/760885/content/1292103371506062839" frameborder="0"></iframe></div></li><li class="media ECHO">
 
-        <h4>Stanford Cardiovascular Disease Prevention Programs </h4><p>Carmel Williams and Scott Hanson-Easey discuss the importance and relevance of the Stanford Cardiovascular Disease Prevention Programs for health promotion practice:</p>
+        <section> 
+          <h4>Stanford Cardiovascular Disease Prevention Programs </h4>
+          <p>Carmel Williams and Scott Hanson-Easey discuss the importance and relevance of the Stanford Cardiovascular Disease Prevention Programs for health promotion practice:</p>
 
-                <p><a href="https://myuni.adelaide.edu.au/courses/90116/pages/lesson-4-dot-1-the-stanford-cardiovascular-disease-prevention-programs?module_item_id=3228333">Stanford Cardiovascular Disease Prevention Programs</a></p></li><li class="media IMG">
+        </section><p><a href="https://myuni.adelaide.edu.au/courses/90116/pages/lesson-4-dot-1-the-stanford-cardiovascular-disease-prevention-programs?module_item_id=3228333">Stanford Cardiovascular Disease Prevention Programs</a></p></li><li class="media IMG">
 
-        <h4>Arnstein&#39;s Ladder </h4>
-                
+        <section> 
+          <h4>Arnstein&#39;s Ladder </h4>
+          
+        </section>
                 <figure>
                     <img src="/uoa-online/images/resources/HP3_0039_Arnsteins Ladder 1909.png" alt="Arnstein&#39;s Ladder" title="Arnstein&#39;s Ladder">
                 </figure></li><li class="media IMG">
 
-        <h4> HPS Framework </h4>
-                
+        <section> 
+          <h4> HPS Framework </h4>
+          
+        </section>
                 <figure>
                     <img src="/uoa-online/images/resources/HP3_M7_0041_Health Promoting Schools Framework.png" alt=" HPS Framework" title=" HPS Framework">
                 </figure></li><li class="media IMG">
 
-        <h4>Total Worker Health model and Hierarchy of Controls </h4>
-                
+        <section> 
+          <h4>Total Worker Health model and Hierarchy of Controls </h4>
+          
+        </section>
                 <figure>
                     <img src="/uoa-online/images/resources/HP3_M8_0047_Hierarchy of controls.png" alt="Total Worker Health model and Hierarchy of Controls" title="Total Worker Health model and Hierarchy of Controls">
                 </figure></li><li class="media IMG">
 
-        <h4>Characteristics of a walkable environment </h4>
-                
+        <section> 
+          <h4>Characteristics of a walkable environment </h4>
+          
+        </section>
                 <figure>
                     <img src="/uoa-online/images/resources/HP3_M9_0058_Characteristics of a walkable environment.png" alt="Characteristics of a walkable environment" title="Characteristics of a walkable environment">
                 </figure></li></ul>
@@ -337,6 +349,35 @@ document.addEventListener('keydown', (e) => {
 // Initialize
 updateIndicators();
 </script>
+
+<script> 
+document.addEventListener('DOMContentLoaded', function() {
+  const carouselContainer = document.querySelector('.learning-resources.media-carousel-container');
+  
+  if (carouselContainer) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && entry.intersectionRatio > 0.1) {
+          // Calculate bottom of element
+          const rect = carouselContainer.getBoundingClientRect();
+          const elementBottom = window.scrollY + rect.bottom;
+          
+          // Scroll so the bottom of the element is at the bottom of viewport
+          window.scrollTo({
+            top: elementBottom - window.innerHeight,
+            behavior: 'smooth'
+          });
+        }
+      });
+    }, {
+      threshold: [0.50], // Trigger when 10% visible
+      rootMargin: '0px'
+    });
+    
+    observer.observe(carouselContainer);
+  }
+});
+</script>  
 
     </body>
 </html>

@@ -167,13 +167,17 @@
  
     <ul class="list" id="mediaCarousel"><li class="media ECHO">
 
-        <h4>CBBE Model Explained </h4><p>Nigel Barker expands on Keller's customer-based brand equity model.</p>
+        <section> 
+          <h4>CBBE Model Explained </h4>
+          <p>Nigel Barker expands on Keller's customer-based brand equity model.</p>
 
-                <p><a href="https://myuni.adelaide.edu.au/courses/86262/pages/lesson-2-dot-1-what-are-the-components-of-customer-based-brand-equity?module_item_id=3062196">CBBE Model Explained</a></p></li><li class="media ECHO">
+        </section><p><a href="https://myuni.adelaide.edu.au/courses/86262/pages/lesson-2-dot-1-what-are-the-components-of-customer-based-brand-equity?module_item_id=3062196">CBBE Model Explained</a></p></li><li class="media ECHO">
 
-        <h4>Brand Value Chain </h4><p>Nigel Barker explains the four stages of the brand value chain, and how the model can be used to create brand equity.</p>
+        <section> 
+          <h4>Brand Value Chain </h4>
+          <p>Nigel Barker explains the four stages of the brand value chain, and how the model can be used to create brand equity.</p>
 
-                <p><a href="https://myuni.adelaide.edu.au/courses/86262/pages/lesson-2-dot-5-how-does-branding-create-value-for-the-business?module_item_id=3062200">Brand Value Chain</a></p></li></ul>
+        </section><p><a href="https://myuni.adelaide.edu.au/courses/86262/pages/lesson-2-dot-5-how-does-branding-create-value-for-the-business?module_item_id=3062200">Brand Value Chain</a></p></li></ul>
       <ul class="carousel-indicators" id="carouselIndicators"></ul>
   </div>
 
@@ -307,6 +311,35 @@ document.addEventListener('keydown', (e) => {
 // Initialize
 updateIndicators();
 </script>
+
+<script> 
+document.addEventListener('DOMContentLoaded', function() {
+  const carouselContainer = document.querySelector('.learning-resources.media-carousel-container');
+  
+  if (carouselContainer) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && entry.intersectionRatio > 0.1) {
+          // Calculate bottom of element
+          const rect = carouselContainer.getBoundingClientRect();
+          const elementBottom = window.scrollY + rect.bottom;
+          
+          // Scroll so the bottom of the element is at the bottom of viewport
+          window.scrollTo({
+            top: elementBottom - window.innerHeight,
+            behavior: 'smooth'
+          });
+        }
+      });
+    }, {
+      threshold: [0.50], // Trigger when 10% visible
+      rootMargin: '0px'
+    });
+    
+    observer.observe(carouselContainer);
+  }
+});
+</script>  
 
     </body>
 </html>

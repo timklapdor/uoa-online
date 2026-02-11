@@ -188,39 +188,51 @@
  
     <ul class="list" id="mediaCarousel"><li class="media IMG">
 
-        <h4>The role of evaluation within the planning cycle for a health intervention. </h4>
-                <p>The simplified diagram shows the planning cycle for a health intervention, progressing through key steps of needs assessment, planning, intervention and evaluation. Importantly, the diagram shows that evaluation should feed (back) into needs assessment and planning, in an iterative process, rather than a linear one.</p>
+        <section> 
+          <h4>The role of evaluation within the planning cycle for a health intervention. </h4>
+          <p>The simplified diagram shows the planning cycle for a health intervention, progressing through key steps of needs assessment, planning, intervention and evaluation. Importantly, the diagram shows that evaluation should feed (back) into needs assessment and planning, in an iterative process, rather than a linear one.</p>
 
+        </section>
                 <figure>
                     <img src="/uoa-online/images/resources/KWW_M1_0004_The role of evaluation within the planning cycle for a health intervention.png" alt="The role of evaluation within the planning cycle for a health intervention." title="The role of evaluation within the planning cycle for a health intervention.">
                 </figure></li><li class="media IMG">
 
-        <h4>The standards and steps for good evaluation within the CDC evaluation framework </h4>
-                <p>The diagram shows the four standards at the centre of the diagram, with the six evaluation steps forming a circle surrounding the standards. Each step informs the next, in an iterative loop.</p>
+        <section> 
+          <h4>The standards and steps for good evaluation within the CDC evaluation framework </h4>
+          <p>The diagram shows the four standards at the centre of the diagram, with the six evaluation steps forming a circle surrounding the standards. Each step informs the next, in an iterative loop.</p>
 
+        </section>
                 <figure>
                     <img src="/uoa-online/images/resources/KWW_M2_0006_CDC Evaluation Framework Standards and Steps.png" alt="The standards and steps for good evaluation within the CDC evaluation framework" title="The standards and steps for good evaluation within the CDC evaluation framework">
                 </figure></li><li class="media IMG">
 
-        <h4>The six-step Prevention and Population Health Branch evaluation framework for health promotion and disease prevention ( </h4>
-                <p>The diagram shows the PPHB evaluation framework, with six steps for evaluation, and each progressing into the next, connected by arrows.</p>
+        <section> 
+          <h4>The six-step Prevention and Population Health Branch evaluation framework for health promotion and disease prevention ( </h4>
+          <p>The diagram shows the PPHB evaluation framework, with six steps for evaluation, and each progressing into the next, connected by arrows.</p>
 
+        </section>
                 <figure>
                     <img src="/uoa-online/images/resources/KWW_M2_0029_PPHB Framework.png" alt="The six-step Prevention and Population Health Branch evaluation framework for health promotion and disease prevention (" title="The six-step Prevention and Population Health Branch evaluation framework for health promotion and disease prevention (">
                 </figure></li><li class="media ECHO">
 
-        <h4>Benefiting vulnerable and marginalised communities with our evaluation </h4><p>Shona Crabb provides a general overview of the concept of vulnerable populations and communities, and explains why it is important for evaluators to work with them, and how evaluation, when approached properly, can produce significant benefits.</p>
+        <section> 
+          <h4>Benefiting vulnerable and marginalised communities with our evaluation </h4>
+          <p>Shona Crabb provides a general overview of the concept of vulnerable populations and communities, and explains why it is important for evaluators to work with them, and how evaluation, when approached properly, can produce significant benefits.</p>
 
-                <p><a href="https://myuni.adelaide.edu.au/courses/97643/pages/lesson-4-dot-3-how-can-program-evaluation-benefit-marginalised-communities?module_item_id=3402161">Benefiting vulnerable and marginalised communities with our evaluation</a></p></li><li class="media IFRAME">
+        </section><p><a href="https://myuni.adelaide.edu.au/courses/97643/pages/lesson-4-dot-3-how-can-program-evaluation-benefit-marginalised-communities?module_item_id=3402161">Benefiting vulnerable and marginalised communities with our evaluation</a></p></li><li class="media IFRAME">
 
-        <h4>Analysis Perspectives </h4>
-                <p>The interactive graphic below shows different items likely to be included in an economic evaluation at different levels of analysis (international, government - state and local, community, and household) and from different perspectives (individual, health care, single payer, multisector, and societal). Select each perspective to see which items and levels would be most likely to be included in an economic evaluation. Darker shading indicates that that item is more likely to be included.</p>
+        <section> 
+          <h4>Analysis Perspectives </h4>
+          <p>The interactive graphic below shows different items likely to be included in an economic evaluation at different levels of analysis (international, government - state and local, community, and household) and from different perspectives (individual, health care, single payer, multisector, and societal). Select each perspective to see which items and levels would be most likely to be included in an economic evaluation. Darker shading indicates that that item is more likely to be included.</p>
 
+        </section>
                 <div class="responsive-iframe-container interactive"><iframe loading="lazy" class="lti-embed" width="100%" height="800" title="Analysis Perspectives" src="https://mediaproduction.adelaide.edu.au/oua-interactives/#/perspectiveChart" frameborder="0"></iframe></div></li><li class="media IMG">
 
-        <h4>The hierarchy of evidence for research design </h4>
-                <p>The graphic shows a pyramid, with different kinds of research/study designs. The designs are ranked vertically by their quality of evidence, with studies such as randomised controlled trials and systematic reviews ranked higher than items like narrative reviews or editorials.</p>
+        <section> 
+          <h4>The hierarchy of evidence for research design </h4>
+          <p>The graphic shows a pyramid, with different kinds of research/study designs. The designs are ranked vertically by their quality of evidence, with studies such as randomised controlled trials and systematic reviews ranked higher than items like narrative reviews or editorials.</p>
 
+        </section>
                 <figure>
                     <img src="/uoa-online/images/resources/KWW_M8_0069_Hierarchy of Evidence for Research Design.png" alt="The hierarchy of evidence for research design" title="The hierarchy of evidence for research design">
                 </figure></li></ul>
@@ -357,6 +369,35 @@ document.addEventListener('keydown', (e) => {
 // Initialize
 updateIndicators();
 </script>
+
+<script> 
+document.addEventListener('DOMContentLoaded', function() {
+  const carouselContainer = document.querySelector('.learning-resources.media-carousel-container');
+  
+  if (carouselContainer) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && entry.intersectionRatio > 0.1) {
+          // Calculate bottom of element
+          const rect = carouselContainer.getBoundingClientRect();
+          const elementBottom = window.scrollY + rect.bottom;
+          
+          // Scroll so the bottom of the element is at the bottom of viewport
+          window.scrollTo({
+            top: elementBottom - window.innerHeight,
+            behavior: 'smooth'
+          });
+        }
+      });
+    }, {
+      threshold: [0.50], // Trigger when 10% visible
+      rootMargin: '0px'
+    });
+    
+    observer.observe(carouselContainer);
+  }
+});
+</script>  
 
     </body>
 </html>

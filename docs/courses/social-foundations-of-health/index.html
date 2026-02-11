@@ -174,36 +174,52 @@
  
     <ul class="list" id="mediaCarousel"><li class="media ">
 
-        <h4>The social and cultural determinants of Indigenous health </h4></li><li class="media ECHO">
+        <section> 
+          <h4>The social and cultural determinants of Indigenous health </h4>
+          <p>In this video, Dr Dylan Coleman will introduce you to the importance of understanding social determinants of Aboriginal and Torres Strait Islander  health in health service management, and how the cultural determinants can offer a strengths-based view and approach.</p>
 
-        <h4>Community engagement </h4><p>In this interview, Andrew Gardner will explains the importance of engaging with community, and the positive impacts it can have.</p>
+        </section></li><li class="media ECHO">
 
-                <p><a href="https://myuni.adelaide.edu.au/courses/86610/pages/lesson-8-dot-1-what-role-does-public-engagement-play-in-social-change?module_item_id=3078029">Community engagement</a></p></li><li class="media ECHO">
+        <section> 
+          <h4>Community engagement </h4>
+          <p>In this interview, Andrew Gardner will explains the importance of engaging with community, and the positive impacts it can have.</p>
 
-        <h4>Behaviour Change Models in Public Health Campaigns. </h4>
-                <p><a href="https://myuni.adelaide.edu.au/courses/86610/pages/lesson-6-dot-3-what-is-social-marketing?module_item_id=3078016">Behaviour Change Models in Public Health Campaigns.</a></p></li><li class="media IMG">
+        </section><p><a href="https://myuni.adelaide.edu.au/courses/86610/pages/lesson-8-dot-1-what-role-does-public-engagement-play-in-social-change?module_item_id=3078029">Community engagement</a></p></li><li class="media ECHO">
 
-        <h4>Structural behavioural change continuum </h4>
-                <p>Graphic representation of the 3 step process in the Structural Behavioural  Change Continuum framework - Structural, Procedural and Behavioural changes</p>
+        <section> 
+          <h4>Behaviour Change Models in Public Health Campaigns. </h4>
+          
+        </section><p><a href="https://myuni.adelaide.edu.au/courses/86610/pages/lesson-6-dot-3-what-is-social-marketing?module_item_id=3078016">Behaviour Change Models in Public Health Campaigns.</a></p></li><li class="media IMG">
 
+        <section> 
+          <h4>Structural behavioural change continuum </h4>
+          <p>Graphic representation of the 3 step process in the Structural Behavioural  Change Continuum framework - Structural, Procedural and Behavioural changes</p>
+
+        </section>
                 <figure>
                     <img src="/uoa-online/images/resources/SFH_M7_0062_Structural behavioural change continuum.png" alt="Structural behavioural change continuum" title="Structural behavioural change continuum">
                 </figure></li><li class="media IMG">
 
-        <h4>Stages of change model </h4>
-                <p>Stages of Change model indicating the bidrectional approach to change - precontemplation, contemplation, preparation, action and maintenance.</p>
+        <section> 
+          <h4>Stages of change model </h4>
+          <p>Stages of Change model indicating the bidrectional approach to change - precontemplation, contemplation, preparation, action and maintenance.</p>
 
+        </section>
                 <figure>
                     <img src="/uoa-online/images/resources/SFH_M5_0043_Stages of change model.png" alt="Stages of change model" title="Stages of change model">
                 </figure></li><li class="media ECHO">
 
-        <h4>Critical Sensibility in Practice </h4><p>In this video, Dr Shona Crabb demonstrates how to apply a critical lens in  practice.</p>
+        <section> 
+          <h4>Critical Sensibility in Practice </h4>
+          <p>In this video, Dr Shona Crabb demonstrates how to apply a critical lens in  practice.</p>
 
-                <p><a href="">Critical Sensibility in Practice</a></p></li><li class="media H5P">
+        </section><p><a href="">Critical Sensibility in Practice</a></p></li><li class="media H5P">
 
-        <h4>Breast cancer treatment timeline </h4>
-                
-                <div class="responsive-iframe-container interactive" ><iframe loading="lazy" class="lti-embed" width="100%" height="800" title="Breast cancer treatment timeline" src="https://adelaide.h5p.com/lti/549493/content/1291927018096750739" frameborder="0"></iframe></div></li></ul>
+        <section> 
+          <h4>Breast cancer treatment timeline </h4>
+          
+        </section>
+              <div class="responsive-iframe-container interactive" ><iframe loading="lazy" class="lti-embed" width="100%" height="800" title="Breast cancer treatment timeline" src="https://adelaide.h5p.com/lti/549493/content/1291927018096750739" frameborder="0"></iframe></div></li></ul>
       <ul class="carousel-indicators" id="carouselIndicators"></ul>
   </div>
 
@@ -337,6 +353,35 @@ document.addEventListener('keydown', (e) => {
 // Initialize
 updateIndicators();
 </script>
+
+<script> 
+document.addEventListener('DOMContentLoaded', function() {
+  const carouselContainer = document.querySelector('.learning-resources.media-carousel-container');
+  
+  if (carouselContainer) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && entry.intersectionRatio > 0.1) {
+          // Calculate bottom of element
+          const rect = carouselContainer.getBoundingClientRect();
+          const elementBottom = window.scrollY + rect.bottom;
+          
+          // Scroll so the bottom of the element is at the bottom of viewport
+          window.scrollTo({
+            top: elementBottom - window.innerHeight,
+            behavior: 'smooth'
+          });
+        }
+      });
+    }, {
+      threshold: [0.50], // Trigger when 10% visible
+      rootMargin: '0px'
+    });
+    
+    observer.observe(carouselContainer);
+  }
+});
+</script>  
 
     </body>
 </html>

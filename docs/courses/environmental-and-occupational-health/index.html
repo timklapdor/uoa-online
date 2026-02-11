@@ -194,13 +194,17 @@
  
     <ul class="list" id="mediaCarousel"><li class="media ECHO">
 
-        <h4>Addressing silicosis </h4><p>Dr. Sharyn Gaskin speaks with Shelley Rowett about how the risk of silicosis is managed in the real world.</p>
+        <section> 
+          <h4>Addressing silicosis </h4>
+          <p>Dr. Sharyn Gaskin speaks with Shelley Rowett about how the risk of silicosis is managed in the real world.</p>
 
-                <p><a href="https://myuni.adelaide.edu.au/courses/89525/pages/lesson-2-dot-3-what-does-workplace-risk-management-look-like-in-practice?module_item_id=3200264">Addressing silicosis</a></p></li><li class="media IMG">
+        </section><p><a href="https://myuni.adelaide.edu.au/courses/89525/pages/lesson-2-dot-3-what-does-workplace-risk-management-look-like-in-practice?module_item_id=3200264">Addressing silicosis</a></p></li><li class="media IMG">
 
-        <h4>Health hazards on the worker </h4>
-                <p>Central picture showing anonymous figure, with risks listed surrounding the figure. Each risk is indicated at the figure by an arrow. The risks are: Noise, Heat, Psychological, Vibration, Pressure, Chemicals, Bacteria/Viruses, Radiation, and Biomechanical.</p>
+        <section> 
+          <h4>Health hazards on the worker </h4>
+          <p>Central picture showing anonymous figure, with risks listed surrounding the figure. Each risk is indicated at the figure by an arrow. The risks are: Noise, Heat, Psychological, Vibration, Pressure, Chemicals, Bacteria/Viruses, Radiation, and Biomechanical.</p>
 
+        </section>
                 <figure>
                     <img src="/uoa-online/images/resources/EOH_M2_0010_Health hazards on the worker.png" alt="Health hazards on the worker" title="Health hazards on the worker">
                 </figure></li></ul>
@@ -337,6 +341,35 @@ document.addEventListener('keydown', (e) => {
 // Initialize
 updateIndicators();
 </script>
+
+<script> 
+document.addEventListener('DOMContentLoaded', function() {
+  const carouselContainer = document.querySelector('.learning-resources.media-carousel-container');
+  
+  if (carouselContainer) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && entry.intersectionRatio > 0.1) {
+          // Calculate bottom of element
+          const rect = carouselContainer.getBoundingClientRect();
+          const elementBottom = window.scrollY + rect.bottom;
+          
+          // Scroll so the bottom of the element is at the bottom of viewport
+          window.scrollTo({
+            top: elementBottom - window.innerHeight,
+            behavior: 'smooth'
+          });
+        }
+      });
+    }, {
+      threshold: [0.50], // Trigger when 10% visible
+      rootMargin: '0px'
+    });
+    
+    observer.observe(carouselContainer);
+  }
+});
+</script>  
 
     </body>
 </html>

@@ -152,15 +152,19 @@
  
     <ul class="list" id="mediaCarousel"><li class="media IMG">
 
-        <h4>Fundamental and guiding structure for marketing communication decisions </h4>
-                <p>Four-quadrant diagram outlining the key structure for marketing communication decisions.</p>
+        <section> 
+          <h4>Fundamental and guiding structure for marketing communication decisions </h4>
+          <p>Four-quadrant diagram outlining the key structure for marketing communication decisions.</p>
 
+        </section>
                 <figure>
                     <img src="/uoa-online/images/resources/MCDW_0012_Fundamental and guiding structure for marketing communication decisions.png" alt="Fundamental and guiding structure for marketing communication decisions" title="Fundamental and guiding structure for marketing communication decisions">
                 </figure></li><li class="media IMG">
 
-        <h4>Mckinsey&#39;s &quot;Consumer decision journey&quot; </h4>
-                
+        <section> 
+          <h4>Mckinsey&#39;s &quot;Consumer decision journey&quot; </h4>
+          
+        </section>
                 <figure>
                     <img src="/uoa-online/images/resources/MCDW_M7_0066_Consumer decision journey.png" alt="Mckinsey&#39;s &quot;Consumer decision journey&quot;" title="Mckinsey&#39;s &quot;Consumer decision journey&quot;">
                 </figure></li></ul>
@@ -297,6 +301,35 @@ document.addEventListener('keydown', (e) => {
 // Initialize
 updateIndicators();
 </script>
+
+<script> 
+document.addEventListener('DOMContentLoaded', function() {
+  const carouselContainer = document.querySelector('.learning-resources.media-carousel-container');
+  
+  if (carouselContainer) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && entry.intersectionRatio > 0.1) {
+          // Calculate bottom of element
+          const rect = carouselContainer.getBoundingClientRect();
+          const elementBottom = window.scrollY + rect.bottom;
+          
+          // Scroll so the bottom of the element is at the bottom of viewport
+          window.scrollTo({
+            top: elementBottom - window.innerHeight,
+            behavior: 'smooth'
+          });
+        }
+      });
+    }, {
+      threshold: [0.50], // Trigger when 10% visible
+      rootMargin: '0px'
+    });
+    
+    observer.observe(carouselContainer);
+  }
+});
+</script>  
 
     </body>
 </html>

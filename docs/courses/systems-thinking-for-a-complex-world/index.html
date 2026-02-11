@@ -160,16 +160,20 @@
  
     <ul class="list" id="mediaCarousel"><li class="media IMG">
 
-        <h4>Traditional vs Systems thinking </h4>
-                <p>This composite image showcases two contrasting diagrams. On the left, a series of straight arrows flowing neatly from top to bottom depict traditional linear thinking, illustrating a single-path progression from problem to solution. On the right, a complex, interconnected web of multi-directional arrows and nodes represents systems thinking, indicating a myriad of influences, feedback loops, and outcomes, highlighting the chaotic, non-linear nature of the approach</p>
+        <section> 
+          <h4>Traditional vs Systems thinking </h4>
+          <p>This composite image showcases two contrasting diagrams. On the left, a series of straight arrows flowing neatly from top to bottom depict traditional linear thinking, illustrating a single-path progression from problem to solution. On the right, a complex, interconnected web of multi-directional arrows and nodes represents systems thinking, indicating a myriad of influences, feedback loops, and outcomes, highlighting the chaotic, non-linear nature of the approach</p>
 
+        </section>
                 <figure>
                     <img src="/uoa-online/images/resources/STCW_M1_0080_Traditional vs Systems thinking.png" alt="Traditional vs Systems thinking" title="Traditional vs Systems thinking">
                 </figure></li><li class="media ECHO">
 
-        <h4>Explanation of the Cynefin Model </h4><p>Introducing the Cynefin model: a decision-making framework that effectively helps you tackle complex issues.</p>
+        <section> 
+          <h4>Explanation of the Cynefin Model </h4>
+          <p>Introducing the Cynefin model: a decision-making framework that effectively helps you tackle complex issues.</p>
 
-                <p><a href="https://myuni.adelaide.edu.au/courses/88449/pages/lesson-1-dot-2-how-is-the-world-changing?module_item_id=3186448">Explanation of the Cynefin Model</a></p></li></ul>
+        </section><p><a href="https://myuni.adelaide.edu.au/courses/88449/pages/lesson-1-dot-2-how-is-the-world-changing?module_item_id=3186448">Explanation of the Cynefin Model</a></p></li></ul>
       <ul class="carousel-indicators" id="carouselIndicators"></ul>
   </div>
 
@@ -303,6 +307,35 @@ document.addEventListener('keydown', (e) => {
 // Initialize
 updateIndicators();
 </script>
+
+<script> 
+document.addEventListener('DOMContentLoaded', function() {
+  const carouselContainer = document.querySelector('.learning-resources.media-carousel-container');
+  
+  if (carouselContainer) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && entry.intersectionRatio > 0.1) {
+          // Calculate bottom of element
+          const rect = carouselContainer.getBoundingClientRect();
+          const elementBottom = window.scrollY + rect.bottom;
+          
+          // Scroll so the bottom of the element is at the bottom of viewport
+          window.scrollTo({
+            top: elementBottom - window.innerHeight,
+            behavior: 'smooth'
+          });
+        }
+      });
+    }, {
+      threshold: [0.50], // Trigger when 10% visible
+      rootMargin: '0px'
+    });
+    
+    observer.observe(carouselContainer);
+  }
+});
+</script>  
 
     </body>
 </html>

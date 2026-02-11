@@ -149,39 +149,37 @@ layout: base.njk
       {%- for media in Media-%}
       <li class="media {{ media.Type }}">
 
-        <h4>{{ media.Name }} </h4>
+        <section> 
+          <h4>{{ media.Name }} </h4>
+          {{ media.Description | markdown | safe }}
+        </section>
             {%- if media.Type=="IMG"%}
-                {{ media.Description | markdown | safe }}
                 <figure>
                     <img src="/uoa-online/images/resources/{{ media.Link }}" alt="{{ media.Name }}" title="{{ media.Name }}">
                 </figure>
             {%- endif-%}
         
             {%- if media.Type=="H5P"%}
-                {{ media.Description | markdown | safe }}
-                <div class="responsive-iframe-container interactive" >
+              <div class="responsive-iframe-container interactive" >
                   {%- if "https://" in media.Link or "http://" in media.Link -%}
                     <iframe loading="lazy" class="lti-embed" width="100%" height="800" title="{{ media.Name }}" src="{{ media.Link }}" frameborder="0"></iframe>
                   {%- else -%}
                     <iframe loading="lazy" class="lti-embed" width="100%" height="800" title="{{ media.Name }}" src="/uoa-online/media/h5p/{{ media.Link }}" frameborder="0"></iframe>
                   {%- endif -%}
-                </div>
+              </div>
             {%- endif-%}
 
             {%- if media.Type=="YOUTUBE"-%}
-              {{ media.Description | markdown | safe }}
               <div class="responsive-iframe-container">
                 <iframe loading="lazy" title="YouTube video player" src="https://www.youtube-nocookie.com/embed/{{ media.Link }}" width="560" height="315" loading="lazy" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
               </div>
             {%- endif-%}
 
             {%- if media.Type=="ECHO"-%}
-                {{ media.Description | markdown | safe }}
                 <p><a href="{{ media.Location }}">{{ media.Name }}</a></p>
             {%- endif-%}
 
             {%- if media.Type=="IFRAME"%}
-                {{ media.Description | markdown | safe }}
                 <div class="responsive-iframe-container interactive">
                   {%- if "https://" in media.Link or "http://" in media.Link -%}
                     <iframe loading="lazy" class="lti-embed" width="100%" height="800" title="{{ media.Name }}" src="{{ media.Link }}" frameborder="0"></iframe>
@@ -327,3 +325,32 @@ document.addEventListener('keydown', (e) => {
 // Initialize
 updateIndicators();
 </script>
+
+<script> 
+document.addEventListener('DOMContentLoaded', function() {
+  const carouselContainer = document.querySelector('.learning-resources.media-carousel-container');
+  
+  if (carouselContainer) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && entry.intersectionRatio > 0.1) {
+          // Calculate bottom of element
+          const rect = carouselContainer.getBoundingClientRect();
+          const elementBottom = window.scrollY + rect.bottom;
+          
+          // Scroll so the bottom of the element is at the bottom of viewport
+          window.scrollTo({
+            top: elementBottom - window.innerHeight,
+            behavior: 'smooth'
+          });
+        }
+      });
+    }, {
+      threshold: [0.50], // Trigger when 10% visible
+      rootMargin: '0px'
+    });
+    
+    observer.observe(carouselContainer);
+  }
+});
+</script>  

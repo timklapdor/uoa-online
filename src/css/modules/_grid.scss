@@ -341,64 +341,26 @@ main {
 }
 
  .learning-resources {
+
    grid-column: 3/5;
    padding:2ch; 
    border: 0;
    border-top: 4px solid;
 
-   // & ul {
-   //    display: flex;
-   //    gap: 5vw;
-   //    padding: 1em;
-   //    height: 70vh;
-   //    list-style: none;
-   //    overflow-x: scroll;
-   //    scroll-snap-type: x mandatory;
-
-   //       & li {
-   //          flex-shrink: 0;
-   //          max-height: 60vh;
-   //          min-width: 300px;
-   //          max-width: 100em;
-   //          scroll-snap-align: center;
-
-   //          display: flex;
-   //          flex-direction: column;
-   //          align-items: start;
-   //          justify-content: start;
-
-   //          img {
-   //             max-height: 60vh;
-   //          }
-   //       }
-   //    }
-
    ul {
         display: grid;
+        grid-template-rows: minmax(25%, 75vh);
          grid-auto-flow: column;
          grid-auto-columns: 90%;
          gap: 0;
          overflow-x: auto;
+         overflow-y: scroll;
          scroll-snap-type: x mandatory;
          scroll-behavior: smooth;
          scrollbar-width: none;
          list-style: none;
          padding: 0;
          margin: 0;
-         animation: scroll-shadow-inset linear;
-         animation-timeline: scroll( self inline );
-
-         @keyframes scroll-shadow-inset {
-            /* start with inset shadow on right */
-            from {
-               box-shadow: inset -15px 0px 20px -20px rgb(0 0 0 / 0.5);
-            }
-
-            /* end with inset shadow on left */
-            to {
-               box-shadow: inset 15px 0px 20px -20px rgb(0 0 0 / 0.5);
-            }
-         }
 
          &:-webkit-scrollbar {
          display: none;
@@ -407,26 +369,31 @@ main {
          & li {
             display: flex;
             flex-direction: column;
-
             scroll-snap-align: start;
             padding: 2rem;
             box-sizing: border-box;
 
-            h4 {
-               margin-top: 0;
-               margin-bottom: 1rem;
+            &:not(:last-child) {
+               border-right: 4px solid;
             }
 
+            & section {
+               border: 2px solid var(--secondary-default); 
+               border-radius: .4rem;
+               background: color-mix(in srgb, var(--secondary-default), var(--rev) 95%);
+               font-size: 80%;
+               & > * { margin: 1ch; }
+            }
 
 
             figure {
                display: flex;
                flex-direction: column;
                align-items: center;
+               width: 90%;
 
                img {
                   margin: 0;
-                  max-height: 60vh;
                }
 
                figcaption {
@@ -456,7 +423,7 @@ main {
          align-items: center;
          justify-content: center;
          z-index: 10;
-         transition: background 0.2s;
+         transition: all ease 0.2s;
          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
          }
 
@@ -531,7 +498,7 @@ main {
  .assessments {
       grid-column: 3/5;
       padding:2ch;
-      border-top: 4px solid;
+      border-bottom: 4px solid;
 
       ol {
          display: grid;

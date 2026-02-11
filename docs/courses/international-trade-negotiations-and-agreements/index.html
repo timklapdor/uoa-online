@@ -158,13 +158,17 @@
  
     <ul class="list" id="mediaCarousel"><li class="media ECHO">
 
-        <h4>The international system since 1945 </h4>
-                <p><a href="https://myuni.adelaide.edu.au/courses/86391/pages/lesson-3-dot-3-the-international-system-since-1945?module_item_id=3116869">The international system since 1945</a></p></li><li class="media H5P">
+        <section> 
+          <h4>The international system since 1945 </h4>
+          
+        </section><p><a href="https://myuni.adelaide.edu.au/courses/86391/pages/lesson-3-dot-3-the-international-system-since-1945?module_item_id=3116869">The international system since 1945</a></p></li><li class="media H5P">
 
-        <h4>Formation of the European Union - Timeline </h4>
-                <p>Timeline</p>
+        <section> 
+          <h4>Formation of the European Union - Timeline </h4>
+          <p>Timeline</p>
 
-                <div class="responsive-iframe-container interactive" ><iframe loading="lazy" class="lti-embed" width="100%" height="800" title="Formation of the European Union - Timeline" src="https://adelaide.h5p.com/lti/646381/content/1291997939842504499" frameborder="0"></iframe></div></li></ul>
+        </section>
+              <div class="responsive-iframe-container interactive" ><iframe loading="lazy" class="lti-embed" width="100%" height="800" title="Formation of the European Union - Timeline" src="https://adelaide.h5p.com/lti/646381/content/1291997939842504499" frameborder="0"></iframe></div></li></ul>
       <ul class="carousel-indicators" id="carouselIndicators"></ul>
   </div>
 
@@ -298,6 +302,35 @@ document.addEventListener('keydown', (e) => {
 // Initialize
 updateIndicators();
 </script>
+
+<script> 
+document.addEventListener('DOMContentLoaded', function() {
+  const carouselContainer = document.querySelector('.learning-resources.media-carousel-container');
+  
+  if (carouselContainer) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && entry.intersectionRatio > 0.1) {
+          // Calculate bottom of element
+          const rect = carouselContainer.getBoundingClientRect();
+          const elementBottom = window.scrollY + rect.bottom;
+          
+          // Scroll so the bottom of the element is at the bottom of viewport
+          window.scrollTo({
+            top: elementBottom - window.innerHeight,
+            behavior: 'smooth'
+          });
+        }
+      });
+    }, {
+      threshold: [0.50], // Trigger when 10% visible
+      rootMargin: '0px'
+    });
+    
+    observer.observe(carouselContainer);
+  }
+});
+</script>  
 
     </body>
 </html>
