@@ -8,7 +8,7 @@
       "role" : "lead"
     },{
       "name": "Alexis Milligan",
-      "image": "",
+      "image": "alexis-milligan.jpeg",
       "position": "Digital Education Developer",
       "team": "devel"
     },{
@@ -135,7 +135,7 @@
       "image": "hussain-rammal.jpeg"
     },{
       "name": "Jack Eames",
-      "image": "", 
+      "image": "jack-eames.jpeg", 
       "position": "Digital Education Developer",
       "team": "devel"
     },{
@@ -158,12 +158,12 @@
       "team": "project"
     },{
       "name": "Jonno Klynsmith",
-      "image": "",
+      "image": "jonno-klynsmith.jpeg",
       "position": "Learning Designer",
       "team": "devel"
     },{
       "name": "Kat Alchin",
-      "image": "",
+      "image": "kat-alchin.jpeg",
       "position": "Learning Designer", 
       "team": "devel"
     },{
@@ -284,7 +284,7 @@
       "image": "tiffany-de-sousa-machado.jpg"
     },{
       "name": "Tim Klapdor",
-      "image": "",
+      "image": "tim-klapdor.jpeg",
       "position": "Manager, Educational Design",
       "team": "devel", 
       "role" : "lead"
@@ -324,7 +324,7 @@
       "image": "wenjie-li.jpg"
     },{
       "name": "Zac Vandersman",
-      "image": "",
+      "image": "zac-vandersman.jpeg",
       "position": "Digital Education Developer",
       "team": "devel"
     },{
