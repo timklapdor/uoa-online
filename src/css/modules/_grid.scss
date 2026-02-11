@@ -922,6 +922,7 @@ ul.team-list {
       &:hover {
          background-color: var(--secondary-default) !important;
          background-blend-mode: exclusion !important;
+         transform: scale(1.025);
       }
 
       & a {
@@ -1025,9 +1026,6 @@ table.types {
       width: 30%;
    }
 
-   tr {
-      // border-bottom: 1px solid var(--rev);
-   }
 
    tr:has(th) {
       border: none;

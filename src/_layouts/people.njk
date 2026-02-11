@@ -100,6 +100,32 @@ layout: base.njk
 {%- endif -%}
 {%- endfor -%}
 
+<section class="team-group">
+  <h2>Course Authors</h2>
+  {%- set authors = collections.teamMembers | teamByRole("Course Author") | sort(attribute='name') | sort(true, false, 'courseCount') -%}
+  <ul class="team-list">
+  {%- for member in authors -%}
+    {%- set personData = people.teamMembers | find("name", member.name) -%}
+    <li {% if personData and personData.image %}style="background-image: url('/uoa-online/images/people/{{ personData.image }}'); background-size: cover; background-position: center; "{% endif %}>
+      <h3>
+        {%- set foundPerson = false -%}
+          {%- for profile in collections.people -%}
+            {%- if profile.data.name == member.name -%}
+              {%- set foundPerson = profile -%}
+            {%- endif -%}
+          {%- endfor -%}
+          {%- if foundPerson -%}
+            <a href="{{ foundPerson.url | url }}">{{ member.name }}</a>
+          {%- else -%}
+            {{ member.name }}
+          {%- endif -%}
+      </h3> 
+      <p>{{ member.role }} ({{ member.courseCount }} courses)</p>
+    </li>
+  {%- endfor -%}
+  </ul>
+</section>
+
 <h2>People Without Images</h2>
 <h3>Summary</h3>
 {%- set missingCount = 0 -%}
@@ -117,29 +143,3 @@ layout: base.njk
   {% endif %}
 {% endfor %}
 </ul>
-
-
-
-  <h2>Team Members</h2>
-    <ul>
-    {%- for member in collections.teamMembers -%}
-      <li>
-        <strong>{{ member.name }}</strong> - {{ member.role }}
-        <br>Worked on {{ member.courseCount }} course(s)
-      </li>
-    {%- endfor -%}
-    </ul>
-
-  <!-- Or group by role -->
-  <h2>Team by Role</h2>
-  {%- for role in collections.teamMembers | uniqueRoles -%}
-    <h3>{{ role }}</h3>
-    <ul>
-    {%- for member in collections.teamMembers | teamByRole(role) -%}
-      <li>{{ member.name }} ({{ member.courseCount }} courses)</li>
-    {%- endfor -%}
-    </ul>
-  {%- endfor -%}
-  
-  </article>
-</main>
