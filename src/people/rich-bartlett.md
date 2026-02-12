@@ -7,4 +7,12 @@ website: https://www.rbdigitaldesign.com
 socials: https://www.instagram.com/rb_digital_design_/
 linkedin: https://www.linkedin.com/in/richbart11/
 ---
-The CEAC is created by running probabilistic sensitivity analyses on the model used to estimate the ICER, which generates a set of possible ICERs (depending on the random selection of a variable value from the distribution of possible values associated with uncertain variables). Hundreds of different simulations are run, and ICER corresponding to the various combinations of input parameters sampled from probability distributions are plotted on the same cost-effectiveness plane. At the same time, a chart identifying the proportion of simulations in which the intervention is cost-effective (i.e. representing the probability of cost-effectiveness) is plotted on the y-axis for all potential ICER threshold values (λs) on the x-axis of the CEAC curve chart.
+For three years, I had the privilege of designing learning across a diverse portfolio of OUA courses alongside an extraordinary team known as the Orca Pod, part of the Learning Enhancement Innovation division at the University of Adelaide. The name fit us perfectly. Orcas move with precision, communicate constantly, and rely on collective intelligence to navigate vast and unpredictable waters. That was how we worked. No one operated alone. Ideas surfaced, circled, and strengthened through shared effort.
+
+The pod changed over time. People moved on, new directions called, but the group’s rhythm never broke. We held onto our Salmon Hats, stayed tightly coordinated, and when challenges appeared immovable, we did what orcas do best, worked together beneath the surface until something shifted. Quiet persistence, shared momentum, and absolute trust in one another.
+
+What made it meaningful was seeing the impact. Meeting students who graduated from programs we helped shape made the work tangible. Presenting our collective process at ASCILITE 2025 gave us a moment to surface and look back at what we had built together.
+
+A special acknowledgement goes to Tim Klapdor, my line manager across the entire UoA project and throughout the four and a half years I worked under the University of Adelaide banner before the launch of the new Adelaide University. His work in creating this portfolio site reflects not only deep technical expertise, but genuine care for the team and the project we built together. Like any strong pod, leadership mattered, and Tim helped ensure we always had direction, cohesion, and somewhere solid to surface.
+
+More than anything, it was the experience of moving as a pod, learning, adapting, and creating alongside deeply talented people, that made the journey unforgettable.
