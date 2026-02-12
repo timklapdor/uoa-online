@@ -1,7 +1,12 @@
 ---
 layout: page.njk
 title: Miro 
-tags: page
+tags: page, tool
+resources: 
+- name: Miro Example from XXXX
+  link: test
+- name: Miro Example from XXXX
+  link: test  
 ---
 
 Early in the project, the team settled on [Miro](https://miro.com) as our collaborative tool for course design. Miro provided key features essential to our work:
@@ -14,37 +19,35 @@ Early in the project, the team settled on [Miro](https://miro.com) as our collab
 
 ## The Course Workspace
 
-We developed and refined what became known as the **Course Workspace**—a Miro board template that provided a structured yet flexible environment for course design. The workspace included eight unique frames, each serving a specific purpose in the design process:
+We developed and refined what became known as the **Course Workspace**—a Miro board template that provided a structured yet flexible environment for course design. 
+
+![Course Workspace]({{ '/images/pages/course-workspace.png' | url }})
+
+The workspace included eight unique frames, each serving a specific purpose in the design process:
 
 #### 1. Course Information
 
 This frame includes the course name, course code and course description alongside links to the course's box folder, assessment briefs, course design brief, learning patterns and **Smart Storyboard**. This was useful for the development team and course author to refer to when looking up documents and resources. 
 
-==INSERT IMAGE==
-
 #### 2. Course Context
 
 This frame includes the program graphic, program context information and the contact list. The program context information helps to position the course and if it needs to align to one or two programs, if it is core or elective, and if it has been slated to align to professional development, research, career readiness or capstone areas in one of the programs.
-
-==INSERT IMAGE==
 
 #### 3. Course Questionnaire
 
 Used as part of the kick-off workshop, the questions stimulate a discussion about the broader aspects of the course and introduce Course Authors to Miro with a practical task. Course Authors are asked to respond to each of the questions to aid the higher level conceptualisation of the course and its intent. Additional questions can be added that relate to additional courses, related material, sample assessments, student concerns, or information from student evaluations.
 
-==INSERT IMAGE==
-
 #### 4. Constructive Alignment
 
 This frame provides a workspace for discussion about alignment between Graduate Attributes (GAs), Program Learning Outcomes (PLOs) for both programs and the Course Learning Outcomes (CLOs). The frame used the visual element of Miro to allow connections to be drawn directly between these elements rather than map via a spreadsheet. The same functionality is applied to the assessment tasks allowing direct links to the CLOs visually using the arrow connections.
 
-==INSERT IMAGE==
+![Contructive alignment]({{ '/images/pages/constructive-alignment.jpg' | url }})
 
 #### 5. Time on Task
 
 This frame is designed to capture the student experience across the trimester by capturing what students will be working on during the 13 hours of study across the 12 weeks of the course. Using the Learning Types colour palette to allocate a background colour to each cell (where 1 cell = 1 hour) allows a quick understanding of the student experience to be formed. This helps to develop a budget for learning activities and provides a checkpoint that all Learning Types appear across the course, and facilitate discussion to modify the design.
 
-==INSERT IMAGE==
+![Time on Task table]({{ '/images/pages/time-on-task.png' | url }})
 
 #### 6. Development Timeline and Milestones
 
@@ -60,7 +63,7 @@ The Course Catalogue is a detailed log of all the information available in the m
 
 This helps to provide the Learning Designer an opportunity to delve deeply into the course and familiarise themselves with it before the development kicks off. It helps to note what can be used, reused and redeveloped in the new course. 
 
-==INSERT IMAGE==
+![Example of a Course Catalgue]({{ '/images/pages/course-catalogue.png' | url }})
 
 #### 8. Course Map
 
@@ -68,7 +71,7 @@ This table follows a similar layout to the Course Catalogue but is for the new c
 
 At the end of the course map, there should be 12 weeks of lessons planned, assessments mapped to when they will occur in the course, and detailed lesson outlines for each week.
 
-==INSERT IMAGE==
+![Example of a Course Catalgue]({{ '/images/pages/miro-course-map.png' | url }})
 
 ### Using the Course Workspace 
 

@@ -2,6 +2,10 @@
 layout: page.njk
 title: Learning Patterns
 tags: page
+resources: 
+- name: Explore the Learning Patterns library
+  link: https://learning-patterns.com
+
 ---
 
 While Learning Types provided a consistent language to conceptualize learning, they didn't provide the detail required to build a course. Many design processes rely on templates to create structure, but templates force consistency without regard for intention, discipline, or the unique sequence of each learning experience. Rather than supporting intentional design, templates can strip away what makes a course distinctive. We needed a more flexible approach.

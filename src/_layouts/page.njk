@@ -5,5 +5,19 @@ layout: base.njk
   <article>
   <h1>{{ title | safe }} </h1>
     {{ content | replace("<p><img", "<figure><img") | replace("></p>", "></figure>") | safe }}
+
+  {%- if resources != null  %}
+  <section class="additional"> 
+    <h4>Additional Resources</h4>
+      <ul>
+      {%- for item in resources -%}
+      <li><a href="{{ item.link }}" target="_blank">{{ item.name }}</a></li>
+      {%- endfor -%}
+      </ul>
+  </section>
+  {%- endif -%}
+
   </article>
+  
+
 </main>

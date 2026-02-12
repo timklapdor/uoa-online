@@ -37,6 +37,8 @@ By the project's end, we had created a tool that provided the team with an autho
 
 Smart Storyboard broke courses into hierarchical components (modules, lessons, and blocks) that could be developed independently while maintaining coherence across the whole course. This modularity allowed multiple Course Authors to work simultaneously on different parts of the course without conflicts or confusion. Each block could be assigned to specific authors, given a status, and tracked individually.
 
+![Block element in Smart Storyboard]({{ '../images/pages/ssb-block.png' | url }})
+
 This structure also aligned perfectly with Learning Patterns. Each block in Smart Storyboard could be tagged with its Learning Types and Patterns, making the pedagogical intent explicit. As Course Authors built lessons, they could see the sequence of patterns unfolding and ensure appropriate variety and progression. The tool made it impossible to lose sight of the learning design while focusing on content development.
 
 #### Workflow Management

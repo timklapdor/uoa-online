@@ -2,6 +2,9 @@
 layout: page.njk
 title: Learning Types
 tags: page
+resources: 
+- name: Explore the Learning Types site
+  link: https://learning-types.com
 ---
 
 One of the recurring challenges in learning design is the lack of a shared vocabulary focused on learning and the learner experience, rather than pedagogy and teaching. To facilitate true collaborative work, we needed to establish this common language.
