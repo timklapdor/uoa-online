@@ -9,7 +9,7 @@ linkedin: https://www.linkedin.com/in/richbart11/
 ---
 For three years, I had the privilege of designing learning across a diverse portfolio of OUA courses alongside an extraordinary team known as the Orca Pod, part of the Learning Enhancement Innovation division at the University of Adelaide. The name fit us perfectly. Orcas move with precision, communicate constantly, and rely on collective intelligence to navigate vast and unpredictable waters. That was how we worked. No one operated alone. Ideas surfaced, circled, and strengthened through shared effort.
 
-The pod changed over time. People moved on, new directions called, but the group’s rhythm never broke. We held onto our Salmon Hats, stayed tightly coordinated, and when challenges appeared immovable, we did what orcas do best, worked together beneath the surface until something shifted. Quiet persistence, shared momentum, and absolute trust in one another.
+The pod changed over time. People moved on, new directions called, but the group’s rhythm never broke. We held onto our [Salmon Hats](https://en.wikipedia.org/wiki/Salmon_hat), stayed tightly coordinated, and when challenges appeared immovable, we did what orcas do best, worked together beneath the surface until something shifted. Quiet persistence, shared momentum, and absolute trust in one another.
 
 What made it meaningful was seeing the impact. Meeting students who graduated from programs we helped shape made the work tangible. Presenting our collective process at ASCILITE 2025 gave us a moment to surface and look back at what we had built together.
 
