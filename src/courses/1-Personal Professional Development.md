@@ -162,6 +162,20 @@ Snapshot:
       Council Australia's Inclusion@Work Index. Together, they effectively
       translated statistics into accessible visuals that deepen understanding,
       creating an engaging and informative learning experience for students.
+  - Name: "Lesson 2.1.2: Ethical theories"
+    Link: 037_Page_module_2_ethics_lesson_2_1_2_ethical_theories.png
+    Description: >-
+      This page introduces foundational ethical theories, including deontology,
+      consequentialism, virtue ethics and rights, then invites students to apply
+      these perspectives through an interactive decision-making quiz. Rather
+      than learning ethics as abstract philosophy, students experience how
+      different frameworks shape real choices and outcomes.
+
+
+      This is important because it shifts ethics from theory to personal
+      reflection. By testing their own moral reasoning, students begin
+      developing the judgement, justification skills and self-awareness required
+      for professional ethical decision-making later in the course.
 ---
 Personal professional development is a skills-focused course designed to support students in forming a professional identity alongside their disciplinary studies. The course aims to develop reflective capability, ethical awareness, and an understanding of how professional learning occurs across formal, informal, and social contexts. It is positioned early in students’ programs to establish a professional and growth-oriented mindset that can be applied across study, work, and life.
 
