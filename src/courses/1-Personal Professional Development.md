@@ -162,6 +162,35 @@ Snapshot:
       Council Australia's Inclusion@Work Index. Together, they effectively
       translated statistics into accessible visuals that deepen understanding,
       creating an engaging and informative learning experience for students.
+  - Name: "Lesson 2.1.2: Ethical theories"
+    Link: 037_Page_module_2_ethics_lesson_2_1_2_ethical_theories.png
+    Description: >-
+      This page introduces foundational ethical theories, including deontology,
+      consequentialism, virtue ethics and rights, then invites students to apply
+      these perspectives through an interactive decision-making quiz. Rather
+      than learning ethics as abstract philosophy, students experience how
+      different frameworks shape real choices and outcomes.
+
+
+      This is important because it shifts ethics from theory to personal
+      reflection. By testing their own moral reasoning, students begin
+      developing the judgement, justification skills and self-awareness required
+      for professional ethical decision-making later in the course.
+  - Name: "Lesson 2.2.2: Codes of conduct"
+    Link: 040_Page_module_2_ethics_lesson_2_2_2_codes_of_conduct.png
+    Description: >-
+      This page moves from understanding codes of conduct to applying them in
+      realistic workplace situations. Students engage with a series of
+      professional ethical dilemmas, then rank them through an interactive poll
+      developed with the media team. The collective results shape discussion in
+      tutorials, creating a shared decision-making experience grounded in
+      real-world complexity.
+
+
+      This is important because it transforms ethics from compliance to
+      judgement. By weighing competing pressures, consequences and
+      responsibilities, students practise navigating ambiguity and develop the
+      confidence to justify ethical decisions in professional contexts.
 ---
 Personal professional development is a skills-focused course designed to support students in forming a professional identity alongside their disciplinary studies. The course aims to develop reflective capability, ethical awareness, and an understanding of how professional learning occurs across formal, informal, and social contexts. It is positioned early in students’ programs to establish a professional and growth-oriented mindset that can be applied across study, work, and life.
 
