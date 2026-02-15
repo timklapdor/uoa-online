@@ -177,27 +177,35 @@
  
     <ul class="list" id="mediaCarousel"><li class="media YOUTUBE">
 
-        <h4>Impacts of globalisation </h4><p>Course author Chanaka Wijewardena shares his experience with globalisation and how it has impacted on his own life.</p>
+        <section> 
+          <h4>Impacts of globalisation </h4>
+          <p>Course author Chanaka Wijewardena shares his experience with globalisation and how it has impacted on his own life.</p>
 
-              <div class="responsive-iframe-container">
+        </section><div class="responsive-iframe-container">
                 <iframe loading="lazy" title="YouTube video player" src="https://www.youtube-nocookie.com/embed/04eUlhGFuLE" width="560" height="315" loading="lazy" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
               </div></li><li class="media H5P">
 
-        <h4>Components of ethical behaviour </h4>
-                <p>This interactive displays the relationship between Corporate Governance, Ethics, Corporate Social Responsibility and Sustainability.</p>
+        <section> 
+          <h4>Components of ethical behaviour </h4>
+          <p>This interactive displays the relationship between Corporate Governance, Ethics, Corporate Social Responsibility and Sustainability.</p>
 
-                <div class="responsive-iframe-container interactive" ><iframe loading="lazy" class="lti-embed" width="100%" height="800" title="Components of ethical behaviour" src="/uoa-online/media/h5p/international-business-environments-M3-ethical-behaviour.html" frameborder="0"></iframe></div></li><li class="media IMG">
+        </section>
+              <div class="responsive-iframe-container interactive" ><iframe loading="lazy" class="lti-embed" width="100%" height="800" title="Components of ethical behaviour" src="/uoa-online/media/h5p/international-business-environments-M3-ethical-behaviour.html" frameborder="0"></iframe></div></li><li class="media IMG">
 
-        <h4>The evolution of government trade interventions </h4>
-                <p>A timeline of the evolution of government intervention in trade.</p>
+        <section> 
+          <h4>The evolution of government trade interventions </h4>
+          <p>A timeline of the evolution of government intervention in trade.</p>
 
+        </section>
                 <figure>
                     <img src="/uoa-online/images/resources/IBE_M9_0021_The evolution of government trade interventions.png" alt="The evolution of government trade interventions" title="The evolution of government trade interventions">
                 </figure></li><li class="media IMG">
 
-        <h4>PESTLE in the international business environment </h4>
-                <p>The diagram uses the PESTLE model to explore the external factors that can influence the global operations of business organisations.</p>
+        <section> 
+          <h4>PESTLE in the international business environment </h4>
+          <p>The diagram uses the PESTLE model to explore the external factors that can influence the global operations of business organisations.</p>
 
+        </section>
                 <figure>
                     <img src="/uoa-online/images/resources/IBE_M12_0034_Factors influencing international markets.png" alt="PESTLE in the international business environment" title="PESTLE in the international business environment">
                 </figure></li></ul>
@@ -334,6 +342,35 @@ document.addEventListener('keydown', (e) => {
 // Initialize
 updateIndicators();
 </script>
+
+<script> 
+document.addEventListener('DOMContentLoaded', function() {
+  const carouselContainer = document.querySelector('.learning-resources.media-carousel-container');
+  
+  if (carouselContainer) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && entry.intersectionRatio > 0.1) {
+          // Calculate bottom of element
+          const rect = carouselContainer.getBoundingClientRect();
+          const elementBottom = window.scrollY + rect.bottom;
+          
+          // Scroll so the bottom of the element is at the bottom of viewport
+          window.scrollTo({
+            top: elementBottom - window.innerHeight,
+            behavior: 'smooth'
+          });
+        }
+      });
+    }, {
+      threshold: [0.50], // Trigger when 10% visible
+      rootMargin: '0px'
+    });
+    
+    observer.observe(carouselContainer);
+  }
+});
+</script>  
 
     </body>
 </html>

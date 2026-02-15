@@ -191,43 +191,59 @@
  
     <ul class="list" id="mediaCarousel"><li class="media YOUTUBE">
 
-        <h4>International Business Strategy </h4>
-              <div class="responsive-iframe-container">
+        <section> 
+          <h4>International Business Strategy </h4>
+          
+        </section><div class="responsive-iframe-container">
                 <iframe loading="lazy" title="YouTube video player" src="https://www.youtube-nocookie.com/embed/U00PsMcrZno" width="560" height="315" loading="lazy" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
               </div></li><li class="media YOUTUBE">
 
-        <h4>Grey Market Activity </h4>
-              <div class="responsive-iframe-container">
+        <section> 
+          <h4>Grey Market Activity </h4>
+          
+        </section><div class="responsive-iframe-container">
                 <iframe loading="lazy" title="YouTube video player" src="https://www.youtube-nocookie.com/embed/ivA2Vn3NjmY" width="560" height="315" loading="lazy" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
               </div></li><li class="media YOUTUBE">
 
-        <h4>Export Strategy </h4>
-              <div class="responsive-iframe-container">
+        <section> 
+          <h4>Export Strategy </h4>
+          
+        </section><div class="responsive-iframe-container">
                 <iframe loading="lazy" title="YouTube video player" src="https://www.youtube-nocookie.com/embed/0P6OaWNIkaQ" width="560" height="315" loading="lazy" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
               </div></li><li class="media YOUTUBE">
 
-        <h4>International strategy interview </h4><p>An interview with the General Manager of International Sales from REDARC, Craig Herriot, where he shares his experiences directly with learners and some of the internationalisation decisions the firm made, and how they came to formulate their strategies for international opertaions.</p>
+        <section> 
+          <h4>International strategy interview </h4>
+          <p>An interview with the General Manager of International Sales from REDARC, Craig Herriot, where he shares his experiences directly with learners and some of the internationalisation decisions the firm made, and how they came to formulate their strategies for international opertaions.</p>
 
-              <div class="responsive-iframe-container">
+        </section><div class="responsive-iframe-container">
                 <iframe loading="lazy" title="YouTube video player" src="https://www.youtube-nocookie.com/embed/P20VoLgyyng" width="560" height="315" loading="lazy" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
               </div></li><li class="media YOUTUBE">
 
-        <h4>Incoterms </h4>
-              <div class="responsive-iframe-container">
+        <section> 
+          <h4>Incoterms </h4>
+          
+        </section><div class="responsive-iframe-container">
                 <iframe loading="lazy" title="YouTube video player" src="https://www.youtube-nocookie.com/embed/RWj9HE8T_oI" width="560" height="315" loading="lazy" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
               </div></li><li class="media IFRAME">
 
-        <h4>Slider Scale Interactive </h4>
-                
+        <section> 
+          <h4>Slider Scale Interactive </h4>
+          
+        </section>
                 <div class="responsive-iframe-container interactive"><iframe loading="lazy" class="lti-embed" width="100%" height="800" title="Slider Scale Interactive" src="https://mediaproduction.adelaide.edu.au/oua-interactives/#/control-slider" frameborder="0"></iframe></div></li><li class="media H5P">
 
-        <h4>Drag and drop on FDI </h4>
-                
-                <div class="responsive-iframe-container interactive" ><iframe loading="lazy" class="lti-embed" width="100%" height="800" title="Drag and drop on FDI" src="/uoa-online/media/h5p/international-business-operation-M6-fdi.html" frameborder="0"></iframe></div></li><li class="media H5P">
+        <section> 
+          <h4>Drag and drop on FDI </h4>
+          
+        </section>
+              <div class="responsive-iframe-container interactive" ><iframe loading="lazy" class="lti-embed" width="100%" height="800" title="Drag and drop on FDI" src="/uoa-online/media/h5p/international-business-operation-M6-fdi.html" frameborder="0"></iframe></div></li><li class="media H5P">
 
-        <h4>Case study drag and drop local business </h4>
-                
-                <div class="responsive-iframe-container interactive" ><iframe loading="lazy" class="lti-embed" width="100%" height="800" title="Case study drag and drop local business" src="/uoa-online/media/h5p/international-business-operation-M6-case-study.html" frameborder="0"></iframe></div></li></ul>
+        <section> 
+          <h4>Case study drag and drop local business </h4>
+          
+        </section>
+              <div class="responsive-iframe-container interactive" ><iframe loading="lazy" class="lti-embed" width="100%" height="800" title="Case study drag and drop local business" src="/uoa-online/media/h5p/international-business-operation-M6-case-study.html" frameborder="0"></iframe></div></li></ul>
       <ul class="carousel-indicators" id="carouselIndicators"></ul>
   </div>
 
@@ -361,6 +377,35 @@ document.addEventListener('keydown', (e) => {
 // Initialize
 updateIndicators();
 </script>
+
+<script> 
+document.addEventListener('DOMContentLoaded', function() {
+  const carouselContainer = document.querySelector('.learning-resources.media-carousel-container');
+  
+  if (carouselContainer) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && entry.intersectionRatio > 0.1) {
+          // Calculate bottom of element
+          const rect = carouselContainer.getBoundingClientRect();
+          const elementBottom = window.scrollY + rect.bottom;
+          
+          // Scroll so the bottom of the element is at the bottom of viewport
+          window.scrollTo({
+            top: elementBottom - window.innerHeight,
+            behavior: 'smooth'
+          });
+        }
+      });
+    }, {
+      threshold: [0.50], // Trigger when 10% visible
+      rootMargin: '0px'
+    });
+    
+    observer.observe(carouselContainer);
+  }
+});
+</script>  
 
     </body>
 </html>

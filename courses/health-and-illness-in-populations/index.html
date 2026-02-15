@@ -189,23 +189,29 @@
  
     <ul class="list" id="mediaCarousel"><li class="media IMG">
 
-        <h4>The five stages of the demographic transition </h4>
-                <p>The demographic transition is a model that describes population change over time from high mortality, including high infant mortality, and high fertility to low mortality and fertility and higher life expectancy. The demographic transition occurs as part of the economic development of a country.</p>
+        <section> 
+          <h4>The five stages of the demographic transition </h4>
+          <p>The demographic transition is a model that describes population change over time from high mortality, including high infant mortality, and high fertility to low mortality and fertility and higher life expectancy. The demographic transition occurs as part of the economic development of a country.</p>
 
+        </section>
                 <figure>
                     <img src="/uoa-online/images/resources/HIP_M1_0019_five_stages.png" alt="The five stages of the demographic transition" title="The five stages of the demographic transition">
                 </figure></li><li class="media IMG">
 
-        <h4>Three levels of prevention mapped across a &#39;stages of disease&#39; continuum. </h4>
-                <p>The three levels of prevention - preventing the occurrence of disease, detecting it early, arresting its progress, and reducing its consequences - are mapped onto the stages of the disease continuum.</p>
+        <section> 
+          <h4>Three levels of prevention mapped across a &#39;stages of disease&#39; continuum. </h4>
+          <p>The three levels of prevention - preventing the occurrence of disease, detecting it early, arresting its progress, and reducing its consequences - are mapped onto the stages of the disease continuum.</p>
 
+        </section>
                 <figure>
                     <img src="/uoa-online/images/resources/HIP_M2_0074_levels_disease_prevention_A.png" alt="Three levels of prevention mapped across a &#39;stages of disease&#39; continuum." title="Three levels of prevention mapped across a &#39;stages of disease&#39; continuum.">
                 </figure></li><li class="media YOUTUBE">
 
-        <h4>What outcomes are you interested in measuring? </h4><p>Andrew Gardner introduces the different types of outcomes you can measure and what's required for evaluating long-term outcomes, impacts, and processes of interventions.</p>
+        <section> 
+          <h4>What outcomes are you interested in measuring? </h4>
+          <p>Andrew Gardner introduces the different types of outcomes you can measure and what's required for evaluating long-term outcomes, impacts, and processes of interventions.</p>
 
-              <div class="responsive-iframe-container">
+        </section><div class="responsive-iframe-container">
                 <iframe loading="lazy" title="YouTube video player" src="https://www.youtube-nocookie.com/embed/4H0Ax0OqzJI" width="560" height="315" loading="lazy" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
               </div></li></ul>
       <ul class="carousel-indicators" id="carouselIndicators"></ul>
@@ -341,6 +347,35 @@ document.addEventListener('keydown', (e) => {
 // Initialize
 updateIndicators();
 </script>
+
+<script> 
+document.addEventListener('DOMContentLoaded', function() {
+  const carouselContainer = document.querySelector('.learning-resources.media-carousel-container');
+  
+  if (carouselContainer) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && entry.intersectionRatio > 0.1) {
+          // Calculate bottom of element
+          const rect = carouselContainer.getBoundingClientRect();
+          const elementBottom = window.scrollY + rect.bottom;
+          
+          // Scroll so the bottom of the element is at the bottom of viewport
+          window.scrollTo({
+            top: elementBottom - window.innerHeight,
+            behavior: 'smooth'
+          });
+        }
+      });
+    }, {
+      threshold: [0.50], // Trigger when 10% visible
+      rootMargin: '0px'
+    });
+    
+    observer.observe(carouselContainer);
+  }
+});
+</script>  
 
     </body>
 </html>

@@ -166,39 +166,53 @@
  
     <ul class="list" id="mediaCarousel"><li class="media IMG">
 
-        <h4>The Wheel of International Marketing. </h4>
-                
+        <section> 
+          <h4>The Wheel of International Marketing. </h4>
+          
+        </section>
                 <figure>
                     <img src="/uoa-online/images/resources/MTHW_M1_0003_The Wheel of International Marketing.png" alt="The Wheel of International Marketing." title="The Wheel of International Marketing.">
                 </figure></li><li class="media IMG">
 
-        <h4>SWOT analysis </h4>
-                
+        <section> 
+          <h4>SWOT analysis </h4>
+          
+        </section>
                 <figure>
                     <img src="/uoa-online/images/resources/MTHW_M1_0011_SWOT_Analysis_v2.png" alt="SWOT analysis" title="SWOT analysis">
                 </figure></li><li class="media H5P">
 
-        <h4>Legal systems </h4>
-                
-                <div class="responsive-iframe-container interactive" ><iframe loading="lazy" class="lti-embed" width="100%" height="800" title="Legal systems" src="/uoa-online/media/h5p/marketing-to-the-world-M2-2-legal.html" frameborder="0"></iframe></div></li><li class="media IFRAME">
+        <section> 
+          <h4>Legal systems </h4>
+          
+        </section>
+              <div class="responsive-iframe-container interactive" ><iframe loading="lazy" class="lti-embed" width="100%" height="800" title="Legal systems" src="/uoa-online/media/h5p/marketing-to-the-world-M2-2-legal.html" frameborder="0"></iframe></div></li><li class="media IFRAME">
 
-        <h4>Hofstede&#39;s onion model </h4>
-                
+        <section> 
+          <h4>Hofstede&#39;s onion model </h4>
+          
+        </section>
                 <div class="responsive-iframe-container interactive"><iframe loading="lazy" class="lti-embed" width="100%" height="800" title="Hofstede&#39;s onion model" src="https://mediaproduction.adelaide.edu.au/oua-interactives/#/onion" frameborder="0"></iframe></div></li><li class="media H5P">
 
-        <h4>Evolution of technology </h4>
-                
-                <div class="responsive-iframe-container interactive" ><iframe loading="lazy" class="lti-embed" width="100%" height="800" title="Evolution of technology" src="/uoa-online/media/h5p/marketing-to-the-world-M5-1-technology.html" frameborder="0"></iframe></div></li><li class="media IMG">
+        <section> 
+          <h4>Evolution of technology </h4>
+          
+        </section>
+              <div class="responsive-iframe-container interactive" ><iframe loading="lazy" class="lti-embed" width="100%" height="800" title="Evolution of technology" src="/uoa-online/media/h5p/marketing-to-the-world-M5-1-technology.html" frameborder="0"></iframe></div></li><li class="media IMG">
 
-        <h4>INCOTERMs </h4>
-                
+        <section> 
+          <h4>INCOTERMs </h4>
+          
+        </section>
                 <figure>
                     <img src="/uoa-online/images/resources/MTHW_M7_0002_INCOTERMS.png" alt="INCOTERMs" title="INCOTERMs">
                 </figure></li><li class="media H5P">
 
-        <h4>Advantages of services over physical products </h4>
-                
-                <div class="responsive-iframe-container interactive" ><iframe loading="lazy" class="lti-embed" width="100%" height="800" title="Advantages of services over physical products" src="/uoa-online/media/h5p/marketing-to-the-world-M9-1-physical.html" frameborder="0"></iframe></div></li></ul>
+        <section> 
+          <h4>Advantages of services over physical products </h4>
+          
+        </section>
+              <div class="responsive-iframe-container interactive" ><iframe loading="lazy" class="lti-embed" width="100%" height="800" title="Advantages of services over physical products" src="/uoa-online/media/h5p/marketing-to-the-world-M9-1-physical.html" frameborder="0"></iframe></div></li></ul>
       <ul class="carousel-indicators" id="carouselIndicators"></ul>
   </div>
 
@@ -332,6 +346,35 @@ document.addEventListener('keydown', (e) => {
 // Initialize
 updateIndicators();
 </script>
+
+<script> 
+document.addEventListener('DOMContentLoaded', function() {
+  const carouselContainer = document.querySelector('.learning-resources.media-carousel-container');
+  
+  if (carouselContainer) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && entry.intersectionRatio > 0.1) {
+          // Calculate bottom of element
+          const rect = carouselContainer.getBoundingClientRect();
+          const elementBottom = window.scrollY + rect.bottom;
+          
+          // Scroll so the bottom of the element is at the bottom of viewport
+          window.scrollTo({
+            top: elementBottom - window.innerHeight,
+            behavior: 'smooth'
+          });
+        }
+      });
+    }, {
+      threshold: [0.50], // Trigger when 10% visible
+      rootMargin: '0px'
+    });
+    
+    observer.observe(carouselContainer);
+  }
+});
+</script>  
 
     </body>
 </html>

@@ -204,8 +204,10 @@
  
     <ul class="list" id="mediaCarousel"><li class="media YOUTUBE">
 
-        <h4>What is an entrepreneurial mindset? </h4>
-              <div class="responsive-iframe-container">
+        <section> 
+          <h4>What is an entrepreneurial mindset? </h4>
+          
+        </section><div class="responsive-iframe-container">
                 <iframe loading="lazy" title="YouTube video player" src="https://www.youtube-nocookie.com/embed/n8t5llT0BEg" width="560" height="315" loading="lazy" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
               </div></li></ul>
       <ul class="carousel-indicators" id="carouselIndicators"></ul>
@@ -341,6 +343,35 @@ document.addEventListener('keydown', (e) => {
 // Initialize
 updateIndicators();
 </script>
+
+<script> 
+document.addEventListener('DOMContentLoaded', function() {
+  const carouselContainer = document.querySelector('.learning-resources.media-carousel-container');
+  
+  if (carouselContainer) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && entry.intersectionRatio > 0.1) {
+          // Calculate bottom of element
+          const rect = carouselContainer.getBoundingClientRect();
+          const elementBottom = window.scrollY + rect.bottom;
+          
+          // Scroll so the bottom of the element is at the bottom of viewport
+          window.scrollTo({
+            top: elementBottom - window.innerHeight,
+            behavior: 'smooth'
+          });
+        }
+      });
+    }, {
+      threshold: [0.50], // Trigger when 10% visible
+      rootMargin: '0px'
+    });
+    
+    observer.observe(carouselContainer);
+  }
+});
+</script>  
 
     </body>
 </html>

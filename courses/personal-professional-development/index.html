@@ -233,29 +233,39 @@
  
     <ul class="list" id="mediaCarousel"><li class="media YOUTUBE">
 
-        <h4>What is a learning ecosystem? </h4>
-              <div class="responsive-iframe-container">
+        <section> 
+          <h4>What is a learning ecosystem? </h4>
+          
+        </section><div class="responsive-iframe-container">
                 <iframe loading="lazy" title="YouTube video player" src="https://www.youtube-nocookie.com/embed/4rTfYEGFRbM" width="560" height="315" loading="lazy" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
               </div></li><li class="media YOUTUBE">
 
-        <h4>IB PPD 14 Miller’s Pyramid of assessment </h4>
-              <div class="responsive-iframe-container">
+        <section> 
+          <h4>IB PPD 14 Miller’s Pyramid of assessment </h4>
+          
+        </section><div class="responsive-iframe-container">
                 <iframe loading="lazy" title="YouTube video player" src="https://www.youtube-nocookie.com/embed/gRNMswgkVRI" width="560" height="315" loading="lazy" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
               </div></li><li class="media IFRAME">
 
-        <h4>Which school of ethics do you lean towards? </h4>
-                <p>Learners are asked to find out which ethical framework or perspective drives their choices. The results help learners unpack beliefs they are strongly aware of (explicit principles) and others may be a surprise to see (implicit principles).</p>
+        <section> 
+          <h4>Which school of ethics do you lean towards? </h4>
+          <p>Learners are asked to find out which ethical framework or perspective drives their choices. The results help learners unpack beliefs they are strongly aware of (explicit principles) and others may be a surprise to see (implicit principles).</p>
 
+        </section>
                 <div class="responsive-iframe-container interactive"><iframe loading="lazy" class="lti-embed" width="100%" height="800" title="Which school of ethics do you lean towards?" src="https://lti-adx.adelaide.edu.au/online-programs/ethics-quiz/#" frameborder="0"></iframe></div></li><li class="media IFRAME">
 
-        <h4>Tutorial activity 1.3: How to Respond to an Ethical Dilemma </h4>
-                <p>In this interactive learners are asked how they would respond in three scenarios. There are no right or wrong answers, the aim is to help facilitate discussiong and compare selections in tutorial session with the tutor and other students.</p>
+        <section> 
+          <h4>Tutorial activity 1.3: How to Respond to an Ethical Dilemma </h4>
+          <p>In this interactive learners are asked how they would respond in three scenarios. There are no right or wrong answers, the aim is to help facilitate discussiong and compare selections in tutorial session with the tutor and other students.</p>
 
+        </section>
                 <div class="responsive-iframe-container interactive"><iframe loading="lazy" class="lti-embed" width="100%" height="800" title="Tutorial activity 1.3: How to Respond to an Ethical Dilemma" src="https://uamediaprod.github.io/oua/ppd-scenario-table" frameborder="0"></iframe></div></li><li class="media IFRAME">
 
-        <h4>The Work-life Balance Wheel </h4>
-                <p>The Work-life Balance Wheel is a simple but powerful tool that helps learners visualise all the important areas of their life at once. The wheel helps learners understand which of areas of life are flourishing and which ones need the most work.</p>
+        <section> 
+          <h4>The Work-life Balance Wheel </h4>
+          <p>The Work-life Balance Wheel is a simple but powerful tool that helps learners visualise all the important areas of their life at once. The wheel helps learners understand which of areas of life are flourishing and which ones need the most work.</p>
 
+        </section>
                 <div class="responsive-iframe-container interactive"><iframe loading="lazy" class="lti-embed" width="100%" height="800" title="The Work-life Balance Wheel" src="https://uamediaprod.github.io/oua/wheel-of-life-radargraph/?d=wheel" frameborder="0"></iframe></div></li></ul>
       <ul class="carousel-indicators" id="carouselIndicators"></ul>
   </div>
@@ -390,6 +400,35 @@ document.addEventListener('keydown', (e) => {
 // Initialize
 updateIndicators();
 </script>
+
+<script> 
+document.addEventListener('DOMContentLoaded', function() {
+  const carouselContainer = document.querySelector('.learning-resources.media-carousel-container');
+  
+  if (carouselContainer) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && entry.intersectionRatio > 0.1) {
+          // Calculate bottom of element
+          const rect = carouselContainer.getBoundingClientRect();
+          const elementBottom = window.scrollY + rect.bottom;
+          
+          // Scroll so the bottom of the element is at the bottom of viewport
+          window.scrollTo({
+            top: elementBottom - window.innerHeight,
+            behavior: 'smooth'
+          });
+        }
+      });
+    }, {
+      threshold: [0.50], // Trigger when 10% visible
+      rootMargin: '0px'
+    });
+    
+    observer.observe(carouselContainer);
+  }
+});
+</script>  
 
     </body>
 </html>

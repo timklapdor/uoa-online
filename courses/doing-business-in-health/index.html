@@ -184,14 +184,18 @@
  
     <ul class="list" id="mediaCarousel"><li class="media IMG">
 
-        <h4>The structure of the Australian healthcare system </h4>
-                
+        <section> 
+          <h4>The structure of the Australian healthcare system </h4>
+          
+        </section>
                 <figure>
                     <img src="/uoa-online/images/resources/DBH_M1_0005_The structure of the Australian healthcare system since 2020.png" alt="The structure of the Australian healthcare system" title="The structure of the Australian healthcare system">
                 </figure></li><li class="media ECHO">
 
-        <h4>Mixed Model  </h4>
-                <p><a href="https://myuni.adelaide.edu.au/courses/90115/pages/lesson-5-dot-1-how-are-healthcare-systems-financed?module_item_id=3243765">Mixed Model </a></p></li></ul>
+        <section> 
+          <h4>Mixed Model  </h4>
+          
+        </section><p><a href="https://myuni.adelaide.edu.au/courses/90115/pages/lesson-5-dot-1-how-are-healthcare-systems-financed?module_item_id=3243765">Mixed Model </a></p></li></ul>
       <ul class="carousel-indicators" id="carouselIndicators"></ul>
   </div>
 
@@ -325,6 +329,35 @@ document.addEventListener('keydown', (e) => {
 // Initialize
 updateIndicators();
 </script>
+
+<script> 
+document.addEventListener('DOMContentLoaded', function() {
+  const carouselContainer = document.querySelector('.learning-resources.media-carousel-container');
+  
+  if (carouselContainer) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && entry.intersectionRatio > 0.1) {
+          // Calculate bottom of element
+          const rect = carouselContainer.getBoundingClientRect();
+          const elementBottom = window.scrollY + rect.bottom;
+          
+          // Scroll so the bottom of the element is at the bottom of viewport
+          window.scrollTo({
+            top: elementBottom - window.innerHeight,
+            behavior: 'smooth'
+          });
+        }
+      });
+    }, {
+      threshold: [0.50], // Trigger when 10% visible
+      rootMargin: '0px'
+    });
+    
+    observer.observe(carouselContainer);
+  }
+});
+</script>  
 
     </body>
 </html>
