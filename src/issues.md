@@ -1,4 +1,6 @@
 ---
+title: Issues
+layout: issues.njk
 issues:
   - name: Test
     type: Content Edit - Somethings Wrong
@@ -9,7 +11,7 @@ issues:
     type: Feature - Make it better
     description: Another one
     link: here
-    status: In Progress
+    status: Open
   - name: Something else
     type: Issue - Somethings Broken
     description: Another one
@@ -25,5 +27,4 @@ issues:
 
       Maybe add in next/previous for some?
     status: Open
-  - {}
 ---
