@@ -1,6 +1,4 @@
 ---
-layout: issues.njk
-title: Issues
 issues:
   - name: Test
     type: Content Edit - Somethings Wrong
@@ -17,4 +15,15 @@ issues:
     description: Another one
     link: here
     status: Closed
+  - name: Add in Breadcrumb navigation
+    type: Feature - Make it better
+    description: >-
+      Use something like
+      [https://www.11ty.dev/docs/plugins/navigation/](https://www.11ty.dev/docs/plugins/navigation/)
+      to add in breadcrumbs to pages e.g inside the Tools Section.
+
+
+      Maybe add in next/previous for some?
+    status: Open
+  - {}
 ---
