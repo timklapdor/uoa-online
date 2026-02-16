@@ -11,8 +11,10 @@ content:
       primary: Name
     fields: 
       - name: layout
+        label: Layout
         hidden: true
       - name: title
+        label: Title
         hidden: true
       - name: issues
         label: Issues
@@ -42,7 +44,7 @@ content:
             type: select
             options: 
               multiple: false
-              values: ["Open", "In Progress", Closed]
+              values: ["Open", "In Progress", "Closed"]
   - name: people
     label: Profiles
     type: collection
