@@ -1,6 +1,4 @@
 ---
-title: Issues
-layout: issues.njk
 issues:
   - name: Test
     type: Content Edit - Somethings Wrong
@@ -26,5 +24,10 @@ issues:
 
 
       Maybe add in next/previous for some?
+    status: Open
+  - name: "Add a planning section "
+    type: Feature - Make it better
+    description: To catch miro boards and sketches etc - showing process and
+      iterations. Pu in a `IF` state ment so not everyone needs to do it.
     status: Open
 ---
