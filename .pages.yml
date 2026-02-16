@@ -6,17 +6,12 @@ content:
     label: Issues
     type: file
     path: src/issues.md
-    view: 
-      fields: ["name"]
-      primary: Name
     fields: 
       - name: layout
         label: Layout
-        type: string
         hidden: true
       - name: title
         label: Issues
-        type: string
         hidden: true
       - name: issues
         label: Issues
