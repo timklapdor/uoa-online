@@ -117,6 +117,28 @@ Media:
       understanding professional growth. It helps students see development as a
       gradual, ongoing process that moves beyond competence towards identity,
       reflection and lifelong learning.
+  - Name: How to Become a More Effective Listener
+    Type: YOUTUBE
+    Link: 3HUMg4PKgYw&t
+    Description: >-
+      This video introduces active listening as a core communication skill that
+      supports trust, collaboration and professional relationships. It provides
+      practical techniques such as maintaining attention, reducing distractions,
+      responding without judgement, and using clarification and paraphrasing to
+      demonstrate understanding. It also explains the difference between active
+      and passive listening and when each may be appropriate.
+
+
+      This is important because effective listening underpins meaningful
+      interaction in both academic and workplace settings, helping students
+      communicate more thoughtfully and engage more productively with others.
+
+
+      The recording also reflects strong academic initiative, with Tiffany using
+      Canva video for the first time to present the content clearly and
+      confidently, even while managing a difficult cough and cold, a small but
+      genuine example of professionalism and commitment to the student learning
+      experience.
   - Name: Which school of ethics do you lean towards?
     Type: IFRAME
     Link: https://lti-adx.adelaide.edu.au/online-programs/ethics-quiz/#
@@ -141,28 +163,6 @@ Media:
       The wheel helps learners understand which of areas of life are flourishing
       and which ones need the most work.
     Location: https://myuni.adelaide.edu.au/courses/76549/pages/lesson-9-dot-3-why-is-a-work-life-balance-essential?module_item_id=2680812
-  - Name: How to Become a More Effective Listener
-    Type: YOUTUBE
-    Link: 3HUMg4PKgYw&t
-    Description: >-
-      This video introduces active listening as a core communication skill that
-      supports trust, collaboration and professional relationships. It provides
-      practical techniques such as maintaining attention, reducing distractions,
-      responding without judgement, and using clarification and paraphrasing to
-      demonstrate understanding. It also explains the difference between active
-      and passive listening and when each may be appropriate.
-
-
-      This is important because effective listening underpins meaningful
-      interaction in both academic and workplace settings, helping students
-      communicate more thoughtfully and engage more productively with others.
-
-
-      The recording also reflects strong academic initiative, with Tiffany using
-      Canva video for the first time to present the content clearly and
-      confidently, even while managing a difficult cough and cold, a small but
-      genuine example of professionalism and commitment to the student learning
-      experience.
 Snapshot:
   - Name: "Lesson 1.1.2: The PPD journey"
     Link: 018_Page_module_1_what_is_personal_professional_development_lesson_1_1_2_the_ppd_journey.png
