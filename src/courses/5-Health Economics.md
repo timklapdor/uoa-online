@@ -124,6 +124,7 @@ Media:
   - Name: What are economic resources?
     Type: YOUTUBE
     Link: bSPqaPBodEk
+    Location: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-2-dot-1-what-is-a-resource?module_item_id=2974586
 Snapshot:
   - Name: "Lesson 2.1: What is a resource?"
     Link: 026_Page_module_2_economic_resources_lesson_2_1_what_is_a_resource_.png
