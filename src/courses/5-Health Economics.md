@@ -89,7 +89,7 @@ Assessments:
 Media:
   - Name: "Resources analogy: Making a cake"
     Type: YOUTUBE
-    Link: https://www.youtube.com/embed/bSPqaPBodEk?si=bIBXCZtoG3aUHDa9
+    Link: https://www.youtube.com/bSPqaPBodEk?si=bIBXCZtoG3aUHDa9
     Location: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-2-dot-1-what-is-a-resource?module_item_id=2974586
   - Name: Working through an example of a decision tree
     Type: ECHO
