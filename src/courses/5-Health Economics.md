@@ -92,7 +92,8 @@ Media:
     Link: 13blF2lpiTk
     Location: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-2-dot-1-what-is-a-resource?module_item_id=2974586
   - Name: Working through an example of a decision tree
-    Type: ECHO
+    Type: YOUTUBE
+    Link: Rc9fCu2LANc
     Location: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-9-dot-1-how-to-conceptualise-the-economic-decision?module_item_id=3062712
   - Name: Presentation and use of mind map to explain the case study
     Type: ECHO
