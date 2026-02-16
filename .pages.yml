@@ -18,7 +18,7 @@ content:
         label: Issues
         fields: 
           - name: name
-            label: Name
+            label: What's the issue?
             type: string
           - name: type
             label: Type
