@@ -121,6 +121,9 @@ Media:
     Type: H5P
     Link: https://adelaide.h5p.com/lti/542374/content/1291921897575349939
     Location: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-10-dot-3-reporting-uncertainty-in-the-icer?module_item_id=3063049
+  - Name: What are economic resources?
+    Type: YOUTUBE
+    Link: bSPqaPBodEk
 Snapshot:
   - Name: "Lesson 2.1: What is a resource?"
     Link: 026_Page_module_2_economic_resources_lesson_2_1_what_is_a_resource_.png
