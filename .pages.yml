@@ -16,6 +16,11 @@ content:
         hidden: true
       - name: issues
         label: Issues
+        type: object
+        list:
+          collapsible: 
+            collapsed: true
+            summary: "{index}. {fields.Name}"
         fields: 
           - name: name
             label: What's the issue?
