@@ -89,38 +89,43 @@ Assessments:
 Media:
   - Name: "Resources analogy: Making a cake"
     Type: ECHO
+    Link: <iframe width="853" height="480"
+      src="https://www.youtube.com/embed/bSPqaPBodEk?si=bIBXCZtoG3aUHDa9"
+      title="YouTube video player" frameborder="0" allow="accelerometer;
+      autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
+      web-share" referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen></iframe>
     Location: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-2-dot-1-what-is-a-resource?module_item_id=2974586
-    Link: https://myuni.adelaide.edu.au/courses/86265/external_tools/retrieve?display=borderless&url=https%3A%2F%2Fecho360.net.au%2Flti%2F5444fea8-33ce-4784-934a-2e9f0cb5a200%3FmediaId%3D40fc8d13-0c96-4ba5-bac0-28a98e7dc8ce%26autoplay%3Dfalse%26automute%3Dfalse
   - Name: Working through an example of a decision tree
     Type: ECHO
     Location: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-9-dot-1-how-to-conceptualise-the-economic-decision?module_item_id=3062712
-    Link:
   - Name: Presentation and use of mind map to explain the case study
     Type: ECHO
     Description: Presentation and use of mind map to explain the case study
     Location: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-12-dot-1-is-your-health-service-efficient?module_item_id=3056818
-    Link:
-  - Name: Acute Cost Weights data in the NHCDC Round 24 spreadsheet (Interactive Video)
+  - Name: Acute Cost Weights data in the NHCDC Round 24 spreadsheet (Interactive
+      Video)
     Type: H5P
     Link: https://adelaide.h5p.com/lti/542374/content/1291885598474530539
     Location: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-2-dot-5-understanding-activity-based-funding-abf-in-public-hospitals?module_item_id=2987161
   - Name: Work out the utility using the Standard Gamble (SG), Time Trade-Off (TTO),
       and Multi-Attribute Utility Instrument (MAUI) methods
     Type: IFRAME
-    Location: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-3-dot-4-how-to-measure-utility-values?module_item_id=3003721
     Link: https://mediaproduction.adelaide.edu.au/oua-interactives/#/health-utility
-  - Name: Changes in supply - movement along the supply curve or a shift of the supply curve?
+    Location: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-3-dot-4-how-to-measure-utility-values?module_item_id=3003721
+  - Name: Changes in supply - movement along the supply curve or a shift of the
+      supply curve?
     Type: H5P
-    Location: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-4-dot-3-what-are-supply-curves?module_item_id=3024831
     Link: https://adelaide.h5p.com/lti/542374/content/1291909630264810729
+    Location: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-4-dot-3-what-are-supply-curves?module_item_id=3024831
   - Name: Mr A's healthcare journey
     Type: H5P
-    Location: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-6-dot-4-how-does-australia-finance-health?module_item_id=3051613
     Link: https://adelaide.h5p.com/lti/542374/content/1291914203989186309
+    Location: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-6-dot-4-how-does-australia-finance-health?module_item_id=3051613
   - Name: The Cost-Effectiveness Acceptability Curve (CEAC)
     Type: H5P
-    Location: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-10-dot-3-reporting-uncertainty-in-the-icer?module_item_id=3063049
     Link: https://adelaide.h5p.com/lti/542374/content/1291921897575349939
+    Location: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-10-dot-3-reporting-uncertainty-in-the-icer?module_item_id=3063049
 Snapshot:
   - Name: "Lesson 2.1: What is a resource?"
     Link: 026_Page_module_2_economic_resources_lesson_2_1_what_is_a_resource_.png
@@ -178,8 +183,8 @@ Conceptual learning is reinforced through regular multiple-choice and short-answ
 
 In the second half of the course, the focus shifts from understanding systems to applying economic tools. Students explore labour markets in health, economic evaluation, and the construction and interpretation of cost-effectiveness analyses, including incremental cost-effectiveness ratios and the translation of evidence into economic decisions. Assessments are aligned to this shift, with students developing a discussion paper in week eight and critically reviewing a published economic evaluation in week twelve. These tasks require students to synthesise concepts, interpret evidence, and justify recommendations using clear, defensible economic reasoning.
 
-By the end of the course, students are equipped to engage critically with health economic arguments and apply evidence-based thinking to real-world resource allocation challenges, a core capability for health service managers and policy-informed decision-makers.  
-  
+By the end of the course, students are equipped to engage critically with health economic arguments and apply evidence-based thinking to real-world resource allocation challenges, a core capability for health service managers and policy-informed decision-makers.
+
 MiroBoards:
 
 *   Description: "Ideation of Mr A's Health Care journey " Link: "[https://miro.com/app/board/uXjVP-hjV5M=/](https://miro.com/app/board/uXjVP-hjV5M=/)"
