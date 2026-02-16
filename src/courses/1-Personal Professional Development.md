@@ -90,6 +90,18 @@ Media:
   - Name: What is a learning ecosystem?
     Type: YOUTUBE
     Link: 4rTfYEGFRbM
+    Description: >-
+      This video explains learning as an interconnected ecosystem, using a
+      garden metaphor to show how knowledge develops through multiple
+      influences. It introduces key elements such as pathways (guidance),
+      gardeners (people and networks), hot houses (safe practice spaces),
+      foundations (resources), and streams (learning through doing).
+
+
+      This is important because it reframes learning as continuous,
+      self-directed and socially shaped rather than confined to formal
+      instruction. It helps students understand how to actively manage their own
+      learning across environments, relationships and experiences.
   - Name: IB PPD 14 Miller’s Pyramid of assessment
     Type: YOUTUBE
     Link: gRNMswgkVRI
