@@ -163,6 +163,23 @@ Media:
       The wheel helps learners understand which of areas of life are flourishing
       and which ones need the most work.
     Location: https://myuni.adelaide.edu.au/courses/76549/pages/lesson-9-dot-3-why-is-a-work-life-balance-essential?module_item_id=2680812
+  - Name: Three main types of cooperative learning groups
+    Type: YOUTUBE
+    Link: HS0AMpuu6OU
+    Description: >-
+      This multimedia explains the three main types of cooperative learning
+      groups, formal, informal, and cooperative base groups, and how each
+      supports learning in different ways and timeframes. It shows how
+      structured group tasks, spontaneous short discussions, and long-term
+      support groups each play a distinct role in developing knowledge,
+      collaboration, and professional growth.
+
+
+      The resource is important because it helps learners recognise that
+      collaboration is not one single experience but a continuum, from quick
+      exchanges to sustained learning relationships. This supports intentional
+      participation in group learning and highlights how different group
+      structures contribute to skill development over time.
 Snapshot:
   - Name: "Lesson 1.1.2: The PPD journey"
     Link: 018_Page_module_1_what_is_personal_professional_development_lesson_1_1_2_the_ppd_journey.png
