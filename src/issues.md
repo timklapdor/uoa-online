@@ -1,8 +1,8 @@
 ---
 issues:
-  name: Test
-  type: Content Edit - Somethings Wrong
-  description: This thing
-  link: HHH
-  status: In Progress
+  - name: Test
+    type: Content Edit - Somethings Wrong
+    description: Test
+    link: Test
+    status: Open
 ---
