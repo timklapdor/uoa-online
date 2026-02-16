@@ -1,4 +1,6 @@
 ---
+title: Issues
+layout: issues.njk
 issues:
   - name: Add in Breadcrumb navigation
     type: Feature - Make it better
