@@ -120,6 +120,11 @@ main {
    grid-template-columns: 1vw 1fr minmax(100px, 35em) minmax(200px, 70em) 1fr 1vw;
    gap: 0;
 
+   &.course {
+      grid-template-columns: 1vw 1fr minmax(200px, 70em) minmax(100px, 35em) 1fr 1vw;
+
+   }
+
  .course-details {
    grid-column:3;
    padding:2ch;
@@ -1087,5 +1092,11 @@ table.types {
       border-color: color-mix(var(--blk), var(--rev) 85%);
       background: color-mix(var(--blk), var(--rev) 95%);
       color: color-mix(var(--blk), var(--rev) 80%); 
+   }
+}
+
+section ul#course-list {
+   li {
+      display: flex;
    }
 }

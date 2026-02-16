@@ -56,7 +56,7 @@ layout: base.njk
     {{ content | replace("<p><img", "<figure><img") | replace("></p>", "></figure>") | safe }}
 
     <h2>Course Worked on</h2>
-    <ul>
+    <ul id="course-list">
       {%- for item in collections.courses | sort(attribute="data.CourseName") | sort(false, false, 'data.DevCycle') -%}
         {%- set personFound = false -%}
         {%- for member in item.data.Team -%}
@@ -65,8 +65,16 @@ layout: base.njk
           {%- endif -%}
         {%- endfor -%}
         {%- if personFound -%}
-          <li><a href="{{ item.url |url }}">{{ item.data.CourseName }}</a></li>
-        {%- endif -%}
+
+      {%- set courseSlug = item.data.CourseName | slugify -%}
+      {%- set bannerFile = courseSlug + '.png' -%}
+      <li 
+        style="background: url('../{% bgImageUrlShort bannerFile, 400 %}') no-repeat, var(--accent-default); background-size: cover; background-blend-mode: soft-light; background-position: 55% 30%;"
+        >
+        <a href="{{ item.url |url }}">
+          <h3>{{ item.data.CourseName }}</h3> 
+        </a>
+   </li>        {%- endif -%}
       {%- endfor -%}
     </ul>
 
