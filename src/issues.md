@@ -1,10 +1,7 @@
 ---
-layout: page.njk
-title: Issues
-tags: issues
-issues: 
-- name: 
-  type:
-  description: 
-  link: 
+issues:
+  name: Test
+  type: Content Edit - Somethings Wrong
+  description: This thing
+  link: HHH
 ---
