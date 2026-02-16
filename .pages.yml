@@ -10,21 +10,28 @@ content:
       fields: ["name"]
       primary: Name
     fields: 
-      - name: name
-        label: Name
-        type: string
-      - name: type
-        label: Type
-        type: select
-        options: 
-          multiple: false
-          values: ["Content Edit - Somethings Wrong","Bug - Somethings Weird", "Issue - Somethings Broken", "Feature - Make it better" ]
-      - name: description
-        label: Description
-        type: rich-text
-      - name: link
-        label: Link
-        type: string
+      - name: layout
+        hidden: true
+      - name: title
+        hidden: true
+      - name: issues
+        label: Issues
+        fields: 
+          - name: name
+            label: Name
+            type: string
+          - name: type
+            label: Type
+            type: select
+            options: 
+              multiple: false
+              values: ["Content Edit - Somethings Wrong","Bug - Somethings Weird", "Issue - Somethings Broken", "Feature - Make it better" ]
+          - name: description
+            label: Description
+            type: rich-text
+          - name: link
+            label: Link
+            type: string
   - name: people
     label: Profiles
     type: collection
