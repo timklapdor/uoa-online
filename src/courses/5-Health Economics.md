@@ -96,7 +96,8 @@ Media:
     Link: Rc9fCu2LANc
     Location: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-9-dot-1-how-to-conceptualise-the-economic-decision?module_item_id=3062712
   - Name: Presentation and use of mind map to explain the case study
-    Type: ECHO
+    Type: YOUTUBE
+    Link: ZUnflsu2m7E
     Description: Presentation and use of mind map to explain the case study
     Location: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-12-dot-1-is-your-health-service-efficient?module_item_id=3056818
   - Name: Acute Cost Weights data in the NHCDC Round 24 spreadsheet (Interactive
