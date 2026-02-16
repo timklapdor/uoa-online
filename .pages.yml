@@ -2,6 +2,26 @@ media:
   input: src/images
   output: docs/images
 content:
+  - name: issues
+    label: Issues
+    type: collection
+    path: src/issues.md
+    fields: 
+      - name: name
+        label: Name
+        type: string
+      - name: type
+        label: Type
+        type: select
+        options: 
+          multiple: false
+          values: ["Content Edit - Somethings Wrong","Bug - Somethings Weird", "Issue - Somethings Broken", "Feature - Make it better" ]
+      - name: description
+        label: Description
+        type: rich-text
+      - name: link
+        label: Link
+        type: string
   - name: people
     label: Profiles
     type: collection
