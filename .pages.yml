@@ -4,7 +4,7 @@ media:
 content:
   - name: issues
     label: Issues
-    type: collection
+    type: file
     path: src/issues.md
     view: 
       fields: ["name"]
