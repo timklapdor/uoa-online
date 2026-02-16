@@ -102,9 +102,21 @@ Media:
       self-directed and socially shaped rather than confined to formal
       instruction. It helps students understand how to actively manage their own
       learning across environments, relationships and experiences.
-  - Name: IB PPD 14 Miller’s Pyramid of assessment
+  - Name: 14 Miller’s Pyramid of assessment
     Type: YOUTUBE
     Link: gRNMswgkVRI
+    Description: >-
+      This video explains Miller’s Pyramid of Assessment as a developmental
+      model for professional identity, progressing from knowledge to embodied
+      practice. It outlines five stages, knows, knows how, shows how, does, and
+      is, demonstrating how learners move from understanding concepts to fully
+      integrating skills, behaviours and professional values.
+
+
+      This is important because it provides a structured framework for
+      understanding professional growth. It helps students see development as a
+      gradual, ongoing process that moves beyond competence towards identity,
+      reflection and lifelong learning.
   - Name: Which school of ethics do you lean towards?
     Type: IFRAME
     Link: https://lti-adx.adelaide.edu.au/online-programs/ethics-quiz/#
