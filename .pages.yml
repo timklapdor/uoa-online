@@ -6,6 +6,9 @@ content:
     label: Issues
     type: collection
     path: src/issues.md
+    view: 
+      fields: ["name"]
+      primary: Name
     fields: 
       - name: name
         label: Name
