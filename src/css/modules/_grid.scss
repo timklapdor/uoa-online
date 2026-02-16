@@ -1065,3 +1065,27 @@ table.types {
    }
 }
 }
+
+.jobs li {
+   &.edit {
+      border-color: var(--ld4-base);
+      background: color-mix(var(--ld4-base), var(--rev) 85%);
+   }
+   &.issue {
+      border-color: var(--ld2-base);
+      background: color-mix(var(--ld2-base), var(--rev) 85%);
+   }
+   &.bug {
+      border-color: var(--ld3-base);
+      background: color-mix(var(--ld3-base), var(--rev) 85%);
+   }
+   &.feature {
+      border-color: var(--ld1-base);
+      background: color-mix(var(--ld1-base), var(--rev) 85%);   
+   }
+   &.done {
+      border-color: color-mix(var(--blk), var(--rev) 85%);
+      background: color-mix(var(--blk), var(--rev) 95%);
+      color: color-mix(var(--blk), var(--rev) 80%); 
+   }
+}

@@ -1,0 +1,35 @@
+---
+layout: base.njk
+---
+<main>
+  <article>
+  <h1>{{ title | safe }} </h1>
+    <ul class="jobs">
+      {%- for item in issues -%}
+        {%- if item.status == "In Progress" -%}
+            <li class="{% if item.type == "Content Edit - Somethings Wrong" %}edit{% elif item.type == "Bug - Somethings Weird" %}bug{% elif item.type == "Issue - Somethings Broken" %}issue{% elif item.type == "Feature - Make it better" %}feature{% endif %}{% if item.status == "Closed"%} done{% endif %}">
+                <h4><a href="{{ item.link}}">{{ item.name }}</a></h4>
+                <p>{{ item.description}}</p>
+            </li>        {%- endif -%}
+      {%- endfor -%}
+
+      {%- for item in issues -%}
+        {%- if item.status == "Open" -%}
+            <li class="{% if item.type == "Content Edit - Somethings Wrong" %}edit{% elif item.type == "Bug - Somethings Weird" %}bug{% elif item.type == "Issue - Somethings Broken" %}issue{% elif item.type == "Feature - Make it better" %}feature{% endif %}{% if item.status == "Closed"%} done{% endif %}">
+                <h4><a href="{{ item.link}}">{{ item.name }}</a></h4>
+                <p>{{ item.description}}</p>
+            </li>        {%- endif -%}
+      {%- endfor -%}
+
+      {%- for item in issues -%}
+        {%- if item.status == "Closed" -%}
+            <li class="{% if item.type == "Content Edit - Somethings Wrong" %}edit{% elif item.type == "Bug - Somethings Weird" %}bug{% elif item.type == "Issue - Somethings Broken" %}issue{% elif item.type == "Feature - Make it better" %}feature{% endif %}{% if item.status == "Closed"%} done{% endif %}">
+                <h4><a href="{{ item.link}}">{{ item.name }}</a></h4>
+                <p>{{ item.description}}</p>
+            </li>        {%- endif -%}
+      {%- endfor -%}
+    </ul>
+  </article>
+  
+
+</main>
