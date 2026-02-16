@@ -18,7 +18,7 @@ const markdownItTocOptions = {
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/images");
   eleventyConfig.addPassthroughCopy("./src/assets");
-  eleventyConfig.addPassthroughCopy("./src/media/h5p");
+  eleventyConfig.addPassthroughCopy("./src/media");
   eleventyConfig.addPassthroughCopy("./src/css/oua-theme.css");
   eleventyConfig.ignores.add("./src/media/h5p/**");
   eleventyConfig.setServerOptions({showAllHosts: true,}); // Add support for serving HTML files without extensions

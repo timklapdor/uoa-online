@@ -27,6 +27,9 @@ tool:
 - name: QA Assessment
   link: q-and-a
   blurb: Evaluating a course and ensuring a worthy experience. 
+- name: Reframing
+  link: reframe
+  blurb: Outlining our design approach across the project.
 ---
 
 One of the lessons learnt early in the project was that we were working within a complex environment, one where we had to adapt to dynamic resourcing and the interconnected challenges of pedagogy, technology, quality expectations, and commercial realities.
