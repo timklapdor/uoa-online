@@ -12,9 +12,11 @@ content:
     fields: 
       - name: layout
         label: Layout
+        type: string
         hidden: true
       - name: title
-        label: Title
+        label: Issues
+        type: string
         hidden: true
       - name: issues
         label: Issues
