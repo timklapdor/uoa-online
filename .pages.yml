@@ -32,6 +32,12 @@ content:
           - name: link
             label: Link
             type: string
+          - name: status
+            label: Status
+            type: select
+            options: 
+              multiple: false
+              values: ["Open", "In Progress", Closed]
   - name: people
     label: Profiles
     type: collection
