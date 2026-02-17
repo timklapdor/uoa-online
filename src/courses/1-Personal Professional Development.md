@@ -291,6 +291,32 @@ Snapshot:
       reflection and ties directly to the custom **My Wheel of Life**
       interactive in the learning resources section, where students evaluate
       their own balance and identify areas for improvement.
+  - Name: "Lesson 5.1: What is metacognition and how is it linked to your learning?"
+    Link: 061_Page_module_5_how_metacognition_contributes_to_your_learning_as_well_as_your_ppd_lesson_5_1_what_is_metac.png
+    Description: >-
+      This lesson introduces metacognition as the process of thinking about and
+      regulating one’s own learning, including planning, monitoring, evaluating
+      and reflecting on cognitive strategies. The “8 ways to be a better
+      thinker” visual gallery supports this by presenting practical strategies
+      such as challenging assumptions, reflecting on thinking, learning from
+      mistakes and allowing time for deeper processing. The image-based format
+      invites students to explore each idea individually, translating theory
+      into everyday thinking behaviours.
+
+
+      This is important because it moves metacognition from an abstract
+      psychological concept into concrete, actionable habits that learners can
+      apply immediately to their study, decision-making and professional
+      development.
+
+
+      From a learning design perspective, the visual gallery functions as an
+      exploratory micro-learning interaction. It segments information into
+      manageable pieces, supports self-paced discovery and uses visual
+      storytelling to improve recall and engagement. Positioned after the
+      conceptual explanation, it reinforces understanding through application,
+      helping learners connect cognitive theory with practical self-regulation
+      strategies.
 ---
 Personal professional development is a skills-focused course designed to support students in forming a professional identity alongside their disciplinary studies. The course aims to develop reflective capability, ethical awareness, and an understanding of how professional learning occurs across formal, informal, and social contexts. It is positioned early in students’ programs to establish a professional and growth-oriented mindset that can be applied across study, work, and life.
 
