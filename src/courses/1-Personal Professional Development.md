@@ -180,6 +180,35 @@ Media:
       The wheel helps learners understand which of areas of life are flourishing
       and which ones need the most work.
     Location: https://myuni.adelaide.edu.au/courses/76549/pages/lesson-9-dot-3-why-is-a-work-life-balance-essential?module_item_id=2680812
+  - Name: Self belief, self confidence, and self esteem
+    Type: YOUTUBE
+    Link: nsYwVGKleSU
+    Description: >-
+      This video explains three core personal attributes that support the
+      development of a growth mindset: self-belief (self-efficacy),
+      self-confidence and self-esteem. It outlines how belief in one’s
+      capability influences behaviour, motivation and opportunity-seeking, how
+      confidence enables individuals to act on their abilities and manage
+      feedback, and how self-esteem reflects overall self-worth and personal
+      value. Together, these qualities shape how learners approach challenges,
+      goals and professional growth.
+
+
+      This is important because it connects mindset theory to practical
+      self-development, helping learners understand how internal beliefs
+      influence performance, resilience and career progression. It encourages
+      reflection on how personal perceptions shape behaviour and
+      decision-making.
+
+
+      From a learning design perspective, the video provides affective
+      scaffolding alongside cognitive skill development. By explicitly naming
+      and explaining internal psychological drivers of learning and performance,
+      it supports self-awareness and reflective practice, both critical for
+      personal and professional development. Positioned within the broader
+      learning journey, it helps learners build the internal conditions needed
+      to engage productively with feedback, challenge and continuous
+      improvement.
 Snapshot:
   - Name: "Lesson 1.1.2: The PPD journey"
     Link: 018_Page_module_1_what_is_personal_professional_development_lesson_1_1_2_the_ppd_journey.png
