@@ -28,7 +28,7 @@ Team:
     Involvement: Collaborator
   - Name: Rea Bachtis
     Role: Course Author
-    Involvement: Collaborator
+    Involvement: Contributer
   - Name: Rich Bartlett
     Role: Learning Designer
     Involvement: Lead
