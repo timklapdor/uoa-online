@@ -284,7 +284,7 @@ Snapshot:
       reasoning. This scaffolded progression from explanation to application
       supports experiential learning and deeper ethical reasoning.
   - Name: "Lesson 4.2: What is a growth mindset versus a fixed mindset?"
-    Link: archive/personal-professional-development/051_Page_module_4_skills_to_help_you_develop_self_awareness_in_personal_and_professional_contexts_lesson_4_2.png
+    Link: 051_Page_module_4_skills_to_help_you_develop_self_awareness_in_personal_and_professional_contexts_lesson_4_2.png
     Description: >-
       This lesson introduces the differences between growth and fixed mindsets
       through a short video, a visual comparison chart, and applied examples
