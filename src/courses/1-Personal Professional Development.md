@@ -210,12 +210,32 @@ Snapshot:
       showcase their development while addressing accessibility needs.
   - Name: "Lesson 8.3.1: What is the value of a powerful value proposition?"
     Link: 092_Page_module_8_personal_branding_as_a_professional_lesson_8_3_1_what_is_the_value_of_a_powerful_value_prop.png
-    Description: This lesson effectively guides students in crafting a Unique Value
+    Description: >-
+      This lesson effectively guides students in crafting a Unique Value
       Proposition (UVP) and Unique Selling Proposition (USP) by clearly
-      distinguishing between the two, providing relatable examples like Sarah’s
-      UVP, offering practical frameworks and activities for refinement, and
-      linking external resources for further inspiration, ensuring students can
-      confidently articulate their professional brand.
+      distinguishing between the two, providing relatable examples such as
+      Sarah’s UVP, offering practical frameworks and activities for refinement,
+      and linking external resources for further inspiration. The LinkedIn
+      profile gallery at the end of the page extends this learning by showing
+      how value propositions are communicated in real professional contexts,
+      helping students see how personal strengths, experience, and impact can be
+      expressed clearly and persuasively.
+
+
+      This is important because it bridges theory and practice, demonstrating
+      how abstract concepts like UVP and personal branding translate into
+      authentic professional communication. Learners can observe effective
+      positioning and language in a platform they are likely to use themselves,
+      supporting confidence in articulating their own professional identity.
+
+
+      From a learning design perspective, the LinkedIn examples function as
+      worked examples and modelling. They reduce abstraction, support
+      observational learning, and provide concrete reference points before
+      students develop their own elevator pitch and portfolio artefacts.
+      Positioned at the end of the lesson, they reinforce transfer from
+      conceptual understanding to real-world application in an authentic digital
+      environment.
   - Name: "Lesson 10.2.1: Importance of diversity and inclusion in the workplace"
     Link: 109_Page_module_10_the_importance_of_diversity_and_innovation_in_the_workplace_lesson_10_2_1_importance_of_di.png
     Description: This lesson demonstrates a collaborative team effort where learning
