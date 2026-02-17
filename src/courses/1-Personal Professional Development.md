@@ -259,19 +259,18 @@ Snapshot:
     Description: >-
       This lesson explores the role of work–life balance in maintaining
       wellbeing, productivity, and long-term sustainability across personal and
-      professional life. The central infographic visually presents work–life
-      balance as a wheel, showing that fulfilment comes from multiple
-      interconnected domains such as career, health, family, finances, fun, and
-      personal development, rather than a strict 50/50 split between work and
-      life.
+      professional life. The central infographic presents work–life balance as a
+      wheel, showing that fulfilment comes from multiple interconnected domains
+      such as career, health, family, finances, fun, and personal development,
+      rather than a strict 50/50 split between work and life.
 
 
       The infographic is important because it reframes balance as dynamic and
       holistic, helping students recognise that wellbeing depends on maintaining
       equilibrium across several life areas. This visual model supports
-      reflection and leads directly into the interactive “wheel of life”
-      activity, where learners evaluate their own balance and identify areas for
-      improvement.
+      reflection and ties directly to the custom **My Wheel of Life**
+      interactive in the learning resources section, where students evaluate
+      their own balance and identify areas for improvement.
 ---
 Personal professional development is a skills-focused course designed to support students in forming a professional identity alongside their disciplinary studies. The course aims to develop reflective capability, ethical awareness, and an understanding of how professional learning occurs across formal, informal, and social contexts. It is positioned early in students’ programs to establish a professional and growth-oriented mindset that can be applied across study, work, and life.
 
