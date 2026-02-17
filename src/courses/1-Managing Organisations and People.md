@@ -138,6 +138,30 @@ Snapshot:
       exercises, encourage critical thinking and self-awareness, helping
       students connect theory to real-world applications in teamwork and
       assessments.
+  - Name: What is the weekly Learning log?
+    Link: 015_Page_orientation_what_is_the_weekly_learning_log_.png
+    Description: >-
+      This page introduces the weekly learning log as a structured reflective
+      journal designed to help students connect course concepts with their
+      personal, professional and academic experiences. It explains the purpose
+      of reflection, provides step-by-step guidance for writing entries, and
+      introduces the “5 Whys” method to support deeper analysis. The visual
+      example helps learners see how surface observations can be unpacked into
+      underlying causes and meaningful insights.
+
+
+      As an orientation resource, the page plays an important scaffolding role.
+      By clearly explaining expectations and modelling the reflective process,
+      it reduces uncertainty and supports consistent engagement with reflective
+      practice across the course. The combination of written guidance and a
+      visual worked example makes the process concrete, helping learners move
+      from simply describing experiences to analysing and learning from them.
+
+
+      This is important because it equips students with a repeatable method for
+      reflective thinking, enabling them to track their development, make sense
+      of their learning over time, and prepare for assessment tasks that rely on
+      critical self-evaluation.
 ---
 Managing organisations and people is a foundational management course designed to introduce students to the nature, purpose, and practice of management across a wide range of organisational contexts. The primary aim of the course is to develop students’ understanding of core management functions, planning, organising, leading, motivating, and controlling, while encouraging critical reflection on how management theories and concepts apply to their own professional and personal experiences.
 
