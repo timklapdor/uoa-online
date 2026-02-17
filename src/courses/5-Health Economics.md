@@ -127,6 +127,10 @@ Media:
     Type: YOUTUBE
     Link: bSPqaPBodEk
     Location: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-2-dot-1-what-is-a-resource?module_item_id=2974586
+  - Name: Lesson 2.1-M004_Connecting health resources
+    Type: H5P
+    Link: https://adelaideuniversity.box.com/s/z46cot11i0sezjrsysx9n60cydge13rk
+    Location: https://myuni.adelaide.edu.au/courses/86265/pages/lesson-2-dot-1-what-is-a-resource?module_item_id=2974586
 Snapshot:
   - Name: "Lesson 2.1: What is a resource?"
     Link: 026_Page_module_2_economic_resources_lesson_2_1_what_is_a_resource_.png
