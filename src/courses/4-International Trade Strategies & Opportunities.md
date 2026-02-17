@@ -101,5 +101,9 @@ Media:
       global trade. Demonstrates some of the precise illustrative work done by
       the media team.
 Snapshot:
-  - {}
+  - Name: "The Big Mac Index "
+    Link: https://adelaideuniversity.box.com/s/y83hjdph33v2jvtuaoqh1rc0f16txl1e
+    Description: This page outlines how much of global society functions as a class
+      of consumers, by using McDonald's ubiquitous 'Big Mac' product to
+      illustrate differences in price across nations.
 ---
