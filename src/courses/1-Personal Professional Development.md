@@ -230,6 +230,80 @@ Snapshot:
       By catering to diverse learning styles and incorporating real-world
       professional tools, this dual format provides a clear, accessible, and
       brand-aligned learning experience.
+  - Name: "Lesson 2.1.2: Ethical theories"
+    Link: 037_Page_module_2_ethics_lesson_2_1_2_ethical_theories.png
+    Description: >-
+      This page introduces foundational ethical theories, including deontology,
+      consequentialism, virtue ethics and rights, then invites students to apply
+      these perspectives through an interactive decision-making quiz. Rather
+      than learning ethics as abstract philosophy, students experience how
+      different frameworks shape real choices and outcomes.
+
+
+      This is important because it shifts ethics from theory to personal
+      reflection. By testing their own moral reasoning, students begin
+      developing the judgement, justification skills and self-awareness required
+      for professional ethical decision-making later in the course.
+  - Name: "Lesson 2.2.2: Codes of conduct"
+    Link: 040_Page_module_2_ethics_lesson_2_2_2_codes_of_conduct.png
+    Description: >-
+      This page moves from understanding codes of conduct to applying them in
+      realistic workplace situations. Students engage with a series of
+      professional ethical dilemmas, then rank them through an interactive poll
+      developed with the media team. The collective results shape discussion in
+      tutorials, creating a shared decision-making experience grounded in
+      real-world complexity.
+
+
+      This is important because it transforms ethics from compliance to
+      judgement. By weighing competing pressures, consequences and
+      responsibilities, students practise navigating ambiguity and develop the
+      confidence to justify ethical decisions in professional contexts.
+  - Name: "Lesson 4.2: What is a growth mindset versus a fixed mindset?"
+    Link: 051_Page_module_4_skills_to_help_you_develop_self_awareness_in_personal_and_professional_contexts_lesson_4_2_
+    Description: >-
+      This lesson introduces the differences between growth and fixed mindsets
+      through a short video, a visual comparison chart, and applied examples
+      that show how beliefs about ability influence learning, effort and
+      resilience.
+
+
+      It is important because recognising mindset helps learners understand how
+      their attitudes shape motivation, persistence and professional
+      development.
+
+
+      From a learning design perspective, the combination of visual, audio and
+      text-based media supports layered understanding. Visual comparisons
+      simplify complex ideas, video explanation builds conceptual clarity, and
+      written examples enable reflection and real-world application,
+      strengthening engagement and retention.
+  - Name: "Lesson 5.1: What is metacognition and how is it linked to your learning?"
+    Link: 061_Page_module_5_how_metacognition_contributes_to_your_learning_as_well_as_your_ppd_lesson_5_1_what_is_metac.png
+    Description: >-
+      This lesson introduces metacognition as the process of thinking about and
+      regulating one’s own learning, including planning, monitoring, evaluating
+      and reflecting on cognitive strategies. The “8 ways to be a better
+      thinker” visual gallery supports this by presenting practical strategies
+      such as challenging assumptions, reflecting on thinking, learning from
+      mistakes and allowing time for deeper processing. The image-based format
+      invites students to explore each idea individually, translating theory
+      into everyday thinking behaviours.
+
+
+      This is important because it moves metacognition from an abstract
+      psychological concept into concrete, actionable habits that learners can
+      apply immediately to their study, decision-making and professional
+      development.
+
+
+      From a learning design perspective, the visual gallery functions as an
+      exploratory micro-learning interaction. It segments information into
+      manageable pieces, supports self-paced discovery and uses visual
+      storytelling to improve recall and engagement. Positioned after the
+      conceptual explanation, it reinforces understanding through application,
+      helping learners connect cognitive theory with practical self-regulation
+      strategies.
   - Name: "Lesson 5.2.1: How to develop your portfolio using MS Sway"
     Link: 064_Page_module_5_how_metacognition_contributes_to_your_learning_as_well_as_your_ppd_lesson_5_2_1_how_to_deve.png
     Description: This page guides students in creating professional portfolios with
@@ -265,44 +339,6 @@ Snapshot:
       Positioned at the end of the lesson, they reinforce transfer from
       conceptual understanding to real-world application in an authentic digital
       environment.
-  - Name: "Lesson 10.2.1: Importance of diversity and inclusion in the workplace"
-    Link: 109_Page_module_10_the_importance_of_diversity_and_innovation_in_the_workplace_lesson_10_2_1_importance_of_di.png
-    Description: This lesson demonstrates a collaborative team effort where learning
-      designers crafted the core content on diversity and inclusion, including
-      its legal, ethical, and societal significance, while the media team
-      visualised complex data using figures and charts based on the Diversity
-      Council Australia's Inclusion@Work Index. Together, they effectively
-      translated statistics into accessible visuals that deepen understanding,
-      creating an engaging and informative learning experience for students.
-  - Name: "Lesson 2.1.2: Ethical theories"
-    Link: 037_Page_module_2_ethics_lesson_2_1_2_ethical_theories.png
-    Description: >-
-      This page introduces foundational ethical theories, including deontology,
-      consequentialism, virtue ethics and rights, then invites students to apply
-      these perspectives through an interactive decision-making quiz. Rather
-      than learning ethics as abstract philosophy, students experience how
-      different frameworks shape real choices and outcomes.
-
-
-      This is important because it shifts ethics from theory to personal
-      reflection. By testing their own moral reasoning, students begin
-      developing the judgement, justification skills and self-awareness required
-      for professional ethical decision-making later in the course.
-  - Name: "Lesson 2.2.2: Codes of conduct"
-    Link: 040_Page_module_2_ethics_lesson_2_2_2_codes_of_conduct.png
-    Description: >-
-      This page moves from understanding codes of conduct to applying them in
-      realistic workplace situations. Students engage with a series of
-      professional ethical dilemmas, then rank them through an interactive poll
-      developed with the media team. The collective results shape discussion in
-      tutorials, creating a shared decision-making experience grounded in
-      real-world complexity.
-
-
-      This is important because it transforms ethics from compliance to
-      judgement. By weighing competing pressures, consequences and
-      responsibilities, students practise navigating ambiguity and develop the
-      confidence to justify ethical decisions in professional contexts.
   - Name: "Lesson 9.3: Why is a work-life balance essential?"
     Link: 100_Page_module_9_coping_with_stress_in_the_workplace_lesson_9_3_why_is_a_work_life_balance_essential_.png
     Description: >-
@@ -320,51 +356,15 @@ Snapshot:
       reflection and ties directly to the custom **My Wheel of Life**
       interactive in the learning resources section, where students evaluate
       their own balance and identify areas for improvement.
-  - Name: "Lesson 5.1: What is metacognition and how is it linked to your learning?"
-    Link: 061_Page_module_5_how_metacognition_contributes_to_your_learning_as_well_as_your_ppd_lesson_5_1_what_is_metac.png
-    Description: >-
-      This lesson introduces metacognition as the process of thinking about and
-      regulating one’s own learning, including planning, monitoring, evaluating
-      and reflecting on cognitive strategies. The “8 ways to be a better
-      thinker” visual gallery supports this by presenting practical strategies
-      such as challenging assumptions, reflecting on thinking, learning from
-      mistakes and allowing time for deeper processing. The image-based format
-      invites students to explore each idea individually, translating theory
-      into everyday thinking behaviours.
-
-
-      This is important because it moves metacognition from an abstract
-      psychological concept into concrete, actionable habits that learners can
-      apply immediately to their study, decision-making and professional
-      development.
-
-
-      From a learning design perspective, the visual gallery functions as an
-      exploratory micro-learning interaction. It segments information into
-      manageable pieces, supports self-paced discovery and uses visual
-      storytelling to improve recall and engagement. Positioned after the
-      conceptual explanation, it reinforces understanding through application,
-      helping learners connect cognitive theory with practical self-regulation
-      strategies.
-  - Name: "Lesson 4.2: What is a growth mindset versus a fixed mindset?"
-    Link: 051_Page_module_4_skills_to_help_you_develop_self_awareness_in_personal_and_professional_contexts_lesson_4_2_
-    Description: >-
-      This lesson introduces the differences between growth and fixed mindsets
-      through a short video, a visual comparison chart, and applied examples
-      that show how beliefs about ability influence learning, effort and
-      resilience.
-
-
-      It is important because recognising mindset helps learners understand how
-      their attitudes shape motivation, persistence and professional
-      development.
-
-
-      From a learning design perspective, the combination of visual, audio and
-      text-based media supports layered understanding. Visual comparisons
-      simplify complex ideas, video explanation builds conceptual clarity, and
-      written examples enable reflection and real-world application,
-      strengthening engagement and retention.
+  - Name: "Lesson 10.2.1: Importance of diversity and inclusion in the workplace"
+    Link: 109_Page_module_10_the_importance_of_diversity_and_innovation_in_the_workplace_lesson_10_2_1_importance_of_di.png
+    Description: This lesson demonstrates a collaborative team effort where learning
+      designers crafted the core content on diversity and inclusion, including
+      its legal, ethical, and societal significance, while the media team
+      visualised complex data using figures and charts based on the Diversity
+      Council Australia's Inclusion@Work Index. Together, they effectively
+      translated statistics into accessible visuals that deepen understanding,
+      creating an engaging and informative learning experience for students.
 ---
 Personal professional development is a skills-focused course designed to support students in forming a professional identity alongside their disciplinary studies. The course aims to develop reflective capability, ethical awareness, and an understanding of how professional learning occurs across formal, informal, and social contexts. It is positioned early in students’ programs to establish a professional and growth-oriented mindset that can be applied across study, work, and life.
 
