@@ -1,6 +1,4 @@
 ---
-title: Issues
-layout: issues.njk
 issues:
   - name: Add in Breadcrumb navigation
     type: Feature - Make it better
@@ -16,5 +14,11 @@ issues:
     type: Feature - Make it better
     description: To catch miro boards and sketches etc - showing process and
       iterations. Pu in a `IF` state ment so not everyone needs to do it.
+    status: Open
+  - name: Add Icon for topics list
+    type: Feature - Make it better
+    description: Something like this
+      [https://thenounproject.com/icon/important-topics-6507510/](https://thenounproject.com/icon/important-topics-6507510/)
+    link: https://thenounproject.com/icon/important-topics-6507510/
     status: Open
 ---
