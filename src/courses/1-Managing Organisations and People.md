@@ -32,12 +32,12 @@ Team:
   - Name: Janin Hentzen
     Role: Course Author
     Involvement: Collaborator
-  - Name: Sash Kertes
-    Role: Learning Designer
-    Involvement: Collaborator
   - Name: Rich Bartlett
     Role: Learning Designer
     Involvement: Lead
+  - Name: Sash Kertes
+    Role: Learning Designer
+    Involvement: Collaborator
 CLOs:
   - Demonstrate foundational knowledge of the diversity of management thinking.
   - Autonomously and collaboratively analyse, evaluate, synthesise and apply
