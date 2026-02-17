@@ -85,8 +85,30 @@ Assessments:
       them in the real world.
 Media:
   - Name: Explaining Expectancy Theory
-    Type: ECHO
-    Link: https://myuni.adelaide.edu.au/courses/69868/pages/lesson-10-dot-8-why-do-we-make-efforts-to-perform?module_item_id=2485215
+    Type: YOUTUBE
+    Link: 4VS3JMpKaPA
+    Description: >-
+      This video explains Victor Vroom’s expectancy theory by showing how
+      motivation is shaped by the relationship between effort, performance and
+      rewards. It highlights that people invest effort when they expect it will
+      lead to performance, and that performance will lead to rewards they
+      personally value. The concept of **valence** is central, emphasising that
+      motivation depends on how meaningful or desirable a reward is to the
+      individual, not simply whether a reward is offered.
+
+
+      This is important because it helps learners understand that motivation in
+      organisations is not one-size-fits-all. Effective management requires
+      recognising individual needs, goals and circumstances when designing
+      incentives and performance expectations.
+
+
+      From a learning design perspective, the hand-drawn visual explanation and
+      worked example make an abstract motivation theory concrete and relatable.
+      The video format supports step-by-step conceptual modelling, allowing
+      learners to see the relationships between effort, performance and reward
+      unfold visually, which strengthens comprehension of a core organisational
+      behaviour concept.
 Snapshot:
   - Name: How can you understand the stages of group development?
     Link: 075_Page_module_6_managing_work_groups_and_teams_lesson_6_2_how_can_you_understand_the_stages_of_group_develo.png
