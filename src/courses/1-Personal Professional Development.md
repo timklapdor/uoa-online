@@ -365,6 +365,30 @@ Snapshot:
       Council Australia's Inclusion@Work Index. Together, they effectively
       translated statistics into accessible visuals that deepen understanding,
       creating an engaging and informative learning experience for students.
+  - Name: "Lesson 3.3: How do I respond to a request to implement an unethical
+      decision?"
+    Link: 047_Page_module_3_ethical_decision_making_lesson_3_3_how_do_i_respond_to_a_request_to_implement_an_unethical_.png
+    Description: >-
+      This lesson explores how individuals can respond when asked to act
+      unethically, using realistic workplace and personal scenarios to prompt
+      critical reflection. It introduces structured questions to guide ethical
+      evaluation and prepares students to consider consequences, values and
+      professional responsibility when making decisions under pressure.
+
+
+      This is important because it moves ethics from abstract theory into
+      applied judgement, helping learners practise decision-making in ambiguous,
+      real-world contexts where social or organisational pressure may be
+      present.
+
+
+      From a learning design perspective, the lesson prepares students for the
+      custom ethical response interactive in the learning resources section
+      below. The snapshot content establishes conceptual framing and decision
+      criteria, while the interactive provides a safe simulation space where
+      learners test responses, compare perspectives and reflect on their
+      reasoning. This scaffolded progression from explanation to application
+      supports experiential learning and deeper ethical reasoning.
 ---
 Personal professional development is a skills-focused course designed to support students in forming a professional identity alongside their disciplinary studies. The course aims to develop reflective capability, ethical awareness, and an understanding of how professional learning occurs across formal, informal, and social contexts. It is positioned early in students’ programs to establish a professional and growth-oriented mindset that can be applied across study, work, and life.
 
