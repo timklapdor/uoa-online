@@ -364,6 +364,38 @@ Snapshot:
       explanation, visual interpretation and reflective application, helping
       students understand both the sources of stress and realistic approaches to
       managing it.
+  - {}
+  - Name: What do contemporary theories teach us about motivation?
+    Link: 122_Page_module_10_motivating_and_rewarding_employees_lesson_10_5_what_do_contemporary_theories_teach_us_abou.png
+    Description: >-
+      This lesson explains how contemporary motivation theories position **goal
+      setting** as a key driver of performance. It highlights how specific and
+      challenging goals, participation in goal setting, feedback and
+      self-efficacy interact to shape commitment, motivation and achievement.
+
+
+      A central diagram visually maps this progression, showing how goals move
+      from acceptance and commitment through to motivation and higher
+      performance, while psychological factors such as internal locus of control
+      and self-belief influence outcomes. This frames motivation as an
+      interconnected process rather than a single variable.
+
+
+      Learners then apply the theory through SMART goal activities, translating
+      abstract ideas into personal or professional planning. The diagram acts as
+      a conceptual organiser that clarifies causal relationships and reduces
+      cognitive load, while reflection tasks support transfer and metacognitive
+      awareness.
+
+
+      The inclusion of the **H5P Essay tool** strengthens this further by
+      requiring learners to articulate and justify their own SMART goals
+      directly within the learning environment. This interactive writing process
+      supports formative reflection, encourages deliberate goal construction and
+      allows learners to revise their thinking over time. By embedding
+      structured reflection into the learning flow, the activity promotes deeper
+      processing and helps convert motivational theory into actionable
+      behavioural intention.
 ---
 Managing organisations and people is a foundational management course designed to introduce students to the nature, purpose, and practice of management across a wide range of organisational contexts. The primary aim of the course is to develop students’ understanding of core management functions, planning, organising, leading, motivating, and controlling, while encouraging critical reflection on how management theories and concepts apply to their own professional and personal experiences.
 
