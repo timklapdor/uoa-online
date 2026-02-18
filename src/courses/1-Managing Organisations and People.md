@@ -183,13 +183,44 @@ Snapshot:
       to them in real group settings.
   - Name: What are the focus and goals of organisational behaviour? Why are they so
       important to managers?
-    Link: 106_Page_module_9_understanding_individual_behaviour_lesson_9_1_what_are_the_focus_and_goals_of_organisationa.png
-    Description: "This lesson, one of the first in the OUA series, uses an iceberg
-      infographic to visually contrast visible aspects of organisational
-      behaviour, like strategies, with hidden ones, such as attitudes and group
-      norms. It effectively links these layers to managerial goals: explaining,
-      predicting, and influencing behaviours, offering students a clear,
-      engaging introduction to OB."
+    Link: 106_Page_module_9_understanding_individual_behaviour_lesson_9_1_what_are_the_focus_and_goals_of_organisationa
+    Description: >-
+      This lesson introduces the focus and goals of organisational behaviour by
+      using the **iceberg model** to distinguish between what is visible in
+      organisations and what lies beneath the surface. Visible elements include
+      strategies, policies, structure, technology and formal authority. However,
+      the model emphasises that behaviour is strongly shaped by hidden
+      influences such as attitudes, perceptions, group norms, informal
+      interactions and interpersonal dynamics.
+
+
+      By framing organisations as layered systems, the lesson highlights that
+      understanding behaviour requires attention to three interconnected levels:
+      individual behaviour, group processes and organisational structures.
+      Managers are therefore positioned not simply as coordinators of tasks, but
+      as interpreters of complex social environments. The overall purpose of
+      organisational behaviour is presented as explaining, predicting and
+      influencing employee behaviour, with practical outcomes linked to
+      productivity, absenteeism, turnover, citizenship behaviour and workplace
+      misconduct.
+
+
+      The iceberg visual does more than illustrate content. It functions as a
+      cognitive scaffold that helps learners conceptualise complexity by
+      separating observable features from underlying drivers. This visual
+      metaphor supports systems thinking by showing that outcomes at the surface
+      often originate from hidden cultural and psychological factors. The
+      embedded halo effect video further strengthens this by demonstrating how
+      perception shapes judgement, reinforcing the idea that unseen cognitive
+      processes influence workplace behaviour.
+
+
+      Instructionally, the design combines conceptual modelling, visual metaphor
+      and applied examples to move learners from description to interpretation.
+      Reflection prompts and learning log links encourage students to connect
+      abstract organisational dynamics with their own experiences, helping them
+      recognise that behaviour in organisations is rarely straightforward and
+      always layered.
   - Name: What is perception? What influences it?
     Link: 111_Page_module_9_understanding_individual_behaviour_lesson_9_6_what_is_perception_what_influences_it_.png
     Description: This lesson uses interactive activities like a jumbled text
