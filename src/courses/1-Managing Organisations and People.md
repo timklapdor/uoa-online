@@ -183,7 +183,7 @@ Snapshot:
       to them in real group settings.
   - Name: What are the focus and goals of organisational behaviour? Why are they so
       important to managers?
-    Link: 106_Page_module_9_understanding_individual_behaviour_lesson_9_1_what_are_the_focus_and_goals_of_organisationa
+    Link: 106_Page_module_9_understanding_individual_behaviour_lesson_9_1_what_are_the_focus_and_goals_of_organisationa.png
     Description: >-
       This lesson introduces the focus and goals of organisational behaviour by
       using the **iceberg model** to distinguish between what is visible in
