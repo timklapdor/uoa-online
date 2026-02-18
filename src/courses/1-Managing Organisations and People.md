@@ -205,6 +205,26 @@ Snapshot:
       reasoning, allowing learners to analyse performance criteria and
       internalise the distinction between doing the right things and doing
       things right.
+  - Name: "Module 2: Learning Achievement Checklist"
+    Link: 037_Page_module_2_how_organisations_operate_and_the_external_organisational_environment_module_2_learning_ach.png
+    Description: >-
+      This page functions as a structured progress guide, outlining the key
+      tasks students must complete before moving into the next module. The
+      checklist consolidates learning log entries, case study work, reflections,
+      and the mind map activity into one clear location, helping learners track
+      their progress and confirm readiness for the upcoming content. Alongside
+      this, the learning log checkpoint reminder signals an assessment milestone
+      and directs students back to the learning log guidance if needed,
+      reinforcing continuity between reflection and formal evaluation.
+
+
+      Instructionally, the checklist supports self-regulated learning by making
+      expectations visible and manageable. Breaking requirements into actionable
+      steps reduces cognitive load and promotes planning, while the checkpoint
+      reminder introduces timely prompts that help prevent disengagement or
+      last-minute work. The design also strengthens alignment between activities
+      and assessment, ensuring reflection tasks are not seen as optional extras
+      but as integral components of progression through the course.
 ---
 Managing organisations and people is a foundational management course designed to introduce students to the nature, purpose, and practice of management across a wide range of organisational contexts. The primary aim of the course is to develop students’ understanding of core management functions, planning, organising, leading, motivating, and controlling, while encouraging critical reflection on how management theories and concepts apply to their own professional and personal experiences.
 
