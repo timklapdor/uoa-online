@@ -267,6 +267,33 @@ Snapshot:
       last-minute work. The design also strengthens alignment between activities
       and assessment, ensuring reflection tasks are not seen as optional extras
       but as integral components of progression through the course.
+  - Name: How do organisations identify and select competent employees?
+    Link: managing-organisations-and-people/087_Page_module_7_managing_human_resources_lesson_7_2_how_do_organisations_identify_and_select_competent_empl.png
+    Description: >-
+      This lesson introduces the early stages of the human resource management
+      process, focusing on how organisations plan, recruit and sometimes reduce
+      their workforce to ensure the right people are in the right roles. The HRM
+      process diagram provides a structured overview of how activities such as
+      strategic planning, recruitment, training and performance management
+      connect across the employee lifecycle.
+
+
+      The lesson then moves into employment planning, explaining how
+      organisations assess current and future workforce needs through tools such
+      as job analysis, job descriptions and skills inventories. Downsizing is
+      explored as a strategic response to organisational change, with practical
+      options outlined, including job sharing, redeployment, early retirement
+      and redundancies. Recruitment is framed as a targeted process shaped by
+      labour market conditions, with comparisons of sourcing methods such as
+      internal hiring, referrals, agencies and digital platforms.
+
+
+      The large HRM process visual acts as a conceptual map, helping learners
+      see workforce planning not as isolated decisions but as part of an
+      interconnected system. Tables comparing downsizing strategies and
+      recruitment sources support analytical thinking by presenting trade-offs
+      and consequences side by side. This structured comparison encourages
+      evaluation rather than simple recall.
 ---
 Managing organisations and people is a foundational management course designed to introduce students to the nature, purpose, and practice of management across a wide range of organisational contexts. The primary aim of the course is to develop students’ understanding of core management functions, planning, organising, leading, motivating, and controlling, while encouraging critical reflection on how management theories and concepts apply to their own professional and personal experiences.
 
