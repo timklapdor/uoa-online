@@ -162,6 +162,30 @@ Snapshot:
       reflective thinking, enabling them to track their development, make sense
       of their learning over time, and prepare for assessment tasks that rely on
       critical self-evaluation.
+  - Name: "Lesson 1.3: Why do managers need to focus on effectiveness and
+      efficiency?"
+    Link: 022_Page_module_1_managers_and_management_lesson_1_3_why_do_managers_need_to_focus_on_effectiveness_and_effic.png
+    Description: >-
+      This section uses a scenario comparing two managers, Dave and Stephanie,
+      to illustrate the difference between effectiveness and efficiency in
+      practice. Both are given the same task and resources, but their outcomes
+      differ, highlighting how completing a task within required goals reflects
+      effectiveness, while minimising time and resources reflects efficiency.
+      The example helps learners see how performance can be judged differently
+      depending on whether the focus is outcomes or resource use.
+
+
+      This is important because it translates abstract management concepts into
+      a relatable workplace situation, helping students understand how
+      performance decisions are evaluated in organisational contexts.
+
+
+      The use of contrasting characters and visual scenarios supports applied
+      learning by modelling decision outcomes rather than simply describing
+      definitions. Presenting parallel cases encourages comparison and
+      reasoning, allowing learners to analyse performance criteria and
+      internalise the distinction between doing the right things and doing
+      things right.
 ---
 Managing organisations and people is a foundational management course designed to introduce students to the nature, purpose, and practice of management across a wide range of organisational contexts. The primary aim of the course is to develop students’ understanding of core management functions, planning, organising, leading, motivating, and controlling, while encouraging critical reflection on how management theories and concepts apply to their own professional and personal experiences.
 
