@@ -109,6 +109,25 @@ Media:
       learners to see the relationships between effort, performance and reward
       unfold visually, which strengthens comprehension of a core organisational
       behaviour concept.
+  - Name: The iceberg model (behaviour and underlying drivers)
+    Type: YOUTUBE
+    Link: wz1GjiRwPX4
+    Description: >-
+      This video explains the iceberg model of behaviour, using the Titanic
+      analogy to show that what we _see_ in people (actions and behaviour) is
+      only the visible surface. Beneath this lies a much larger, hidden layer
+      made up of values, beliefs, attitudes, culture, experiences, and social
+      influences. These unseen factors shape behaviour, meaning that lasting
+      change cannot occur unless the underlying drivers are understood and
+      addressed.
+
+
+      The resource is valuable because it helps learners move beyond
+      surface-level judgement and consider the deeper psychological and social
+      influences behind behaviour, which is essential in management, leadership,
+      and organisational contexts. Presenting the concept through a simple
+      visual metaphor supports conceptual clarity and retention, making an
+      abstract behavioural framework more intuitive and memorable.
 Snapshot:
   - Name: How can you understand the stages of group development?
     Link: 075_Page_module_6_managing_work_groups_and_teams_lesson_6_2_how_can_you_understand_the_stages_of_group_develo.png
