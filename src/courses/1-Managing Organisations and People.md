@@ -128,16 +128,59 @@ Media:
       and organisational contexts. Presenting the concept through a simple
       visual metaphor supports conceptual clarity and retention, making an
       abstract behavioural framework more intuitive and memorable.
+  - Name: The Group Development Model
+    Type: YOUTUBE
+    Link: CO2iP4ZlF5c
+    Description: >-
+      This video explains the stages of group development, guiding learners
+      through forming, storming, norming, performing and adjourning, while
+      highlighting how individual experiences and assumptions shape team
+      dynamics. It emphasises how conflict naturally emerges, how it can be
+      managed through different resolution approaches, and how understanding
+      team roles helps groups function more effectively. The inclusion of
+      feedback in the adjourning stage reinforces continuous improvement and
+      learning across future team experiences.
+
+
+      The resource helps learners connect theory to real group interactions,
+      particularly in collaborative study or workplace contexts, by showing how
+      behaviour, perception and conflict influence performance over time. The
+      use of visual explanation, examples and structured progression makes an
+      abstract organisational behaviour model easier to interpret and apply.
+
+
+      Instructionally, this media supports conceptual scaffolding by layering
+      multiple frameworks together, development stages, conflict management and
+      team roles, to show how complex team functioning actually unfolds.
+      Presenting the model visually and narratively helps learners build mental
+      models of team processes, while the focus on reflection and feedback
+      aligns with experiential learning, encouraging students to recognise
+      patterns in their own group work and apply strategies more deliberately in
+      future collaborations.
 Snapshot:
   - Name: How can you understand the stages of group development?
     Link: 075_Page_module_6_managing_work_groups_and_teams_lesson_6_2_how_can_you_understand_the_stages_of_group_develo.png
-    Description: This lesson unpacks Tuckman’s stages of group development through
-      visual elements like diagrams and figures, paired with storytelling and
-      real-world examples, such as Ashwini Asokan’s team, to contextualise
-      theory. Tools like Belbin’s 9 team roles and Hofstede’s cultural
-      dimensions engage students in applying concepts, while the weekly learning
-      log fosters reflection and critical thinking, connecting theory to
-      personal experience and supporting diverse learning styles.
+    Description: >-
+      This lesson explores Tuckman’s stages of group development, guiding
+      learners through how teams form, navigate conflict, establish norms and
+      ultimately perform effectively. Visual diagrams and structured stage
+      progressions make the model easy to grasp, while storytelling and
+      real-world examples, such as Ashwini Asokan’s team, ground the theory in
+      authentic workplace contexts.
+
+
+      The lesson expands understanding of team dynamics through practical
+      frameworks including Belbin’s nine team roles and Hofstede’s cultural
+      dimensions, encouraging learners to examine how personality, roles and
+      culture shape collaboration. The weekly learning log further supports this
+      by prompting reflection and critical thinking, helping students connect
+      team theory to their own experiences.
+
+
+      By blending visual explanation, applied tools and reflective practice, the
+      resource supports multiple ways of engaging with complex ideas and helps
+      learners move from recognising team stages to interpreting and responding
+      to them in real group settings.
   - Name: What are the focus and goals of organisational behaviour? Why are they so
       important to managers?
     Link: 106_Page_module_9_understanding_individual_behaviour_lesson_9_1_what_are_the_focus_and_goals_of_organisationa.png
@@ -181,8 +224,7 @@ Snapshot:
       reflective thinking, enabling them to track their development, make sense
       of their learning over time, and prepare for assessment tasks that rely on
       critical self-evaluation.
-  - Name: "Lesson 1.3: Why do managers need to focus on effectiveness and
-      efficiency?"
+  - Name: Why do managers need to focus on effectiveness and efficiency?
     Link: 022_Page_module_1_managers_and_management_lesson_1_3_why_do_managers_need_to_focus_on_effectiveness_and_effic.png
     Description: >-
       This section uses a scenario comparing two managers, Dave and Stephanie,
