@@ -364,7 +364,6 @@ Snapshot:
       explanation, visual interpretation and reflective application, helping
       students understand both the sources of stress and realistic approaches to
       managing it.
-  - {}
   - Name: What do contemporary theories teach us about motivation?
     Link: 122_Page_module_10_motivating_and_rewarding_employees_lesson_10_5_what_do_contemporary_theories_teach_us_abou.png
     Description: >-
