@@ -294,6 +294,45 @@ Snapshot:
       recruitment sources support analytical thinking by presenting trade-offs
       and consequences side by side. This structured comparison encourages
       evaluation rather than simple recall.
+  - Name: What causes stress and how could it be reduced?
+    Link: 100_Page_module_8_managing_change_and_innovation_lesson_8_5_what_causes_stress_and_how_could_it_be_reduced_.png
+    Description: >-
+      This lesson explores organisational stressors and how they affect employee
+      wellbeing and performance. It explains that stress can arise from job
+      design (task demands), role expectations, workplace relationships,
+      organisational structure and leadership style. These categories help
+      learners see that stress is not simply personal but often shaped by
+      systems, expectations and management practices.
+
+
+      The lesson also examines individual differences through the **Type A and
+      Type B personality model**, illustrated through a visual infographic. Type
+      A personalities are depicted as driven, time-urgent and highly
+      competitive, while Type B personalities are shown as more relaxed and
+      steady. The visual comparison makes personality traits immediately
+      recognisable and helps learners reflect on how behavioural tendencies
+      influence stress responses.
+
+
+      A key practical dimension is introduced through **Employee Assistance
+      Programs (EAPs)**, which are presented as structured organisational
+      supports for managing personal and work-related stress. Evidence of
+      improved productivity, reduced absenteeism and higher job satisfaction
+      reinforces the organisational value of wellbeing initiatives.
+
+
+      Reflection is embedded through learning log prompts that ask students to
+      identify workplace stressors and consider their own personality
+      tendencies. This encourages transfer from theory to personal experience.
+
+
+      The personality infographic plays an important instructional role by
+      translating abstract psychological differences into concrete behavioural
+      patterns that learners can recognise in themselves and others. Combined
+      with organisational examples and support strategies, the lesson balances
+      explanation, visual interpretation and reflective application, helping
+      students understand both the sources of stress and realistic approaches to
+      managing it.
 ---
 Managing organisations and people is a foundational management course designed to introduce students to the nature, purpose, and practice of management across a wide range of organisational contexts. The primary aim of the course is to develop students’ understanding of core management functions, planning, organising, leading, motivating, and controlling, while encouraging critical reflection on how management theories and concepts apply to their own professional and personal experiences.
 
