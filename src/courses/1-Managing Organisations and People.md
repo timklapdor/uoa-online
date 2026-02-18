@@ -299,7 +299,7 @@ Snapshot:
       and assessment, ensuring reflection tasks are not seen as optional extras
       but as integral components of progression through the course.
   - Name: How do organisations identify and select competent employees?
-    Link: managing-organisations-and-people/087_Page_module_7_managing_human_resources_lesson_7_2_how_do_organisations_identify_and_select_competent_empl.png
+    Link: 087_Page_module_7_managing_human_resources_lesson_7_2_how_do_organisations_identify_and_select_competent_empl.png
     Description: >-
       This lesson introduces the early stages of the human resource management
       process, focusing on how organisations plan, recruit and sometimes reduce
