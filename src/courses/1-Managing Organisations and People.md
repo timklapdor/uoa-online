@@ -157,6 +157,33 @@ Media:
       aligns with experiential learning, encouraging students to recognise
       patterns in their own group work and apply strategies more deliberately in
       future collaborations.
+  - Name: Situational Leadership
+    Type: YOUTUBE
+    Link: c2NyQ2pmUKc
+    Description: >-
+      This media resource explains **Hersey and Blanchard’s situational
+      leadership model**, showing that effective leadership depends on matching
+      leadership style to the **ability, willingness and confidence of
+      followers**. The model maps leadership behaviour across two dimensions,
+      task focus and relationship focus, producing four styles: telling,
+      selling, participative and delegating. Rather than one “best” approach,
+      leaders adjust their behaviour depending on what individuals need in a
+      given moment.
+
+
+      The explanation is highly visual, using quadrants and movement across them
+      to demonstrate how leadership shifts as followers develop. This helps
+      learners understand leadership as adaptive and relational rather than
+      fixed, reinforcing the idea that teams are composed of individuals at
+      different stages of readiness.
+
+
+      The instructional value lies in how the model is spatially organised and
+      behaviourally framed. Visual mapping makes an abstract leadership theory
+      easier to interpret, while scenario-based explanation encourages learners
+      to diagnose real workplace situations. This supports applied reasoning,
+      helping learners move from understanding leadership styles conceptually to
+      selecting appropriate responses in practice.
 Snapshot:
   - Name: How can you understand the stages of group development?
     Link: 075_Page_module_6_managing_work_groups_and_teams_lesson_6_2_how_can_you_understand_the_stages_of_group_develo.png
