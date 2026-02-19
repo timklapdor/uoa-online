@@ -4,14 +4,14 @@ Programs:
   - IB
 DevCycle: 4
 Blueprint: https://myuni.adelaide.edu.au/courses/80193
-Description: >
-  This course prepares students to understand, assess, and consider global trade
-  opportunities and strategies for realising them. This course prepares students
-  to build competitive knowledge and understanding in international trade by
-  challenging them to engage in cognitive and critical thinking skills,
-  independent learning and analysis, and requiring them to demonstrate the
-  ability to analyse and integrate information across the broad disciplines of
-  economics, law and politics in both a domestic and international context.
+Description: "This course prepares students to understand, assess, and consider
+  global trade opportunities and strategies for realising them. This course
+  prepares students to build competitive knowledge and understanding in
+  international trade by challenging them to engage in cognitive and critical
+  thinking skills, independent learning and analysis, and requiring them to
+  demonstrate the ability to analyse and integrate information across the broad
+  disciplines of economics, law and politics in both a domestic and
+  international context. "
 ToDo:
   - Add learning experience
   - Review learning experience
@@ -107,3 +107,4 @@ Snapshot:
       of consumers, by using McDonald's ubiquitous 'Big Mac' product to
       illustrate differences in price across nations.
 ---
+Note: After course development, a thorough review found an unfortunate number of instances where textbook material had been replicated without citation or reference.
