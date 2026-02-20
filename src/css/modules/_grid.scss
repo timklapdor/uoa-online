@@ -219,7 +219,10 @@ main {
             }
             &.miro {
                img {
-                  top: 0
+                  top: 0;
+                  overflow-x: hidden;
+                  height: 100%;
+                  max-width: min-content;
                }
          
             }
