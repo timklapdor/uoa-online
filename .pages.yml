@@ -210,6 +210,18 @@ content:
           - { name: Link, label: Link, type: string }
           - { name: Description, Description: Link, type: rich-text }
           - { name: Location, label: Location, type: string }
+      - name: Planning
+        label: Planning
+        type: object
+        list:
+          collapsible: 
+            collapsed: true
+            summary: "{index}. {fields.Name}"
+        fields:
+          - { name: Name, label: Name, type: string }
+          - { name: Link, label: Link, type: string }
+          - { name: Description, Description: Link, type: rich-text }
+          - { name: Download, label: Download, type: string }
       - name: Jobs
         label: Jobs
         type: string

@@ -389,6 +389,15 @@ Snapshot:
       Council Australia's Inclusion@Work Index. Together, they effectively
       translated statistics into accessible visuals that deepen understanding,
       creating an engaging and informative learning experience for students.
+Planning:
+  - Name: "Journey mapping Sarah"
+    Link: PPD-Frame-1.jpg
+    Description: Something something something
+    Download: PPD-Persona-Journey-Frame-1.pdf
+  - Name: "Journey mapping Alex"
+    Link: PPD-Frame-2.jpg
+    Description: Something something something  
+    Download: PPD-Persona-Journey-Frame-2.pdf
 ---
 Personal professional development is a skills-focused course designed to support students in forming a professional identity alongside their disciplinary studies. The course aims to develop reflective capability, ethical awareness, and an understanding of how professional learning occurs across formal, informal, and social contexts. It is positioned early in students’ programs to establish a professional and growth-oriented mindset that can be applied across study, work, and life.
 

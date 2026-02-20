@@ -118,11 +118,7 @@
         <p class="assessment-description">By conducting a thorough Feasibility Report learners can identify whether their hypothetical business opportunity is a viable business venture. This report focusses on their ability to analyse the business in context and success is based on this rather than the viability of their venture.</p>
         <h4 class="assessment-weight">35%</h4>
       </li></ol>
-  </div>
-
-
-
-<div class="snapshots">
+  </div><div class="snapshots">
     <h3 class="label">Snapshots</h3>
     <ul><li><img 
               src="../../images/archive/entrepreneurship-foundations-and-mindset/022_Page_module_1_the_foundational_elements_to_establishing_an_entrepreneurial_mindset_lesson_4_1_what_drives.png" 
@@ -194,6 +190,7 @@
     <div class="snapshot-popover-description">
       <h3 id="popoverTitle"></h3>
       <p id="popoverDescription"></p>
+      <div id="popoverDownload" style="margin-top: 1rem;"></div>
     </div>
   </div>
 </div>
@@ -236,6 +233,7 @@ function displaySnapshot(element) {
   const imageSrc = element.getAttribute('data-image');
   const title = element.getAttribute('data-title');
   const description = element.getAttribute('data-description');
+  const download = element.getAttribute('data-download');
   
   document.getElementById('popoverImage').src = imageSrc;
   document.getElementById('popoverImage').alt = title;
@@ -243,6 +241,16 @@ function displaySnapshot(element) {
   
   // Render HTML (already parsed from markdown server-side)
   document.getElementById('popoverDescription').innerHTML = description || '';
+  
+  // Handle download link
+  const downloadContainer = document.getElementById('popoverDownload');
+  if (download && download !== '') {
+    downloadContainer.innerHTML = `<a href="${download}" download class="download-link">⬇ Download File</a>`;
+    downloadContainer.style.display = 'block';
+  } else {
+    downloadContainer.innerHTML = '';
+    downloadContainer.style.display = 'none';
+  }
   
   // Reset scroll to top
   document.getElementById('popoverImageContainer').scrollTop = 0;

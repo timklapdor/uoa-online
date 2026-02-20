@@ -192,6 +192,7 @@ main {
  .snapshots{
       grid-column: 3/5;
       padding:2ch;
+      border-bottom: 4px solid;
       
       ul{
       display: grid;
@@ -216,8 +217,30 @@ main {
                position: relative;
                top: -3rem; 
             }
+            &.miro {
+               img {
+                  top: 0
+               }
+         
+            }
          }
       }
+   }
+   a.download-link {
+         text-decoration: none;
+         border: 2px solid var(--accent-default);
+         border-radius: .5ch;
+         padding: .5ch;
+         width: 100%;
+         color: var(--accent-default);
+         transition: all 0.2s, transform 0.2s;
+
+         &:hover {
+            background: var(--primary-default);
+            border: var(--primary-default);
+            color: var(--rev);
+            transform: scale(1.025);
+         }  
    }
 
    .snapshot-popover {
@@ -350,7 +373,6 @@ main {
    grid-column: 3/5;
    padding:2ch; 
    border: 0;
-   border-top: 4px solid;
 
    ul {
         display: grid;

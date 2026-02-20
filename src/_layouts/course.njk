@@ -87,20 +87,32 @@ layout: base.njk
     </ol>
   </div>
 
-{# <div class="snapshots">
-    <h3 class="label">Snapshots</h3>
+{%-if Planning and Planning != "" -%}
+
+<div class="snapshots">
+    <h3 class="label">Planning</h3>
     <ul>
-        {%-for item in Snapshot-%}
-        <li>
+        {%-for item in Planning-%}
+        <li class="miro">
           {%-if item.Link | isImage-%}
-            <img src="../../images/archive/{{courseSlug}}/{{ item.Link }}" alt="Image">
+            <img 
+              src="../../images/miro/{{ item.Link }}" 
+              alt="{{ item.Name }}"
+              class="snapshot-thumbnail"
+              data-image="../../images/miro/{{ item.Link }}"
+              data-title="{{ item.Name }}"
+              {% if item.Download %}data-download="../../media/miro/{{ item.Download }}"{% endif %}
+              data-description="{{ item.Description | markdown | safe }}"
+              onclick="openSnapshot(this)"
+            >
           {%-else-%}
             <a href="{{ item.Link }}">{{ item.Name }}</a> 
           {%-endif-%}
         </li>
         {%-endfor-%}
     </ul>
-</div> #}
+</div>
+{%-endif-%}
 
 <div class="snapshots">
     <h3 class="label">Snapshots</h3>
@@ -136,6 +148,7 @@ layout: base.njk
     <div class="snapshot-popover-description">
       <h3 id="popoverTitle"></h3>
       <p id="popoverDescription"></p>
+      <div id="popoverDownload" style="margin-top: 1rem;"></div>
     </div>
   </div>
 </div>
@@ -218,6 +231,7 @@ function displaySnapshot(element) {
   const imageSrc = element.getAttribute('data-image');
   const title = element.getAttribute('data-title');
   const description = element.getAttribute('data-description');
+  const download = element.getAttribute('data-download');
   
   document.getElementById('popoverImage').src = imageSrc;
   document.getElementById('popoverImage').alt = title;
@@ -225,6 +239,16 @@ function displaySnapshot(element) {
   
   // Render HTML (already parsed from markdown server-side)
   document.getElementById('popoverDescription').innerHTML = description || '';
+  
+  // Handle download link
+  const downloadContainer = document.getElementById('popoverDownload');
+  if (download && download !== '') {
+    downloadContainer.innerHTML = `<a href="${download}" download class="download-link">⬇ Download File</a>`;
+    downloadContainer.style.display = 'block';
+  } else {
+    downloadContainer.innerHTML = '';
+    downloadContainer.style.display = 'none';
+  }
   
   // Reset scroll to top
   document.getElementById('popoverImageContainer').scrollTop = 0;
