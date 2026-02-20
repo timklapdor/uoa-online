@@ -112,11 +112,7 @@
         <p class="assessment-description">Learners are asked to apply management accounting techniques to develop a Cash Budget that assists managers in decision-making. They are then asked to prepare short video where they talk through their calculations and suggestions they&#39;ve made to make recommendations regarding appropriate funding options.</p>
         <h4 class="assessment-weight">35%</h4>
       </li></ol>
-  </div>
-
-
-
-<div class="snapshots">
+  </div><div class="snapshots">
     <h3 class="label">Snapshots</h3>
     <ul><li><img 
               src="../../images/archive/introductory-accounting/052_Page_module_5_accounting_equation_techniques_lesson_5_2_how_can_income_statement_and_balance_sheet_transa.png" 
@@ -177,6 +173,7 @@
     <div class="snapshot-popover-description">
       <h3 id="popoverTitle"></h3>
       <p id="popoverDescription"></p>
+      <div id="popoverDownload" style="margin-top: 1rem;"></div>
     </div>
   </div>
 </div>
@@ -220,6 +217,7 @@ function displaySnapshot(element) {
   const imageSrc = element.getAttribute('data-image');
   const title = element.getAttribute('data-title');
   const description = element.getAttribute('data-description');
+  const download = element.getAttribute('data-download');
   
   document.getElementById('popoverImage').src = imageSrc;
   document.getElementById('popoverImage').alt = title;
@@ -227,6 +225,16 @@ function displaySnapshot(element) {
   
   // Render HTML (already parsed from markdown server-side)
   document.getElementById('popoverDescription').innerHTML = description || '';
+  
+  // Handle download link
+  const downloadContainer = document.getElementById('popoverDownload');
+  if (download && download !== '') {
+    downloadContainer.innerHTML = `<a href="${download}" download class="download-link">⬇ Download File</a>`;
+    downloadContainer.style.display = 'block';
+  } else {
+    downloadContainer.innerHTML = '';
+    downloadContainer.style.display = 'none';
+  }
   
   // Reset scroll to top
   document.getElementById('popoverImageContainer').scrollTop = 0;

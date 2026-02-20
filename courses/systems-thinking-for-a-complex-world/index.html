@@ -122,11 +122,7 @@
         <p class="assessment-description">For this task learners critically engage with the course topics and how they interrelate within the context of a system. Learners are asked to go beyond a passive recollection of the course content and are invited to explore and reflect on their growth in Systems Thinking. </p>
         <h4 class="assessment-weight">25%</h4>
       </li></ol>
-  </div>
-
-
-
-<div class="snapshots">
+  </div><div class="snapshots">
     <h3 class="label">Snapshots</h3>
     <ul><li><img 
               src="../../images/archive/systems-thinking-for-a-complex-world/019_Page_module_1_systems_thinking_and_complexity_lesson_1_3_how_can_you_see_systems_in_the_world_around_you_.png" 
@@ -150,6 +146,7 @@
     <div class="snapshot-popover-description">
       <h3 id="popoverTitle"></h3>
       <p id="popoverDescription"></p>
+      <div id="popoverDownload" style="margin-top: 1rem;"></div>
     </div>
   </div>
 </div>
@@ -200,6 +197,7 @@ function displaySnapshot(element) {
   const imageSrc = element.getAttribute('data-image');
   const title = element.getAttribute('data-title');
   const description = element.getAttribute('data-description');
+  const download = element.getAttribute('data-download');
   
   document.getElementById('popoverImage').src = imageSrc;
   document.getElementById('popoverImage').alt = title;
@@ -207,6 +205,16 @@ function displaySnapshot(element) {
   
   // Render HTML (already parsed from markdown server-side)
   document.getElementById('popoverDescription').innerHTML = description || '';
+  
+  // Handle download link
+  const downloadContainer = document.getElementById('popoverDownload');
+  if (download && download !== '') {
+    downloadContainer.innerHTML = `<a href="${download}" download class="download-link">⬇ Download File</a>`;
+    downloadContainer.style.display = 'block';
+  } else {
+    downloadContainer.innerHTML = '';
+    downloadContainer.style.display = 'none';
+  }
   
   // Reset scroll to top
   document.getElementById('popoverImageContainer').scrollTop = 0;

@@ -120,11 +120,7 @@
         <p class="assessment-description">Learners are asked to produce a policy brief for the Health Minister, providing information and a policy recommendation. They are then asked to present this information as a pitch through a 5 minute presentation.</p>
         <h4 class="assessment-weight">30%</h4>
       </li></ol>
-  </div>
-
-
-
-<div class="snapshots">
+  </div><div class="snapshots">
     <h3 class="label">Snapshots</h3>
     <ul><li><a href=""></a></li></ul>
 </div>
@@ -140,6 +136,7 @@
     <div class="snapshot-popover-description">
       <h3 id="popoverTitle"></h3>
       <p id="popoverDescription"></p>
+      <div id="popoverDownload" style="margin-top: 1rem;"></div>
     </div>
   </div>
 </div>
@@ -180,6 +177,7 @@ function displaySnapshot(element) {
   const imageSrc = element.getAttribute('data-image');
   const title = element.getAttribute('data-title');
   const description = element.getAttribute('data-description');
+  const download = element.getAttribute('data-download');
   
   document.getElementById('popoverImage').src = imageSrc;
   document.getElementById('popoverImage').alt = title;
@@ -187,6 +185,16 @@ function displaySnapshot(element) {
   
   // Render HTML (already parsed from markdown server-side)
   document.getElementById('popoverDescription').innerHTML = description || '';
+  
+  // Handle download link
+  const downloadContainer = document.getElementById('popoverDownload');
+  if (download && download !== '') {
+    downloadContainer.innerHTML = `<a href="${download}" download class="download-link">⬇ Download File</a>`;
+    downloadContainer.style.display = 'block';
+  } else {
+    downloadContainer.innerHTML = '';
+    downloadContainer.style.display = 'none';
+  }
   
   // Reset scroll to top
   document.getElementById('popoverImageContainer').scrollTop = 0;
