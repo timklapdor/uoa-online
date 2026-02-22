@@ -107,4 +107,4 @@ Snapshot:
       of consumers, by using McDonald's ubiquitous 'Big Mac' product to
       illustrate differences in price across nations.
 ---
-Note: After course development, a thorough review found an unfortunate number of instances where textbook material had been replicated without citation or reference.
+Note: After course development, a thorough review found an unfortunate number of instances where textbook material had been replicated without citation or reference. This warranted a comprehensive review and edit before rollout to students.
