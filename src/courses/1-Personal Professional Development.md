@@ -392,11 +392,54 @@ Snapshot:
 Planning:
   - Name: Journey mapping Sarah
     Link: PPD-Frame-1.jpg
-    Description: Something something something
+    Description: >-
+      This persona journey map presents Sarah, a 30-year-old teacher balancing
+      professional ambition with wellbeing challenges
+
+
+      Like the Alex artefact, it visualises her emotional comfort and engagement
+      across the same staged framework of determine, develop, establish, reflect
+      and apply.
+
+
+      The map connects her leadership aspirations, ethical tensions and workload
+      pressures to course themes such as reflective practice, resilience,
+      mentoring and professional growth. Emotional fluctuations illustrate how
+      confidence, stress and responsibility shape progression toward her goal of
+      becoming a principal.
+
+
+      Structurally similar to the Alex artefact, this map reinforces the shared
+      developmental model while offering a contrasting context. Together, the
+      personas demonstrate how the same theoretical framework applies across
+      different professions, making abstract concepts tangible through parallel
+      but distinct life journeys.
     Download: PPD-Persona-Journey-Frame-1.pdf
   - Name: Journey mapping Alex
     Link: PPD-Frame-2.jpg
-    Description: Something something something
+    Description: >-
+      This persona journey map presents Alex, a 35-year-old designer navigating
+      a period of uncertainty while building his own business
+
+
+      The artefact visually traces his emotional comfort and professional
+      engagement across the stages of determine, develop, establish, reflect and
+      apply, aligning personal experiences with the course’s developmental
+      framework.
+
+
+      The map integrates personality traits, work habits and behavioural
+      patterns to show how ambition, independence and self-direction influence
+      decision making. Peaks and dips in engagement highlight moments of stress,
+      reflection and growth, demonstrating how course concepts such as goal
+      setting, leadership and self-regulation intersect with real professional
+      challenges.
+
+
+      Designed as a narrative scaffold, the artefact translates theory into
+      lived experience. It helps learners see how structured reflection and
+      deliberate development can move someone from uncertainty to purposeful
+      action, in this case establishing a company.
     Download: PPD-Persona-Journey-Frame-2.pdf
   - Name: Persona Journey
     Link: persona-journey-and-narrative-alignment.jpg
