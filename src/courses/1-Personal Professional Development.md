@@ -13,9 +13,6 @@ Description: >
 ToDo:
   - Review learning experience
   - Review snapshots
-  - Add learning resources
-  - Add learning resource descriptions
-  - Download media resources
   - Review learning resources
   - Editorial review
   - Course ready to publish
@@ -537,13 +534,3 @@ Key conceptual content, such as diversity and inclusion in the workplace, was de
 Optional engagement with third-party platforms such as Blinkist further modelled lifelong learning behaviours without increasing assessment load.
 
 Overall, the learning experience integrates reflective pedagogy, inclusive experience design, and pragmatic systems thinking to support professional capability that is transferable, authentic, and sustainable beyond the subject itself.
-
-MiroBoards:
-
-*   Description: "PPD Persona Journey" Link: "[https://miro.com/app/board/o9J\_lpd3QN4=/](https://miro.com/app/board/o9J_lpd3QN4=/)"
-    
-*   Description: "Iteration #2" Link: "[https://miro.com/app/board/o9J\_ln0uMCA=/](https://miro.com/app/board/o9J_ln0uMCA=/)"
-    
-*   Description: "Course Planning" Link: "[https://miro.com/app/board/o9J\_l0xZjcM=/](https://miro.com/app/board/o9J_l0xZjcM=/)"
-    
-*   Description: "Examples of iterations for persona development used in the course, course planning and mapping visualisation " Link: "[https://miro.com/app/board/o9J\_lyIZPDA=/](https://miro.com/app/board/o9J_lyIZPDA=/)"
