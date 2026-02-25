@@ -436,6 +436,25 @@ Planning:
       The visual planning document illustrates this sequencing across stages,
       goals and behavioural shifts, showing how narrative design was used as the
       organising backbone of the learning experience.
+  - Name: Assessment mapping
+    Link: Visual-assessment-map.jpg
+    Description: >-
+      This visual assessment map outlines the full structure of the PPD course
+      across twelve weeks, showing how assessments build progressively from
+      ethical identity, to personal development planning, to applied learning
+      and cooperative work. Weightings, sequencing and task dependencies are
+      mapped to make the developmental logic of the course explicit.
+
+
+      The continuous blog element reinforces reflection as an ongoing thread
+      rather than a single task, while suggested adjustments highlight attention
+      to workload balance and pacing.
+
+
+      By making the assessment architecture visible, the map supports
+      constructive alignment, workload planning and transparency. It allows both
+      educators and students to see how each component contributes to a coherent
+      learning journey rather than a series of disconnected tasks.
 ---
 Personal professional development is a skills-focused course designed to support students in forming a professional identity alongside their disciplinary studies. The course aims to develop reflective capability, ethical awareness, and an understanding of how professional learning occurs across formal, informal, and social contexts. It is positioned early in students’ programs to establish a professional and growth-oriented mindset that can be applied across study, work, and life.
 
