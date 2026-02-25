@@ -455,6 +455,29 @@ Planning:
       constructive alignment, workload planning and transparency. It allows both
       educators and students to see how each component contributes to a coherent
       learning journey rather than a series of disconnected tasks.
+  - Name: Initial course map
+    Link: PPD-early-course-map.jpg
+    Description: >-
+      This earlier course map captures the conceptual groundwork for the PPD
+      learning journey, showing how weekly topics, student knowledge development
+      and assessment tasks were initially aligned. It visualises how core themes
+      such as identity, reflection, professional growth and collaboration were
+      intended to unfold progressively across the semester.
+
+
+      The layout foregrounds the relationship between **what students learn**,
+      **what they do**, and **how they are assessed**, making alignment visible
+      at the planning stage. It also shows how ideas such as personas,
+      networking and reflective blogging were embedded early as structural
+      anchors for the course experience.
+
+
+      As a design artefact, this version documents the exploratory phase of
+      curriculum development. Mapping ideas spatially allowed sequencing,
+      integration and workload balance to be tested before refinement into the
+      final structure. It demonstrates how complex learning journeys are
+      iteratively shaped through visual planning rather than linear
+      documentation.
 ---
 Personal professional development is a skills-focused course designed to support students in forming a professional identity alongside their disciplinary studies. The course aims to develop reflective capability, ethical awareness, and an understanding of how professional learning occurs across formal, informal, and social contexts. It is positioned early in students’ programs to establish a professional and growth-oriented mindset that can be applied across study, work, and life.
 
