@@ -390,14 +390,52 @@ Snapshot:
       translated statistics into accessible visuals that deepen understanding,
       creating an engaging and informative learning experience for students.
 Planning:
-  - Name: "Journey mapping Sarah"
+  - Name: Journey mapping Sarah
     Link: PPD-Frame-1.jpg
     Description: Something something something
     Download: PPD-Persona-Journey-Frame-1.pdf
-  - Name: "Journey mapping Alex"
+  - Name: Journey mapping Alex
     Link: PPD-Frame-2.jpg
-    Description: Something something something  
+    Description: Something something something
     Download: PPD-Persona-Journey-Frame-2.pdf
+  - Name: Persona Journey
+    Link: persona-journey-and-narrative-alignment
+    Description: >-
+      This planning artefact maps how learner personas and narrative
+      storytelling were intentionally aligned with key theories and topics
+      across the PPD course. Rather than presenting concepts in isolation, the
+      course was structured around evolving character journeys that encounter
+      realistic professional challenges mirroring the learning outcomes of each
+      module.
+
+
+      The persona journey map visually traces how different individuals progress
+      through experiences, decisions and growth moments that connect directly to
+      course content, such as mindset development, ethical decision making,
+      professional identity and workplace dynamics. This creates a coherent
+      narrative thread that helps learners see theory unfolding through lived
+      experience rather than abstract explanation.
+
+
+      The mapping also identifies personality traits, motivations and contextual
+      pressures influencing each persona, allowing theoretical frameworks to be
+      applied to believable situations. By structuring learning around these
+      evolving stories, the course supports empathy, transfer and meaning
+      making, helping learners interpret concepts through human behaviour rather
+      than definitions alone.
+
+
+      Pedagogically, this approach scaffolds conceptual development over time.
+      Story progression mirrors developmental learning, while persona diversity
+      supports perspective taking and inclusive interpretation of theory. It
+      also enables constructive alignment, ensuring that learning activities,
+      reflection tasks and assessment moments correspond with meaningful turning
+      points in each persona’s journey.
+
+
+      The visual planning document illustrates this sequencing across stages,
+      goals and behavioural shifts, showing how narrative design was used as the
+      organising backbone of the learning experience.
 ---
 Personal professional development is a skills-focused course designed to support students in forming a professional identity alongside their disciplinary studies. The course aims to develop reflective capability, ethical awareness, and an understanding of how professional learning occurs across formal, informal, and social contexts. It is positioned early in students’ programs to establish a professional and growth-oriented mindset that can be applied across study, work, and life.
 
