@@ -399,7 +399,7 @@ Planning:
     Description: Something something something
     Download: PPD-Persona-Journey-Frame-2.pdf
   - Name: Persona Journey
-    Link: persona-journey-and-narrative-alignment
+    Link: persona-journey-and-narrative-alignment.jpg
     Description: >-
       This planning artefact maps how learner personas and narrative
       storytelling were intentionally aligned with key theories and topics
