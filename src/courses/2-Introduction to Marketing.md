@@ -160,17 +160,25 @@ Planning:
       blueprint for delivery.
 
 
-      This frame clarifies workload distribution, assessment timing and the
-      integration of textbook material with applied marketing tasks. It ensures
-      that each week has a clear instructional purpose while maintaining
-      continuity toward larger assessment goals such as the final exam and
-      marketing plan.
+      Importantly, this artefact was and remains primarily a tool for the
+      learning designer. It enables a deep understanding of the landscape of the
+      course before making changes. By mapping content, assessment and
+      sequencing in detail, it becomes possible to identify opportunities for
+      instructional uplift, media redesign and structural refinement.
 
 
-      Synthesised with the broader course map and learning pattern artefact,
-      this catalogue completes the planning ecosystem. One artefact shows
-      structure, one shows pedagogy, and this one shows execution detail.
-      Together, they demonstrate constructive alignment in practice.
+      It also serves a developmental purpose. For a learning designer who may
+      not be formally trained in marketing or a subject matter expert in the
+      discipline, this level of mapping supports immersion in the topic. It
+      allows theories, models and conceptual progressions to be understood
+      systematically, reducing reliance on surface-level familiarity and
+      strengthening design credibility.
+
+
+      Synthesised with the broader course map and learning pattern artefact, the
+      catalogue completes the planning ecosystem. One artefact shows structure,
+      one shows pedagogy, and this one shows execution detail and instructional
+      opportunity.
 
 
       Credit is due to Sinead for constructing these beautifully organised Miro
