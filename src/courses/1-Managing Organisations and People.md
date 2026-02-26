@@ -422,6 +422,30 @@ Snapshot:
       structured reflection into the learning flow, the activity promotes deeper
       processing and helps convert motivational theory into actionable
       behavioural intention.
+Planning:
+  - Name: Course Mapping Plan
+    Link: Managing-org-people-course-map.jpg
+    Description: >-
+      This course map provides a structured visual overview of how learning,
+      assessment and reflection unfold across the semester. It aligns weekly
+      topics, conceptual development and student tasks with key assessment
+      milestones, showing how knowledge builds progressively rather than
+      appearing as isolated content blocks.
+
+
+      The map makes visible the intentional sequencing of learning log
+      checkpoints, collaborative activities and applied tasks, demonstrating how
+      reflection, discussion and assessment operate as an integrated cycle. It
+      also clarifies how foundational concepts introduced early in the course
+      are revisited and deepened through later topics such as leadership,
+      organisational systems and team development.
+
+
+      As a planning artefact, the map supports curriculum coherence by showing
+      how student knowledge, learning activities and assessment are
+      constructively aligned across time. Visualising the full learning journey
+      in one place helps ensure pacing is manageable, progression is logical and
+      reflection is embedded as an ongoing process rather than a final add-on.
 ---
 Managing organisations and people is a foundational management course designed to introduce students to the nature, purpose, and practice of management across a wide range of organisational contexts. The primary aim of the course is to develop students’ understanding of core management functions, planning, organising, leading, motivating, and controlling, while encouraging critical reflection on how management theories and concepts apply to their own professional and personal experiences.
 
