@@ -149,6 +149,85 @@ Snapshot:
       and step-by-step guidance ensures students gain hands-on insights, making
       the learning experience practical, engaging, and highly applicable to
       real-life marketing scenarios.
+Planning:
+  - Name: Course Catalogie
+    Link: Intro-marketing-course-catalogue.jpg
+    Description: >-
+      The course catalogue artefact operates at an operational level. It
+      documents weekly topics, readings, quizzes, activities and major
+      assessments in a highly granular format. It connects lecture themes,
+      tutorial tasks and assessment weightings, functioning almost as a
+      blueprint for delivery.
+
+
+      This frame clarifies workload distribution, assessment timing and the
+      integration of textbook material with applied marketing tasks. It ensures
+      that each week has a clear instructional purpose while maintaining
+      continuity toward larger assessment goals such as the final exam and
+      marketing plan.
+
+
+      Synthesised with the broader course map and learning pattern artefact,
+      this catalogue completes the planning ecosystem. One artefact shows
+      structure, one shows pedagogy, and this one shows execution detail.
+      Together, they demonstrate constructive alignment in practice.
+
+
+      Credit is due to Sinead for constructing these beautifully organised Miro
+      frames and undertaking the substantial mapping work before moving on to a
+      new career path. The level of detail and visual coherence reflects
+      sustained design effort and thoughtful curriculum stewardship.
+  - Name: Learning Patterns
+    Link: Intro-marketing-learning-patterns.jpg
+    Description: >-
+      This artefact shifts from content mapping to pedagogical mapping. It
+      categorises learning experiences into patterns such as content,
+      discussion, practice, assessment, review and interactive activity, then
+      visualises their distribution across weeks.
+
+
+      The value of this representation is diagnostic. It reveals the balance
+      between assimilative learning and active production, between individual
+      processing and social interaction. By mapping hours and learning modes,
+      the artefact supports decisions about cognitive load, variety and
+      engagement rhythm.
+
+
+      In synthesis with the course map, it shows not only what is taught, but
+      how learning is structured experientially. It strengthens alignment
+      between learning design theory and classroom execution.
+
+
+      Again, this structured Miro frame was designed and assembled by Sinead.
+      The organisation and categorisation required careful attention to
+      pedagogical intent, demonstrating thoughtful groundwork prior to her
+      transition to a new professional chapter.
+  - Name: Course Map
+    Link: Intro-marketing-course-map.jpg
+    Description: >-
+      This large-scale course map provides a full systems view of the
+      Introduction to Marketing curriculum. It organises modules, lessons,
+      activities and assessments into a single visual structure, allowing the
+      sequencing of topics to be examined across the entire semester.
+
+
+      The strength of this artefact lies in its density and coherence. It
+      surfaces vertical alignment within modules and horizontal progression
+      across weeks, making visible how foundational marketing concepts build
+      into applied tasks and assessment artefacts. Rather than viewing topics in
+      isolation, the map reveals patterns of reinforcement, repetition and
+      escalation.
+
+
+      As a planning tool, it supports curriculum integrity, pacing decisions and
+      workload balancing. It makes it possible to test whether concepts are
+      scaffolded appropriately and whether assessment is distributed logically.
+
+
+      This frame was created and meticulously organised by Sinead in Miro. The
+      clarity and structure reflect significant planning labour, mapping each
+      component before she moved on to a new career path. Her groundwork
+      provides a durable foundation for ongoing refinement.
 ---
 Introduction to marketing is a foundational subject designed to build students’ understanding of what marketing is, why it matters, and how it informs organisational decision making. The course positions marketing as more than advertising, emphasising the discipline’s role in creating value through exchange, understanding customer needs, and applying strategy across product, pricing, promotion, and distribution. It also encourages students to recognise marketing in everyday life, using familiar choices and experiences as an entry point to more formal concepts.
 
