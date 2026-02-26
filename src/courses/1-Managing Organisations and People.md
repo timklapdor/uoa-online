@@ -14,14 +14,8 @@ Description: >
   planning and decision making, organising, leading and motivating, and
   controlling.
 ToDo:
-  - Add learning experience
   - Review learning experience
-  - Add snapshots
-  - Add snapshot descriptions
   - Review snapshots
-  - Add learning resources
-  - Add learning resource descriptions
-  - Download media resources
   - Review learning resources
   - Editorial review
   - Course ready to publish
