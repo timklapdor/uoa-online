@@ -446,6 +446,29 @@ Planning:
       constructively aligned across time. Visualising the full learning journey
       in one place helps ensure pacing is manageable, progression is logical and
       reflection is embedded as an ongoing process rather than a final add-on.
+  - Name: Detailed Course Alignment Map
+    Link: Managing-org-people-course-map-V2.jpg
+    Description: >-
+      This expanded course map provides a fine-grained view of how weekly
+      learning activities, assessment checkpoints and learning outcomes are
+      deliberately connected across the semester. It traces how recurring
+      elements such as weekly logs, collaborative work and feedback points
+      accumulate into major assessment milestones, while also showing how each
+      component contributes to specific learning outcomes.
+
+
+      The visual makes constructive alignment explicit. Teaching activities,
+      assessment weightings and outcome statements are not shown separately but
+      woven together as a single system, allowing the relationships between
+      learning processes and evaluation to be clearly seen.
+
+
+      By mapping timing, progression and outcome alignment at this level of
+      detail, the artefact supports curriculum decision-making, workload
+      calibration and assessment coherence. It effectively acts as a systems
+      diagram of the learning experience, ensuring that what students do each
+      week meaningfully builds toward what they are expected to demonstrate by
+      the end of the course.
 ---
 Managing organisations and people is a foundational management course designed to introduce students to the nature, purpose, and practice of management across a wide range of organisational contexts. The primary aim of the course is to develop students’ understanding of core management functions, planning, organising, leading, motivating, and controlling, while encouraging critical reflection on how management theories and concepts apply to their own professional and personal experiences.
 
