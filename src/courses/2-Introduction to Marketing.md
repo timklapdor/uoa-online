@@ -34,6 +34,9 @@ Team:
   - Name: Rich Bartlett
     Role: Learning Designer
     Involvement: Lead
+  - Name: Sinead Coulter
+    Role: Learning Designer
+    Involvement: Contributer
 CLOs:
   - Understand the importance of being marketing oriented in business practice.
   - Evaluate market conditions and customers needs when forming marketing
@@ -157,8 +160,8 @@ Interactivity was used to move students from passive reading into applied practi
 
 Applied, research-driven practice tasks were also designed to build authentic capability in contemporary marketing contexts. In market research, students were guided through a structured activity using publicly available tools, including ABS “data by region”, Google Maps, and Google Trends, to evaluate a hypothetical pop-up business opportunity. This task modelled real-world evidence gathering, introduced digital research literacy, and reinforced the course’s focus on marketing as decision making informed by data, context, and consumer behaviour.
 
-Overall, the learning experience combined clear conceptual scaffolding, strong visual design, and purposeful interactivity to develop students’ confidence in interpreting marketing situations and recommending practical strategies.  
-  
+Overall, the learning experience combined clear conceptual scaffolding, strong visual design, and purposeful interactivity to develop students’ confidence in interpreting marketing situations and recommending practical strategies.
+
 MiroBoards:
 
 *   Description: "Sinead's impeccable Miro board layout" Link: "[https://miro.com/app/board/uXjVOGQleuE=/](https://miro.com/app/board/uXjVOGQleuE=/)"
