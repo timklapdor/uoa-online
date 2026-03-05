@@ -110,6 +110,10 @@ Media:
     Type: H5P
     Link: https://h5p.org/h5p/embed/1557323
     Location: https://myuni.adelaide.edu.au/courses/86391/pages/lesson-6-dot-2-case-study-the-european-union?module_item_id=3129767
+  - Name: Formation of the Association of South-East Asian Nations (ASEAN)
+    Type: H5P
+    Link: https://h5p.org/h5p/embed/1557325
+    Location: https://myuni.adelaide.edu.au/courses/86391/pages/lesson-6-dot-3-case-study-the-association-of-south-east-asian-nations?module_item_id=3129859
 Snapshot:
   - Name: "Lesson 1.2: Power in the international system"
     Link: 019_Page_module_1_introduction_to_international_relations_lesson_1_2_power_in_the_international_system.png
