@@ -20,7 +20,7 @@ tool:
   blurb: An authoring tool that facilitates collaborative and real-time data. 
 - name: Written style guide
   link: style-guide
-  blurb: A framework to achieve consitency and best practice. 
+  blurb: A framework to achieve consistency and best practice. 
 - name: Visual style guide
   link: styles
   blurb: Unique elements that signpost the learning experience.
